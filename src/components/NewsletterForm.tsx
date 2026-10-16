@@ -69,7 +69,6 @@ export default function NewsletterForm({
         }
       >
         Curated SaaS &amp; open-source alternatives. No spam — unsubscribe anytime.
-        ESP (Resend/Buttondown) comes later; we just store your email for now.
       </p>
       <form onSubmit={onSubmit} className="mt-4 flex flex-col gap-2 sm:flex-row">
         <input

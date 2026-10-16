@@ -27,7 +27,7 @@ export default function HomePage() {
           </h1>
           <p className="mt-4 max-w-xl text-lg text-zinc-600">
             Curated SaaS and open-source alternatives to the software you already
-            pay for — with pricing vibes, honest links, and a weekly newsletter.
+            pay for — with pricing notes, honest links, and a weekly newsletter.
           </p>
           <p className="mt-3 max-w-xl text-sm text-zinc-500">
             AltSwitch runs on{" "}
@@ -68,7 +68,7 @@ export default function HomePage() {
       <section className="mx-auto max-w-5xl px-4 pb-14">
         <h2 className="text-2xl font-semibold text-zinc-900">All tools</h2>
         <p className="mt-1 text-zinc-600">
-          {tools.length} tools in the MVP catalog.
+          {tools.length} tools in the catalog.
         </p>
         <div className="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
           {tools.map((tool) => (

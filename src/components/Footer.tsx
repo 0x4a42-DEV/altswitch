@@ -10,6 +10,14 @@ export default function Footer() {
             Alt<span className="text-indigo-600">Switch</span>
           </p>
           <p className="mt-1">Find SaaS &amp; open-source alternatives.</p>
+          <p className="mt-2">
+            <a
+              href="mailto:hello@altswitch.xyz"
+              className="text-indigo-600 hover:underline"
+            >
+              hello@altswitch.xyz
+            </a>
+          </p>
           <p className="mt-2 text-xs text-zinc-400">
             Hosted on{" "}
             <a

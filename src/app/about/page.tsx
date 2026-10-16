@@ -25,11 +25,10 @@ export default function AboutPage() {
       </h2>
       <ul className="mt-4 list-disc space-y-3 pl-5 text-zinc-700">
         <li>
-          <strong>Affiliate links</strong> — some &quot;Visit website&quot; buttons
-          include a referral parameter. If you sign up through them, we may earn a
-          commission at no extra cost to you. Most partner programs are still
-          placeholders (<code className="text-sm">ref=altswitch</code>); live ones
-          are listed below.
+          <strong>Affiliate links</strong> — some Visit buttons are
+          affiliate/referral links (disclosed). If you sign up through them, we
+          may earn a commission at no extra cost to you. Live partners are listed
+          below; more programs are being added.
         </li>
         <li>
           <strong>Featured listings</strong> — vendors can pay for placement in
@@ -37,8 +36,8 @@ export default function AboutPage() {
           never for sale.
         </li>
         <li>
-          <strong>Newsletter sponsorships</strong> (later) — once the list grows,
-          occasional sponsored mentions. Editorial picks stay editorial.
+          <strong>Newsletter sponsorships</strong> — as the list grows, occasional
+          sponsored mentions. Editorial picks stay editorial.
         </li>
       </ul>
 
@@ -69,8 +68,14 @@ export default function AboutPage() {
       </ul>
 
       <p className="mt-8 text-zinc-600">
-        Built as a Side Hustle by Jon (0x4a42). MVP uses static seed data; Stripe
-        and email ESP (Resend/Buttondown) come later. Hosted on{" "}
+        Questions or partnership inquiries?{" "}
+        <a
+          href="mailto:hello@altswitch.xyz"
+          className="text-indigo-600 hover:underline"
+        >
+          hello@altswitch.xyz
+        </a>
+        . Hosted on{" "}
         <a
           href={RAILWAY_REFERRAL_URL}
           target="_blank"
