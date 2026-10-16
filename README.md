@@ -17,7 +17,7 @@ npm run dev
 
 ## Deploy
 
-Pushed to GitHub and deployed on Railway. Set:
+Pushed to GitHub and deployed on [Railway](https://railway.com?referralCode=TsViJR) (owner referral). Set:
 
 - `NEXT_PUBLIC_SITE_URL` — public site URL
 - `SUBSCRIBERS_DIR` — defaults to `/data` (mount a volume there)
