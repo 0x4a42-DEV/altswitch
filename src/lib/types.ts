@@ -7,6 +7,13 @@ export interface Alternative {
   pricing: PricingVibe;
   website: string;
   affiliateParam?: string;
+  /** Short honest bullets */
+  pros: string[];
+  cons: string[];
+  /** Who should pick this */
+  bestFor: string;
+  /** Plain-language pricing vibe (not a live price crawl) */
+  pricingNotes: string;
 }
 
 export interface Tool {

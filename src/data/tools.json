@@ -8,12 +8,126 @@
     "website": "https://www.notion.so",
     "featured": true,
     "alternatives": [
-      { "slug": "appflowy", "name": "AppFlowy", "oneLiner": "Open-source Notion alternative you can self-host.", "pricing": "oss", "website": "https://appflowy.io", "affiliateParam": "ref=altswitch" },
-      { "slug": "affine", "name": "AFFiNE", "oneLiner": "Privacy-first workspace combining docs, whiteboards, and databases.", "pricing": "freemium", "website": "https://affine.pro", "affiliateParam": "ref=altswitch" },
-      { "slug": "anytype", "name": "Anytype", "oneLiner": "Local-first, encrypted personal knowledge base.", "pricing": "freemium", "website": "https://anytype.io", "affiliateParam": "ref=altswitch" },
-      { "slug": "capacities", "name": "Capacities", "oneLiner": "Object-based note-taking built around your content types.", "pricing": "freemium", "website": "https://capacities.io", "affiliateParam": "ref=altswitch" },
-      { "slug": "outline", "name": "Outline", "oneLiner": "Beautiful team knowledge base, self-hostable.", "pricing": "oss", "website": "https://www.getoutline.com", "affiliateParam": "ref=altswitch" },
-      { "slug": "coda", "name": "Coda", "oneLiner": "Docs that act like apps with packs and automations.", "pricing": "freemium", "website": "https://coda.io", "affiliateParam": "ref=altswitch" }
+      {
+        "slug": "appflowy",
+        "name": "AppFlowy",
+        "oneLiner": "Open-source Notion alternative you can self-host.",
+        "pricing": "oss",
+        "website": "https://appflowy.io",
+        "affiliateParam": "ref=altswitch",
+        "pros": [
+          "Open source & self-hostable",
+          "Notion-like blocks",
+          "You keep the data"
+        ],
+        "cons": [
+          "Fewer integrations",
+          "Mobile less mature",
+          "Cloud lagging Notion polish"
+        ],
+        "bestFor": "Privacy-minded teams who want a Notion-shaped wiki they control.",
+        "pricingNotes": "OSS core free to self-host; optional paid cloud/hosted plans."
+      },
+      {
+        "slug": "affine",
+        "name": "AFFiNE",
+        "oneLiner": "Privacy-first workspace combining docs, whiteboards, and databases.",
+        "pricing": "freemium",
+        "website": "https://affine.pro",
+        "affiliateParam": "ref=altswitch",
+        "pros": [
+          "Docs + whiteboards together",
+          "Local-first / privacy angle",
+          "Modern UI"
+        ],
+        "cons": [
+          "Smaller ecosystem",
+          "Team admin still growing",
+          "Fewer templates"
+        ],
+        "bestFor": "Creators who sketch and write on the same canvas.",
+        "pricingNotes": "Freemium cloud; self-host available. Paid unlocks sync/team seats."
+      },
+      {
+        "slug": "anytype",
+        "name": "Anytype",
+        "oneLiner": "Local-first, encrypted personal knowledge base.",
+        "pricing": "freemium",
+        "website": "https://anytype.io",
+        "affiliateParam": "ref=altswitch",
+        "pros": [
+          "Local-first & encrypted",
+          "Works offline",
+          "Flexible object graph"
+        ],
+        "cons": [
+          "Learning curve",
+          "Light on enterprise admin",
+          "Sync model ≠ Notion"
+        ],
+        "bestFor": "Individuals who want ownership of a personal knowledge base.",
+        "pricingNotes": "Strong free tier; paid for extra storage/backup features."
+      },
+      {
+        "slug": "capacities",
+        "name": "Capacities",
+        "oneLiner": "Object-based note-taking built around your content types.",
+        "pricing": "freemium",
+        "website": "https://capacities.io",
+        "affiliateParam": "ref=altswitch",
+        "pros": [
+          "Object-based structure",
+          "Great daily-notes flow",
+          "Polished apps"
+        ],
+        "cons": [
+          "Not a full Notion DB clone",
+          "Team features thinner",
+          "Younger product"
+        ],
+        "bestFor": "Solo knowledge workers who think in types (people, projects, books).",
+        "pricingNotes": "Freemium; Pro for advanced features and higher limits."
+      },
+      {
+        "slug": "outline",
+        "name": "Outline",
+        "oneLiner": "Beautiful team knowledge base, self-hostable.",
+        "pricing": "oss",
+        "website": "https://www.getoutline.com",
+        "affiliateParam": "ref=altswitch",
+        "pros": [
+          "Clean team wiki UX",
+          "Self-hostable",
+          "SSO / Slack friendly"
+        ],
+        "cons": [
+          "Not a personal PKM Swiss army knife",
+          "Fewer database views",
+          "Self-host needs ops"
+        ],
+        "bestFor": "Startups that need a focused internal knowledge base.",
+        "pricingNotes": "OSS + paid cloud. Self-host free; cloud billed per seat."
+      },
+      {
+        "slug": "coda",
+        "name": "Coda",
+        "oneLiner": "Docs that act like apps with packs and automations.",
+        "pricing": "freemium",
+        "website": "https://coda.io",
+        "affiliateParam": "ref=altswitch",
+        "pros": [
+          "Docs that act like apps",
+          "Rich Packs/integrations",
+          "Tables + automations"
+        ],
+        "cons": [
+          "Complexity creeps in",
+          "Pricing scales with makers",
+          "Heavier than plain notes"
+        ],
+        "bestFor": "Ops/product teams building lightweight internal tools in docs.",
+        "pricingNotes": "Freemium; paid by Doc Makers — check current Maker limits."
+      }
     ]
   },
   {
@@ -25,12 +139,126 @@
     "website": "https://slack.com",
     "featured": true,
     "alternatives": [
-      { "slug": "mattermost", "name": "Mattermost", "oneLiner": "Open-source Slack alternative for secure self-hosting.", "pricing": "oss", "website": "https://mattermost.com", "affiliateParam": "ref=altswitch" },
-      { "slug": "rocket-chat", "name": "Rocket.Chat", "oneLiner": "Fully customizable open-source team chat.", "pricing": "oss", "website": "https://www.rocket.chat", "affiliateParam": "ref=altswitch" },
-      { "slug": "discord", "name": "Discord", "oneLiner": "Free voice + text communities popular with startups and communities.", "pricing": "freemium", "website": "https://discord.com", "affiliateParam": "ref=altswitch" },
-      { "slug": "element", "name": "Element", "oneLiner": "Secure messaging on the Matrix open network.", "pricing": "oss", "website": "https://element.io", "affiliateParam": "ref=altswitch" },
-      { "slug": "twist", "name": "Twist", "oneLiner": "Async-first team chat designed to reduce interruptions.", "pricing": "freemium", "website": "https://twist.com", "affiliateParam": "ref=altswitch" },
-      { "slug": "zulip", "name": "Zulip", "oneLiner": "Threaded open-source chat that scales for large teams.", "pricing": "oss", "website": "https://zulip.com", "affiliateParam": "ref=altswitch" }
+      {
+        "slug": "mattermost",
+        "name": "Mattermost",
+        "oneLiner": "Open-source Slack alternative for secure self-hosting.",
+        "pricing": "oss",
+        "website": "https://mattermost.com",
+        "affiliateParam": "ref=altswitch",
+        "pros": [
+          "Familiar Slack-like UX",
+          "Strong self-host/compliance",
+          "Open-source core"
+        ],
+        "cons": [
+          "Self-host ops cost",
+          "Smaller plugin market than Slack",
+          "Cloud for convenience costs"
+        ],
+        "bestFor": "Security-conscious orgs that must own chat data.",
+        "pricingNotes": "Team Edition OSS free to self-host; Enterprise/cloud paid."
+      },
+      {
+        "slug": "rocket-chat",
+        "name": "Rocket.Chat",
+        "oneLiner": "Fully customizable open-source team chat.",
+        "pricing": "oss",
+        "website": "https://www.rocket.chat",
+        "affiliateParam": "ref=altswitch",
+        "pros": [
+          "Very customizable",
+          "Chat + livechat/omnichannel",
+          "Self-host or cloud"
+        ],
+        "cons": [
+          "UI can feel busy",
+          "Setup/tuning takes time",
+          "Large feature surface"
+        ],
+        "bestFor": "Teams that need internal chat plus customer messaging.",
+        "pricingNotes": "OSS community edition; paid plans for enterprise support/features."
+      },
+      {
+        "slug": "discord",
+        "name": "Discord",
+        "oneLiner": "Free voice + text communities popular with startups and communities.",
+        "pricing": "freemium",
+        "website": "https://discord.com",
+        "affiliateParam": "ref=altswitch",
+        "pros": [
+          "Free for most community use",
+          "Voice + text strong",
+          "Huge familiarity"
+        ],
+        "cons": [
+          "Not built as corporate Slack",
+          "Compliance/admin weaker",
+          "Can feel noisy"
+        ],
+        "bestFor": "Communities, gaming-adjacent teams, early startups on a budget.",
+        "pricingNotes": "Free core; Nitro is personal. Server boosts optional."
+      },
+      {
+        "slug": "element",
+        "name": "Element",
+        "oneLiner": "Secure messaging on the Matrix open network.",
+        "pricing": "oss",
+        "website": "https://element.io",
+        "affiliateParam": "ref=altswitch",
+        "pros": [
+          "Matrix open network",
+          "E2E encryption",
+          "Federation / bridges"
+        ],
+        "cons": [
+          "UX less polished than Slack",
+          "Federation complexity",
+          "Bridges need care"
+        ],
+        "bestFor": "Privacy/open-protocol teams and decentralized orgs.",
+        "pricingNotes": "Client OSS; Element/Matrix hosting has free & paid tiers."
+      },
+      {
+        "slug": "twist",
+        "name": "Twist",
+        "oneLiner": "Async-first team chat designed to reduce interruptions.",
+        "pricing": "freemium",
+        "website": "https://twist.com",
+        "affiliateParam": "ref=altswitch",
+        "pros": [
+          "Async-first threads",
+          "Less notification spam",
+          "Calm UX"
+        ],
+        "cons": [
+          "Smaller market share",
+          "Fewer integrations",
+          "Not ideal for live incident chat"
+        ],
+        "bestFor": "Remote teams optimizing for deep work over real-time chat.",
+        "pricingNotes": "Freemium; paid for larger teams and advanced features."
+      },
+      {
+        "slug": "zulip",
+        "name": "Zulip",
+        "oneLiner": "Threaded open-source chat that scales for large teams.",
+        "pricing": "oss",
+        "website": "https://zulip.com",
+        "affiliateParam": "ref=altswitch",
+        "pros": [
+          "Topic threads scale well",
+          "Open source",
+          "Great for large groups"
+        ],
+        "cons": [
+          "Model takes getting used to",
+          "Less “fun” than Discord",
+          "Mobile UX polarizing"
+        ],
+        "bestFor": "Open-source communities and big async-heavy orgs.",
+        "pricingNotes": "OSS free to self-host; Zulip Cloud freemium/paid."
+      }
     ]
   },
   {
@@ -42,12 +270,126 @@
     "website": "https://www.atlassian.com/software/jira",
     "featured": true,
     "alternatives": [
-      { "slug": "linear", "name": "Linear", "oneLiner": "Fast, polished issue tracker loved by modern product teams.", "pricing": "freemium", "website": "https://linear.app", "affiliateParam": "ref=altswitch" },
-      { "slug": "plane", "name": "Plane", "oneLiner": "Open-source project management that feels like Linear + Jira.", "pricing": "oss", "website": "https://plane.so", "affiliateParam": "ref=altswitch" },
-      { "slug": "height", "name": "Height", "oneLiner": "Autonomous project management with AI-assisted workflows.", "pricing": "freemium", "website": "https://height.app", "affiliateParam": "ref=altswitch" },
-      { "slug": "taiga", "name": "Taiga", "oneLiner": "Open-source agile project management for scrum and kanban.", "pricing": "oss", "website": "https://taiga.io", "affiliateParam": "ref=altswitch" },
-      { "slug": "youtrack", "name": "YouTrack", "oneLiner": "JetBrains issue tracker with powerful search and workflows.", "pricing": "freemium", "website": "https://www.jetbrains.com/youtrack/", "affiliateParam": "ref=altswitch" },
-      { "slug": "clickup", "name": "ClickUp", "oneLiner": "All-in-one productivity suite replacing multiple PM tools.", "pricing": "freemium", "website": "https://clickup.com", "affiliateParam": "ref=altswitch" }
+      {
+        "slug": "linear",
+        "name": "Linear",
+        "oneLiner": "Fast, polished issue tracker loved by modern product teams.",
+        "pricing": "freemium",
+        "website": "https://linear.app",
+        "affiliateParam": "ref=altswitch",
+        "pros": [
+          "Blazing fast UX",
+          "Loved by product engineers",
+          "Clean workflows"
+        ],
+        "cons": [
+          "Not a full Atlassian suite",
+          "Can feel opinionated",
+          "Price for larger teams"
+        ],
+        "bestFor": "Modern product/eng teams leaving heavyweight Jira.",
+        "pricingNotes": "Free for small teams; paid per seat as you grow."
+      },
+      {
+        "slug": "plane",
+        "name": "Plane",
+        "oneLiner": "Open-source project management that feels like Linear + Jira.",
+        "pricing": "oss",
+        "website": "https://plane.so",
+        "affiliateParam": "ref=altswitch",
+        "pros": [
+          "OSS with Linear/Jira vibes",
+          "Self-host option",
+          "Issues + cycles + modules"
+        ],
+        "cons": [
+          "Younger than Linear/Jira",
+          "Integrations still growing",
+          "Cloud polish varies"
+        ],
+        "bestFor": "Teams that want Linear-like PM without lock-in.",
+        "pricingNotes": "Open source; cloud free tier + paid plans."
+      },
+      {
+        "slug": "height",
+        "name": "Height",
+        "oneLiner": "Autonomous project management with AI-assisted workflows.",
+        "pricing": "freemium",
+        "website": "https://height.app",
+        "affiliateParam": "ref=altswitch",
+        "pros": [
+          "AI-assisted workflows",
+          "Flexible views",
+          "All-in-one PM feel"
+        ],
+        "cons": [
+          "Less mindshare than Linear",
+          "AI features still maturing",
+          "Pricing to watch"
+        ],
+        "bestFor": "Product teams wanting autonomous / AI-leaning PM.",
+        "pricingNotes": "Freemium/paid — confirm current seat pricing on site."
+      },
+      {
+        "slug": "taiga",
+        "name": "Taiga",
+        "oneLiner": "Open-source agile project management for scrum and kanban.",
+        "pricing": "oss",
+        "website": "https://taiga.io",
+        "affiliateParam": "ref=altswitch",
+        "pros": [
+          "Scrum + Kanban first-class",
+          "Open source",
+          "Simple agile focus"
+        ],
+        "cons": [
+          "UI dated vs Linear",
+          "Fewer SaaS integrations",
+          "Needs hosting if self-managed"
+        ],
+        "bestFor": "Agile teams wanting classic scrum without Atlassian bloat.",
+        "pricingNotes": "OSS; Taiga.io cloud has free/limited and paid options."
+      },
+      {
+        "slug": "youtrack",
+        "name": "YouTrack",
+        "oneLiner": "JetBrains issue tracker with powerful search and workflows.",
+        "pricing": "freemium",
+        "website": "https://www.jetbrains.com/youtrack/",
+        "affiliateParam": "ref=altswitch",
+        "pros": [
+          "Powerful query language",
+          "JetBrains ecosystem fit",
+          "Flexible workflows"
+        ],
+        "cons": [
+          "Steeper admin learning",
+          "UI denser than Linear",
+          "Overkill for tiny teams"
+        ],
+        "bestFor": "Eng orgs already on JetBrains tools needing serious issue tracking.",
+        "pricingNotes": "Free for small teams; paid as users grow. Cloud or Server."
+      },
+      {
+        "slug": "clickup",
+        "name": "ClickUp",
+        "oneLiner": "All-in-one productivity suite replacing multiple PM tools.",
+        "pricing": "freemium",
+        "website": "https://clickup.com",
+        "affiliateParam": "ref=altswitch",
+        "pros": [
+          "Many views in one app",
+          "Docs + tasks + goals",
+          "Replaces several tools"
+        ],
+        "cons": [
+          "Can feel bloated",
+          "Performance varies",
+          "Feature overload"
+        ],
+        "bestFor": "Teams consolidating PM + docs on one platform.",
+        "pricingNotes": "Freemium; paid seats unlock limits and advanced features."
+      }
     ]
   },
   {
@@ -59,12 +401,126 @@
     "website": "https://www.salesforce.com",
     "featured": true,
     "alternatives": [
-      { "slug": "hubspot-crm", "name": "HubSpot CRM", "oneLiner": "Free-forever CRM with marketing and sales suites.", "pricing": "freemium", "website": "https://www.hubspot.com/products/crm", "affiliateParam": "ref=altswitch" },
-      { "slug": "pipedrive", "name": "Pipedrive", "oneLiner": "Sales-focused CRM built around deal pipelines.", "pricing": "paid", "website": "https://www.pipedrive.com", "affiliateParam": "ref=altswitch" },
-      { "slug": "twenty", "name": "Twenty", "oneLiner": "Open-source CRM designed as a modern Salesforce alternative.", "pricing": "oss", "website": "https://twenty.com", "affiliateParam": "ref=altswitch" },
-      { "slug": "espocrm", "name": "EspoCRM", "oneLiner": "Flexible open-source CRM you can self-host.", "pricing": "oss", "website": "https://www.espocrm.com", "affiliateParam": "ref=altswitch" },
-      { "slug": "attio", "name": "Attio", "oneLiner": "Flexible, data-driven CRM for startups and modern teams.", "pricing": "freemium", "website": "https://attio.com", "affiliateParam": "ref=altswitch" },
-      { "slug": "zoho-crm", "name": "Zoho CRM", "oneLiner": "Affordable full-featured CRM in the Zoho suite.", "pricing": "freemium", "website": "https://www.zoho.com/crm/", "affiliateParam": "ref=altswitch" }
+      {
+        "slug": "hubspot-crm",
+        "name": "HubSpot CRM",
+        "oneLiner": "Free-forever CRM with marketing and sales suites.",
+        "pricing": "freemium",
+        "website": "https://www.hubspot.com/products/crm",
+        "affiliateParam": "ref=altswitch",
+        "pros": [
+          "Truly usable free CRM",
+          "Marketing/sales suite path",
+          "Huge integration catalog"
+        ],
+        "cons": [
+          "Paid hubs get expensive",
+          "Can push upsells",
+          "Complex when fully loaded"
+        ],
+        "bestFor": "SMBs starting CRM free and growing into inbound.",
+        "pricingNotes": "Free CRM forever; Marketing/Sales hubs are paid seats."
+      },
+      {
+        "slug": "pipedrive",
+        "name": "Pipedrive",
+        "oneLiner": "Sales-focused CRM built around deal pipelines.",
+        "pricing": "paid",
+        "website": "https://www.pipedrive.com",
+        "affiliateParam": "ref=altswitch",
+        "pros": [
+          "Pipeline-first UX",
+          "Sales activity focus",
+          "Straightforward setup"
+        ],
+        "cons": [
+          "Not a full marketing suite",
+          "Per-seat cost adds up",
+          "Reporting mid-tier"
+        ],
+        "bestFor": "Sales teams that live in deal stages, not marketing automation.",
+        "pricingNotes": "Paid per seat; trial available. No heavy free forever tier."
+      },
+      {
+        "slug": "twenty",
+        "name": "Twenty",
+        "oneLiner": "Open-source CRM designed as a modern Salesforce alternative.",
+        "pricing": "oss",
+        "website": "https://twenty.com",
+        "affiliateParam": "ref=altswitch",
+        "pros": [
+          "Modern OSS CRM",
+          "Salesforce-inspired without legacy",
+          "Self-hostable"
+        ],
+        "cons": [
+          "Early-stage vs Salesforce",
+          "Fewer ISV apps",
+          "Enterprise features catching up"
+        ],
+        "bestFor": "Startups wanting a modern CRM they can fork/self-host.",
+        "pricingNotes": "Open source; cloud offerings emerging — check current plans."
+      },
+      {
+        "slug": "espocrm",
+        "name": "EspoCRM",
+        "oneLiner": "Flexible open-source CRM you can self-host.",
+        "pricing": "oss",
+        "website": "https://www.espocrm.com",
+        "affiliateParam": "ref=altswitch",
+        "pros": [
+          "Flexible self-host CRM",
+          "Custom entities",
+          "No per-seat SaaS tax if hosted"
+        ],
+        "cons": [
+          "You run the server",
+          "UI less trendy",
+          "Support via community/paid"
+        ],
+        "bestFor": "SMBs with a bit of IT who hate Salesforce pricing.",
+        "pricingNotes": "OSS free; paid extensions/support and hosted options exist."
+      },
+      {
+        "slug": "attio",
+        "name": "Attio",
+        "oneLiner": "Flexible, data-driven CRM for startups and modern teams.",
+        "pricing": "freemium",
+        "website": "https://attio.com",
+        "affiliateParam": "ref=altswitch",
+        "pros": [
+          "Flexible data model",
+          "Beautiful UX",
+          "Great for startup GTM"
+        ],
+        "cons": [
+          "Younger ecosystem",
+          "Not Salesforce-depth yet",
+          "Pricing for scale TBD"
+        ],
+        "bestFor": "Startups that want a modern, relational CRM.",
+        "pricingNotes": "Freemium/paid — verify seat and enrichment pricing."
+      },
+      {
+        "slug": "zoho-crm",
+        "name": "Zoho CRM",
+        "oneLiner": "Affordable full-featured CRM in the Zoho suite.",
+        "pricing": "freemium",
+        "website": "https://www.zoho.com/crm/",
+        "affiliateParam": "ref=altswitch",
+        "pros": [
+          "Affordable full CRM",
+          "Zoho suite bundling",
+          "Lots of automation"
+        ],
+        "cons": [
+          "UI can feel dated",
+          "Ecosystem locked to Zoho",
+          "Support mixed reviews"
+        ],
+        "bestFor": "Cost-sensitive SMBs needing CRM + adjacent Zoho apps.",
+        "pricingNotes": "Free forever (limited) + cheap paid editions vs Salesforce."
+      }
     ]
   },
   {
@@ -76,12 +532,126 @@
     "website": "https://www.hubspot.com",
     "featured": true,
     "alternatives": [
-      { "slug": "brevo", "name": "Brevo", "oneLiner": "Email, SMS, and CRM for growing businesses at lower cost.", "pricing": "freemium", "website": "https://www.brevo.com", "affiliateParam": "ref=altswitch" },
-      { "slug": "activecampaign", "name": "ActiveCampaign", "oneLiner": "Marketing automation with strong email + CRM features.", "pricing": "paid", "website": "https://www.activecampaign.com", "affiliateParam": "ref=altswitch" },
-      { "slug": "mautic", "name": "Mautic", "oneLiner": "Open-source marketing automation you control.", "pricing": "oss", "website": "https://www.mautic.org", "affiliateParam": "ref=altswitch" },
-      { "slug": "pipedrive-hs", "name": "Pipedrive", "oneLiner": "Pipeline CRM that many teams use instead of HubSpot Sales.", "pricing": "paid", "website": "https://www.pipedrive.com", "affiliateParam": "ref=altswitch" },
-      { "slug": "close", "name": "Close", "oneLiner": "Sales CRM built for high-velocity outbound teams.", "pricing": "paid", "website": "https://www.close.com", "affiliateParam": "ref=altswitch" },
-      { "slug": "listmonk", "name": "Listmonk", "oneLiner": "Self-hosted newsletter and mailing list manager.", "pricing": "oss", "website": "https://listmonk.app", "affiliateParam": "ref=altswitch" }
+      {
+        "slug": "brevo",
+        "name": "Brevo",
+        "oneLiner": "Email, SMS, and CRM for growing businesses at lower cost.",
+        "pricing": "freemium",
+        "website": "https://www.brevo.com",
+        "affiliateParam": "ref=altswitch",
+        "pros": [
+          "Email + SMS + CRM lite",
+          "Generous free tier",
+          "EU-friendly option"
+        ],
+        "cons": [
+          "Deliverability varies by setup",
+          "Less “inbound suite” than HubSpot",
+          "UI busier than niche ESPs"
+        ],
+        "bestFor": "SMBs needing email/SMS without HubSpot prices.",
+        "pricingNotes": "Free tier by daily emails; paid for scale and marketing features."
+      },
+      {
+        "slug": "activecampaign",
+        "name": "ActiveCampaign",
+        "oneLiner": "Marketing automation with strong email + CRM features.",
+        "pricing": "paid",
+        "website": "https://www.activecampaign.com",
+        "affiliateParam": "ref=altswitch",
+        "pros": [
+          "Strong automation",
+          "CRM + email combined",
+          "Mature platform"
+        ],
+        "cons": [
+          "Price climbs with contacts",
+          "Can be complex",
+          "Not open source"
+        ],
+        "bestFor": "Marketers who need serious automations beyond basic newsletters.",
+        "pricingNotes": "Paid from low tiers; contact-based pricing — watch list growth."
+      },
+      {
+        "slug": "mautic",
+        "name": "Mautic",
+        "oneLiner": "Open-source marketing automation you control.",
+        "pricing": "oss",
+        "website": "https://www.mautic.org",
+        "affiliateParam": "ref=altswitch",
+        "pros": [
+          "Full OSS marketing automation",
+          "Self-host = data ownership",
+          "No per-contact SaaS tax"
+        ],
+        "cons": [
+          "Needs PHP/ops skills",
+          "UX less polished",
+          "You own deliverability"
+        ],
+        "bestFor": "Technical teams wanting HubSpot-like automation without SaaS lock-in.",
+        "pricingNotes": "Software free; hosting + email infra are your cost."
+      },
+      {
+        "slug": "pipedrive-hs",
+        "name": "Pipedrive",
+        "oneLiner": "Pipeline CRM that many teams use instead of HubSpot Sales.",
+        "pricing": "paid",
+        "website": "https://www.pipedrive.com",
+        "affiliateParam": "ref=altswitch",
+        "pros": [
+          "Pipeline-first UX",
+          "Sales activity focus",
+          "Straightforward setup"
+        ],
+        "cons": [
+          "Not a full HubSpot replacement",
+          "Per-seat cost",
+          "Lighter marketing tools"
+        ],
+        "bestFor": "Sales orgs leaving HubSpot Sales for a simpler pipeline CRM.",
+        "pricingNotes": "Paid per seat; compare annual vs monthly carefully."
+      },
+      {
+        "slug": "close",
+        "name": "Close",
+        "oneLiner": "Sales CRM built for high-velocity outbound teams.",
+        "pricing": "paid",
+        "website": "https://www.close.com",
+        "affiliateParam": "ref=altswitch",
+        "pros": [
+          "Built for outbound sales",
+          "Calling/SMS in-product",
+          "Fast pipeline UX"
+        ],
+        "cons": [
+          "Sales-first, not marketing suite",
+          "Paid only",
+          "Overkill for nurture-only teams"
+        ],
+        "bestFor": "High-velocity outbound sales teams.",
+        "pricingNotes": "Paid per seat; includes communication features — compare total cost."
+      },
+      {
+        "slug": "listmonk",
+        "name": "Listmonk",
+        "oneLiner": "Self-hosted newsletter and mailing list manager.",
+        "pricing": "oss",
+        "website": "https://listmonk.app",
+        "affiliateParam": "ref=altswitch",
+        "pros": [
+          "Self-hosted & fast",
+          "Simple lists/campaigns",
+          "No vendor lock-in"
+        ],
+        "cons": [
+          "You run infra + SMTP",
+          "No fancy visual builder like ESPs",
+          "DIY compliance"
+        ],
+        "bestFor": "Dev-friendly teams sending newsletters they fully control.",
+        "pricingNotes": "100% free OSS; pay only for VPS and email provider."
+      }
     ]
   },
   {
@@ -93,12 +663,126 @@
     "website": "https://www.figma.com",
     "featured": true,
     "alternatives": [
-      { "slug": "penpot", "name": "Penpot", "oneLiner": "Open-source design and prototyping platform for teams.", "pricing": "oss", "website": "https://penpot.app", "affiliateParam": "ref=altswitch" },
-      { "slug": "sketch", "name": "Sketch", "oneLiner": "Mac-native UI design tool with strong plugin ecosystem.", "pricing": "paid", "website": "https://www.sketch.com", "affiliateParam": "ref=altswitch" },
-      { "slug": "framer", "name": "Framer", "oneLiner": "Design and ship production websites in one tool.", "pricing": "freemium", "website": "https://www.framer.com", "affiliateParam": "ref=altswitch" },
-      { "slug": "lunacy", "name": "Lunacy", "oneLiner": "Free design tool with offline support and built-in assets.", "pricing": "freemium", "website": "https://icons8.com/lunacy", "affiliateParam": "ref=altswitch" },
-      { "slug": "pencil", "name": "Pencil", "oneLiner": "Open-source prototyping tool focused on speed.", "pricing": "oss", "website": "https://pencil.evolus.vn", "affiliateParam": "ref=altswitch" },
-      { "slug": "adobe-xd", "name": "Adobe XD", "oneLiner": "Adobe's UI/UX design and prototyping app.", "pricing": "paid", "website": "https://www.adobe.com/products/xd.html", "affiliateParam": "ref=altswitch" }
+      {
+        "slug": "penpot",
+        "name": "Penpot",
+        "oneLiner": "Open-source design and prototyping platform for teams.",
+        "pricing": "oss",
+        "website": "https://penpot.app",
+        "affiliateParam": "ref=altswitch",
+        "pros": [
+          "OSS design + prototype",
+          "Self-hostable",
+          "Browser-based collab"
+        ],
+        "cons": [
+          "Fewer plugins than Figma",
+          "Performance on huge files",
+          "Learning curve from Figma"
+        ],
+        "bestFor": "Teams wanting Figma-like collab without Adobe/Figma lock-in.",
+        "pricingNotes": "OSS free; Penpot Cloud freemium/paid."
+      },
+      {
+        "slug": "sketch",
+        "name": "Sketch",
+        "oneLiner": "Mac-native UI design tool with strong plugin ecosystem.",
+        "pricing": "paid",
+        "website": "https://www.sketch.com",
+        "affiliateParam": "ref=altswitch",
+        "pros": [
+          "Mac-native & fast",
+          "Mature symbols/plugins",
+          "Designer-loved"
+        ],
+        "cons": [
+          "Mac only",
+          "Collab weaker than Figma",
+          "Subscription pricing"
+        ],
+        "bestFor": "Mac-centric design teams okay without browser-first multiplayer.",
+        "pricingNotes": "Paid subscription (individual/team). No free forever."
+      },
+      {
+        "slug": "framer",
+        "name": "Framer",
+        "oneLiner": "Design and ship production websites in one tool.",
+        "pricing": "freemium",
+        "website": "https://www.framer.com",
+        "affiliateParam": "ref=altswitch",
+        "pros": [
+          "Design → production sites",
+          "Strong marketing-site fit",
+          "Modern interactions"
+        ],
+        "cons": [
+          "Not a full UI-system design tool",
+          "Hosting/plan limits",
+          "Code escape hatches vary"
+        ],
+        "bestFor": "Designers shipping marketing sites without a separate handoff.",
+        "pricingNotes": "Freemium; paid for custom domains, CMS, team features."
+      },
+      {
+        "slug": "lunacy",
+        "name": "Lunacy",
+        "oneLiner": "Free design tool with offline support and built-in assets.",
+        "pricing": "freemium",
+        "website": "https://icons8.com/lunacy",
+        "affiliateParam": "ref=altswitch",
+        "pros": [
+          "Free core use",
+          "Offline capable",
+          "Built-in graphics assets"
+        ],
+        "cons": [
+          "Smaller community than Figma",
+          "Collab not Figma-level",
+          "Windows-strong heritage"
+        ],
+        "bestFor": "Individuals needing a free design tool with asset packs.",
+        "pricingNotes": "Free tier generous; cloud/team features may be paid."
+      },
+      {
+        "slug": "pencil",
+        "name": "Pencil",
+        "oneLiner": "Open-source prototyping tool focused on speed.",
+        "pricing": "oss",
+        "website": "https://pencil.evolus.vn",
+        "affiliateParam": "ref=altswitch",
+        "pros": [
+          "Open source",
+          "Lightweight prototyping",
+          "Cross-platform desktop"
+        ],
+        "cons": [
+          "Not real-time multiplayer Figma",
+          "Older UI metaphors",
+          "Limited modern design-system tooling"
+        ],
+        "bestFor": "Solo designers prototyping wireframes offline.",
+        "pricingNotes": "Free OSS desktop app."
+      },
+      {
+        "slug": "adobe-xd",
+        "name": "Adobe XD",
+        "oneLiner": "Adobe's UI/UX design and prototyping app.",
+        "pricing": "paid",
+        "website": "https://www.adobe.com/products/xd.html",
+        "affiliateParam": "ref=altswitch",
+        "pros": [
+          "Adobe ecosystem ties",
+          "Prototype + design",
+          "Familiar to Adobe users"
+        ],
+        "cons": [
+          "Adobe sidelined XD investment",
+          "Collab lost to Figma",
+          "CC subscription baggage"
+        ],
+        "bestFor": "Teams already deep in Creative Cloud who must stay there.",
+        "pricingNotes": "Via Adobe CC plans — often bundled, not best standalone value."
+      }
     ]
   },
   {
@@ -110,12 +794,126 @@
     "website": "https://www.zendesk.com",
     "featured": false,
     "alternatives": [
-      { "slug": "freshdesk", "name": "Freshdesk", "oneLiner": "Affordable helpdesk with omnichannel support.", "pricing": "freemium", "website": "https://www.freshworks.com/freshdesk/", "affiliateParam": "ref=altswitch" },
-      { "slug": "intercom", "name": "Intercom", "oneLiner": "Conversational support and customer messaging platform.", "pricing": "paid", "website": "https://www.intercom.com", "affiliateParam": "ref=altswitch" },
-      { "slug": "chatwoot", "name": "Chatwoot", "oneLiner": "Open-source customer engagement suite.", "pricing": "oss", "website": "https://www.chatwoot.com", "affiliateParam": "ref=altswitch" },
-      { "slug": "free-scout", "name": "FreeScout", "oneLiner": "Lightweight open-source help desk and shared inbox.", "pricing": "oss", "website": "https://freescout.net", "affiliateParam": "ref=altswitch" },
-      { "slug": "helpscout", "name": "Help Scout", "oneLiner": "Human-friendly shared inbox for customer support.", "pricing": "paid", "website": "https://www.helpscout.com", "affiliateParam": "ref=altswitch" },
-      { "slug": "gorgias", "name": "Gorgias", "oneLiner": "Helpdesk built for ecommerce brands.", "pricing": "paid", "website": "https://www.gorgias.com", "affiliateParam": "ref=altswitch" }
+      {
+        "slug": "freshdesk",
+        "name": "Freshdesk",
+        "oneLiner": "Affordable helpdesk with omnichannel support.",
+        "pricing": "freemium",
+        "website": "https://www.freshworks.com/freshdesk/",
+        "affiliateParam": "ref=altswitch",
+        "pros": [
+          "Affordable helpdesk",
+          "Omnichannel options",
+          "Familiar ticket UX"
+        ],
+        "cons": [
+          "Upsell into Freshworks suite",
+          "Automation depth mid-tier",
+          "Less “delight” than Intercom"
+        ],
+        "bestFor": "SMBs needing tickets without Zendesk enterprise pricing.",
+        "pricingNotes": "Free tier (limited); paid per agent as channels grow."
+      },
+      {
+        "slug": "intercom",
+        "name": "Intercom",
+        "oneLiner": "Conversational support and customer messaging platform.",
+        "pricing": "paid",
+        "website": "https://www.intercom.com",
+        "affiliateParam": "ref=altswitch",
+        "pros": [
+          "Great conversational UX",
+          "Product messaging + support",
+          "Strong automation/AI"
+        ],
+        "cons": [
+          "Expensive at scale",
+          "Can feel salesy",
+          "Complex pricing packs"
+        ],
+        "bestFor": "SaaS products mixing support chat with lifecycle messaging.",
+        "pricingNotes": "Paid platforms — expect significant monthly spend vs Zendesk SMB."
+      },
+      {
+        "slug": "chatwoot",
+        "name": "Chatwoot",
+        "oneLiner": "Open-source customer engagement suite.",
+        "pricing": "oss",
+        "website": "https://www.chatwoot.com",
+        "affiliateParam": "ref=altswitch",
+        "pros": [
+          "OSS customer engagement",
+          "Self-host or cloud",
+          "Multi-channel inbox"
+        ],
+        "cons": [
+          "You own uptime if self-hosted",
+          "Fewer enterprise bells",
+          "Plugin ecosystem smaller"
+        ],
+        "bestFor": "Teams wanting an open Intercom/Zendesk-lite stack.",
+        "pricingNotes": "OSS free; Chatwoot Cloud paid. Self-host = infra cost only."
+      },
+      {
+        "slug": "free-scout",
+        "name": "FreeScout",
+        "oneLiner": "Lightweight open-source help desk and shared inbox.",
+        "pricing": "oss",
+        "website": "https://freescout.net",
+        "affiliateParam": "ref=altswitch",
+        "pros": [
+          "Lightweight shared inbox",
+          "Helpscout-like UX",
+          "Self-host friendly"
+        ],
+        "cons": [
+          "Fewer enterprise features",
+          "Module/plugin model",
+          "Smaller vendor backing"
+        ],
+        "bestFor": "Small support teams wanting a simple open help desk.",
+        "pricingNotes": "Free OSS; optional paid modules from FreeScout."
+      },
+      {
+        "slug": "helpscout",
+        "name": "Help Scout",
+        "oneLiner": "Human-friendly shared inbox for customer support.",
+        "pricing": "paid",
+        "website": "https://www.helpscout.com",
+        "affiliateParam": "ref=altswitch",
+        "pros": [
+          "Human, calm shared inbox",
+          "Docs (Docs) + beacon",
+          "Good for friendly brands"
+        ],
+        "cons": [
+          "Not the deepest enterprise suite",
+          "Paid per user",
+          "AI/automation behind leaders"
+        ],
+        "bestFor": "Customer-centric SMBs that hate cluttered agent UIs.",
+        "pricingNotes": "Paid per user; standard helpdesk pricing mid-market."
+      },
+      {
+        "slug": "gorgias",
+        "name": "Gorgias",
+        "oneLiner": "Helpdesk built for ecommerce brands.",
+        "pricing": "paid",
+        "website": "https://www.gorgias.com",
+        "affiliateParam": "ref=altswitch",
+        "pros": [
+          "Built for ecommerce",
+          "Shopify/etc. deep links",
+          "Revenue-aware macros"
+        ],
+        "cons": [
+          "Niche outside ecommerce",
+          "Price scales with tickets",
+          "Overkill for B2B SaaS"
+        ],
+        "bestFor": "DTC/ecommerce brands on Shopify-like stacks.",
+        "pricingNotes": "Paid by ticket volume tiers — model cost on peak season."
+      }
     ]
   },
   {
@@ -127,12 +925,126 @@
     "website": "https://www.airtable.com",
     "featured": true,
     "alternatives": [
-      { "slug": "nocodb", "name": "NocoDB", "oneLiner": "Open-source Airtable alternative on top of any SQL database.", "pricing": "oss", "website": "https://nocodb.com", "affiliateParam": "ref=altswitch" },
-      { "slug": "baserow", "name": "Baserow", "oneLiner": "No-code database, open-source and self-hostable.", "pricing": "oss", "website": "https://baserow.io", "affiliateParam": "ref=altswitch" },
-      { "slug": "notion-db", "name": "Notion Databases", "oneLiner": "Flexible databases inside the Notion workspace you already use.", "pricing": "freemium", "website": "https://www.notion.so", "affiliateParam": "ref=altswitch" },
-      { "slug": "rows", "name": "Rows", "oneLiner": "Spreadsheet with built-in integrations and AI.", "pricing": "freemium", "website": "https://rows.com", "affiliateParam": "ref=altswitch" },
-      { "slug": "grist", "name": "Grist", "oneLiner": "Modern spreadsheet-database hybrid, open source.", "pricing": "oss", "website": "https://www.getgrist.com", "affiliateParam": "ref=altswitch" },
-      { "slug": "teable", "name": "Teable", "oneLiner": "Fast open-source Airtable-like database on Postgres.", "pricing": "oss", "website": "https://teable.io", "affiliateParam": "ref=altswitch" }
+      {
+        "slug": "nocodb",
+        "name": "NocoDB",
+        "oneLiner": "Open-source Airtable alternative on top of any SQL database.",
+        "pricing": "oss",
+        "website": "https://nocodb.com",
+        "affiliateParam": "ref=altswitch",
+        "pros": [
+          "Airtable UX on your SQL DB",
+          "OSS & self-host",
+          "No per-row SaaS tax"
+        ],
+        "cons": [
+          "You manage the database",
+          "Some Airtable niceties missing",
+          "Ops responsibility"
+        ],
+        "bestFor": "Teams with Postgres/MySQL who want Airtable without lock-in.",
+        "pricingNotes": "OSS free; NocoDB Cloud has free/paid tiers."
+      },
+      {
+        "slug": "baserow",
+        "name": "Baserow",
+        "oneLiner": "No-code database, open-source and self-hostable.",
+        "pricing": "oss",
+        "website": "https://baserow.io",
+        "affiliateParam": "ref=altswitch",
+        "pros": [
+          "No-code database",
+          "Self-host or cloud",
+          "Open source"
+        ],
+        "cons": [
+          "Realtime collab vs Airtable",
+          "Plugin ecosystem smaller",
+          "Self-host maintenance"
+        ],
+        "bestFor": "Ops teams wanting Airtable-like grids they can host.",
+        "pricingNotes": "OSS; cloud freemium/paid by rows/users."
+      },
+      {
+        "slug": "notion-db",
+        "name": "Notion Databases",
+        "oneLiner": "Flexible databases inside the Notion workspace you already use.",
+        "pricing": "freemium",
+        "website": "https://www.notion.so",
+        "affiliateParam": "ref=altswitch",
+        "pros": [
+          "Already in Notion",
+          "Flexible relations/views",
+          "Zero new vendor"
+        ],
+        "cons": [
+          "Not a real relational DB",
+          "API/rate limits",
+          "Perf on huge bases"
+        ],
+        "bestFor": "Teams already living in Notion who need light databases.",
+        "pricingNotes": "Included in Notion free/plus/business — seat pricing applies."
+      },
+      {
+        "slug": "rows",
+        "name": "Rows",
+        "oneLiner": "Spreadsheet with built-in integrations and AI.",
+        "pricing": "freemium",
+        "website": "https://rows.com",
+        "affiliateParam": "ref=altswitch",
+        "pros": [
+          "Spreadsheet + integrations",
+          "AI helpers",
+          "Familiar sheet mental model"
+        ],
+        "cons": [
+          "Less “base” than Airtable",
+          "Vendor lock-in risk",
+          "Pricing for data/API use"
+        ],
+        "bestFor": "Analysts who want sheets that connect to APIs easily.",
+        "pricingNotes": "Freemium; paid for more integrations and workspace limits."
+      },
+      {
+        "slug": "grist",
+        "name": "Grist",
+        "oneLiner": "Modern spreadsheet-database hybrid, open source.",
+        "pricing": "oss",
+        "website": "https://www.getgrist.com",
+        "affiliateParam": "ref=altswitch",
+        "pros": [
+          "Spreadsheet-DB hybrid",
+          "Python formulas",
+          "OSS / self-host"
+        ],
+        "cons": [
+          "UX learning curve",
+          "Smaller community than Airtable",
+          "Fewer templates"
+        ],
+        "bestFor": "Data-savvy teams needing relational sheets with code-like power.",
+        "pricingNotes": "OSS; Grist Cloud free/paid. Self-host free."
+      },
+      {
+        "slug": "teable",
+        "name": "Teable",
+        "oneLiner": "Fast open-source Airtable-like database on Postgres.",
+        "pricing": "oss",
+        "website": "https://teable.io",
+        "affiliateParam": "ref=altswitch",
+        "pros": [
+          "Airtable-like on Postgres",
+          "Performance focus",
+          "Open source path"
+        ],
+        "cons": [
+          "Newer project",
+          "Ecosystem still growing",
+          "Cloud maturity TBD"
+        ],
+        "bestFor": "Builders who want Airtable speed with SQL underneath.",
+        "pricingNotes": "OSS / cloud plans — confirm current free tier limits."
+      }
     ]
   },
   {
@@ -144,12 +1056,126 @@
     "website": "https://analytics.google.com",
     "featured": true,
     "alternatives": [
-      { "slug": "plausible", "name": "Plausible", "oneLiner": "Lightweight, privacy-friendly analytics — no cookies needed.", "pricing": "paid", "website": "https://plausible.io", "affiliateParam": "ref=altswitch" },
-      { "slug": "umami", "name": "Umami", "oneLiner": "Simple, fast, open-source web analytics.", "pricing": "oss", "website": "https://umami.is", "affiliateParam": "ref=altswitch" },
-      { "slug": "matomo", "name": "Matomo", "oneLiner": "Full-featured open-source analytics you own.", "pricing": "oss", "website": "https://matomo.org", "affiliateParam": "ref=altswitch" },
-      { "slug": "fathom", "name": "Fathom", "oneLiner": "Simple privacy-first analytics with a clean dashboard.", "pricing": "paid", "website": "https://usefathom.com", "affiliateParam": "ref=altswitch" },
-      { "slug": "posthog", "name": "PostHog", "oneLiner": "Product analytics, feature flags, and session replay in one.", "pricing": "freemium", "website": "https://posthog.com", "affiliateParam": "ref=altswitch" },
-      { "slug": "goatcounter", "name": "GoatCounter", "oneLiner": "Simple open-source web statistics, privacy-friendly.", "pricing": "oss", "website": "https://www.goatcounter.com", "affiliateParam": "ref=altswitch" }
+      {
+        "slug": "plausible",
+        "name": "Plausible",
+        "oneLiner": "Lightweight, privacy-friendly analytics — no cookies needed.",
+        "pricing": "paid",
+        "website": "https://plausible.io",
+        "affiliateParam": "ref=altswitch",
+        "pros": [
+          "Privacy-first, no cookies",
+          "Tiny script",
+          "Simple dashboard"
+        ],
+        "cons": [
+          "Less deep than GA4 explorers",
+          "Paid (no huge free cloud)",
+          "Fewer marketing funnels"
+        ],
+        "bestFor": "Indie hackers and EU sites that want simple ethical analytics.",
+        "pricingNotes": "Paid cloud by pageviews; self-host CE available."
+      },
+      {
+        "slug": "umami",
+        "name": "Umami",
+        "oneLiner": "Simple, fast, open-source web analytics.",
+        "pricing": "oss",
+        "website": "https://umami.is",
+        "affiliateParam": "ref=altswitch",
+        "pros": [
+          "Simple OSS analytics",
+          "Easy self-host",
+          "Privacy friendly"
+        ],
+        "cons": [
+          "Fewer advanced reports",
+          "You run the box",
+          "Cloud is newer"
+        ],
+        "bestFor": "Devs who want GA-lite they can deploy in minutes.",
+        "pricingNotes": "OSS free; Umami Cloud paid. Self-host = VPS cost."
+      },
+      {
+        "slug": "matomo",
+        "name": "Matomo",
+        "oneLiner": "Full-featured open-source analytics you own.",
+        "pricing": "oss",
+        "website": "https://matomo.org",
+        "affiliateParam": "ref=altswitch",
+        "pros": [
+          "GA-depth on your infra",
+          "Privacy controls",
+          "Plugins/marketplace"
+        ],
+        "cons": [
+          "Heavier to run",
+          "UI denser",
+          "Plugin costs possible"
+        ],
+        "bestFor": "Orgs needing serious analytics with data ownership.",
+        "pricingNotes": "OSS On-Premise free; Matomo Cloud paid. Some plugins paid."
+      },
+      {
+        "slug": "fathom",
+        "name": "Fathom",
+        "oneLiner": "Simple privacy-first analytics with a clean dashboard.",
+        "pricing": "paid",
+        "website": "https://usefathom.com",
+        "affiliateParam": "ref=altswitch",
+        "pros": [
+          "Dead-simple privacy analytics",
+          "Fast UI",
+          "Cookie-free positioning"
+        ],
+        "cons": [
+          "Paid only (cloud)",
+          "Limited advanced analysis",
+          "Less customizable than OSS"
+        ],
+        "bestFor": "Agencies/sites that want Plausible-like simplicity with Fathom brand.",
+        "pricingNotes": "Paid by pageviews; no free forever cloud tier."
+      },
+      {
+        "slug": "posthog",
+        "name": "PostHog",
+        "oneLiner": "Product analytics, feature flags, and session replay in one.",
+        "pricing": "freemium",
+        "website": "https://posthog.com",
+        "affiliateParam": "ref=altswitch",
+        "pros": [
+          "Product analytics + flags + replay",
+          "Generous free cloud",
+          "Self-host option"
+        ],
+        "cons": [
+          "Broader than “web stats”",
+          "Can be overwhelming",
+          "Resource-heavy if self-hosted"
+        ],
+        "bestFor": "Product teams replacing GA + separate event tools.",
+        "pricingNotes": "Generous free tier then usage-based; OSS self-host possible."
+      },
+      {
+        "slug": "goatcounter",
+        "name": "GoatCounter",
+        "oneLiner": "Simple open-source web statistics, privacy-friendly.",
+        "pricing": "oss",
+        "website": "https://www.goatcounter.com",
+        "affiliateParam": "ref=altswitch",
+        "pros": [
+          "Ultra-simple privacy stats",
+          "OSS",
+          "Low overhead"
+        ],
+        "cons": [
+          "Minimal feature set",
+          "Not product analytics",
+          "Sparse UI"
+        ],
+        "bestFor": "Personal blogs and tiny sites that just need counts.",
+        "pricingNotes": "Free for non-commercial; paid/commercial and self-host options."
+      }
     ]
   },
   {
@@ -161,12 +1187,126 @@
     "website": "https://mailchimp.com",
     "featured": true,
     "alternatives": [
-      { "slug": "buttondown", "name": "Buttondown", "oneLiner": "Simple, writer-friendly newsletter platform for indie creators.", "pricing": "freemium", "website": "https://buttondown.com", "affiliateParam": "ref=altswitch" },
-      { "slug": "convertkit", "name": "Kit (ConvertKit)", "oneLiner": "Creator-focused email marketing with automations.", "pricing": "freemium", "website": "https://kit.com", "affiliateParam": "ref=altswitch" },
-      { "slug": "beehiiv", "name": "beehiiv", "oneLiner": "Newsletter platform built for growth and monetization.", "pricing": "freemium", "website": "https://www.beehiiv.com", "affiliateParam": "ref=altswitch" },
-      { "slug": "listmonk-mc", "name": "Listmonk", "oneLiner": "Self-hosted high-performance newsletter and mailing lists.", "pricing": "oss", "website": "https://listmonk.app", "affiliateParam": "ref=altswitch" },
-      { "slug": "brevo-mc", "name": "Brevo", "oneLiner": "Email + SMS marketing with a generous free tier.", "pricing": "freemium", "website": "https://www.brevo.com", "affiliateParam": "ref=altswitch" },
-      { "slug": "resend", "name": "Resend", "oneLiner": "Modern email API for developers (transactional + marketing).", "pricing": "freemium", "website": "https://resend.com", "affiliateParam": "ref=altswitch" }
+      {
+        "slug": "buttondown",
+        "name": "Buttondown",
+        "oneLiner": "Simple, writer-friendly newsletter platform for indie creators.",
+        "pricing": "freemium",
+        "website": "https://buttondown.com",
+        "affiliateParam": "ref=altswitch",
+        "pros": [
+          "Writer-friendly",
+          "Markdown-native",
+          "Simple pricing"
+        ],
+        "cons": [
+          "Not a full marketing suite",
+          "Fewer enterprise features",
+          "Smaller than Kit/beehiiv"
+        ],
+        "bestFor": "Indie writers who want a calm newsletter tool.",
+        "pricingNotes": "Free tier for small lists; paid as subscribers grow."
+      },
+      {
+        "slug": "convertkit",
+        "name": "Kit (ConvertKit)",
+        "oneLiner": "Creator-focused email marketing with automations.",
+        "pricing": "freemium",
+        "website": "https://kit.com",
+        "affiliateParam": "ref=altswitch",
+        "pros": [
+          "Creator-focused automations",
+          "Tagging/sequences",
+          "Commerce extras"
+        ],
+        "cons": [
+          "Price steps with subscribers",
+          "Less “enterprise ESP”",
+          "Rebrand to Kit — docs shift"
+        ],
+        "bestFor": "Creators and course sellers nurturing an audience.",
+        "pricingNotes": "Free up to a limit then paid by subscribers (Kit)."
+      },
+      {
+        "slug": "beehiiv",
+        "name": "beehiiv",
+        "oneLiner": "Newsletter platform built for growth and monetization.",
+        "pricing": "freemium",
+        "website": "https://www.beehiiv.com",
+        "affiliateParam": "ref=altswitch",
+        "pros": [
+          "Growth + monetization tools",
+          "Referral/ad network options",
+          "Modern writer UX"
+        ],
+        "cons": [
+          "Newer vs Mailchimp",
+          "Best if you publish publicly",
+          "Pricing tiers to watch"
+        ],
+        "bestFor": "Substack-style growers who want owned email + monetization.",
+        "pricingNotes": "Freemium; paid for custom domains, boosts, advanced features."
+      },
+      {
+        "slug": "listmonk-mc",
+        "name": "Listmonk",
+        "oneLiner": "Self-hosted high-performance newsletter and mailing lists.",
+        "pricing": "oss",
+        "website": "https://listmonk.app",
+        "affiliateParam": "ref=altswitch",
+        "pros": [
+          "High-performance self-host",
+          "Simple campaign model",
+          "Zero ESP markup"
+        ],
+        "cons": [
+          "No managed deliverability",
+          "Sparse non-dev UX",
+          "You handle bounces/DKIM"
+        ],
+        "bestFor": "Technical creators ditching Mailchimp fees.",
+        "pricingNotes": "Free software; budget for SMTP (SES, Postmark, etc.)."
+      },
+      {
+        "slug": "brevo-mc",
+        "name": "Brevo",
+        "oneLiner": "Email + SMS marketing with a generous free tier.",
+        "pricing": "freemium",
+        "website": "https://www.brevo.com",
+        "affiliateParam": "ref=altswitch",
+        "pros": [
+          "Email + SMS under one roof",
+          "Solid free tier",
+          "Cheaper than Mailchimp at scale"
+        ],
+        "cons": [
+          "Brand still building trust vs Mailchimp",
+          "Automation depth mid-pack",
+          "Support tiers vary"
+        ],
+        "bestFor": "Senders leaving Mailchimp for better price/performance.",
+        "pricingNotes": "Free daily send limits; paid plans as list/volume grows."
+      },
+      {
+        "slug": "resend",
+        "name": "Resend",
+        "oneLiner": "Modern email API for developers (transactional + marketing).",
+        "pricing": "freemium",
+        "website": "https://resend.com",
+        "affiliateParam": "ref=altswitch",
+        "pros": [
+          "Excellent DX / API",
+          "Modern React email workflow",
+          "Great for transactional + broadcast"
+        ],
+        "cons": [
+          "Not a classic drag-drop ESP",
+          "Marketing features still evolving",
+          "Needs eng involvement"
+        ],
+        "bestFor": "Developer teams sending product email with code.",
+        "pricingNotes": "Freemium API usage; paid as volume grows."
+      }
     ]
   }
 ]

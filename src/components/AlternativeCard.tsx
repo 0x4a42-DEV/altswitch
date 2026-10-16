@@ -23,7 +23,50 @@ export default function AlternativeCard({ alt }: { alt: Alternative }) {
           {pricingLabel(alt.pricing)}
         </span>
       </div>
-      <p className="mt-2 flex-1 text-sm text-zinc-600">{alt.oneLiner}</p>
+      <p className="mt-2 text-sm text-zinc-600">{alt.oneLiner}</p>
+
+      <div className="mt-4 grid gap-3 sm:grid-cols-2">
+        <div>
+          <p className="text-xs font-semibold uppercase tracking-wide text-emerald-700">
+            Pros
+          </p>
+          <ul className="mt-1 space-y-1 text-sm text-zinc-700">
+            {alt.pros.map((p) => (
+              <li key={p} className="flex gap-1.5">
+                <span className="text-emerald-600" aria-hidden>
+                  +
+                </span>
+                <span>{p}</span>
+              </li>
+            ))}
+          </ul>
+        </div>
+        <div>
+          <p className="text-xs font-semibold uppercase tracking-wide text-rose-700">
+            Cons
+          </p>
+          <ul className="mt-1 space-y-1 text-sm text-zinc-700">
+            {alt.cons.map((c) => (
+              <li key={c} className="flex gap-1.5">
+                <span className="text-rose-500" aria-hidden>
+                  −
+                </span>
+                <span>{c}</span>
+              </li>
+            ))}
+          </ul>
+        </div>
+      </div>
+
+      <p className="mt-4 text-sm text-zinc-700">
+        <span className="font-medium text-zinc-900">Best for: </span>
+        {alt.bestFor}
+      </p>
+      <p className="mt-2 text-sm text-zinc-500">
+        <span className="font-medium text-zinc-700">Pricing notes: </span>
+        {alt.pricingNotes}
+      </p>
+
       <a
         href={href}
         target="_blank"
