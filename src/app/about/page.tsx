@@ -1,7 +1,10 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import NewsletterForm from "@/components/NewsletterForm";
-import { RAILWAY_REFERRAL_URL } from "@/lib/affiliates";
+import {
+  DIGITALOCEAN_REFERRAL_URL,
+  RAILWAY_REFERRAL_URL,
+} from "@/lib/affiliates";
 
 export const metadata: Metadata = {
   title: "About & how we make money",
@@ -57,6 +60,19 @@ export default function AboutPage() {
             railway.com?referralCode=TsViJR
           </a>
           . We may earn referral credit when you sign up through it.
+        </li>
+        <li>
+          <strong>DigitalOcean</strong> — a referral partner for cloud hosting and
+          self-hosting. Use our referral link:{" "}
+          <a
+            href={DIGITALOCEAN_REFERRAL_URL}
+            target="_blank"
+            rel="noopener noreferrer sponsored"
+            className="font-medium text-indigo-600 hover:underline"
+          >
+            m.do.co/c/5da193244570
+          </a>
+          . We may earn credit when someone signs up through it.
         </li>
       </ul>
 

@@ -1,7 +1,10 @@
 import type { Alternative } from "@/lib/types";
 import { pricingLabel } from "@/lib/data";
 import { affiliateUrl } from "@/lib/affiliate";
-import { RAILWAY_REFERRAL_URL } from "@/lib/affiliates";
+import {
+  DIGITALOCEAN_REFERRAL_URL,
+  RAILWAY_REFERRAL_URL,
+} from "@/lib/affiliates";
 
 const pricingStyles: Record<string, string> = {
   free: "bg-emerald-50 text-emerald-700",
@@ -11,7 +14,10 @@ const pricingStyles: Record<string, string> = {
 };
 
 export default function AlternativeCard({ alt }: { alt: Alternative }) {
-  const href = affiliateUrl(alt.website, alt.affiliateParam);
+  const href = affiliateUrl(alt.website, alt.affiliateParam, {
+    slug: alt.slug,
+    name: alt.name,
+  });
   return (
     <article className="flex flex-col rounded-2xl border border-zinc-200 bg-white p-5 shadow-sm">
       <div className="flex items-start justify-between gap-3">
@@ -79,7 +85,16 @@ export default function AlternativeCard({ alt }: { alt: Alternative }) {
           >
             Railway
           </a>{" "}
-          (our referral link).
+          or{" "}
+          <a
+            href={DIGITALOCEAN_REFERRAL_URL}
+            target="_blank"
+            rel="noopener noreferrer sponsored"
+            className="font-medium text-indigo-600 hover:underline"
+          >
+            DigitalOcean
+          </a>{" "}
+          (our referral links).
         </p>
       )}
 
