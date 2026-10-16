@@ -1,0 +1,172 @@
+[
+  {
+    "slug": "notion",
+    "name": "Notion",
+    "category": "Productivity",
+    "tagline": "All-in-one workspace for notes, docs, and wikis",
+    "description": "Notion combines notes, docs, wikis, and project management. Teams looking for simpler, cheaper, or open-source options often switch to focused alternatives.",
+    "website": "https://www.notion.so",
+    "featured": true,
+    "alternatives": [
+      { "slug": "appflowy", "name": "AppFlowy", "oneLiner": "Open-source Notion alternative you can self-host.", "pricing": "oss", "website": "https://appflowy.io", "affiliateParam": "ref=altswitch" },
+      { "slug": "affine", "name": "AFFiNE", "oneLiner": "Privacy-first workspace combining docs, whiteboards, and databases.", "pricing": "freemium", "website": "https://affine.pro", "affiliateParam": "ref=altswitch" },
+      { "slug": "anytype", "name": "Anytype", "oneLiner": "Local-first, encrypted personal knowledge base.", "pricing": "freemium", "website": "https://anytype.io", "affiliateParam": "ref=altswitch" },
+      { "slug": "capacities", "name": "Capacities", "oneLiner": "Object-based note-taking built around your content types.", "pricing": "freemium", "website": "https://capacities.io", "affiliateParam": "ref=altswitch" },
+      { "slug": "outline", "name": "Outline", "oneLiner": "Beautiful team knowledge base, self-hostable.", "pricing": "oss", "website": "https://www.getoutline.com", "affiliateParam": "ref=altswitch" },
+      { "slug": "coda", "name": "Coda", "oneLiner": "Docs that act like apps with packs and automations.", "pricing": "freemium", "website": "https://coda.io", "affiliateParam": "ref=altswitch" }
+    ]
+  },
+  {
+    "slug": "slack",
+    "name": "Slack",
+    "category": "Communication",
+    "tagline": "Team messaging and collaboration hub",
+    "description": "Slack dominates workplace chat. Alternatives range from open-source self-hosted servers to lighter freemium apps with better pricing for small teams.",
+    "website": "https://slack.com",
+    "featured": true,
+    "alternatives": [
+      { "slug": "mattermost", "name": "Mattermost", "oneLiner": "Open-source Slack alternative for secure self-hosting.", "pricing": "oss", "website": "https://mattermost.com", "affiliateParam": "ref=altswitch" },
+      { "slug": "rocket-chat", "name": "Rocket.Chat", "oneLiner": "Fully customizable open-source team chat.", "pricing": "oss", "website": "https://www.rocket.chat", "affiliateParam": "ref=altswitch" },
+      { "slug": "discord", "name": "Discord", "oneLiner": "Free voice + text communities popular with startups and communities.", "pricing": "freemium", "website": "https://discord.com", "affiliateParam": "ref=altswitch" },
+      { "slug": "element", "name": "Element", "oneLiner": "Secure messaging on the Matrix open network.", "pricing": "oss", "website": "https://element.io", "affiliateParam": "ref=altswitch" },
+      { "slug": "twist", "name": "Twist", "oneLiner": "Async-first team chat designed to reduce interruptions.", "pricing": "freemium", "website": "https://twist.com", "affiliateParam": "ref=altswitch" },
+      { "slug": "zulip", "name": "Zulip", "oneLiner": "Threaded open-source chat that scales for large teams.", "pricing": "oss", "website": "https://zulip.com", "affiliateParam": "ref=altswitch" }
+    ]
+  },
+  {
+    "slug": "jira",
+    "name": "Jira",
+    "category": "Project Management",
+    "tagline": "Issue tracking and agile project management",
+    "description": "Jira is the default for software teams — and often feels heavy. Lighter issue trackers and open-source project tools are popular switches.",
+    "website": "https://www.atlassian.com/software/jira",
+    "featured": true,
+    "alternatives": [
+      { "slug": "linear", "name": "Linear", "oneLiner": "Fast, polished issue tracker loved by modern product teams.", "pricing": "freemium", "website": "https://linear.app", "affiliateParam": "ref=altswitch" },
+      { "slug": "plane", "name": "Plane", "oneLiner": "Open-source project management that feels like Linear + Jira.", "pricing": "oss", "website": "https://plane.so", "affiliateParam": "ref=altswitch" },
+      { "slug": "height", "name": "Height", "oneLiner": "Autonomous project management with AI-assisted workflows.", "pricing": "freemium", "website": "https://height.app", "affiliateParam": "ref=altswitch" },
+      { "slug": "taiga", "name": "Taiga", "oneLiner": "Open-source agile project management for scrum and kanban.", "pricing": "oss", "website": "https://taiga.io", "affiliateParam": "ref=altswitch" },
+      { "slug": "youtrack", "name": "YouTrack", "oneLiner": "JetBrains issue tracker with powerful search and workflows.", "pricing": "freemium", "website": "https://www.jetbrains.com/youtrack/", "affiliateParam": "ref=altswitch" },
+      { "slug": "clickup", "name": "ClickUp", "oneLiner": "All-in-one productivity suite replacing multiple PM tools.", "pricing": "freemium", "website": "https://clickup.com", "affiliateParam": "ref=altswitch" }
+    ]
+  },
+  {
+    "slug": "salesforce",
+    "name": "Salesforce",
+    "category": "CRM",
+    "tagline": "Enterprise customer relationship management",
+    "description": "Salesforce is powerful but expensive and complex. SMBs often migrate to simpler CRMs or open-source options.",
+    "website": "https://www.salesforce.com",
+    "featured": true,
+    "alternatives": [
+      { "slug": "hubspot-crm", "name": "HubSpot CRM", "oneLiner": "Free-forever CRM with marketing and sales suites.", "pricing": "freemium", "website": "https://www.hubspot.com/products/crm", "affiliateParam": "ref=altswitch" },
+      { "slug": "pipedrive", "name": "Pipedrive", "oneLiner": "Sales-focused CRM built around deal pipelines.", "pricing": "paid", "website": "https://www.pipedrive.com", "affiliateParam": "ref=altswitch" },
+      { "slug": "twenty", "name": "Twenty", "oneLiner": "Open-source CRM designed as a modern Salesforce alternative.", "pricing": "oss", "website": "https://twenty.com", "affiliateParam": "ref=altswitch" },
+      { "slug": "espocrm", "name": "EspoCRM", "oneLiner": "Flexible open-source CRM you can self-host.", "pricing": "oss", "website": "https://www.espocrm.com", "affiliateParam": "ref=altswitch" },
+      { "slug": "attio", "name": "Attio", "oneLiner": "Flexible, data-driven CRM for startups and modern teams.", "pricing": "freemium", "website": "https://attio.com", "affiliateParam": "ref=altswitch" },
+      { "slug": "zoho-crm", "name": "Zoho CRM", "oneLiner": "Affordable full-featured CRM in the Zoho suite.", "pricing": "freemium", "website": "https://www.zoho.com/crm/", "affiliateParam": "ref=altswitch" }
+    ]
+  },
+  {
+    "slug": "hubspot",
+    "name": "HubSpot",
+    "category": "Marketing",
+    "tagline": "Inbound marketing, CRM, and sales platform",
+    "description": "HubSpot's free tier is generous, but paid seats add up. Teams seek lighter marketing automation and open CRM stacks.",
+    "website": "https://www.hubspot.com",
+    "featured": true,
+    "alternatives": [
+      { "slug": "brevo", "name": "Brevo", "oneLiner": "Email, SMS, and CRM for growing businesses at lower cost.", "pricing": "freemium", "website": "https://www.brevo.com", "affiliateParam": "ref=altswitch" },
+      { "slug": "activecampaign", "name": "ActiveCampaign", "oneLiner": "Marketing automation with strong email + CRM features.", "pricing": "paid", "website": "https://www.activecampaign.com", "affiliateParam": "ref=altswitch" },
+      { "slug": "mautic", "name": "Mautic", "oneLiner": "Open-source marketing automation you control.", "pricing": "oss", "website": "https://www.mautic.org", "affiliateParam": "ref=altswitch" },
+      { "slug": "pipedrive-hs", "name": "Pipedrive", "oneLiner": "Pipeline CRM that many teams use instead of HubSpot Sales.", "pricing": "paid", "website": "https://www.pipedrive.com", "affiliateParam": "ref=altswitch" },
+      { "slug": "close", "name": "Close", "oneLiner": "Sales CRM built for high-velocity outbound teams.", "pricing": "paid", "website": "https://www.close.com", "affiliateParam": "ref=altswitch" },
+      { "slug": "listmonk", "name": "Listmonk", "oneLiner": "Self-hosted newsletter and mailing list manager.", "pricing": "oss", "website": "https://listmonk.app", "affiliateParam": "ref=altswitch" }
+    ]
+  },
+  {
+    "slug": "figma",
+    "name": "Figma",
+    "category": "Design",
+    "tagline": "Collaborative interface design tool",
+    "description": "Figma redefined design collaboration. After pricing changes, many designers explore open-source and cheaper design tools.",
+    "website": "https://www.figma.com",
+    "featured": true,
+    "alternatives": [
+      { "slug": "penpot", "name": "Penpot", "oneLiner": "Open-source design and prototyping platform for teams.", "pricing": "oss", "website": "https://penpot.app", "affiliateParam": "ref=altswitch" },
+      { "slug": "sketch", "name": "Sketch", "oneLiner": "Mac-native UI design tool with strong plugin ecosystem.", "pricing": "paid", "website": "https://www.sketch.com", "affiliateParam": "ref=altswitch" },
+      { "slug": "framer", "name": "Framer", "oneLiner": "Design and ship production websites in one tool.", "pricing": "freemium", "website": "https://www.framer.com", "affiliateParam": "ref=altswitch" },
+      { "slug": "lunacy", "name": "Lunacy", "oneLiner": "Free design tool with offline support and built-in assets.", "pricing": "freemium", "website": "https://icons8.com/lunacy", "affiliateParam": "ref=altswitch" },
+      { "slug": "pencil", "name": "Pencil", "oneLiner": "Open-source prototyping tool focused on speed.", "pricing": "oss", "website": "https://pencil.evolus.vn", "affiliateParam": "ref=altswitch" },
+      { "slug": "adobe-xd", "name": "Adobe XD", "oneLiner": "Adobe's UI/UX design and prototyping app.", "pricing": "paid", "website": "https://www.adobe.com/products/xd.html", "affiliateParam": "ref=altswitch" }
+    ]
+  },
+  {
+    "slug": "zendesk",
+    "name": "Zendesk",
+    "category": "Support",
+    "tagline": "Customer support and ticketing platform",
+    "description": "Zendesk is the enterprise helpdesk standard. Growing teams often switch to simpler, cheaper, or self-hosted support tools.",
+    "website": "https://www.zendesk.com",
+    "featured": false,
+    "alternatives": [
+      { "slug": "freshdesk", "name": "Freshdesk", "oneLiner": "Affordable helpdesk with omnichannel support.", "pricing": "freemium", "website": "https://www.freshworks.com/freshdesk/", "affiliateParam": "ref=altswitch" },
+      { "slug": "intercom", "name": "Intercom", "oneLiner": "Conversational support and customer messaging platform.", "pricing": "paid", "website": "https://www.intercom.com", "affiliateParam": "ref=altswitch" },
+      { "slug": "chatwoot", "name": "Chatwoot", "oneLiner": "Open-source customer engagement suite.", "pricing": "oss", "website": "https://www.chatwoot.com", "affiliateParam": "ref=altswitch" },
+      { "slug": "free-scout", "name": "FreeScout", "oneLiner": "Lightweight open-source help desk and shared inbox.", "pricing": "oss", "website": "https://freescout.net", "affiliateParam": "ref=altswitch" },
+      { "slug": "helpscout", "name": "Help Scout", "oneLiner": "Human-friendly shared inbox for customer support.", "pricing": "paid", "website": "https://www.helpscout.com", "affiliateParam": "ref=altswitch" },
+      { "slug": "gorgias", "name": "Gorgias", "oneLiner": "Helpdesk built for ecommerce brands.", "pricing": "paid", "website": "https://www.gorgias.com", "affiliateParam": "ref=altswitch" }
+    ]
+  },
+  {
+    "slug": "airtable",
+    "name": "Airtable",
+    "category": "Databases",
+    "tagline": "Spreadsheet-database hybrid for teams",
+    "description": "Airtable popularized no-code databases. Price hikes pushed many teams toward open-source and self-hosted bases.",
+    "website": "https://www.airtable.com",
+    "featured": true,
+    "alternatives": [
+      { "slug": "nocodb", "name": "NocoDB", "oneLiner": "Open-source Airtable alternative on top of any SQL database.", "pricing": "oss", "website": "https://nocodb.com", "affiliateParam": "ref=altswitch" },
+      { "slug": "baserow", "name": "Baserow", "oneLiner": "No-code database, open-source and self-hostable.", "pricing": "oss", "website": "https://baserow.io", "affiliateParam": "ref=altswitch" },
+      { "slug": "notion-db", "name": "Notion Databases", "oneLiner": "Flexible databases inside the Notion workspace you already use.", "pricing": "freemium", "website": "https://www.notion.so", "affiliateParam": "ref=altswitch" },
+      { "slug": "rows", "name": "Rows", "oneLiner": "Spreadsheet with built-in integrations and AI.", "pricing": "freemium", "website": "https://rows.com", "affiliateParam": "ref=altswitch" },
+      { "slug": "grist", "name": "Grist", "oneLiner": "Modern spreadsheet-database hybrid, open source.", "pricing": "oss", "website": "https://www.getgrist.com", "affiliateParam": "ref=altswitch" },
+      { "slug": "teable", "name": "Teable", "oneLiner": "Fast open-source Airtable-like database on Postgres.", "pricing": "oss", "website": "https://teable.io", "affiliateParam": "ref=altswitch" }
+    ]
+  },
+  {
+    "slug": "google-analytics",
+    "name": "Google Analytics",
+    "category": "Analytics",
+    "tagline": "Web analytics from Google",
+    "description": "GA4 is free but privacy-heavy and complex. Privacy-first and self-hosted analytics are the top switches for indie hackers and EU sites.",
+    "website": "https://analytics.google.com",
+    "featured": true,
+    "alternatives": [
+      { "slug": "plausible", "name": "Plausible", "oneLiner": "Lightweight, privacy-friendly analytics — no cookies needed.", "pricing": "paid", "website": "https://plausible.io", "affiliateParam": "ref=altswitch" },
+      { "slug": "umami", "name": "Umami", "oneLiner": "Simple, fast, open-source web analytics.", "pricing": "oss", "website": "https://umami.is", "affiliateParam": "ref=altswitch" },
+      { "slug": "matomo", "name": "Matomo", "oneLiner": "Full-featured open-source analytics you own.", "pricing": "oss", "website": "https://matomo.org", "affiliateParam": "ref=altswitch" },
+      { "slug": "fathom", "name": "Fathom", "oneLiner": "Simple privacy-first analytics with a clean dashboard.", "pricing": "paid", "website": "https://usefathom.com", "affiliateParam": "ref=altswitch" },
+      { "slug": "posthog", "name": "PostHog", "oneLiner": "Product analytics, feature flags, and session replay in one.", "pricing": "freemium", "website": "https://posthog.com", "affiliateParam": "ref=altswitch" },
+      { "slug": "goatcounter", "name": "GoatCounter", "oneLiner": "Simple open-source web statistics, privacy-friendly.", "pricing": "oss", "website": "https://www.goatcounter.com", "affiliateParam": "ref=altswitch" }
+    ]
+  },
+  {
+    "slug": "mailchimp",
+    "name": "Mailchimp",
+    "category": "Email Marketing",
+    "tagline": "Email marketing and automation platform",
+    "description": "Mailchimp raised prices and cut free tiers. Creators and startups often move to cheaper ESPs or self-hosted newsletter tools.",
+    "website": "https://mailchimp.com",
+    "featured": true,
+    "alternatives": [
+      { "slug": "buttondown", "name": "Buttondown", "oneLiner": "Simple, writer-friendly newsletter platform for indie creators.", "pricing": "freemium", "website": "https://buttondown.com", "affiliateParam": "ref=altswitch" },
+      { "slug": "convertkit", "name": "Kit (ConvertKit)", "oneLiner": "Creator-focused email marketing with automations.", "pricing": "freemium", "website": "https://kit.com", "affiliateParam": "ref=altswitch" },
+      { "slug": "beehiiv", "name": "beehiiv", "oneLiner": "Newsletter platform built for growth and monetization.", "pricing": "freemium", "website": "https://www.beehiiv.com", "affiliateParam": "ref=altswitch" },
+      { "slug": "listmonk-mc", "name": "Listmonk", "oneLiner": "Self-hosted high-performance newsletter and mailing lists.", "pricing": "oss", "website": "https://listmonk.app", "affiliateParam": "ref=altswitch" },
+      { "slug": "brevo-mc", "name": "Brevo", "oneLiner": "Email + SMS marketing with a generous free tier.", "pricing": "freemium", "website": "https://www.brevo.com", "affiliateParam": "ref=altswitch" },
+      { "slug": "resend", "name": "Resend", "oneLiner": "Modern email API for developers (transactional + marketing).", "pricing": "freemium", "website": "https://resend.com", "affiliateParam": "ref=altswitch" }
+    ]
+  }
+]
