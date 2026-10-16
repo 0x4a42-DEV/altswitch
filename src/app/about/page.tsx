@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import NewsletterForm from "@/components/NewsletterForm";
+import { RAILWAY_REFERRAL_URL } from "@/lib/affiliates";
 
 export const metadata: Metadata = {
   title: "About & how we make money",
@@ -26,8 +27,9 @@ export default function AboutPage() {
         <li>
           <strong>Affiliate links</strong> — some &quot;Visit website&quot; buttons
           include a referral parameter. If you sign up through them, we may earn a
-          commission at no extra cost to you. Params are ready now; partner
-          programs roll out over time.
+          commission at no extra cost to you. Most partner programs are still
+          placeholders (<code className="text-sm">ref=altswitch</code>); live ones
+          are listed below.
         </li>
         <li>
           <strong>Featured listings</strong> — vendors can pay for placement in
@@ -40,6 +42,25 @@ export default function AboutPage() {
         </li>
       </ul>
 
+      <h2 className="mt-10 text-xl font-semibold text-zinc-900">
+        Live affiliates right now
+      </h2>
+      <ul className="mt-4 list-disc space-y-3 pl-5 text-zinc-700">
+        <li>
+          <strong>Railway</strong> — AltSwitch itself is hosted on Railway. If you
+          deploy apps or self-host OSS from our tips, use our referral link:{" "}
+          <a
+            href={RAILWAY_REFERRAL_URL}
+            target="_blank"
+            rel="noopener noreferrer sponsored"
+            className="font-medium text-indigo-600 hover:underline"
+          >
+            railway.com?referralCode=TsViJR
+          </a>
+          . We may earn referral credit when you sign up through it.
+        </li>
+      </ul>
+
       <h2 className="mt-10 text-xl font-semibold text-zinc-900">What we won&apos;t do</h2>
       <ul className="mt-4 list-disc space-y-2 pl-5 text-zinc-700">
         <li>Fake reviews or undisclosed paid rankings</li>
@@ -49,7 +70,16 @@ export default function AboutPage() {
 
       <p className="mt-8 text-zinc-600">
         Built as a Side Hustle by Jon (0x4a42). MVP uses static seed data; Stripe
-        and email ESP (Resend/Buttondown) come later.{" "}
+        and email ESP (Resend/Buttondown) come later. Hosted on{" "}
+        <a
+          href={RAILWAY_REFERRAL_URL}
+          target="_blank"
+          rel="noopener noreferrer sponsored"
+          className="text-indigo-600 hover:underline"
+        >
+          Railway
+        </a>
+        .{" "}
         <Link href="/" className="text-indigo-600 hover:underline">
           Back to the directory →
         </Link>

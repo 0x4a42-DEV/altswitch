@@ -1,6 +1,7 @@
 import type { Alternative } from "@/lib/types";
 import { pricingLabel } from "@/lib/data";
 import { affiliateUrl } from "@/lib/affiliate";
+import { RAILWAY_REFERRAL_URL } from "@/lib/affiliates";
 
 const pricingStyles: Record<string, string> = {
   free: "bg-emerald-50 text-emerald-700",
@@ -66,6 +67,21 @@ export default function AlternativeCard({ alt }: { alt: Alternative }) {
         <span className="font-medium text-zinc-700">Pricing notes: </span>
         {alt.pricingNotes}
       </p>
+
+      {alt.pricing === "oss" && (
+        <p className="mt-3 rounded-lg bg-zinc-50 px-3 py-2 text-xs text-zinc-600">
+          Self-host tip: spin up containers on{" "}
+          <a
+            href={RAILWAY_REFERRAL_URL}
+            target="_blank"
+            rel="noopener noreferrer sponsored"
+            className="font-medium text-indigo-600 hover:underline"
+          >
+            Railway
+          </a>{" "}
+          (our referral link).
+        </p>
+      )}
 
       <a
         href={href}
