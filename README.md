@@ -24,6 +24,6 @@ Pushed to GitHub and deployed on Railway. Set:
 
 ## MVP scope
 
-- 10 tool pages with 4–6 alternatives each
+- 20 tool pages with 4–6 alternatives each (pros/cons/bestFor/pricingNotes)
 - Search, featured cards, about/monetization page
 - Newsletter capture (no ESP yet — Resend/Buttondown later)

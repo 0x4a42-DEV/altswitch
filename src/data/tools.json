@@ -1308,5 +1308,1315 @@
         "pricingNotes": "Freemium API usage; paid as volume grows."
       }
     ]
+  },
+  {
+    "slug": "asana",
+    "name": "Asana",
+    "category": "Project Management",
+    "tagline": "Work management for teams and projects",
+    "description": "Asana is a popular work-management hub. Teams often switch for simpler boards, cheaper seats, or open-source options.",
+    "website": "https://asana.com",
+    "featured": true,
+    "alternatives": [
+      {
+        "slug": "clickup-asana",
+        "name": "ClickUp",
+        "oneLiner": "All-in-one tasks, docs, and goals that many use instead of Asana.",
+        "pricing": "freemium",
+        "website": "https://clickup.com",
+        "affiliateParam": "ref=altswitch",
+        "pros": [
+          "Many views in one app",
+          "Docs + tasks together",
+          "Generous free tier start"
+        ],
+        "cons": [
+          "Can feel bloated",
+          "Learning curve",
+          "Perf varies on big workspaces"
+        ],
+        "bestFor": "Teams consolidating Asana + docs into one tool.",
+        "pricingNotes": "Freemium; paid seats unlock limits and advanced features."
+      },
+      {
+        "slug": "monday-asana",
+        "name": "monday.com",
+        "oneLiner": "Colorful work OS with boards, automations, and dashboards.",
+        "pricing": "paid",
+        "website": "https://monday.com",
+        "affiliateParam": "ref=altswitch",
+        "pros": [
+          "Visual boards",
+          "Strong automations",
+          "Templates for many teams"
+        ],
+        "cons": [
+          "Gets pricey per seat",
+          "Can be noisy",
+          "Overkill for tiny teams"
+        ],
+        "bestFor": "Ops and cross-functional teams that want visual boards.",
+        "pricingNotes": "Paid plans by seat; trial common. Compare annual discounts."
+      },
+      {
+        "slug": "trello-asana",
+        "name": "Trello",
+        "oneLiner": "Simple Kanban boards — lighter than full Asana.",
+        "pricing": "freemium",
+        "website": "https://trello.com",
+        "affiliateParam": "ref=altswitch",
+        "pros": [
+          "Dead-simple Kanban",
+          "Power-Ups ecosystem",
+          "Easy onboarding"
+        ],
+        "cons": [
+          "Weak for complex portfolios",
+          "Atlassian bundling push",
+          "Limits on free"
+        ],
+        "bestFor": "Small teams that only need boards, not full work graphs.",
+        "pricingNotes": "Freemium; Premium/Enterprise for advanced features."
+      },
+      {
+        "slug": "linear-asana",
+        "name": "Linear",
+        "oneLiner": "Fast issue tracker preferred by product/eng over heavy PM suites.",
+        "pricing": "freemium",
+        "website": "https://linear.app",
+        "affiliateParam": "ref=altswitch",
+        "pros": [
+          "Blazing UX",
+          "Great for eng/product",
+          "Clean workflows"
+        ],
+        "cons": [
+          "Not a full marketing/ops suite",
+          "Opinionated",
+          "Seat pricing at scale"
+        ],
+        "bestFor": "Product/eng teams leaving Asana for issue-centric work.",
+        "pricingNotes": "Free for small teams; paid per seat as you grow."
+      },
+      {
+        "slug": "plane-asana",
+        "name": "Plane",
+        "oneLiner": "Open-source project management with modern issue UX.",
+        "pricing": "oss",
+        "website": "https://plane.so",
+        "affiliateParam": "ref=altswitch",
+        "pros": [
+          "OSS + self-host",
+          "Issues/cycles feel modern",
+          "No lock-in"
+        ],
+        "cons": [
+          "Younger than Asana",
+          "Integrations growing",
+          "Cloud polish varies"
+        ],
+        "bestFor": "Teams wanting Asana/Linear vibes without SaaS lock-in.",
+        "pricingNotes": "Open source; cloud free tier + paid plans."
+      },
+      {
+        "slug": "height-asana",
+        "name": "Height",
+        "oneLiner": "Flexible PM with AI-assisted workflows.",
+        "pricing": "freemium",
+        "website": "https://height.app",
+        "affiliateParam": "ref=altswitch",
+        "pros": [
+          "Flexible views",
+          "AI-assisted tasks",
+          "All-in-one feel"
+        ],
+        "cons": [
+          "Less brand mindshare",
+          "Ecosystem smaller",
+          "Pricing to watch"
+        ],
+        "bestFor": "Product teams open to AI-leaning PM instead of Asana.",
+        "pricingNotes": "Freemium/paid — confirm seat pricing on site."
+      }
+    ]
+  },
+  {
+    "slug": "trello",
+    "name": "Trello",
+    "category": "Project Management",
+    "tagline": "Kanban boards for organizing anything",
+    "description": "Trello popularized Kanban for everyone. Power users outgrow cards and look for richer PM, while privacy fans want self-hosted boards.",
+    "website": "https://trello.com",
+    "featured": true,
+    "alternatives": [
+      {
+        "slug": "wekan",
+        "name": "Wekan",
+        "oneLiner": "Open-source Kanban you can self-host.",
+        "pricing": "oss",
+        "website": "https://wekan.github.io",
+        "affiliateParam": "ref=altswitch",
+        "pros": [
+          "True self-host Kanban",
+          "Familiar board model",
+          "No Atlassian lock-in"
+        ],
+        "cons": [
+          "You run the server",
+          "Fewer Power-Ups",
+          "UI less polished"
+        ],
+        "bestFor": "Teams that love Trello boards but want data ownership.",
+        "pricingNotes": "OSS free; pay only for hosting."
+      },
+      {
+        "slug": "planka",
+        "name": "Planka",
+        "oneLiner": "Realtime open-source project boards.",
+        "pricing": "oss",
+        "website": "https://planka.app",
+        "affiliateParam": "ref=altswitch",
+        "pros": [
+          "Realtime collab",
+          "Self-host friendly",
+          "Clean board UI"
+        ],
+        "cons": [
+          "Smaller community",
+          "Fewer enterprise features",
+          "Ops required"
+        ],
+        "bestFor": "Small teams wanting a modern self-hosted Trello.",
+        "pricingNotes": "Open source; self-host cost is your VPS."
+      },
+      {
+        "slug": "notion-trello",
+        "name": "Notion",
+        "oneLiner": "Databases and boards inside the workspace you may already use.",
+        "pricing": "freemium",
+        "website": "https://www.notion.so",
+        "affiliateParam": "ref=altswitch",
+        "pros": [
+          "Boards + docs in one",
+          "Flexible properties",
+          "Huge template scene"
+        ],
+        "cons": [
+          "Not pure Kanban speed",
+          "Perf on huge DBs",
+          "Seat pricing"
+        ],
+        "bestFor": "Teams already in Notion who outgrew simple Trello.",
+        "pricingNotes": "Freemium; Plus/Business for collaboration limits."
+      },
+      {
+        "slug": "clickup-trello",
+        "name": "ClickUp",
+        "oneLiner": "Board view plus lists, docs, and goals beyond Kanban.",
+        "pricing": "freemium",
+        "website": "https://clickup.com",
+        "affiliateParam": "ref=altswitch",
+        "pros": [
+          "Board + many other views",
+          "Replaces multiple tools",
+          "Free tier to start"
+        ],
+        "cons": [
+          "Feature overload",
+          "Can feel heavy",
+          "Migration takes time"
+        ],
+        "bestFor": "Teams graduating from Trello to fuller work management.",
+        "pricingNotes": "Freemium; paid for higher limits and features."
+      },
+      {
+        "slug": "jira-trello",
+        "name": "Jira",
+        "oneLiner": "Atlassian’s deeper issue tracker when boards aren’t enough.",
+        "pricing": "freemium",
+        "website": "https://www.atlassian.com/software/jira",
+        "affiliateParam": "ref=altswitch",
+        "pros": [
+          "Powerful workflows",
+          "Same Atlassian family",
+          "Strong eng ecosystem"
+        ],
+        "cons": [
+          "Heavier than Trello",
+          "Admin complexity",
+          "Cost at scale"
+        ],
+        "bestFor": "Software teams that outgrew casual Kanban.",
+        "pricingNotes": "Free for small teams; Standard/Premium per seat."
+      },
+      {
+        "slug": "asana-trello",
+        "name": "Asana",
+        "oneLiner": "Structured tasks, timelines, and workloads beyond cards.",
+        "pricing": "freemium",
+        "website": "https://asana.com",
+        "affiliateParam": "ref=altswitch",
+        "pros": [
+          "Clear task hierarchy",
+          "Timeline/workload views",
+          "Mature product"
+        ],
+        "cons": [
+          "More process than Trello",
+          "Paid for advanced",
+          "Can feel corporate"
+        ],
+        "bestFor": "Cross-functional teams needing structure without Jira weight.",
+        "pricingNotes": "Free basic; Premium/Business unlock timeline & more."
+      }
+    ]
+  },
+  {
+    "slug": "monday",
+    "name": "monday.com",
+    "category": "Project Management",
+    "tagline": "Work OS with boards, automations, and dashboards",
+    "description": "monday.com sells a colorful Work OS. Seat prices push many teams toward lighter PM tools or open-source boards.",
+    "website": "https://monday.com",
+    "featured": true,
+    "alternatives": [
+      {
+        "slug": "clickup-monday",
+        "name": "ClickUp",
+        "oneLiner": "Feature-dense Work OS alternative often compared to monday.",
+        "pricing": "freemium",
+        "website": "https://clickup.com",
+        "affiliateParam": "ref=altswitch",
+        "pros": [
+          "Broad feature set",
+          "Competitive free tier",
+          "Many views"
+        ],
+        "cons": [
+          "Complexity",
+          "UI density",
+          "Similar “suite” feel"
+        ],
+        "bestFor": "Teams comparing Work OS vendors on price and features.",
+        "pricingNotes": "Freemium vs monday’s paid-first model — run the math."
+      },
+      {
+        "slug": "asana-monday",
+        "name": "Asana",
+        "oneLiner": "Established work management with cleaner task focus.",
+        "pricing": "freemium",
+        "website": "https://asana.com",
+        "affiliateParam": "ref=altswitch",
+        "pros": [
+          "Mature UX",
+          "Strong mobile",
+          "Clear task model"
+        ],
+        "cons": [
+          "Less “OS” customization",
+          "Paid for advanced",
+          "Reporting limits by plan"
+        ],
+        "bestFor": "Teams wanting polish without monday’s board-first aesthetic.",
+        "pricingNotes": "Free + paid tiers; often cheaper at similar seats — verify."
+      },
+      {
+        "slug": "notion-monday",
+        "name": "Notion",
+        "oneLiner": "Flexible databases that can replace light monday boards.",
+        "pricing": "freemium",
+        "website": "https://www.notion.so",
+        "affiliateParam": "ref=altswitch",
+        "pros": [
+          "Docs + DB in one",
+          "Flexible",
+          "Great for knowledge + light PM"
+        ],
+        "cons": [
+          "Weaker native automations",
+          "Not a full Work OS",
+          "Scale limits"
+        ],
+        "bestFor": "Startups already documenting in Notion.",
+        "pricingNotes": "Freemium seat model; no monday-style board SKUs."
+      },
+      {
+        "slug": "plane-monday",
+        "name": "Plane",
+        "oneLiner": "Open-source alternative for issues and project modules.",
+        "pricing": "oss",
+        "website": "https://plane.so",
+        "affiliateParam": "ref=altswitch",
+        "pros": [
+          "Self-host option",
+          "Modern issue UX",
+          "Cost control"
+        ],
+        "cons": [
+          "Fewer templates than monday",
+          "Younger product",
+          "Integrations growing"
+        ],
+        "bestFor": "Tech teams escaping Work OS pricing.",
+        "pricingNotes": "OSS / cloud free + paid — far less than typical monday seats."
+      },
+      {
+        "slug": "wrike",
+        "name": "Wrike",
+        "oneLiner": "Enterprise work management with proofing and complex workflows.",
+        "pricing": "freemium",
+        "website": "https://www.wrike.com",
+        "affiliateParam": "ref=altswitch",
+        "pros": [
+          "Enterprise features",
+          "Proofing for creative",
+          "Scalable structure"
+        ],
+        "cons": [
+          "Heavier UX",
+          "Sales-led pricing",
+          "Overkill for SMBs"
+        ],
+        "bestFor": "Larger orgs comparing monday to enterprise PM.",
+        "pricingNotes": "Free starter; paid plans often quote-based at scale."
+      },
+      {
+        "slug": "smartsheet",
+        "name": "Smartsheet",
+        "oneLiner": "Spreadsheet-like work management popular in ops and PMO.",
+        "pricing": "paid",
+        "website": "https://www.smartsheet.com",
+        "affiliateParam": "ref=altswitch",
+        "pros": [
+          "Sheet mental model",
+          "Strong for PMO",
+          "Automations & dashboards"
+        ],
+        "cons": [
+          "Enterprise pricing",
+          "Less “startup cute”",
+          "Learning curve"
+        ],
+        "bestFor": "Ops/PMO teams that think in grids not Kanban.",
+        "pricingNotes": "Paid per user; enterprise quotes common."
+      }
+    ]
+  },
+  {
+    "slug": "clickup",
+    "name": "ClickUp",
+    "category": "Project Management",
+    "tagline": "All-in-one productivity platform",
+    "description": "ClickUp packs tasks, docs, goals, and more. Some teams love the density; others switch to simpler or open tools when it feels heavy.",
+    "website": "https://clickup.com",
+    "featured": true,
+    "alternatives": [
+      {
+        "slug": "linear-clickup",
+        "name": "Linear",
+        "oneLiner": "Minimal, fast issue tracking instead of a mega-suite.",
+        "pricing": "freemium",
+        "website": "https://linear.app",
+        "affiliateParam": "ref=altswitch",
+        "pros": [
+          "Speed and focus",
+          "Excellent eng UX",
+          "Less clutter"
+        ],
+        "cons": [
+          "Narrower than ClickUp",
+          "Not a docs suite",
+          "Seat cost later"
+        ],
+        "bestFor": "Product/eng teams who found ClickUp too broad.",
+        "pricingNotes": "Free small teams; paid per seat."
+      },
+      {
+        "slug": "asana-clickup",
+        "name": "Asana",
+        "oneLiner": "Cleaner work management with less feature sprawl.",
+        "pricing": "freemium",
+        "website": "https://asana.com",
+        "affiliateParam": "ref=altswitch",
+        "pros": [
+          "Polished UX",
+          "Clear hierarchy",
+          "Strong adoption"
+        ],
+        "cons": [
+          "Fewer “everything” features",
+          "Paid for advanced",
+          "Less customizable"
+        ],
+        "bestFor": "Teams wanting structure without ClickUp’s density.",
+        "pricingNotes": "Freemium; Premium unlocks timeline and more."
+      },
+      {
+        "slug": "height-clickup",
+        "name": "Height",
+        "oneLiner": "Flexible autonomous PM with a modern feel.",
+        "pricing": "freemium",
+        "website": "https://height.app",
+        "affiliateParam": "ref=altswitch",
+        "pros": [
+          "Flexible tasks",
+          "AI assists",
+          "Less legacy UI"
+        ],
+        "cons": [
+          "Smaller ecosystem",
+          "Mindshare vs ClickUp",
+          "Maturity"
+        ],
+        "bestFor": "Startups shopping ClickUp alternatives with AI angle.",
+        "pricingNotes": "Freemium/paid — check current limits."
+      },
+      {
+        "slug": "plane-clickup",
+        "name": "Plane",
+        "oneLiner": "Open-source project tool for issues and cycles.",
+        "pricing": "oss",
+        "website": "https://plane.so",
+        "affiliateParam": "ref=altswitch",
+        "pros": [
+          "Self-host",
+          "Modern defaults",
+          "No suite tax"
+        ],
+        "cons": [
+          "Not a full ClickUp clone",
+          "Integrations TBD",
+          "Younger"
+        ],
+        "bestFor": "Tech teams wanting OSS over all-in-one SaaS.",
+        "pricingNotes": "OSS + cloud tiers; typically cheaper at scale."
+      },
+      {
+        "slug": "todoist",
+        "name": "Todoist",
+        "oneLiner": "Personal/team task lists without the mega-platform.",
+        "pricing": "freemium",
+        "website": "https://todoist.com",
+        "affiliateParam": "ref=altswitch",
+        "pros": [
+          "Simple & fast",
+          "Great mobile",
+          "Natural language tasks"
+        ],
+        "cons": [
+          "Not full project portfolio",
+          "Light docs",
+          "Team features limited"
+        ],
+        "bestFor": "Individuals and small teams who only needed ClickUp for tasks.",
+        "pricingNotes": "Freemium; Pro/Business for reminders and team."
+      },
+      {
+        "slug": "fibery",
+        "name": "Fibery",
+        "oneLiner": "Connected workspaces for product knowledge + work.",
+        "pricing": "freemium",
+        "website": "https://fibery.io",
+        "affiliateParam": "ref=altswitch",
+        "pros": [
+          "Linked databases",
+          "Product-centric",
+          "Flexible modeling"
+        ],
+        "cons": [
+          "Learning curve",
+          "Smaller market",
+          "Niche vs ClickUp"
+        ],
+        "bestFor": "Product orgs wanting structured knowledge + work.",
+        "pricingNotes": "Freemium; paid for larger workspaces."
+      }
+    ]
+  },
+  {
+    "slug": "confluence",
+    "name": "Confluence",
+    "category": "Knowledge Base",
+    "tagline": "Atlassian team wiki and documentation",
+    "description": "Confluence is the default wiki beside Jira. Teams leave for simpler editors, Notion-like tools, or self-hosted docs.",
+    "website": "https://www.atlassian.com/software/confluence",
+    "featured": true,
+    "alternatives": [
+      {
+        "slug": "notion-conf",
+        "name": "Notion",
+        "oneLiner": "Flexible docs and databases replacing many Confluence spaces.",
+        "pricing": "freemium",
+        "website": "https://www.notion.so",
+        "affiliateParam": "ref=altswitch",
+        "pros": [
+          "Modern editor",
+          "Databases + docs",
+          "Fast adoption"
+        ],
+        "cons": [
+          "Permissions less enterprise-rigid",
+          "Offline limited",
+          "Atlassian ecosystem loss"
+        ],
+        "bestFor": "Startups swapping Confluence for a friendlier wiki.",
+        "pricingNotes": "Freemium seats; often simpler pricing than Confluence Cloud."
+      },
+      {
+        "slug": "outline-conf",
+        "name": "Outline",
+        "oneLiner": "Beautiful self-hostable team knowledge base.",
+        "pricing": "oss",
+        "website": "https://www.getoutline.com",
+        "affiliateParam": "ref=altswitch",
+        "pros": [
+          "Clean UX",
+          "Self-host",
+          "Slack/SSO friendly"
+        ],
+        "cons": [
+          "Fewer macros than Confluence",
+          "Ops if self-hosted",
+          "Smaller plugin set"
+        ],
+        "bestFor": "Teams wanting a focused wiki without Atlassian.",
+        "pricingNotes": "OSS + paid cloud per seat."
+      },
+      {
+        "slug": "bookstack",
+        "name": "BookStack",
+        "oneLiner": "Simple open-source documentation platform (books/chapters/pages).",
+        "pricing": "oss",
+        "website": "https://www.bookstackapp.com",
+        "affiliateParam": "ref=altswitch",
+        "pros": [
+          "Clear content hierarchy",
+          "Self-host easy",
+          "Free software"
+        ],
+        "cons": [
+          "Not a Notion clone",
+          "Fewer collab niceties",
+          "You maintain it"
+        ],
+        "bestFor": "Internal docs and manuals with classic hierarchy.",
+        "pricingNotes": "100% free OSS; hosting only."
+      },
+      {
+        "slug": "gitbook",
+        "name": "GitBook",
+        "oneLiner": "Docs platform popular for product and API documentation.",
+        "pricing": "freemium",
+        "website": "https://www.gitbook.com",
+        "affiliateParam": "ref=altswitch",
+        "pros": [
+          "Great for product docs",
+          "Git sync options",
+          "Modern publishing"
+        ],
+        "cons": [
+          "Less internal-wiki focused",
+          "Paid for teams",
+          "Different mental model"
+        ],
+        "bestFor": "Product/docs teams publishing customer-facing docs.",
+        "pricingNotes": "Freemium; paid for advanced collaboration and branding."
+      },
+      {
+        "slug": "slab",
+        "name": "Slab",
+        "oneLiner": "Knowledge base built for searchable team topics.",
+        "pricing": "paid",
+        "website": "https://slab.com",
+        "affiliateParam": "ref=altswitch",
+        "pros": [
+          "Strong search",
+          "Clean writing UX",
+          "Integrations"
+        ],
+        "cons": [
+          "Paid product",
+          "Smaller than Notion",
+          "Less DIY structure"
+        ],
+        "bestFor": "Teams prioritizing findability over Confluence macros.",
+        "pricingNotes": "Paid per user; trial usually available."
+      },
+      {
+        "slug": "wiki-js",
+        "name": "Wiki.js",
+        "oneLiner": "Modern open-source wiki with many storage backends.",
+        "pricing": "oss",
+        "website": "https://js.wiki",
+        "affiliateParam": "ref=altswitch",
+        "pros": [
+          "OSS & flexible",
+          "Markdown-friendly",
+          "Self-host"
+        ],
+        "cons": [
+          "Admin setup",
+          "UX varies by theme",
+          "Less SaaS polish"
+        ],
+        "bestFor": "Technical teams hosting their own wiki.",
+        "pricingNotes": "Free OSS; infrastructure cost only."
+      }
+    ]
+  },
+  {
+    "slug": "dropbox",
+    "name": "Dropbox",
+    "category": "File Storage",
+    "tagline": "Cloud file sync and sharing",
+    "description": "Dropbox made sync mainstream. Alternatives compete on price, privacy, open-source self-hosting, and Google/Microsoft bundles.",
+    "website": "https://www.dropbox.com",
+    "featured": false,
+    "alternatives": [
+      {
+        "slug": "nextcloud",
+        "name": "Nextcloud",
+        "oneLiner": "Self-hosted files, sync, and collab suite.",
+        "pricing": "oss",
+        "website": "https://nextcloud.com",
+        "affiliateParam": "ref=altswitch",
+        "pros": [
+          "Full data ownership",
+          "Apps beyond files",
+          "Active ecosystem"
+        ],
+        "cons": [
+          "You operate it",
+          "Setup complexity",
+          "Perf depends on hardware"
+        ],
+        "bestFor": "Privacy-focused orgs ditching Dropbox for self-host.",
+        "pricingNotes": "OSS free; Nextcloud Enterprise/support paid. Hosting is yours."
+      },
+      {
+        "slug": "proton-drive",
+        "name": "Proton Drive",
+        "oneLiner": "Encrypted cloud storage from the Proton privacy suite.",
+        "pricing": "freemium",
+        "website": "https://proton.me/drive",
+        "affiliateParam": "ref=altswitch",
+        "pros": [
+          "E2E encryption focus",
+          "Proton ecosystem",
+          "Privacy brand"
+        ],
+        "cons": [
+          "Fewer collab features than Dropbox",
+          "Ecosystem smaller",
+          "Speed varies"
+        ],
+        "bestFor": "Individuals prioritizing encrypted personal storage.",
+        "pricingNotes": "Free limited storage; paid via Proton plans."
+      },
+      {
+        "slug": "google-drive-db",
+        "name": "Google Drive",
+        "oneLiner": "Bundled storage with Docs/Sheets — often “free” with Workspace.",
+        "pricing": "freemium",
+        "website": "https://drive.google.com",
+        "affiliateParam": "ref=altswitch",
+        "pros": [
+          "Deep Docs integration",
+          "Workspace bundling",
+          "Ubiquitous"
+        ],
+        "cons": [
+          "Google privacy tradeoffs",
+          "Sharing sprawl",
+          "Enterprise admin complexity"
+        ],
+        "bestFor": "Teams already on Google Workspace.",
+        "pricingNotes": "15GB free personal; Workspace billed per seat with storage pools."
+      },
+      {
+        "slug": "onedrive",
+        "name": "OneDrive",
+        "oneLiner": "Microsoft’s sync layer tied to Office and M365.",
+        "pricing": "freemium",
+        "website": "https://www.microsoft.com/en-us/microsoft-365/onedrive/online-cloud-storage",
+        "affiliateParam": "ref=altswitch",
+        "pros": [
+          "M365 bundle value",
+          "Office integration",
+          "Familiar for Windows"
+        ],
+        "cons": [
+          "Microsoft lock-in",
+          "Consumer vs work confusion",
+          "Sync quirks"
+        ],
+        "bestFor": "Organizations standardized on Microsoft 365.",
+        "pricingNotes": "Included with many M365 plans; standalone options exist."
+      },
+      {
+        "slug": "pcloud",
+        "name": "pCloud",
+        "oneLiner": "Consumer/pro cloud storage with optional lifetime deals.",
+        "pricing": "paid",
+        "website": "https://www.pcloud.com",
+        "affiliateParam": "ref=altswitch",
+        "pros": [
+          "Lifetime license options",
+          "Crypto folder add-on",
+          "Client apps"
+        ],
+        "cons": [
+          "Not enterprise Dropbox Business",
+          "Trust/vendor diligence",
+          "Collab lighter"
+        ],
+        "bestFor": "Individuals comparing long-term storage cost vs Dropbox.",
+        "pricingNotes": "Subscription or lifetime; Encryption is often an add-on."
+      },
+      {
+        "slug": "seafile",
+        "name": "Seafile",
+        "oneLiner": "Open-source file sync focused on speed and reliability.",
+        "pricing": "oss",
+        "website": "https://www.seafile.com",
+        "affiliateParam": "ref=altswitch",
+        "pros": [
+          "Efficient sync",
+          "Self-host",
+          "Professional edition available"
+        ],
+        "cons": [
+          "UI less trendy",
+          "Community size",
+          "You manage backups"
+        ],
+        "bestFor": "Teams wanting Dropbox-like sync on their own servers.",
+        "pricingNotes": "Community OSS; Professional licensed. Hosting separate."
+      }
+    ]
+  },
+  {
+    "slug": "zoom",
+    "name": "Zoom",
+    "category": "Video Conferencing",
+    "tagline": "Video meetings for work and webinars",
+    "description": "Zoom dominated meetings. Teams now compare free tiers, privacy, open-source SFU stacks, and bundles from Google/Microsoft.",
+    "website": "https://zoom.us",
+    "featured": true,
+    "alternatives": [
+      {
+        "slug": "google-meet",
+        "name": "Google Meet",
+        "oneLiner": "Browser meetings bundled with Google Workspace.",
+        "pricing": "freemium",
+        "website": "https://meet.google.com",
+        "affiliateParam": "ref=altswitch",
+        "pros": [
+          "No heavy client required",
+          "Workspace integration",
+          "Solid reliability"
+        ],
+        "cons": [
+          "Fewer webinar bells on low plans",
+          "Google account world",
+          "Admin in Workspace"
+        ],
+        "bestFor": "Teams already paying for Google Workspace.",
+        "pricingNotes": "Free limited; full features with Workspace editions."
+      },
+      {
+        "slug": "teams",
+        "name": "Microsoft Teams",
+        "oneLiner": "Chat + meetings inside the Microsoft 365 bundle.",
+        "pricing": "freemium",
+        "website": "https://www.microsoft.com/en-us/microsoft-teams/",
+        "affiliateParam": "ref=altswitch",
+        "pros": [
+          "M365 value bundle",
+          "Chat + meet + files",
+          "Enterprise admin"
+        ],
+        "cons": [
+          "Heavier client",
+          "UX polarizing",
+          "Overkill if you only need meetings"
+        ],
+        "bestFor": "Microsoft-centric enterprises replacing Zoom seats.",
+        "pricingNotes": "Included in many M365 plans; free personal tier exists."
+      },
+      {
+        "slug": "jitsi",
+        "name": "Jitsi Meet",
+        "oneLiner": "Open-source video meetings you can self-host or use publicly.",
+        "pricing": "oss",
+        "website": "https://meet.jit.si",
+        "affiliateParam": "ref=altswitch",
+        "pros": [
+          "OSS / self-host",
+          "No account required on public",
+          "Good enough quality"
+        ],
+        "cons": [
+          "Scale needs tuning",
+          "Fewer enterprise webinar tools",
+          "Support DIY"
+        ],
+        "bestFor": "Privacy-minded teams and communities avoiding Zoom accounts.",
+        "pricingNotes": "Free software; 8x8 offers paid JaaS. Self-host = infra."
+      },
+      {
+        "slug": "whereby",
+        "name": "Whereby",
+        "oneLiner": "Simple browser-based meeting rooms with permanent links.",
+        "pricing": "freemium",
+        "website": "https://whereby.com",
+        "affiliateParam": "ref=altswitch",
+        "pros": [
+          "No downloads",
+          "Permanent room URLs",
+          "Clean UX"
+        ],
+        "cons": [
+          "Less enterprise suite",
+          "Participant limits by plan",
+          "Brand smaller"
+        ],
+        "bestFor": "Customer success and sales who want frictionless join links.",
+        "pricingNotes": "Freemium; paid for team rooms and higher limits."
+      },
+      {
+        "slug": "discord-zoom",
+        "name": "Discord",
+        "oneLiner": "Always-on voice/video communities — different from scheduled Zoom.",
+        "pricing": "freemium",
+        "website": "https://discord.com",
+        "affiliateParam": "ref=altswitch",
+        "pros": [
+          "Free voice channels",
+          "Community features",
+          "Screen share"
+        ],
+        "cons": [
+          "Not corporate webinar tool",
+          "Compliance weaker",
+          "Noise culture"
+        ],
+        "bestFor": "Communities and informal teams, not board webinars.",
+        "pricingNotes": "Free core; Nitro optional for individuals."
+      },
+      {
+        "slug": "livekit",
+        "name": "LiveKit",
+        "oneLiner": "Open-source WebRTC stack to build your own meeting product.",
+        "pricing": "oss",
+        "website": "https://livekit.io",
+        "affiliateParam": "ref=altswitch",
+        "pros": [
+          "Build custom video",
+          "OSS SFU",
+          "Cloud option"
+        ],
+        "cons": [
+          "Requires engineering",
+          "Not a drop-in Zoom UI",
+          "You own UX"
+        ],
+        "bestFor": "Product teams embedding video instead of buying Zoom.",
+        "pricingNotes": "OSS free; LiveKit Cloud usage-based."
+      }
+    ]
+  },
+  {
+    "slug": "intercom",
+    "name": "Intercom",
+    "category": "Support",
+    "tagline": "Customer messaging and support platform",
+    "description": "Intercom blends chat, helpdesk, and product messaging — at a premium. Teams seek cheaper inboxes or open-source engagement suites.",
+    "website": "https://www.intercom.com",
+    "featured": true,
+    "alternatives": [
+      {
+        "slug": "crisp",
+        "name": "Crisp",
+        "oneLiner": "Affordable shared inbox and chat for SMBs.",
+        "pricing": "freemium",
+        "website": "https://crisp.chat",
+        "affiliateParam": "ref=altswitch",
+        "pros": [
+          "Lower cost than Intercom",
+          "Chat + inbox",
+          "Quick setup"
+        ],
+        "cons": [
+          "Less product suite depth",
+          "Brand smaller",
+          "Automation mid-tier"
+        ],
+        "bestFor": "SMBs needing chat without Intercom pricing.",
+        "pricingNotes": "Freemium; paid seats far below typical Intercom quotes."
+      },
+      {
+        "slug": "chatwoot-ic",
+        "name": "Chatwoot",
+        "oneLiner": "Open-source customer engagement suite.",
+        "pricing": "oss",
+        "website": "https://www.chatwoot.com",
+        "affiliateParam": "ref=altswitch",
+        "pros": [
+          "Self-host or cloud",
+          "Multi-channel",
+          "No Intercom lock-in"
+        ],
+        "cons": [
+          "Ops if self-hosted",
+          "Fewer enterprise bells",
+          "DIY polish"
+        ],
+        "bestFor": "Teams wanting an open Intercom-like stack.",
+        "pricingNotes": "OSS free; Chatwoot Cloud paid."
+      },
+      {
+        "slug": "helpscout-ic",
+        "name": "Help Scout",
+        "oneLiner": "Human shared inbox with docs — calmer than chat-first Intercom.",
+        "pricing": "paid",
+        "website": "https://www.helpscout.com",
+        "affiliateParam": "ref=altswitch",
+        "pros": [
+          "Friendly agent UX",
+          "Docs + beacon",
+          "Email-first strength"
+        ],
+        "cons": [
+          "Less “conversational marketing”",
+          "Paid per user",
+          "AI catching up"
+        ],
+        "bestFor": "Support teams that live in email more than live chat.",
+        "pricingNotes": "Paid per user; mid-market vs Intercom enterprise."
+      },
+      {
+        "slug": "zendesk-ic",
+        "name": "Zendesk",
+        "oneLiner": "Enterprise ticketing suite when you outgrow chat widgets.",
+        "pricing": "paid",
+        "website": "https://www.zendesk.com",
+        "affiliateParam": "ref=altswitch",
+        "pros": [
+          "Mature ticketing",
+          "Huge marketplace",
+          "Omnichannel"
+        ],
+        "cons": [
+          "Also expensive",
+          "Complex admin",
+          "Different product philosophy"
+        ],
+        "bestFor": "Support orgs needing classic tickets more than Intercom chat.",
+        "pricingNotes": "Paid suites — compare total agent cost carefully."
+      },
+      {
+        "slug": "front",
+        "name": "Front",
+        "oneLiner": "Shared inbox for email-centric customer teams.",
+        "pricing": "paid",
+        "website": "https://front.com",
+        "affiliateParam": "ref=altswitch",
+        "pros": [
+          "Excellent shared inbox",
+          "Assignments & rules",
+          "Polished UX"
+        ],
+        "cons": [
+          "Pricey seats",
+          "Less product messaging suite",
+          "Not OSS"
+        ],
+        "bestFor": "CS teams centered on collaborative email.",
+        "pricingNotes": "Paid per seat; positioned below Intercom suite complexity."
+      },
+      {
+        "slug": "plain",
+        "name": "Plain",
+        "oneLiner": "Modern support tool aimed at B2B SaaS clarity.",
+        "pricing": "paid",
+        "website": "https://www.plain.com",
+        "affiliateParam": "ref=altswitch",
+        "pros": [
+          "Clean modern UX",
+          "Built for SaaS support",
+          "API-friendly"
+        ],
+        "cons": [
+          "Younger vendor",
+          "Smaller ecosystem",
+          "Paid only"
+        ],
+        "bestFor": "B2B SaaS teams wanting a fresher Intercom alternative.",
+        "pricingNotes": "Paid — check current pricing page for seat model."
+      }
+    ]
+  },
+  {
+    "slug": "canva",
+    "name": "Canva",
+    "category": "Design",
+    "tagline": "Easy graphic design for non-designers",
+    "description": "Canva owns “design for everyone.” Alternatives range from open-source editors to Figma for UI and Adobe for pros.",
+    "website": "https://www.canva.com",
+    "featured": true,
+    "alternatives": [
+      {
+        "slug": "figma-canva",
+        "name": "Figma",
+        "oneLiner": "Professional UI/brand design with real-time collab.",
+        "pricing": "freemium",
+        "website": "https://www.figma.com",
+        "affiliateParam": "ref=altswitch",
+        "pros": [
+          "Pro design systems",
+          "Multiplayer",
+          "Dev handoff"
+        ],
+        "cons": [
+          "Steeper than Canva",
+          "Not template-first social graphics",
+          "Seat pricing"
+        ],
+        "bestFor": "Product/marketing teams needing real design files, not just posts.",
+        "pricingNotes": "Freemium; paid seats for pro features."
+      },
+      {
+        "slug": "penpot-canva",
+        "name": "Penpot",
+        "oneLiner": "Open-source design tool for teams.",
+        "pricing": "oss",
+        "website": "https://penpot.app",
+        "affiliateParam": "ref=altswitch",
+        "pros": [
+          "OSS / self-host",
+          "SVG-native",
+          "No Canva lock-in"
+        ],
+        "cons": [
+          "Fewer ready templates",
+          "Learning curve",
+          "Less “magic resize”"
+        ],
+        "bestFor": "Teams wanting design freedom without Canva Pro.",
+        "pricingNotes": "OSS free; Penpot Cloud freemium/paid."
+      },
+      {
+        "slug": "affinity",
+        "name": "Affinity Suite",
+        "oneLiner": "One-time-purchase pro design apps (Designer/Photo/Publisher).",
+        "pricing": "paid",
+        "website": "https://affinity.serif.com",
+        "affiliateParam": "ref=altswitch",
+        "pros": [
+          "Often one-time pricing eras",
+          "Pro capabilities",
+          "No subscription required historically"
+        ],
+        "cons": [
+          "Not browser-collab Canva",
+          "Learning curve",
+          "Ownership model evolving under Canva Inc."
+        ],
+        "bestFor": "Pros who want desktop power without Adobe CC.",
+        "pricingNotes": "Check current Serif/Canva ownership pricing model."
+      },
+      {
+        "slug": "photopea",
+        "name": "Photopea",
+        "oneLiner": "Browser Photoshop-like editor — free with ads or premium.",
+        "pricing": "freemium",
+        "website": "https://www.photopea.com",
+        "affiliateParam": "ref=altswitch",
+        "pros": [
+          "Runs in browser",
+          "PSD support",
+          "Powerful for free"
+        ],
+        "cons": [
+          "Ad-supported free",
+          "Not team brand kits",
+          "UI like Photoshop"
+        ],
+        "bestFor": "Individuals editing graphics without Canva templates.",
+        "pricingNotes": "Free + ads; Premium removes ads / extras."
+      },
+      {
+        "slug": "visme",
+        "name": "Visme",
+        "oneLiner": "Presentations and infographics for business content.",
+        "pricing": "freemium",
+        "website": "https://www.visme.co",
+        "affiliateParam": "ref=altswitch",
+        "pros": [
+          "Biz templates",
+          "Charts/infographics",
+          "Brand kits"
+        ],
+        "cons": [
+          "Less consumer social focus",
+          "Paid for full",
+          "Niche vs Canva"
+        ],
+        "bestFor": "Marketers making decks and reports more than IG posts.",
+        "pricingNotes": "Freemium; paid plans for downloads and brand controls."
+      },
+      {
+        "slug": "acrobat-express",
+        "name": "Adobe Express",
+        "oneLiner": "Adobe’s Canva-like quick content tool.",
+        "pricing": "freemium",
+        "website": "https://www.adobe.com/express/",
+        "affiliateParam": "ref=altswitch",
+        "pros": [
+          "Adobe assets",
+          "Quick templates",
+          "CC integration path"
+        ],
+        "cons": [
+          "Adobe account world",
+          "Upsell to CC",
+          "Feature overlap confusion"
+        ],
+        "bestFor": "Teams already in Adobe who want Canva-speed creation.",
+        "pricingNotes": "Freemium; Premium / CC bundles for full features."
+      }
+    ]
+  },
+  {
+    "slug": "miro",
+    "name": "Miro",
+    "category": "Whiteboarding",
+    "tagline": "Online collaborative whiteboard",
+    "description": "Miro is the default infinite canvas for workshops. Competitors offer cheaper boards, FigJam adjacency, or open-source canvases.",
+    "website": "https://miro.com",
+    "featured": true,
+    "alternatives": [
+      {
+        "slug": "figjam",
+        "name": "FigJam",
+        "oneLiner": "Figma’s whiteboard — great if you already design in Figma.",
+        "pricing": "freemium",
+        "website": "https://www.figma.com/figjam/",
+        "affiliateParam": "ref=altswitch",
+        "pros": [
+          "Tight Figma handoff",
+          "Fun facilitation tools",
+          "Same login"
+        ],
+        "cons": [
+          "Figma pricing world",
+          "Less “enterprise workshop” depth than Miro",
+          "Vendor concentration"
+        ],
+        "bestFor": "Product/design teams standardized on Figma.",
+        "pricingNotes": "Included/add-on in Figma plans — check seat bundling."
+      },
+      {
+        "slug": "excalidraw",
+        "name": "Excalidraw",
+        "oneLiner": "Hand-drawn feel diagrams — open source and delightfully simple.",
+        "pricing": "oss",
+        "website": "https://excalidraw.com",
+        "affiliateParam": "ref=altswitch",
+        "pros": [
+          "OSS + privacy modes",
+          "Fast sketching",
+          "Great for eng diagrams"
+        ],
+        "cons": [
+          "Not full workshop OS",
+          "Fewer templates",
+          "Facilitation features lighter"
+        ],
+        "bestFor": "Engineers and educators who want lightweight boards.",
+        "pricingNotes": "Free web app; Excalidraw+ / self-host options."
+      },
+      {
+        "slug": "tldraw",
+        "name": "tldraw",
+        "oneLiner": "Excellent open-source canvas SDK and app.",
+        "pricing": "oss",
+        "website": "https://www.tldraw.com",
+        "affiliateParam": "ref=altswitch",
+        "pros": [
+          "Beautiful canvas UX",
+          "OSS / embeddable",
+          "Active development"
+        ],
+        "cons": [
+          "Product vs library overlap",
+          "Less enterprise Miro parity",
+          "Younger business tools"
+        ],
+        "bestFor": "Builders embedding whiteboards or simple collab canvases.",
+        "pricingNotes": "OSS; commercial license/cloud offerings evolving."
+      },
+      {
+        "slug": "mural",
+        "name": "Mural",
+        "oneLiner": "Enterprise facilitation whiteboards — Miro’s closest peer.",
+        "pricing": "paid",
+        "website": "https://www.mural.co",
+        "affiliateParam": "ref=altswitch",
+        "pros": [
+          "Facilitation methods",
+          "Enterprise controls",
+          "Workshop templates"
+        ],
+        "cons": [
+          "Paid",
+          "Similar cost class to Miro",
+          "Learning methods"
+        ],
+        "bestFor": "Enterprises comparing Miro vs Mural RFPs.",
+        "pricingNotes": "Paid plans; enterprise quotes common."
+      },
+      {
+        "slug": "whimsical",
+        "name": "Whimsical",
+        "oneLiner": "Fast flowcharts, wireframes, and docs in one place.",
+        "pricing": "freemium",
+        "website": "https://whimsical.com",
+        "affiliateParam": "ref=altswitch",
+        "pros": [
+          "Speed for diagrams",
+          "Docs + boards",
+          "Clean UI"
+        ],
+        "cons": [
+          "Less infinite-workshop focus",
+          "Smaller than Miro",
+          "Limits on free"
+        ],
+        "bestFor": "PMs who need flows and wireframes more than sticky-note theaters.",
+        "pricingNotes": "Freemium; paid for unlimited items and teams."
+      },
+      {
+        "slug": "affine-miro",
+        "name": "AFFiNE",
+        "oneLiner": "Docs + whiteboard canvas with a privacy-first angle.",
+        "pricing": "freemium",
+        "website": "https://affine.pro",
+        "affiliateParam": "ref=altswitch",
+        "pros": [
+          "Docs and board together",
+          "Local-first options",
+          "Modern UX"
+        ],
+        "cons": [
+          "Smaller facilitation kit",
+          "Ecosystem growing",
+          "Not Miro Enterprise"
+        ],
+        "bestFor": "Teams wanting sketch + write without Miro seats.",
+        "pricingNotes": "Freemium cloud; self-host available."
+      }
+    ]
   }
 ]
