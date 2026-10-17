@@ -2618,5 +2618,1095 @@
         "pricingNotes": "Freemium cloud; self-host available."
       }
     ]
+  },
+  {
+    "slug": "shopify",
+    "name": "Shopify",
+    "category": "E-commerce",
+    "tagline": "Hosted ecommerce platform for online stores",
+    "description": "Shopify is the default hosted storefront for DTC brands. Founders often look for lower fees, more ownership, or headless/open-source stacks when growth or customization outgrows the all-in-one box.",
+    "website": "https://www.shopify.com",
+    "featured": true,
+    "alternatives": [
+      {
+        "slug": "medusa",
+        "name": "Medusa",
+        "oneLiner": "Open-source headless commerce engine built for customization.",
+        "pricing": "oss",
+        "website": "https://medusajs.com",
+        "affiliateParam": "ref=altswitch",
+        "pros": [
+          "True headless / API-first",
+          "Self-hostable & extensible",
+          "No Shopify-style transaction fees on the engine"
+        ],
+        "cons": [
+          "You own hosting & ops",
+          "Fewer turnkey themes than Shopify",
+          "Needs more engineering than a hosted store"
+        ],
+        "bestFor": "Teams that want a Shopify-flexible commerce backend they control.",
+        "pricingNotes": "OSS core free; Medusa Cloud / hosting optional paid."
+      },
+      {
+        "slug": "woocommerce",
+        "name": "WooCommerce",
+        "oneLiner": "WordPress ecommerce plugin — huge plugin ecosystem.",
+        "pricing": "oss",
+        "website": "https://woocommerce.com",
+        "affiliateParam": "ref=altswitch",
+        "pros": [
+          "Massive extension marketplace",
+          "Familiar WordPress stack",
+          "Full store ownership on your host"
+        ],
+        "cons": [
+          "Security/update burden",
+          "Performance depends on hosting",
+          "Can feel plugin-heavy"
+        ],
+        "bestFor": "Merchants already on WordPress who want store ownership.",
+        "pricingNotes": "Core free/OSS; paid extensions and hosting common."
+      },
+      {
+        "slug": "prestashop",
+        "name": "PrestaShop",
+        "oneLiner": "Open-source ecommerce suite popular outside the US.",
+        "pricing": "oss",
+        "website": "https://www.prestashop.com",
+        "affiliateParam": "ref=altswitch",
+        "pros": [
+          "Full-featured OSS storefront",
+          "Strong EU/multilingual pedigree",
+          "Large module catalog"
+        ],
+        "cons": [
+          "UI/UX less modern than Shopify",
+          "Module quality varies",
+          "Self-host maintenance"
+        ],
+        "bestFor": "EU-focused merchants wanting an OSS all-in-one shop.",
+        "pricingNotes": "OSS free; PrestaShop Marketplace modules and hosted offers paid."
+      },
+      {
+        "slug": "snipcart",
+        "name": "Snipcart",
+        "oneLiner": "Drop-in cart for static sites and JAMstack storefronts.",
+        "pricing": "paid",
+        "website": "https://snipcart.com",
+        "affiliateParam": "ref=altswitch",
+        "pros": [
+          "Works with any HTML/static site",
+          "Fast to ship a cart",
+          "Developer-friendly"
+        ],
+        "cons": [
+          "Transaction-based pricing",
+          "Not a full Shopify admin suite",
+          "Less “merchant OS” depth"
+        ],
+        "bestFor": "Devs adding checkout to custom or static storefronts.",
+        "pricingNotes": "Paid with % of sales; free developer/test mode."
+      },
+      {
+        "slug": "bigcommerce",
+        "name": "BigCommerce",
+        "oneLiner": "Hosted ecommerce peer to Shopify with strong B2B/API angle.",
+        "pricing": "paid",
+        "website": "https://www.bigcommerce.com",
+        "affiliateParam": "ref=altswitch",
+        "pros": [
+          "Hosted reliability",
+          "Solid APIs / headless options",
+          "No Shopify Apps tax model"
+        ],
+        "cons": [
+          "Still a SaaS lock-in",
+          "Plan limits on products/staff",
+          "App ecosystem smaller than Shopify"
+        ],
+        "bestFor": "Mid-market brands comparing hosted Shopify alternatives.",
+        "pricingNotes": "Paid plans; enterprise quotes for high volume."
+      }
+    ]
+  },
+  {
+    "slug": "wordpress",
+    "name": "WordPress",
+    "category": "CMS",
+    "tagline": "The open-source CMS that powers a huge share of the web",
+    "description": "WordPress is the default for blogs and marketing sites. Teams switch when they want managed hosting polish, fewer plugins, or a modern headless/CMS stack without PHP maintenance.",
+    "website": "https://wordpress.org",
+    "featured": true,
+    "alternatives": [
+      {
+        "slug": "ghost",
+        "name": "Ghost",
+        "oneLiner": "Publishing-focused CMS and newsletter platform — Node.js OSS.",
+        "pricing": "oss",
+        "website": "https://ghost.org",
+        "affiliateParam": "ref=altswitch",
+        "pros": [
+          "Clean writing UX",
+          "Built-in memberships/newsletters",
+          "Self-host or Ghost(Pro)"
+        ],
+        "cons": [
+          "Not a general page-builder CMS",
+          "Fewer plugins than WP",
+          "Theme ecosystem smaller"
+        ],
+        "bestFor": "Publishers and creators who care about posts + paid memberships.",
+        "pricingNotes": "OSS free to self-host; Ghost(Pro) hosted plans paid."
+      },
+      {
+        "slug": "webflow",
+        "name": "Webflow",
+        "oneLiner": "Visual site builder with CMS — designer-grade, hosted.",
+        "pricing": "paid",
+        "website": "https://webflow.com",
+        "affiliateParam": "ref=altswitch",
+        "pros": [
+          "Pixel-level design control",
+          "Hosted + CDN included",
+          "No PHP plugins to patch"
+        ],
+        "cons": [
+          "Can get expensive at scale",
+          "Learning curve for interactions",
+          "Less “blog community” than WP"
+        ],
+        "bestFor": "Marketing/design teams shipping polished marketing sites.",
+        "pricingNotes": "Paid site/workspace plans; free staging limited."
+      },
+      {
+        "slug": "framer",
+        "name": "Framer",
+        "oneLiner": "Design-to-site tool for fast, animated marketing pages.",
+        "pricing": "freemium",
+        "website": "https://www.framer.com",
+        "affiliateParam": "ref=altswitch",
+        "pros": [
+          "Designer-friendly canvas",
+          "Great motion/animations",
+          "Fast publish"
+        ],
+        "cons": [
+          "CMS depth vs WP",
+          "Pricing scales with traffic/features",
+          "Less plugin universe"
+        ],
+        "bestFor": "Startups shipping beautiful landing pages quickly.",
+        "pricingNotes": "Freemium; paid for custom domains, CMS, and higher limits."
+      },
+      {
+        "slug": "payload",
+        "name": "Payload",
+        "oneLiner": "TypeScript headless CMS you can self-host or run on Payload Cloud.",
+        "pricing": "oss",
+        "website": "https://payloadcms.com",
+        "affiliateParam": "ref=altswitch",
+        "pros": [
+          "Modern TS/Node DX",
+          "Self-hostable",
+          "Flexible auth & access control"
+        ],
+        "cons": [
+          "Needs developers",
+          "Not a visual WP page builder",
+          "Younger ecosystem than WP"
+        ],
+        "bestFor": "Eng teams building headless content apps in TypeScript.",
+        "pricingNotes": "OSS free; Payload Cloud / enterprise optional."
+      },
+      {
+        "slug": "strapi",
+        "name": "Strapi",
+        "oneLiner": "Popular open-source headless CMS with admin UI.",
+        "pricing": "oss",
+        "website": "https://strapi.io",
+        "affiliateParam": "ref=altswitch",
+        "pros": [
+          "Familiar admin panel",
+          "REST/GraphQL APIs",
+          "Large community"
+        ],
+        "cons": [
+          "Self-host ops",
+          "Plugin quality varies",
+          "Not a full site theme system"
+        ],
+        "bestFor": "Teams that want a headless CMS without WordPress PHP.",
+        "pricingNotes": "OSS free; Strapi Cloud and Enterprise paid."
+      }
+    ]
+  },
+  {
+    "slug": "zapier",
+    "name": "Zapier",
+    "category": "Automation",
+    "tagline": "No-code automation between thousands of apps",
+    "description": "Zapier connects SaaS tools with Zaps. Power users migrate when task limits get pricey, they need self-hosting, or they want more developer-grade workflows.",
+    "website": "https://zapier.com",
+    "featured": true,
+    "alternatives": [
+      {
+        "slug": "make",
+        "name": "Make",
+        "oneLiner": "Visual scenario automation — often cheaper per operation than Zapier.",
+        "pricing": "freemium",
+        "website": "https://www.make.com",
+        "affiliateParam": "ref=altswitch",
+        "pros": [
+          "Powerful visual builder",
+          "Strong ops pricing vs Zapier",
+          "Complex branching scenarios"
+        ],
+        "cons": [
+          "Steeper learning curve",
+          "App catalog slightly different",
+          "Debugging can get deep"
+        ],
+        "bestFor": "Ops teams building multi-step automations on a budget.",
+        "pricingNotes": "Freemium; paid by operations — often better value than Zapier at volume."
+      },
+      {
+        "slug": "n8n",
+        "name": "n8n",
+        "oneLiner": "Open-source workflow automation you can self-host.",
+        "pricing": "oss",
+        "website": "https://n8n.io",
+        "affiliateParam": "ref=altswitch",
+        "pros": [
+          "Self-host & keep data",
+          "Code nodes when needed",
+          "Fair-code / OSS model"
+        ],
+        "cons": [
+          "You run the infra",
+          "Fewer one-click consumer apps than Zapier",
+          "UI less “consumer polished”"
+        ],
+        "bestFor": "Technical teams who want Zapier power without SaaS lock-in.",
+        "pricingNotes": "OSS free to self-host; n8n Cloud paid."
+      },
+      {
+        "slug": "activepieces",
+        "name": "Activepieces",
+        "oneLiner": "Open-source Zapier-like automation with a growing piece catalog.",
+        "pricing": "oss",
+        "website": "https://www.activepieces.com",
+        "affiliateParam": "ref=altswitch",
+        "pros": [
+          "OSS + self-host",
+          "Familiar Zap-like UX",
+          "TypeScript pieces"
+        ],
+        "cons": [
+          "Smaller integration catalog",
+          "Younger product",
+          "Cloud features still catching up"
+        ],
+        "bestFor": "Startups wanting an OSS Zapier they can extend.",
+        "pricingNotes": "OSS free; cloud/hosted plans available."
+      },
+      {
+        "slug": "pipedream",
+        "name": "Pipedream",
+        "oneLiner": "Developer-first workflows with code steps and huge API coverage.",
+        "pricing": "freemium",
+        "website": "https://pipedream.com",
+        "affiliateParam": "ref=altswitch",
+        "pros": [
+          "Code-native steps",
+          "Great for APIs/webhooks",
+          "Fast iteration for eng"
+        ],
+        "cons": [
+          "Less no-code friendly",
+          "Pricing for heavy compute",
+          "Not pure business-user Zapier"
+        ],
+        "bestFor": "Engineers automating APIs without standing up infra.",
+        "pricingNotes": "Generous free tier; paid for higher invoke limits."
+      },
+      {
+        "slug": "windmill",
+        "name": "Windmill",
+        "oneLiner": "Open-source platform for scripts, workflows, and internal tools.",
+        "pricing": "oss",
+        "website": "https://www.windmill.dev",
+        "affiliateParam": "ref=altswitch",
+        "pros": [
+          "Scripts as first-class citizens",
+          "Self-hostable",
+          "Internal apps + workflows"
+        ],
+        "cons": [
+          "More eng-oriented than Zapier",
+          "Learning curve",
+          "Smaller no-code audience"
+        ],
+        "bestFor": "Teams replacing Zapier + internal scripts with one OSS platform.",
+        "pricingNotes": "OSS free; Windmill Cloud / enterprise paid."
+      }
+    ]
+  },
+  {
+    "slug": "heroku",
+    "name": "Heroku",
+    "category": "Hosting",
+    "tagline": "Classic PaaS for deploying apps with git push",
+    "description": "Heroku made deploy-from-git famous. Teams leave for better pricing, modern DX, or self-hosted PaaS after dyno costs and ecosystem shifts.",
+    "website": "https://www.heroku.com",
+    "featured": true,
+    "alternatives": [
+      {
+        "slug": "railway",
+        "name": "Railway",
+        "oneLiner": "Modern PaaS — deploy from Git with usage-based pricing.",
+        "pricing": "freemium",
+        "website": "https://railway.com",
+        "affiliateParam": "ref=altswitch",
+        "pros": [
+          "Fast git deploys",
+          "Databases & services in one UX",
+          "Usage-based vs fixed dynos"
+        ],
+        "cons": [
+          "Costs can surprise at scale",
+          "Less “enterprise Heroku” legacy",
+          "Regional options evolving"
+        ],
+        "bestFor": "Indie hackers and startups wanting Heroku simplicity today.",
+        "pricingNotes": "Usage-based; free trial credits common — check current plans."
+      },
+      {
+        "slug": "render",
+        "name": "Render",
+        "oneLiner": "Heroku-like PaaS with web services, cron, and Postgres.",
+        "pricing": "freemium",
+        "website": "https://render.com",
+        "affiliateParam": "ref=altswitch",
+        "pros": [
+          "Familiar Heroku mental model",
+          "Managed Postgres/Redis",
+          "Preview environments"
+        ],
+        "cons": [
+          "Free tier limited",
+          "Cold starts on free",
+          "Less niche add-on store than old Heroku"
+        ],
+        "bestFor": "Teams migrating Heroku apps with minimal rearchitecture.",
+        "pricingNotes": "Freemium; paid for always-on and larger services."
+      },
+      {
+        "slug": "fly-io",
+        "name": "Fly.io",
+        "oneLiner": "Run containers close to users on a global edge network.",
+        "pricing": "freemium",
+        "website": "https://fly.io",
+        "affiliateParam": "ref=altswitch",
+        "pros": [
+          "Global edge placement",
+          "Full VM/container control",
+          "Great for latency-sensitive apps"
+        ],
+        "cons": [
+          "More ops than classic PaaS",
+          "Learning flyctl & networking",
+          "Billing model to watch"
+        ],
+        "bestFor": "Teams that outgrew Heroku and want global containers.",
+        "pricingNotes": "Usage-based; free allowances vary — check current Free tier."
+      },
+      {
+        "slug": "digitalocean-app-platform",
+        "name": "DigitalOcean App Platform",
+        "oneLiner": "Managed app hosting on DigitalOcean with predictable droplets nearby.",
+        "pricing": "paid",
+        "website": "https://www.digitalocean.com/products/app-platform",
+        "affiliateParam": "ref=altswitch",
+        "pros": [
+          "Simple PaaS on DO",
+          "Ties into Droplets/Spaces/DB",
+          "Clear pricing culture"
+        ],
+        "cons": [
+          "Less “magic” than Railway UX for some",
+          "Feature set mid-tier",
+          "Not the cheapest bare metal"
+        ],
+        "bestFor": "Teams already on DigitalOcean wanting Heroku-like deploys.",
+        "pricingNotes": "Paid app tiers; combine with Droplets for hybrid setups."
+      },
+      {
+        "slug": "coolify",
+        "name": "Coolify",
+        "oneLiner": "Self-hosted Heroku/Vercel-like PaaS on your own VPS.",
+        "pricing": "oss",
+        "website": "https://coolify.io",
+        "affiliateParam": "ref=altswitch",
+        "pros": [
+          "Self-host full PaaS UX",
+          "Deploy many apps on one VPS",
+          "No per-dyno tax to a vendor"
+        ],
+        "cons": [
+          "You manage the server",
+          "Support is community/self",
+          "HA is your problem"
+        ],
+        "bestFor": "DevOps-comfortable teams escaping Heroku bills.",
+        "pricingNotes": "OSS free; Coolify Cloud optional. Run on a VPS (e.g. DigitalOcean)."
+      }
+    ]
+  },
+  {
+    "slug": "vercel",
+    "name": "Vercel",
+    "category": "Hosting",
+    "tagline": "Frontend cloud for Next.js and modern web apps",
+    "description": "Vercel is the default host for Next.js. Teams compare alternatives for lower egress costs, longer-running backends, or open-source self-hosted frontends.",
+    "website": "https://vercel.com",
+    "featured": true,
+    "alternatives": [
+      {
+        "slug": "netlify",
+        "name": "Netlify",
+        "oneLiner": "JAMstack hosting with functions, forms, and edge — Vercel’s closest peer.",
+        "pricing": "freemium",
+        "website": "https://www.netlify.com",
+        "affiliateParam": "ref=altswitch",
+        "pros": [
+          "Great static + functions DX",
+          "Deploy previews",
+          "Mature ecosystem"
+        ],
+        "cons": [
+          "Build/minutes limits",
+          "Not identical to Next.js primaries",
+          "Pricing surprises on bandwidth"
+        ],
+        "bestFor": "Marketing sites and JAMstack apps comparing Vercel peers.",
+        "pricingNotes": "Freemium; paid for higher bandwidth, seats, and build minutes."
+      },
+      {
+        "slug": "railway",
+        "name": "Railway",
+        "oneLiner": "Full-stack PaaS when you need backends, workers, and DBs — not only frontends.",
+        "pricing": "freemium",
+        "website": "https://railway.com",
+        "affiliateParam": "ref=altswitch",
+        "pros": [
+          "Backend + frontend + DB together",
+          "Simple git deploys",
+          "Good escape from serverless limits"
+        ],
+        "cons": [
+          "Not Next.js-specialized like Vercel",
+          "CDN story different",
+          "Usage billing to monitor"
+        ],
+        "bestFor": "Apps that outgrew pure frontend serverless on Vercel.",
+        "pricingNotes": "Usage-based PaaS pricing."
+      },
+      {
+        "slug": "render",
+        "name": "Render",
+        "oneLiner": "Web services and static sites with a Heroku-like model.",
+        "pricing": "freemium",
+        "website": "https://render.com",
+        "affiliateParam": "ref=altswitch",
+        "pros": [
+          "Static + web services",
+          "Managed datastores",
+          "Straightforward plans"
+        ],
+        "cons": [
+          "Edge/CDN less flashy than Vercel",
+          "Cold starts on free",
+          "Less Next.js marketing mindshare"
+        ],
+        "bestFor": "Full-stack apps that still want PaaS simplicity.",
+        "pricingNotes": "Freemium; paid for production-grade always-on."
+      },
+      {
+        "slug": "fly-io",
+        "name": "Fly.io",
+        "oneLiner": "Containers at the edge — more control than Vercel functions.",
+        "pricing": "freemium",
+        "website": "https://fly.io",
+        "affiliateParam": "ref=altswitch",
+        "pros": [
+          "Run real processes globally",
+          "Fine-grained regions",
+          "Great for WebSockets/long tasks"
+        ],
+        "cons": [
+          "More ops than Vercel",
+          "Not a one-click Next marketing site",
+          "Networking learning curve"
+        ],
+        "bestFor": "Teams needing long-running or regional backends near users.",
+        "pricingNotes": "Usage-based; free tier allowances change over time."
+      },
+      {
+        "slug": "coolify",
+        "name": "Coolify",
+        "oneLiner": "Self-host a Vercel/Heroku-like panel on your hardware.",
+        "pricing": "oss",
+        "website": "https://coolify.io",
+        "affiliateParam": "ref=altswitch",
+        "pros": [
+          "Own your deploy UX",
+          "Multi-app on one VPS",
+          "No Vercel bandwidth tax"
+        ],
+        "cons": [
+          "Ops burden",
+          "No global edge CDN out of the box",
+          "You handle SSL/uptime"
+        ],
+        "bestFor": "Cost-sensitive teams happy to run a VPS + Coolify.",
+        "pricingNotes": "OSS free; pair with a VPS (DigitalOcean etc.)."
+      }
+    ]
+  },
+  {
+    "slug": "chatgpt",
+    "name": "ChatGPT",
+    "category": "AI",
+    "tagline": "OpenAI’s conversational AI assistant",
+    "description": "ChatGPT is the mainstream AI chat product. People look for alternatives for different models, privacy/self-hosting, research UX, or lower subscription costs.",
+    "website": "https://chatgpt.com",
+    "featured": true,
+    "alternatives": [
+      {
+        "slug": "claude",
+        "name": "Claude",
+        "oneLiner": "Anthropic’s assistant — strong at long documents and careful writing.",
+        "pricing": "freemium",
+        "website": "https://claude.ai",
+        "affiliateParam": "ref=altswitch",
+        "pros": [
+          "Excellent long-context work",
+          "Strong writing/coding help",
+          "Projects / Artifacts workflows"
+        ],
+        "cons": [
+          "Separate subscription",
+          "Different tool ecosystem than GPT Store",
+          "Availability varies by region"
+        ],
+        "bestFor": "Knowledge workers who live in long docs and careful drafts.",
+        "pricingNotes": "Free tier + Pro/Team paid plans."
+      },
+      {
+        "slug": "gemini",
+        "name": "Google Gemini",
+        "oneLiner": "Google’s multimodal assistant tied into Workspace and Search.",
+        "pricing": "freemium",
+        "website": "https://gemini.google.com",
+        "affiliateParam": "ref=altswitch",
+        "pros": [
+          "Deep Google ecosystem",
+          "Strong multimodal",
+          "Workspace integration path"
+        ],
+        "cons": [
+          "Privacy tradeoffs with Google account",
+          "Feature naming churn",
+          "Enterprise on Google One/Workspace tiers"
+        ],
+        "bestFor": "People already in Gmail/Docs who want AI beside Search.",
+        "pricingNotes": "Free + Google One AI / Workspace add-ons."
+      },
+      {
+        "slug": "perplexity",
+        "name": "Perplexity",
+        "oneLiner": "Answer engine with cited web sources — research-first UX.",
+        "pricing": "freemium",
+        "website": "https://www.perplexity.ai",
+        "affiliateParam": "ref=altswitch",
+        "pros": [
+          "Citations by default",
+          "Great for research queries",
+          "Multi-model options on Pro"
+        ],
+        "cons": [
+          "Less “creative teammate” than ChatGPT",
+          "Pro for heavy model use",
+          "Not a full Assistants platform"
+        ],
+        "bestFor": "Researchers and SEOs who need sourced answers.",
+        "pricingNotes": "Freemium; Perplexity Pro for higher limits and model choice."
+      },
+      {
+        "slug": "ollama",
+        "name": "Ollama",
+        "oneLiner": "Run open LLMs locally with a simple CLI and API.",
+        "pricing": "oss",
+        "website": "https://ollama.com",
+        "affiliateParam": "ref=altswitch",
+        "pros": [
+          "Private / offline models",
+          "Simple local DX",
+          "Huge model library"
+        ],
+        "cons": [
+          "Needs decent hardware",
+          "Quality ≠ frontier GPT for hard tasks",
+          "You manage updates"
+        ],
+        "bestFor": "Developers who want local LLMs without cloud bills.",
+        "pricingNotes": "Free OSS; hardware is your cost."
+      },
+      {
+        "slug": "open-webui",
+        "name": "Open WebUI",
+        "oneLiner": "Self-hosted ChatGPT-like UI for Ollama and OpenAI-compatible APIs.",
+        "pricing": "oss",
+        "website": "https://openwebui.com",
+        "affiliateParam": "ref=altswitch",
+        "pros": [
+          "Familiar chat UI",
+          "Self-host & multi-user",
+          "Works with many backends"
+        ],
+        "cons": [
+          "You operate it",
+          "Not a hosted SaaS",
+          "Feature parity chasing ChatGPT"
+        ],
+        "bestFor": "Teams wanting a private ChatGPT UX on their own stack.",
+        "pricingNotes": "OSS free; host on your server or a VPS."
+      }
+    ]
+  },
+  {
+    "slug": "calendly",
+    "name": "Calendly",
+    "category": "Scheduling",
+    "tagline": "Scheduling links that book meetings without email ping-pong",
+    "description": "Calendly owns the “pick a time” link. Alternatives win on open source, team pricing, or deeper calendar/AI scheduling.",
+    "website": "https://calendly.com",
+    "featured": false,
+    "alternatives": [
+      {
+        "slug": "cal-com",
+        "name": "Cal.com",
+        "oneLiner": "Open-source Calendly alternative — self-host or use Cal.com Cloud.",
+        "pricing": "oss",
+        "website": "https://cal.com",
+        "affiliateParam": "ref=altswitch",
+        "pros": [
+          "OSS & self-hostable",
+          "Modern UX",
+          "Strong product velocity"
+        ],
+        "cons": [
+          "Self-host needs ops",
+          "Some features on paid cloud",
+          "Ecosystem smaller than Calendly"
+        ],
+        "bestFor": "Teams that want Calendly UX with ownership options.",
+        "pricingNotes": "OSS free to self-host; Cal.com Cloud freemium/paid."
+      },
+      {
+        "slug": "savvycal",
+        "name": "SavvyCal",
+        "oneLiner": "Overlay calendar scheduling that feels more human than rigid slots.",
+        "pricing": "paid",
+        "website": "https://savvycal.com",
+        "affiliateParam": "ref=altswitch",
+        "pros": [
+          "Calendar overlay UX",
+          "Polished branding",
+          "Great for founders/sales"
+        ],
+        "cons": [
+          "Paid",
+          "Smaller than Calendly",
+          "Fewer enterprise bells"
+        ],
+        "bestFor": "Solopreneurs who hate rigid “only these slots” pages.",
+        "pricingNotes": "Paid plans; trial available."
+      },
+      {
+        "slug": "motion",
+        "name": "Motion",
+        "oneLiner": "AI calendar that auto-schedules tasks and meetings.",
+        "pricing": "paid",
+        "website": "https://www.usemotion.com",
+        "affiliateParam": "ref=altswitch",
+        "pros": [
+          "AI time-blocking",
+          "Tasks + meetings together",
+          "Reduces manual planning"
+        ],
+        "cons": [
+          "Subscription cost",
+          "Opinionated AI behavior",
+          "Overkill if you only need booking links"
+        ],
+        "bestFor": "Busy ICs who want AI to protect focus time, not just book calls.",
+        "pricingNotes": "Paid subscription; check current AI calendar pricing."
+      },
+      {
+        "slug": "microsoft-bookings",
+        "name": "Microsoft Bookings",
+        "oneLiner": "Scheduling included with many Microsoft 365 plans.",
+        "pricing": "freemium",
+        "website": "https://www.microsoft.com/microsoft-365/business/booking-appointment-software",
+        "affiliateParam": "ref=altswitch",
+        "pros": [
+          "Often already paid via M365",
+          "Teams/Outlook native",
+          "Good for SMB service businesses"
+        ],
+        "cons": [
+          "UX less beloved than Calendly",
+          "Microsoft admin complexity",
+          "Weaker for public creator branding"
+        ],
+        "bestFor": "Orgs standardized on Microsoft 365.",
+        "pricingNotes": "Included in many M365 business SKUs — verify your plan."
+      }
+    ]
+  },
+  {
+    "slug": "typeform",
+    "name": "Typeform",
+    "category": "Forms",
+    "tagline": "Beautiful conversational forms and surveys",
+    "description": "Typeform made one-question-at-a-time forms mainstream. Teams switch for price, open source, or logic-heavy forms without Typeform’s per-response feel.",
+    "website": "https://www.typeform.com",
+    "featured": false,
+    "alternatives": [
+      {
+        "slug": "tally",
+        "name": "Tally",
+        "oneLiner": "Notion-like forms with a generous free tier.",
+        "pricing": "freemium",
+        "website": "https://tally.so",
+        "affiliateParam": "ref=altswitch",
+        "pros": [
+          "Very generous free plan",
+          "Fast to build",
+          "Clean sharing"
+        ],
+        "cons": [
+          "Less “cinematic” than Typeform",
+          "Advanced logic on paid",
+          "Brand younger"
+        ],
+        "bestFor": "Startups replacing Typeform on a budget.",
+        "pricingNotes": "Strong free tier; Pro for remove branding / advanced features."
+      },
+      {
+        "slug": "fillout",
+        "name": "Fillout",
+        "oneLiner": "Powerful forms with calculations, scheduling, and payments.",
+        "pricing": "freemium",
+        "website": "https://www.fillout.com",
+        "affiliateParam": "ref=altswitch",
+        "pros": [
+          "Deep logic & integrations",
+          "Scheduling/payments options",
+          "Good Typeform migration path"
+        ],
+        "cons": [
+          "Feature density = learning",
+          "Paid for higher volumes",
+          "Less “artsy” brand than Typeform"
+        ],
+        "bestFor": "Ops teams needing forms that do more than collect email.",
+        "pricingNotes": "Freemium; paid for higher responses and features."
+      },
+      {
+        "slug": "google-forms",
+        "name": "Google Forms",
+        "oneLiner": "Free forms inside Google Workspace — simple and everywhere.",
+        "pricing": "free",
+        "website": "https://forms.google.com",
+        "affiliateParam": "ref=altswitch",
+        "pros": [
+          "Free",
+          "Sheets integration",
+          "Zero learning curve for most"
+        ],
+        "cons": [
+          "Basic design",
+          "Limited branding",
+          "Not a productized form UX"
+        ],
+        "bestFor": "Internal surveys and quick data capture.",
+        "pricingNotes": "Free with a Google account."
+      },
+      {
+        "slug": "typebot",
+        "name": "Typebot",
+        "oneLiner": "Open-source conversational form builder.",
+        "pricing": "oss",
+        "website": "https://typebot.io",
+        "affiliateParam": "ref=altswitch",
+        "pros": [
+          "Chat-style flows",
+          "Self-hostable",
+          "Good embed options"
+        ],
+        "cons": [
+          "You may self-host",
+          "Smaller than Typeform brand",
+          "Support via community/cloud"
+        ],
+        "bestFor": "Product teams wanting Typeform-like chats they control.",
+        "pricingNotes": "OSS free; Typebot Cloud paid."
+      },
+      {
+        "slug": "formbricks",
+        "name": "Formbricks",
+        "oneLiner": "Open-source experience management / in-product surveys.",
+        "pricing": "oss",
+        "website": "https://formbricks.com",
+        "affiliateParam": "ref=altswitch",
+        "pros": [
+          "OSS CX surveys",
+          "In-app targeting",
+          "Self-host privacy"
+        ],
+        "cons": [
+          "More CX than classic forms",
+          "Setup for product embed",
+          "Younger ecosystem"
+        ],
+        "bestFor": "Product teams collecting in-app feedback without Typeform.",
+        "pricingNotes": "OSS free; Formbricks Cloud paid."
+      }
+    ]
+  },
+  {
+    "slug": "quickbooks",
+    "name": "QuickBooks",
+    "category": "Accounting",
+    "tagline": "Small-business accounting from Intuit",
+    "description": "QuickBooks is the default SMB ledger in the US. Owners look for cheaper bookkeeping, freemium options, or open-source invoicing when Intuit pricing and lock-in sting.",
+    "website": "https://quickbooks.intuit.com",
+    "featured": false,
+    "alternatives": [
+      {
+        "slug": "wave",
+        "name": "Wave",
+        "oneLiner": "Free accounting and invoicing for small businesses (US/CA).",
+        "pricing": "freemium",
+        "website": "https://www.waveapps.com",
+        "affiliateParam": "ref=altswitch",
+        "pros": [
+          "Core accounting free",
+          "Simple invoicing",
+          "Good for very small businesses"
+        ],
+        "cons": [
+          "Payments/payroll monetized",
+          "Less powerful than QBO advanced",
+          "Geographic limits"
+        ],
+        "bestFor": "Solos and micro-SMBs who mostly need invoices + basic books.",
+        "pricingNotes": "Accounting free; Wave charges for payments and add-ons."
+      },
+      {
+        "slug": "xero",
+        "name": "Xero",
+        "oneLiner": "Cloud accounting popular with accountants worldwide.",
+        "pricing": "paid",
+        "website": "https://www.xero.com",
+        "affiliateParam": "ref=altswitch",
+        "pros": [
+          "Strong accountant ecosystem",
+          "Clean bank feeds",
+          "Multi-currency"
+        ],
+        "cons": [
+          "Paid",
+          "US payroll story differs from QBO",
+          "Migration effort"
+        ],
+        "bestFor": "SMBs whose bookkeeper already lives in Xero.",
+        "pricingNotes": "Paid subscription tiers by features/bills."
+      },
+      {
+        "slug": "freeagent",
+        "name": "FreeAgent",
+        "oneLiner": "UK-friendly accounting for freelancers and small companies.",
+        "pricing": "paid",
+        "website": "https://www.freeagent.com",
+        "affiliateParam": "ref=altswitch",
+        "pros": [
+          "Great UK tax workflows",
+          "Freelancer-focused UX",
+          "Time tracking tied in"
+        ],
+        "cons": [
+          "UK-centric",
+          "Paid",
+          "Less global SMB mindshare than QBO"
+        ],
+        "bestFor": "UK freelancers and contractors leaving QuickBooks.",
+        "pricingNotes": "Paid monthly; often discounted via accountants."
+      },
+      {
+        "slug": "akaunting",
+        "name": "Akaunting",
+        "oneLiner": "Open-source online accounting software.",
+        "pricing": "oss",
+        "website": "https://akaunting.com",
+        "affiliateParam": "ref=altswitch",
+        "pros": [
+          "OSS & self-host",
+          "Invoicing + expenses",
+          "No Intuit lock-in"
+        ],
+        "cons": [
+          "Fewer bank-feed polish moments",
+          "You handle hosting",
+          "Less accountant ubiquity"
+        ],
+        "bestFor": "Technical SMBs wanting free/self-hosted books.",
+        "pricingNotes": "OSS free; Akaunting Cloud paid."
+      },
+      {
+        "slug": "invoice-ninja",
+        "name": "Invoice Ninja",
+        "oneLiner": "Open-source invoicing, quotes, and payments.",
+        "pricing": "oss",
+        "website": "https://invoiceninja.com",
+        "affiliateParam": "ref=altswitch",
+        "pros": [
+          "Strong invoicing OSS",
+          "Client portal",
+          "Self-host or hosted"
+        ],
+        "cons": [
+          "Full accounting ≠ QBO depth",
+          "Setup time",
+          "Integrations thinner"
+        ],
+        "bestFor": "Freelancers who care most about invoices and payments.",
+        "pricingNotes": "OSS free; hosted plans available."
+      }
+    ]
+  },
+  {
+    "slug": "pipedrive",
+    "name": "Pipedrive",
+    "category": "CRM",
+    "tagline": "Sales CRM built around visual pipelines",
+    "description": "Pipedrive is the pipeline-first CRM for SMBs. Teams compare free CRMs, modern flexible databases, or open-source options when seat prices climb.",
+    "website": "https://www.pipedrive.com",
+    "featured": false,
+    "alternatives": [
+      {
+        "slug": "hubspot-free",
+        "name": "HubSpot Free CRM",
+        "oneLiner": "Free CRM from HubSpot — upgrade path into Marketing/Sales Hub.",
+        "pricing": "freemium",
+        "website": "https://www.hubspot.com/products/crm",
+        "affiliateParam": "ref=altswitch",
+        "pros": [
+          "Real free CRM tier",
+          "Huge ecosystem",
+          "Easy reporting start"
+        ],
+        "cons": [
+          "Upsell pressure to Hubs",
+          "Can get complex",
+          "Free limits on seats/features"
+        ],
+        "bestFor": "Teams okay entering the HubSpot universe for $0 CRM.",
+        "pricingNotes": "Free CRM; paid Hubs for automation/sequences at scale."
+      },
+      {
+        "slug": "close",
+        "name": "Close",
+        "oneLiner": "Sales CRM with built-in calling and email power tools.",
+        "pricing": "paid",
+        "website": "https://www.close.com",
+        "affiliateParam": "ref=altswitch",
+        "pros": [
+          "Calling/email built-in",
+          "Fast for SDR workflows",
+          "Less “marketing suite” bloat"
+        ],
+        "cons": [
+          "Paid per seat",
+          "Smaller than HubSpot marketplace",
+          "Overkill if you only need a pipeline board"
+        ],
+        "bestFor": "Outbound sales teams living on calls and sequences.",
+        "pricingNotes": "Paid plans; trial available."
+      },
+      {
+        "slug": "attio",
+        "name": "Attio",
+        "oneLiner": "Flexible, modern CRM with powerful data modeling.",
+        "pricing": "freemium",
+        "website": "https://attio.com",
+        "affiliateParam": "ref=altswitch",
+        "pros": [
+          "Beautiful modern UX",
+          "Flexible objects/relations",
+          "Great for startups"
+        ],
+        "cons": [
+          "Younger than Pipedrive",
+          "Pricing as you scale",
+          "Fewer legacy integrations"
+        ],
+        "bestFor": "Startups that outgrew spreadsheets but dislike old CRM UX.",
+        "pricingNotes": "Freemium; paid for advanced features and seats."
+      },
+      {
+        "slug": "twenty-crm",
+        "name": "Twenty",
+        "oneLiner": "Open-source CRM aiming at a modern Notion-like experience.",
+        "pricing": "oss",
+        "website": "https://twenty.com",
+        "affiliateParam": "ref=altswitch",
+        "pros": [
+          "OSS & self-host",
+          "Modern product feel",
+          "Active open development"
+        ],
+        "cons": [
+          "Still maturing",
+          "Fewer battle-tested integrations",
+          "You may self-host"
+        ],
+        "bestFor": "Teams wanting an open CRM without Salesforce weight.",
+        "pricingNotes": "OSS free; Twenty Cloud paid options."
+      },
+      {
+        "slug": "espocrm",
+        "name": "EspoCRM",
+        "oneLiner": "Open-source CRM you can self-host for sales and support.",
+        "pricing": "oss",
+        "website": "https://www.espocrm.com",
+        "affiliateParam": "ref=altswitch",
+        "pros": [
+          "Mature OSS CRM",
+          "Self-host control",
+          "Extensible entities"
+        ],
+        "cons": [
+          "UI less “startup trendy”",
+          "Admin learning curve",
+          "Fewer SaaS integrations OOTB"
+        ],
+        "bestFor": "SMBs that want a free/self-hosted Pipedrive-class CRM.",
+        "pricingNotes": "OSS free; official cloud hosting paid."
+      }
+    ]
   }
 ]
