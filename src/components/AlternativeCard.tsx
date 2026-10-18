@@ -83,7 +83,7 @@ export default function AlternativeCard({ alt }: { alt: Alternative }) {
 
       {alt.pricing === "oss" && (
         <p className="mt-3 rounded-lg bg-zinc-50 px-3 py-2 text-xs text-zinc-600">
-          Self-host tip: spin up containers on{" "}
+          Self-host tip: many teams run this on{" "}
           <a
             href={RAILWAY_REFERRAL_URL}
             target="_blank"
@@ -100,8 +100,8 @@ export default function AlternativeCard({ alt }: { alt: Alternative }) {
             className="font-medium text-indigo-600 hover:underline"
           >
             DigitalOcean
-          </a>{" "}
-          (our referral links).
+          </a>
+          .
         </p>
       )}
 

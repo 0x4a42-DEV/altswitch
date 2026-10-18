@@ -121,15 +121,15 @@ export default async function ToolAlternativesPage({ params }: Props) {
           {tool.name} vs alternatives
         </h2>
         <p className="mt-2 text-sm text-zinc-500">
-          Pricing vibes from our notes — not live prices. Jump to a card for
-          pros/cons.
+          Approximate pricing models from our notes — always verify on the
+          vendor site. Jump to a card for pros and cons.
         </p>
         <div className="mt-6 overflow-x-auto rounded-2xl border border-zinc-200 bg-white">
           <table className="min-w-full text-left text-sm">
             <thead className="border-b border-zinc-200 bg-zinc-50 text-xs font-semibold uppercase tracking-wide text-zinc-500">
               <tr>
                 <th className="px-4 py-3">Tool</th>
-                <th className="px-4 py-3">Pricing vibe</th>
+                <th className="px-4 py-3">Pricing</th>
                 <th className="px-4 py-3">Best for</th>
                 <th className="px-4 py-3">Tradeoff</th>
               </tr>
@@ -139,7 +139,7 @@ export default async function ToolAlternativesPage({ params }: Props) {
                 <td className="px-4 py-3 font-medium text-zinc-900">
                   {tool.name}
                   <span className="ml-2 text-xs font-normal text-zinc-500">
-                    (incumbent)
+                    (current)
                   </span>
                 </td>
                 <td className="px-4 py-3 text-zinc-600">See official site</td>

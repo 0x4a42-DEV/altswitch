@@ -36,7 +36,7 @@ export default function NewsletterForm({
         setMessage("You're already on the list — thanks!");
       } else {
         setStatus("ok");
-        setMessage("You're in. We'll send alternatives worth switching to.");
+        setMessage("You're subscribed. Expect curated alternatives in your inbox.");
         setEmail("");
       }
     } catch {
@@ -61,7 +61,7 @@ export default function NewsletterForm({
             : "text-2xl font-semibold tracking-tight"
         }
       >
-        Get weekly switch picks
+        Get weekly alternative picks
       </h2>
       <p
         className={

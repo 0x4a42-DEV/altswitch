@@ -13,7 +13,7 @@ const PRICING_RANK: Record<string, number> = {
 /** One-line tradeoff from existing pros/cons — no invented claims. */
 export function tradeoffLine(alt: Alternative): string {
   const pro = alt.pros[0]?.replace(/\.$/, "") ?? alt.oneLiner;
-  const con = alt.cons[0]?.replace(/\.$/, "") ?? "smaller ecosystem than the incumbent";
+  const con = alt.cons[0]?.replace(/\.$/, "") ?? "smaller ecosystem than the current market leader";
   return `${pro}; tradeoff: ${con.charAt(0).toLowerCase()}${con.slice(1)}.`;
 }
 
@@ -75,7 +75,7 @@ export function buildFaqs(tool: Tool): FaqItem[] {
       question: `What is the best free or open-source ${tool.name} alternative?`,
       answer: `${top.name} stands out among free/OSS options: ${top.oneLiner} Best for: ${top.bestFor}${
         others ? ` Also worth a look: ${others}.` : ""
-      } Pricing vibe: ${top.pricingNotes}`,
+      } Pricing notes: ${top.pricingNotes}`,
     });
   } else if (freemium.length > 0) {
     const top = freemium[0];
@@ -97,8 +97,8 @@ export function buildFaqs(tool: Tool): FaqItem[] {
 
   if (cheapest) {
     faqs.push({
-      question: `What’s the cheapest-feeling ${tool.name} alternative?`,
-      answer: `By pricing vibe (not live quotes): ${cheapest.name} (${pricingLabel(
+      question: `What’s a lower-cost ${tool.name} alternative?`,
+      answer: `Based on listed pricing models (not live quotes): ${cheapest.name} (${pricingLabel(
         cheapest.pricing
       )}). ${cheapest.pricingNotes} Always check current plans on their site before switching.`,
     });
@@ -106,7 +106,7 @@ export function buildFaqs(tool: Tool): FaqItem[] {
 
   faqs.push({
     question: `When should I stay on ${tool.name}?`,
-    answer: `Stay if your team already depends on ${tool.name}’s ecosystem, integrations, or support model, and switching cost outweighs the gains. ${tool.description} Alternatives below are better when you want a narrower tool, more control, or a different pricing vibe.`,
+    answer: `Stay if your team already depends on ${tool.name}’s ecosystem, integrations, or support model, and switching cost outweighs the gains. ${tool.description} Alternatives below are better when you want a narrower tool, more control, or a different pricing model.`,
   });
 
   const switchProfiles = alts
