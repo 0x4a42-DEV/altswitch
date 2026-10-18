@@ -3,7 +3,6 @@ import { getAllTools, getFeaturedTools } from "@/lib/data";
 import SearchBox from "@/components/SearchBox";
 import ToolCard from "@/components/ToolCard";
 import NewsletterForm from "@/components/NewsletterForm";
-import { RAILWAY_REFERRAL_URL } from "@/lib/affiliates";
 
 export const metadata: Metadata = {
   title: "AltSwitch — Find SaaS & Open-Source Alternatives",
@@ -27,19 +26,7 @@ export default function HomePage() {
           </h1>
           <p className="mt-4 max-w-xl text-lg text-zinc-600">
             Curated SaaS and open-source alternatives to the software you already
-            pay for — with pricing notes, honest links, and a weekly newsletter.
-          </p>
-          <p className="mt-3 max-w-xl text-sm text-zinc-500">
-            AltSwitch runs on{" "}
-            <a
-              href={RAILWAY_REFERRAL_URL}
-              target="_blank"
-              rel="noopener noreferrer sponsored"
-              className="text-indigo-600 hover:underline"
-            >
-              Railway
-            </a>
-            . Good fit if you self-host OSS from this directory.
+            use — with pricing notes, clear tradeoffs, and a weekly newsletter.
           </p>
           <div className="mt-8">
             <SearchBox tools={tools} />

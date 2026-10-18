@@ -14,7 +14,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "AltSwitch — SaaS & Open-Source Alternatives",
     description:
-      "Find alternatives to the tools you already use. Transparent affiliate directory + newsletter.",
+      "Find SaaS and open-source alternatives to the tools you already use.",
     type: "website",
     siteName: "AltSwitch",
   },

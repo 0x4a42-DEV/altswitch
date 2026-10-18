@@ -1,15 +1,11 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import NewsletterForm from "@/components/NewsletterForm";
-import {
-  DIGITALOCEAN_REFERRAL_URL,
-  RAILWAY_REFERRAL_URL,
-} from "@/lib/affiliates";
 
 export const metadata: Metadata = {
-  title: "About & how we make money",
+  title: "About",
   description:
-    "AltSwitch is a transparent alternatives directory. We earn via affiliate links and featured listings — never pay-to-rank organic results.",
+    "AltSwitch is a curated directory of SaaS and open-source alternatives to popular software.",
 };
 
 export default function AboutPage() {
@@ -19,68 +15,34 @@ export default function AboutPage() {
         About AltSwitch
       </h1>
       <p className="mt-4 text-lg text-zinc-600">
-        AltSwitch helps founders and teams find SaaS and open-source alternatives
-        to the tools they already use — without the spammy comparison-site noise.
+        AltSwitch helps teams find SaaS and open-source alternatives to the tools
+        they already use — with clear comparisons, pricing notes, and practical
+        tradeoffs.
       </p>
 
-      <h2 className="mt-10 text-xl font-semibold text-zinc-900">
-        How we make money
-      </h2>
+      <h2 className="mt-10 text-xl font-semibold text-zinc-900">What we publish</h2>
       <ul className="mt-4 list-disc space-y-3 pl-5 text-zinc-700">
         <li>
-          <strong>Affiliate links</strong> — some Visit buttons are
-          affiliate/referral links (disclosed). If you sign up through them, we
-          may earn a commission at no extra cost to you. Live partners are listed
-          below; more programs are being added.
+          Curated alternative lists for widely used products across productivity,
+          devops, marketing, analytics, and more.
         </li>
         <li>
-          <strong>Featured listings</strong> — vendors can pay for placement in
-          featured spots. Featured slots are always labeled. Organic rankings are
-          never for sale.
+          Side-by-side notes on pricing models, strengths, and tradeoffs — not
+          live price crawls or paid rankings dressed up as research.
         </li>
         <li>
-          <strong>Newsletter sponsorships</strong> — as the list grows, occasional
-          sponsored mentions. Editorial picks stay editorial.
+          A weekly newsletter with new picks and switch ideas worth reading.
         </li>
       </ul>
 
       <h2 className="mt-10 text-xl font-semibold text-zinc-900">
-        Live affiliates right now
+        Editorial standards
       </h2>
-      <ul className="mt-4 list-disc space-y-3 pl-5 text-zinc-700">
-        <li>
-          <strong>Railway</strong> — AltSwitch itself is hosted on Railway. If you
-          deploy apps or self-host OSS from our tips, use our referral link:{" "}
-          <a
-            href={RAILWAY_REFERRAL_URL}
-            target="_blank"
-            rel="noopener noreferrer sponsored"
-            className="font-medium text-indigo-600 hover:underline"
-          >
-            railway.com?referralCode=TsViJR
-          </a>
-          . We may earn referral credit when you sign up through it.
-        </li>
-        <li>
-          <strong>DigitalOcean</strong> — a referral partner for cloud hosting and
-          self-hosting. Use our referral link:{" "}
-          <a
-            href={DIGITALOCEAN_REFERRAL_URL}
-            target="_blank"
-            rel="noopener noreferrer sponsored"
-            className="font-medium text-indigo-600 hover:underline"
-          >
-            m.do.co/c/5da193244570
-          </a>
-          . We may earn credit when someone signs up through it.
-        </li>
-      </ul>
-
-      <h2 className="mt-10 text-xl font-semibold text-zinc-900">What we won&apos;t do</h2>
       <ul className="mt-4 list-disc space-y-2 pl-5 text-zinc-700">
-        <li>Fake reviews or undisclosed paid rankings</li>
-        <li>Sell your email without consent</li>
-        <li>Require a credit card to browse the directory</li>
+        <li>No fake reviews or undisclosed paid rankings</li>
+        <li>Featured placements, when used, are clearly labeled</li>
+        <li>We never sell your email without consent</li>
+        <li>Browsing the directory never requires a credit card</li>
       </ul>
 
       <p className="mt-8 text-zinc-600">
@@ -90,15 +52,6 @@ export default function AboutPage() {
           className="text-indigo-600 hover:underline"
         >
           hello@altswitch.xyz
-        </a>
-        . Hosted on{" "}
-        <a
-          href={RAILWAY_REFERRAL_URL}
-          target="_blank"
-          rel="noopener noreferrer sponsored"
-          className="text-indigo-600 hover:underline"
-        >
-          Railway
         </a>
         .{" "}
         <Link href="/" className="text-indigo-600 hover:underline">
