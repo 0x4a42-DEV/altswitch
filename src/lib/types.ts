@@ -12,7 +12,7 @@ export interface Alternative {
   cons: string[];
   /** Who should pick this */
   bestFor: string;
-  /** Plain-language pricing vibe (not a live price crawl) */
+  /** Plain-language pricing notes (not a live price crawl) */
   pricingNotes: string;
 }
 
