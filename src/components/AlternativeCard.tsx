@@ -1,3 +1,4 @@
+import Link from "next/link";
 import type { Alternative } from "@/lib/types";
 import { pricingLabel } from "@/lib/data";
 import { affiliateUrl } from "@/lib/affiliate";
@@ -5,6 +6,7 @@ import {
   DIGITALOCEAN_REFERRAL_URL,
   RAILWAY_REFERRAL_URL,
 } from "@/lib/affiliates";
+import { internalToolSlugForAlt } from "@/lib/seo";
 
 const pricingStyles: Record<string, string> = {
   free: "bg-emerald-50 text-emerald-700",
@@ -18,8 +20,13 @@ export default function AlternativeCard({ alt }: { alt: Alternative }) {
     slug: alt.slug,
     name: alt.name,
   });
+  const internalSlug = internalToolSlugForAlt(alt);
+
   return (
-    <article className="flex flex-col rounded-2xl border border-zinc-200 bg-white p-5 shadow-sm">
+    <article
+      id={`alt-${alt.slug}`}
+      className="flex scroll-mt-24 flex-col rounded-2xl border border-zinc-200 bg-white p-5 shadow-sm"
+    >
       <div className="flex items-start justify-between gap-3">
         <h3 className="text-lg font-semibold text-zinc-900">{alt.name}</h3>
         <span
@@ -98,14 +105,24 @@ export default function AlternativeCard({ alt }: { alt: Alternative }) {
         </p>
       )}
 
-      <a
-        href={href}
-        target="_blank"
-        rel="noopener noreferrer sponsored"
-        className="mt-4 inline-flex items-center text-sm font-medium text-indigo-600 hover:text-indigo-500"
-      >
-        Visit website →
-      </a>
+      <div className="mt-4 flex flex-wrap items-center gap-x-4 gap-y-2 text-sm font-medium">
+        <a
+          href={href}
+          target="_blank"
+          rel="noopener noreferrer sponsored"
+          className="text-indigo-600 hover:text-indigo-500"
+        >
+          Visit website →
+        </a>
+        {internalSlug && (
+          <Link
+            href={`/alternatives/${internalSlug}`}
+            className="text-zinc-600 hover:text-indigo-600"
+          >
+            AltSwitch page →
+          </Link>
+        )}
+      </div>
     </article>
   );
 }
