@@ -23,3 +23,9 @@ export const TALLY_REFERRAL_URL =
   "https://tally.cello.so/03LRqMD3XGp";
 
 export const TALLY_REFERRAL_LABEL = "Tally";
+
+export const MAILERLITE_REFERRAL_URL =
+  "https://www.mailerlite.com/?linkId=lp_170762&sourceId=altswitch&tenantId=mailerlite";
+
+export const MAILERLITE_REFERRAL_LABEL = "MailerLite";
+

@@ -20,6 +20,7 @@ Wiring lives in:
 | **Make** | Live | `https://www.make.com/en/register?pc=altswitch` (partner code `altswitch`) | `MAKE_REFERRAL_URL`; Zapier alternative cards override via `affiliate.ts` (slug `make` / host make.com) |
 | **Cal.com** | Live | `https://refer.cal.com/alt-switch-lk8r` | `CAL_COM_REFERRAL_URL`; Calendly alternative cards override via `affiliate.ts` (slug `cal-com` / host cal.com) |
 | **Tally** | Live | `https://tally.cello.so/03LRqMD3XGp` | `TALLY_REFERRAL_URL`; Typeform alternative cards override via `affiliate.ts` (slug `tally` / hosts tally.so, cello) |
+| **MailerLite** | Live | `https://www.mailerlite.com/?linkId=lp_170762&sourceId=altswitch&tenantId=mailerlite` | `MAILERLITE_REFERRAL_URL`; Mailchimp alternative cards override via `affiliate.ts` (slug `mailerlite` / host mailerlite.com) |
 
 Generic alternatives still use `affiliateParam: "ref=altswitch"` unless a real override exists above.
 
@@ -29,7 +30,6 @@ Generic alternatives still use `affiliateParam: "ref=altswitch"` unless a real o
 
 | Program | Status | Notes |
 |--------|--------|-------|
-| **MailerLite** | Applied — awaiting approval | Strong fit for `/alternatives/mailchimp`. Open program historically; wait for email/dashboard decision before wiring a real affiliate URL. Apply page: https://www.mailerlite.com/affiliate (30% recurring lifetime if approved). |
 | **ClickUp** | Blocked | Partners URL redirects to customer dashboard — no usable apply path yet. Revisit PartnerStack / official partners page later. |
 | **Pipedrive** | No apply link yet | Apply page 404 / no working link. Do not invent a URL. Retry when PartnerStack or Pipedrive Partners publishes a live apply page. Relevant to Salesforce/HubSpot/Pipedrive pages. |
 

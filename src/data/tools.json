@@ -1228,6 +1228,26 @@
         "pricingNotes": "Free up to a limit then paid by subscribers (Kit)."
       },
       {
+        "slug": "mailerlite",
+        "name": "MailerLite",
+        "oneLiner": "Simple email marketing and automations for creators and small businesses.",
+        "pricing": "freemium",
+        "website": "https://www.mailerlite.com",
+        "affiliateParam": "ref=altswitch",
+        "pros": [
+          "Clean builder and automations",
+          "Strong free/starter pricing",
+          "Landing pages and forms included"
+        ],
+        "cons": [
+          "Fewer enterprise ESP features",
+          "List size drives plan jumps",
+          "Less known than Mailchimp/Kit"
+        ],
+        "bestFor": "Creators and SMBs leaving Mailchimp for simpler cheaper email.",
+        "pricingNotes": "Free forever tier; paid by subscribers."
+      },
+      {
         "slug": "beehiiv",
         "name": "beehiiv",
         "oneLiner": "Newsletter platform built for growth and monetization.",
