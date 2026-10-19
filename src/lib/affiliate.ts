@@ -3,6 +3,7 @@ import {
   DIGITALOCEAN_REFERRAL_URL,
   MAKE_REFERRAL_URL,
   RAILWAY_REFERRAL_URL,
+  TALLY_REFERRAL_URL,
 } from "@/lib/affiliates";
 
 /** Full referral URLs keyed by alternative slug (preferred when present). */
@@ -12,6 +13,7 @@ const REFERRAL_BY_SLUG: Record<string, string> = {
   railway: RAILWAY_REFERRAL_URL,
   make: MAKE_REFERRAL_URL,
   "cal-com": CAL_COM_REFERRAL_URL,
+  tally: TALLY_REFERRAL_URL,
 };
 
 /** Full referral URLs keyed by website hostname. */
@@ -26,6 +28,9 @@ const REFERRAL_BY_HOST: Record<string, string> = {
   "cal.com": CAL_COM_REFERRAL_URL,
   "www.cal.com": CAL_COM_REFERRAL_URL,
   "refer.cal.com": CAL_COM_REFERRAL_URL,
+  "tally.so": TALLY_REFERRAL_URL,
+  "www.tally.so": TALLY_REFERRAL_URL,
+  "tally.cello.so": TALLY_REFERRAL_URL,
 };
 
 function isDigitalOceanName(name?: string): boolean {
@@ -45,6 +50,10 @@ function isCalComName(name?: string): boolean {
   return n === "cal.com" || n === "calcom";
 }
 
+function isTallyName(name?: string): boolean {
+  return name?.trim().toLowerCase() === "tally";
+}
+
 function referralOverride(
   website: string,
   meta?: { slug?: string; name?: string },
@@ -55,6 +64,7 @@ function referralOverride(
   if (isRailwayName(meta?.name)) return RAILWAY_REFERRAL_URL;
   if (isMakeName(meta?.name)) return MAKE_REFERRAL_URL;
   if (isCalComName(meta?.name)) return CAL_COM_REFERRAL_URL;
+  if (isTallyName(meta?.name)) return TALLY_REFERRAL_URL;
 
   try {
     const host = new URL(website).hostname.toLowerCase();
@@ -70,6 +80,12 @@ function referralOverride(
     }
     if (host === "cal.com" || host.endsWith(".cal.com")) {
       return CAL_COM_REFERRAL_URL;
+    }
+    if (host === "tally.so" || host.endsWith(".tally.so")) {
+      return TALLY_REFERRAL_URL;
+    }
+    if (host === "cello.so" || host.endsWith(".cello.so")) {
+      return TALLY_REFERRAL_URL;
     }
   } catch {
     /* ignore invalid website */

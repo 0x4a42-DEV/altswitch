@@ -18,3 +18,8 @@ export const CAL_COM_REFERRAL_URL =
   "https://refer.cal.com/alt-switch-lk8r";
 
 export const CAL_COM_REFERRAL_LABEL = "Cal.com";
+
+export const TALLY_REFERRAL_URL =
+  "https://tally.cello.so/03LRqMD3XGp";
+
+export const TALLY_REFERRAL_LABEL = "Tally";
