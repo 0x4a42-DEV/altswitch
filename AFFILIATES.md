@@ -18,6 +18,7 @@ Wiring lives in:
 | **Railway** | Live | `https://railway.com?referralCode=TsViJR` (code `TsViJR`) | `RAILWAY_REFERRAL_URL`; homepage/footer/about; OSS self-host tips; Railway alternative cards override via `affiliate.ts` |
 | **DigitalOcean** | Live | `https://m.do.co/c/5da193244570` | `DIGITALOCEAN_REFERRAL_URL`; OSS self-host tips; DigitalOcean / App Platform alternative cards override via `affiliate.ts` |
 | **Make** | Live | `https://www.make.com/en/register?pc=altswitch` (partner code `altswitch`) | `MAKE_REFERRAL_URL`; Zapier alternative cards override via `affiliate.ts` (slug `make` / host make.com) |
+| **Cal.com** | Live | `https://refer.cal.com/alt-switch-lk8r` | `CAL_COM_REFERRAL_URL`; Calendly alternative cards override via `affiliate.ts` (slug `cal-com` / host cal.com) |
 
 Generic alternatives still use `affiliateParam: "ref=altswitch"` unless a real override exists above.
 
@@ -41,7 +42,6 @@ Practical programs for a **new alternatives directory** — prefer public apply 
 
 | Program | Apply URL | Why it fits AltSwitch | Commission (public) | Difficulty |
 |--------|-----------|----------------------|---------------------|------------|
-| **Cal.com** | https://partners.dub.co/cal/apply (overview: https://cal.com/affiliate-program) | Primary Calendly alternative; Dub self-serve apply; OSS scheduling story | **20%** for **12 months**; referred users get 20% off | **Easy** |
 | **Tally** | https://tally.so/help/referral-program → dashboard **Rewards** tab | Primary Typeform alternative; no paid plan required to refer | **20%** of subscription, **capped $150**/referral | **Easy** |
 | **beehiiv** | https://partners.dub.co/beehiiv/apply (overview: https://www.beehiiv.com/partners) | Listed Mailchimp alternative; creator/newsletter audience matches AltSwitch | **50%** first year (tiers up to **60%**); need a beehiiv account | **Easy** |
 | **Hostinger** | https://affiliates.hostinger.com/signup (info: https://www.hostinger.com/affiliates) | WordPress / WooCommerce / Shopify-adjacent hosting; classic easy affiliate for directories | Up to **~40%** (volume tiers; first-term hosting; $100 + 3 conversions for PayPal) | **Easy** |

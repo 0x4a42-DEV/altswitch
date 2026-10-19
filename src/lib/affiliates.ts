@@ -13,3 +13,8 @@ export const MAKE_REFERRAL_URL =
   "https://www.make.com/en/register?pc=altswitch";
 
 export const MAKE_REFERRAL_LABEL = "Make";
+
+export const CAL_COM_REFERRAL_URL =
+  "https://refer.cal.com/alt-switch-lk8r";
+
+export const CAL_COM_REFERRAL_LABEL = "Cal.com";

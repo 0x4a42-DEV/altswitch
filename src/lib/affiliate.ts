@@ -1,4 +1,5 @@
 import {
+  CAL_COM_REFERRAL_URL,
   DIGITALOCEAN_REFERRAL_URL,
   MAKE_REFERRAL_URL,
   RAILWAY_REFERRAL_URL,
@@ -10,6 +11,7 @@ const REFERRAL_BY_SLUG: Record<string, string> = {
   "digitalocean-app-platform": DIGITALOCEAN_REFERRAL_URL,
   railway: RAILWAY_REFERRAL_URL,
   make: MAKE_REFERRAL_URL,
+  "cal-com": CAL_COM_REFERRAL_URL,
 };
 
 /** Full referral URLs keyed by website hostname. */
@@ -21,6 +23,9 @@ const REFERRAL_BY_HOST: Record<string, string> = {
   "www.railway.com": RAILWAY_REFERRAL_URL,
   "make.com": MAKE_REFERRAL_URL,
   "www.make.com": MAKE_REFERRAL_URL,
+  "cal.com": CAL_COM_REFERRAL_URL,
+  "www.cal.com": CAL_COM_REFERRAL_URL,
+  "refer.cal.com": CAL_COM_REFERRAL_URL,
 };
 
 function isDigitalOceanName(name?: string): boolean {
@@ -35,6 +40,11 @@ function isMakeName(name?: string): boolean {
   return name?.trim().toLowerCase() === "make";
 }
 
+function isCalComName(name?: string): boolean {
+  const n = name?.trim().toLowerCase();
+  return n === "cal.com" || n === "calcom";
+}
+
 function referralOverride(
   website: string,
   meta?: { slug?: string; name?: string },
@@ -44,6 +54,7 @@ function referralOverride(
   if (isDigitalOceanName(meta?.name)) return DIGITALOCEAN_REFERRAL_URL;
   if (isRailwayName(meta?.name)) return RAILWAY_REFERRAL_URL;
   if (isMakeName(meta?.name)) return MAKE_REFERRAL_URL;
+  if (isCalComName(meta?.name)) return CAL_COM_REFERRAL_URL;
 
   try {
     const host = new URL(website).hostname.toLowerCase();
@@ -56,6 +67,9 @@ function referralOverride(
     }
     if (host === "make.com" || host.endsWith(".make.com")) {
       return MAKE_REFERRAL_URL;
+    }
+    if (host === "cal.com" || host.endsWith(".cal.com")) {
+      return CAL_COM_REFERRAL_URL;
     }
   } catch {
     /* ignore invalid website */
