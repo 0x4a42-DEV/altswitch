@@ -3,7 +3,7 @@
 Living log of affiliate / referral programs for [altswitch.xyz](https://altswitch.xyz).  
 Update this file when a program moves between sections. Do not invent approvals.
 
-**Last updated:** 2026-10-18 (Asia/Hong_Kong)
+**Last updated:** 2026-10-19 (Asia/Hong_Kong)
 
 Wiring lives in:
 - `src/lib/affiliates.ts` — referral URL constants
@@ -17,6 +17,7 @@ Wiring lives in:
 |--------|--------|-----------|-------------|
 | **Railway** | Live | `https://railway.com?referralCode=TsViJR` (code `TsViJR`) | `RAILWAY_REFERRAL_URL`; homepage/footer/about; OSS self-host tips; Railway alternative cards override via `affiliate.ts` |
 | **DigitalOcean** | Live | `https://m.do.co/c/5da193244570` | `DIGITALOCEAN_REFERRAL_URL`; OSS self-host tips; DigitalOcean / App Platform alternative cards override via `affiliate.ts` |
+| **Make** | Live | `https://www.make.com/en/register?pc=altswitch` (partner code `altswitch`) | `MAKE_REFERRAL_URL`; Zapier alternative cards override via `affiliate.ts` (slug `make` / host make.com) |
 
 Generic alternatives still use `affiliateParam: "ref=altswitch"` unless a real override exists above.
 
@@ -40,7 +41,6 @@ Practical programs for a **new alternatives directory** — prefer public apply 
 
 | Program | Apply URL | Why it fits AltSwitch | Commission (public) | Difficulty |
 |--------|-----------|----------------------|---------------------|------------|
-| **Make** | https://www.make.com/en/affiliate (enable inside Make account → Affiliate program) | Top Zapier alternative on `/alternatives/zapier`; anyone with a Make account can join | **35%** of subscription for **12 months** (Wise payout; $100 + 3 paying refs min) | **Easy** |
 | **Cal.com** | https://partners.dub.co/cal/apply (overview: https://cal.com/affiliate-program) | Primary Calendly alternative; Dub self-serve apply; OSS scheduling story | **20%** for **12 months**; referred users get 20% off | **Easy** |
 | **Tally** | https://tally.so/help/referral-program → dashboard **Rewards** tab | Primary Typeform alternative; no paid plan required to refer | **20%** of subscription, **capped $150**/referral | **Easy** |
 | **beehiiv** | https://partners.dub.co/beehiiv/apply (overview: https://www.beehiiv.com/partners) | Listed Mailchimp alternative; creator/newsletter audience matches AltSwitch | **50%** first year (tiers up to **60%**); need a beehiiv account | **Easy** |

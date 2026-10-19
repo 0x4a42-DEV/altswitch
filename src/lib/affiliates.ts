@@ -8,3 +8,8 @@ export const DIGITALOCEAN_REFERRAL_URL =
   "https://m.do.co/c/5da193244570";
 
 export const DIGITALOCEAN_REFERRAL_LABEL = "DigitalOcean";
+
+export const MAKE_REFERRAL_URL =
+  "https://www.make.com/en/register?pc=altswitch";
+
+export const MAKE_REFERRAL_LABEL = "Make";
