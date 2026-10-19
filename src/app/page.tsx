@@ -26,7 +26,7 @@ export default function HomePage() {
           </h1>
           <p className="mt-4 max-w-xl text-lg text-zinc-600">
             Curated SaaS and open-source alternatives to the software you already
-            use — with pricing notes, clear tradeoffs, and a weekly newsletter.
+            use — with pricing notes, clear tradeoffs, and a newsletter launching soon.
           </p>
           <div className="mt-8">
             <SearchBox tools={tools} />

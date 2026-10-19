@@ -36,7 +36,7 @@ export default function NewsletterForm({
         setMessage("You're already on the list — thanks!");
       } else {
         setStatus("ok");
-        setMessage("You're subscribed. Expect curated alternatives in your inbox.");
+        setMessage("You're on the list. Weekly picks launch soon.");
         setEmail("");
       }
     } catch {
@@ -61,7 +61,7 @@ export default function NewsletterForm({
             : "text-2xl font-semibold tracking-tight"
         }
       >
-        Get weekly alternative picks
+        Join the list — weekly picks launching soon
       </h2>
       <p
         className={
@@ -92,7 +92,7 @@ export default function NewsletterForm({
               : "rounded-lg bg-white px-4 py-2.5 font-medium text-indigo-700 hover:bg-indigo-50 disabled:opacity-60"
           }
         >
-          {status === "loading" ? "Saving…" : "Subscribe"}
+          {status === "loading" ? "Saving…" : "Join the list"}
         </button>
       </form>
       {message && (

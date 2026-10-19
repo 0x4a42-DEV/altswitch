@@ -31,7 +31,7 @@ export default function AboutPage() {
           live price crawls or paid rankings dressed up as research.
         </li>
         <li>
-          A weekly newsletter with new picks and switch ideas worth reading.
+          A newsletter with new picks and switch ideas — launching soon.
         </li>
       </ul>
 
