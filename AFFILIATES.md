@@ -21,6 +21,7 @@ Wiring lives in:
 | **Cal.com** | Live | `https://refer.cal.com/alt-switch-lk8r` | `CAL_COM_REFERRAL_URL`; Calendly alternative cards override via `affiliate.ts` (slug `cal-com` / host cal.com) |
 | **Tally** | Live | `https://tally.cello.so/03LRqMD3XGp` | `TALLY_REFERRAL_URL`; Typeform alternative cards override via `affiliate.ts` (slug `tally` / hosts tally.so, cello) |
 | **MailerLite** | Live | `https://www.mailerlite.com/?linkId=lp_170762&sourceId=altswitch&tenantId=mailerlite` | `MAILERLITE_REFERRAL_URL`; Mailchimp alternative cards override via `affiliate.ts` (slug `mailerlite` / host mailerlite.com) |
+| **beehiiv** | Live (approved 2026-10-21) | `https://www.beehiiv.com?via=alt-switch` (via `alt-switch`) | `BEEHIIV_REFERRAL_URL`; Mailchimp alternative cards override via `affiliate.ts` (slug `beehiiv` / host beehiiv.com). Program runs on Dub (partners.dub.co/beehiiv) — **payouts go through Dub**. |
 
 Non-partner alternatives use a plain official-site link (no `ref=` param, no `rel="sponsored"`). Only the real overrides above are sponsored.
 
@@ -53,7 +54,6 @@ Practical programs for a **new alternatives directory** — prefer public apply 
 
 | Program | Apply URL | Why it fits AltSwitch | Commission (public) | Difficulty |
 |--------|-----------|----------------------|---------------------|------------|
-| **beehiiv** | https://partners.dub.co/beehiiv/apply (overview: https://www.beehiiv.com/partners) | Listed Mailchimp alternative; creator/newsletter audience matches AltSwitch | **50%** first year (tiers up to **60%**); need a beehiiv account | **Easy** |
 | **Hostinger** | https://affiliates.hostinger.com/signup (info: https://www.hostinger.com/affiliates) | WordPress / WooCommerce / Shopify-adjacent hosting; classic easy affiliate for directories | Up to **~40%** (volume tiers; first-term hosting; $100 + 3 conversions for PayPal) | **Easy** |
 | **Kit (ConvertKit)** | https://kit.com/affiliate → PartnerStack | Strong Mailchimp alternative already on site; creator-email fit | **50%** of payments for **first 12 months** (+10–20% recurring after tier) | **Medium** (PartnerStack) |
 

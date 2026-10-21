@@ -29,3 +29,7 @@ export const MAILERLITE_REFERRAL_URL =
 
 export const MAILERLITE_REFERRAL_LABEL = "MailerLite";
 
+export const BEEHIIV_REFERRAL_URL =
+  "https://www.beehiiv.com?via=alt-switch";
+
+export const BEEHIIV_REFERRAL_LABEL = "beehiiv";
