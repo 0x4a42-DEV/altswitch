@@ -6,6 +6,7 @@ import {
   TALLY_REFERRAL_URL,
   MAILERLITE_REFERRAL_URL,
   BEEHIIV_REFERRAL_URL,
+  VULTR_REFERRAL_URL,
 } from "@/lib/affiliates";
 
 /** Full referral URLs keyed by alternative slug (preferred when present). */
@@ -18,6 +19,7 @@ const REFERRAL_BY_SLUG: Record<string, string> = {
   tally: TALLY_REFERRAL_URL,
   mailerlite: MAILERLITE_REFERRAL_URL,
   beehiiv: BEEHIIV_REFERRAL_URL,
+  vultr: VULTR_REFERRAL_URL,
 };
 
 /** Full referral URLs keyed by website hostname. */
@@ -39,6 +41,8 @@ const REFERRAL_BY_HOST: Record<string, string> = {
   "www.mailerlite.com": MAILERLITE_REFERRAL_URL,
   "beehiiv.com": BEEHIIV_REFERRAL_URL,
   "www.beehiiv.com": BEEHIIV_REFERRAL_URL,
+  "vultr.com": VULTR_REFERRAL_URL,
+  "www.vultr.com": VULTR_REFERRAL_URL,
 };
 
 function isDigitalOceanName(name?: string): boolean {
@@ -70,6 +74,10 @@ function isBeehiivName(name?: string): boolean {
   return name?.trim().toLowerCase() === "beehiiv";
 }
 
+function isVultrName(name?: string): boolean {
+  return name?.trim().toLowerCase() === "vultr";
+}
+
 function referralOverride(
   website: string,
   meta?: { slug?: string; name?: string },
@@ -83,6 +91,7 @@ function referralOverride(
   if (isTallyName(meta?.name)) return TALLY_REFERRAL_URL;
   if (isMailerLiteName(meta?.name)) return MAILERLITE_REFERRAL_URL;
   if (isBeehiivName(meta?.name)) return BEEHIIV_REFERRAL_URL;
+  if (isVultrName(meta?.name)) return VULTR_REFERRAL_URL;
 
   try {
     const host = new URL(website).hostname.toLowerCase();
@@ -110,6 +119,9 @@ function referralOverride(
     }
     if (host === "beehiiv.com" || host.endsWith(".beehiiv.com")) {
       return BEEHIIV_REFERRAL_URL;
+    }
+    if (host === "vultr.com" || host.endsWith(".vultr.com")) {
+      return VULTR_REFERRAL_URL;
     }
   } catch {
     /* ignore invalid website */

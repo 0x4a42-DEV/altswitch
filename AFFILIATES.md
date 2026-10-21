@@ -22,6 +22,7 @@ Wiring lives in:
 | **Tally** | Live | `https://tally.cello.so/03LRqMD3XGp` | `TALLY_REFERRAL_URL`; Typeform alternative cards override via `affiliate.ts` (slug `tally` / hosts tally.so, cello) |
 | **MailerLite** | Live | `https://www.mailerlite.com/?linkId=lp_170762&sourceId=altswitch&tenantId=mailerlite` | `MAILERLITE_REFERRAL_URL`; Mailchimp alternative cards override via `affiliate.ts` (slug `mailerlite` / host mailerlite.com) |
 | **beehiiv** | Live (approved 2026-10-21) | `https://www.beehiiv.com?via=alt-switch` (via `alt-switch`) | `BEEHIIV_REFERRAL_URL`; Mailchimp alternative cards override via `affiliate.ts` (slug `beehiiv` / host beehiiv.com). Program runs on Dub (partners.dub.co/beehiiv) — **payouts go through Dub**. |
+| **Vultr** | Live (approved 2026-10-21) | `https://www.vultr.com/?ref=9930011` (ref `9930011`) | `VULTR_REFERRAL_URL`; OSS self-host tip (with Railway/DO); Vultr card on `/alternatives/heroku` via `affiliate.ts` (slug `vultr` / host vultr.com). Customer referral program, not a % commission: per vultr.com/company/referral-program (checked 2026-10-21) you "earn up to $100" per referred customer, who must stay active 30+ days to count; payouts issued the business day after the 1st and 15th of each month. Exact amount and minimum-spend rules are in Vultr's program details / customer portal — not stated on the public page. |
 
 Non-partner alternatives use a plain official-site link (no `ref=` param, no `rel="sponsored"`). Only the real overrides above are sponsored.
 
@@ -65,7 +66,6 @@ Practical programs for a **new alternatives directory** — prefer public apply 
 | **Close CRM** | https://close.com/partners (affiliates track) | Listed HubSpot / Pipedrive alternative (not on `/alternatives/salesforce`); affiliate creators welcome | **30%** first-year subscription | **Medium** (1–2 day review + short call) |
 | **Contabo** | https://contabo.com/en-us/affiliate-program/ → CJ publisher (program via Contabo page) | Cheap VPS for OSS self-host callouts (next to Railway/DO) | Fixed **€20–€250** per first qualifying order (product table on page) | **Medium** (needs CJ account; ~1 week review) |
 | **Brevo** | https://partners.brevo.com/affiliates (info: https://www.brevo.com/partners/affiliates/) | HubSpot + Mailchimp alternative already listed | **$5**/validated free + **$100**/first paid (90-day cookie) | **Medium** (PartnerStack; may want business email + real traffic) |
-| **Vultr** | https://www.vultr.com/company/referral-program/ (link in customer portal) | Hosting / self-host secondary to Railway & DO | Up to **$100**/qualified referral (active 30+ days) | **Easy** (need Vultr account) |
 | **Crisp** | https://crisp.chat/en/partnerships/ (Marketing program) | Intercom alternative on site; lighter than Zendesk PartnerStack | ~**20%** cashback or discount codes (manual partnership) | **Medium** (manual review; promote with content) |
 
 ### P3 — gatekept or secondary

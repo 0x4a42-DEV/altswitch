@@ -2946,6 +2946,25 @@
         ],
         "bestFor": "DevOps-comfortable teams escaping Heroku bills.",
         "pricingNotes": "OSS free; Coolify Cloud optional. Run on a VPS (e.g. DigitalOcean)."
+      },
+      {
+        "slug": "vultr",
+        "name": "Vultr",
+        "oneLiner": "Cloud VPS and managed services for teams willing to run their own servers instead of a PaaS.",
+        "pricing": "paid",
+        "website": "https://www.vultr.com",
+        "pros": [
+          "Cloud Compute VPS from $5/mo (1 vCPU, 1 GB RAM, 1 TB transfer)",
+          "Hourly billing with bandwidth included in every plan",
+          "Free Kubernetes control plane; managed Postgres/MySQL available"
+        ],
+        "cons": [
+          "Not a PaaS: no git-push deploys or buildpacks, so you set up and patch the server (or add Coolify)",
+          "Automatic backups add 20% to the instance price",
+          "Managed databases are a separate product (from $15/mo)"
+        ],
+        "bestFor": "Teams comfortable managing Linux servers who want low-cost VMs instead of dynos.",
+        "pricingNotes": "Cloud Compute from $5/mo (1 vCPU / 1 GB; $2.50/mo IPv6-only), High Performance from $6/mo, billed hourly. Backups +20%; extra bandwidth $0.01/GB. Prices can vary by region."
       }
     ]
   },

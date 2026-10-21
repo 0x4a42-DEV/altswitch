@@ -33,3 +33,8 @@ export const BEEHIIV_REFERRAL_URL =
   "https://www.beehiiv.com?via=alt-switch";
 
 export const BEEHIIV_REFERRAL_LABEL = "beehiiv";
+
+export const VULTR_REFERRAL_URL =
+  "https://www.vultr.com/?ref=9930011";
+
+export const VULTR_REFERRAL_LABEL = "Vultr";

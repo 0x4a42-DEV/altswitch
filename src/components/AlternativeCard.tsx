@@ -5,6 +5,7 @@ import { affiliateUrl } from "@/lib/affiliate";
 import {
   DIGITALOCEAN_REFERRAL_URL,
   RAILWAY_REFERRAL_URL,
+  VULTR_REFERRAL_URL,
 } from "@/lib/affiliates";
 import { internalToolSlugForAlt } from "@/lib/seo";
 
@@ -93,8 +94,8 @@ export default function AlternativeCard({ alt }: { alt: Alternative }) {
             className="font-medium text-indigo-600 hover:underline"
           >
             Railway
-          </a>{" "}
-          or{" "}
+          </a>
+          ,{" "}
           <a
             href={DIGITALOCEAN_REFERRAL_URL}
             target="_blank"
@@ -102,6 +103,15 @@ export default function AlternativeCard({ alt }: { alt: Alternative }) {
             className="font-medium text-indigo-600 hover:underline"
           >
             DigitalOcean
+          </a>{" "}
+          or{" "}
+          <a
+            href={VULTR_REFERRAL_URL}
+            target="_blank"
+            rel="noopener noreferrer sponsored"
+            className="font-medium text-indigo-600 hover:underline"
+          >
+            Vultr
           </a>
           .
         </p>
