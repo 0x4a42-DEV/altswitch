@@ -2891,26 +2891,6 @@
         "pricingNotes": "Freemium; paid by operations — often better value than Zapier at volume."
       },
       {
-        "slug": "n8n",
-        "name": "n8n",
-        "oneLiner": "Open-source workflow automation you can self-host.",
-        "pricing": "oss",
-        "website": "https://n8n.io",
-        "affiliateParam": "ref=altswitch",
-        "pros": [
-          "Self-host & keep data",
-          "Code nodes when needed",
-          "Fair-code / OSS model"
-        ],
-        "cons": [
-          "You run the infra",
-          "Fewer one-click consumer apps than Zapier",
-          "UI less “consumer polished”"
-        ],
-        "bestFor": "Technical teams who want Zapier power without SaaS lock-in.",
-        "pricingNotes": "OSS free to self-host; n8n Cloud paid."
-      },
-      {
         "slug": "activepieces",
         "name": "Activepieces",
         "oneLiner": "Open-source Zapier-like automation with a growing piece catalog.",
@@ -2969,6 +2949,25 @@
         ],
         "bestFor": "Teams replacing Zapier + internal scripts with one OSS platform.",
         "pricingNotes": "OSS free; Windmill Cloud / enterprise paid."
+      },
+      {
+        "slug": "n8n",
+        "name": "n8n",
+        "oneLiner": "Open-source workflow automation you can self-host.",
+        "pricing": "oss",
+        "website": "https://n8n.io",
+        "pros": [
+          "Self-host & keep data",
+          "Code nodes when needed",
+          "Fair-code / OSS model"
+        ],
+        "cons": [
+          "You run the infra",
+          "Fewer one-click consumer apps than Zapier",
+          "UI less “consumer polished”"
+        ],
+        "bestFor": "Technical teams who want Zapier power without SaaS lock-in.",
+        "pricingNotes": "OSS free to self-host; n8n Cloud paid."
       }
     ]
   },

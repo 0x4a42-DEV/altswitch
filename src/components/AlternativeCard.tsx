@@ -21,6 +21,8 @@ export default function AlternativeCard({ alt }: { alt: Alternative }) {
     name: alt.name,
   });
   const internalSlug = internalToolSlugForAlt(alt);
+  // Plain official-site links (no referral/ref param) are not sponsored.
+  const isSponsored = href !== alt.website;
 
   return (
     <article
@@ -109,7 +111,7 @@ export default function AlternativeCard({ alt }: { alt: Alternative }) {
         <a
           href={href}
           target="_blank"
-          rel="noopener noreferrer sponsored"
+          rel={isSponsored ? "noopener noreferrer sponsored" : "noopener noreferrer"}
           className="text-indigo-600 hover:text-indigo-500"
         >
           Visit website →

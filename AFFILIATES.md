@@ -3,7 +3,7 @@
 Living log of affiliate / referral programs for [altswitch.xyz](https://altswitch.xyz).  
 Update this file when a program moves between sections. Do not invent approvals.
 
-**Last updated:** 2026-10-19 (Asia/Hong_Kong)
+**Last updated:** 2026-10-21 (Asia/Tokyo)
 
 Wiring lives in:
 - `src/lib/affiliates.ts` — referral URL constants
@@ -35,6 +35,16 @@ Generic alternatives still use `affiliateParam: "ref=altswitch"` unless a real o
 
 ---
 
+## Declined
+
+| Program | Status | Notes |
+|--------|--------|-------|
+| **n8n** | Declined 2026-10-21 (via PartnerStack) | Demoted to a plain listing: still on `/alternatives/zapier` with factual description/pros/cons, but moved to the **last** position, no `ref=` param or `rel="sponsored"` (plain `https://n8n.io` link), and not used as a FAQ "best free/OSS" or "lower-cost" pick (Activepieces is). Re-apply in **1–2 months** (~Dec 2026). **If they decline again, remove n8n from the site completely.** Original apply path: https://n8n.io/affiliates/ → PartnerStack. |
+
+Policy: programs that decline stay listed (factual, unchanged copy) but get no favourable placement — last in list, plain official link, not featured in FAQ picks.
+
+---
+
 ## To do (prioritized apply list)
 
 Practical programs for a **new alternatives directory** — prefer public apply / self-serve dashboard, avoid enterprise-only PartnerStack hell. Research verified 2026-10-18. Apply in priority order; none below are approved yet.
@@ -45,7 +55,6 @@ Practical programs for a **new alternatives directory** — prefer public apply 
 |--------|-----------|----------------------|---------------------|------------|
 | **beehiiv** | https://partners.dub.co/beehiiv/apply (overview: https://www.beehiiv.com/partners) | Listed Mailchimp alternative; creator/newsletter audience matches AltSwitch | **50%** first year (tiers up to **60%**); need a beehiiv account | **Easy** |
 | **Hostinger** | https://affiliates.hostinger.com/signup (info: https://www.hostinger.com/affiliates) | WordPress / WooCommerce / Shopify-adjacent hosting; classic easy affiliate for directories | Up to **~40%** (volume tiers; first-term hosting; $100 + 3 conversions for PayPal) | **Easy** |
-| **n8n** | https://n8n.io/affiliates/ → PartnerStack apply | Zapier alt + OSS self-host narrative; open to content/sites (not agency-only) | **30%** of n8n Cloud for **12 months** (PayPal; €100 min) | **Medium** (~2 weeks review) |
 | **Kit (ConvertKit)** | https://kit.com/affiliate → PartnerStack | Strong Mailchimp alternative already on site; creator-email fit | **50%** of payments for **first 12 months** (+10–20% recurring after tier) | **Medium** (PartnerStack) |
 
 ### P2 — strong fits, slightly more friction
