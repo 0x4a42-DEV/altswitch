@@ -3,6 +3,17 @@ import { getAllTools, getToolBySlug, pricingLabel } from "./data";
 
 export type FaqItem = { question: string; answer: string };
 
+/**
+ * Lowercase the first letter for mid-sentence use, unless the first word is an
+ * acronym or brand-style word (second character uppercase, e.g. "SMBs", or any
+ * later uppercase letter in the first word, e.g. "SaaS").
+ */
+function lowerFirst(text: string): string {
+  const firstWord = text.split(/\s/, 1)[0] ?? "";
+  if (/[A-Z]/.test(firstWord.slice(1))) return text;
+  return text.charAt(0).toLowerCase() + text.slice(1);
+}
+
 const PRICING_RANK: Record<string, number> = {
   free: 0,
   oss: 1,
@@ -14,7 +25,7 @@ const PRICING_RANK: Record<string, number> = {
 export function tradeoffLine(alt: Alternative): string {
   const pro = alt.pros[0]?.replace(/\.$/, "") ?? alt.oneLiner;
   const con = alt.cons[0]?.replace(/\.$/, "") ?? "smaller ecosystem than the current market leader";
-  return `${pro}; tradeoff: ${con.charAt(0).toLowerCase()}${con.slice(1)}.`;
+  return `${pro}; tradeoff: ${lowerFirst(con)}.`;
 }
 
 /** Map an alternative to a parent-tool page when we cover it. */
@@ -111,7 +122,7 @@ export function buildFaqs(tool: Tool): FaqItem[] {
 
   const switchProfiles = alts
     .slice(0, 3)
-    .map((a) => `${a.name} if ${a.bestFor.charAt(0).toLowerCase()}${a.bestFor.slice(1).replace(/\.$/, "")}`)
+    .map((a) => `${a.name} if ${lowerFirst(a.bestFor).replace(/\.$/, "")}`)
     .join("; ");
   faqs.push({
     question: `Who should switch from ${tool.name}?`,

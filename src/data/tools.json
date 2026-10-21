@@ -14,7 +14,6 @@
         "oneLiner": "Open-source Notion alternative you can self-host.",
         "pricing": "oss",
         "website": "https://appflowy.io",
-        "affiliateParam": "ref=altswitch",
         "pros": [
           "Open source & self-hostable",
           "Notion-like blocks",
@@ -34,7 +33,6 @@
         "oneLiner": "Privacy-first workspace combining docs, whiteboards, and databases.",
         "pricing": "freemium",
         "website": "https://affine.pro",
-        "affiliateParam": "ref=altswitch",
         "pros": [
           "Docs + whiteboards together",
           "Local-first / privacy angle",
@@ -54,7 +52,6 @@
         "oneLiner": "Local-first, encrypted personal knowledge base.",
         "pricing": "freemium",
         "website": "https://anytype.io",
-        "affiliateParam": "ref=altswitch",
         "pros": [
           "Local-first & encrypted",
           "Works offline",
@@ -74,7 +71,6 @@
         "oneLiner": "Object-based note-taking built around your content types.",
         "pricing": "freemium",
         "website": "https://capacities.io",
-        "affiliateParam": "ref=altswitch",
         "pros": [
           "Object-based structure",
           "Great daily-notes flow",
@@ -94,7 +90,6 @@
         "oneLiner": "Beautiful team knowledge base, self-hostable.",
         "pricing": "oss",
         "website": "https://www.getoutline.com",
-        "affiliateParam": "ref=altswitch",
         "pros": [
           "Clean team wiki UX",
           "Self-hostable",
@@ -114,7 +109,6 @@
         "oneLiner": "Docs that act like apps with packs and automations.",
         "pricing": "freemium",
         "website": "https://coda.io",
-        "affiliateParam": "ref=altswitch",
         "pros": [
           "Docs that act like apps",
           "Rich Packs/integrations",
@@ -145,7 +139,6 @@
         "oneLiner": "Open-source Slack alternative for secure self-hosting.",
         "pricing": "oss",
         "website": "https://mattermost.com",
-        "affiliateParam": "ref=altswitch",
         "pros": [
           "Familiar Slack-like UX",
           "Strong self-host/compliance",
@@ -165,7 +158,6 @@
         "oneLiner": "Fully customizable open-source team chat.",
         "pricing": "oss",
         "website": "https://www.rocket.chat",
-        "affiliateParam": "ref=altswitch",
         "pros": [
           "Very customizable",
           "Chat + livechat/omnichannel",
@@ -185,7 +177,6 @@
         "oneLiner": "Free voice + text communities popular with startups and communities.",
         "pricing": "freemium",
         "website": "https://discord.com",
-        "affiliateParam": "ref=altswitch",
         "pros": [
           "Free for most community use",
           "Voice + text strong",
@@ -205,7 +196,6 @@
         "oneLiner": "Secure messaging on the Matrix open network.",
         "pricing": "oss",
         "website": "https://element.io",
-        "affiliateParam": "ref=altswitch",
         "pros": [
           "Matrix open network",
           "E2E encryption",
@@ -225,7 +215,6 @@
         "oneLiner": "Async-first team chat designed to reduce interruptions.",
         "pricing": "freemium",
         "website": "https://twist.com",
-        "affiliateParam": "ref=altswitch",
         "pros": [
           "Async-first threads",
           "Less notification spam",
@@ -245,7 +234,6 @@
         "oneLiner": "Threaded open-source chat that scales for large teams.",
         "pricing": "oss",
         "website": "https://zulip.com",
-        "affiliateParam": "ref=altswitch",
         "pros": [
           "Topic threads scale well",
           "Open source",
@@ -276,7 +264,6 @@
         "oneLiner": "Fast, polished issue tracker loved by modern product teams.",
         "pricing": "freemium",
         "website": "https://linear.app",
-        "affiliateParam": "ref=altswitch",
         "pros": [
           "Blazing fast UX",
           "Loved by product engineers",
@@ -296,7 +283,6 @@
         "oneLiner": "Open-source project management that feels like Linear + Jira.",
         "pricing": "oss",
         "website": "https://plane.so",
-        "affiliateParam": "ref=altswitch",
         "pros": [
           "OSS with Linear/Jira vibes",
           "Self-host option",
@@ -316,7 +302,6 @@
         "oneLiner": "Autonomous project management with AI-assisted workflows.",
         "pricing": "freemium",
         "website": "https://height.app",
-        "affiliateParam": "ref=altswitch",
         "pros": [
           "AI-assisted workflows",
           "Flexible views",
@@ -336,7 +321,6 @@
         "oneLiner": "Open-source agile project management for scrum and kanban.",
         "pricing": "oss",
         "website": "https://taiga.io",
-        "affiliateParam": "ref=altswitch",
         "pros": [
           "Scrum + Kanban first-class",
           "Open source",
@@ -356,7 +340,6 @@
         "oneLiner": "JetBrains issue tracker with powerful search and workflows.",
         "pricing": "freemium",
         "website": "https://www.jetbrains.com/youtrack/",
-        "affiliateParam": "ref=altswitch",
         "pros": [
           "Powerful query language",
           "JetBrains ecosystem fit",
@@ -376,7 +359,6 @@
         "oneLiner": "All-in-one productivity suite replacing multiple PM tools.",
         "pricing": "freemium",
         "website": "https://clickup.com",
-        "affiliateParam": "ref=altswitch",
         "pros": [
           "Many views in one app",
           "Docs + tasks + goals",
@@ -407,7 +389,6 @@
         "oneLiner": "Free-forever CRM with marketing and sales suites.",
         "pricing": "freemium",
         "website": "https://www.hubspot.com/products/crm",
-        "affiliateParam": "ref=altswitch",
         "pros": [
           "Truly usable free CRM",
           "Marketing/sales suite path",
@@ -427,7 +408,6 @@
         "oneLiner": "Sales-focused CRM built around deal pipelines.",
         "pricing": "paid",
         "website": "https://www.pipedrive.com",
-        "affiliateParam": "ref=altswitch",
         "pros": [
           "Pipeline-first UX",
           "Sales activity focus",
@@ -447,7 +427,6 @@
         "oneLiner": "Open-source CRM designed as a modern Salesforce alternative.",
         "pricing": "oss",
         "website": "https://twenty.com",
-        "affiliateParam": "ref=altswitch",
         "pros": [
           "Modern OSS CRM",
           "Salesforce-inspired without legacy",
@@ -467,7 +446,6 @@
         "oneLiner": "Flexible open-source CRM you can self-host.",
         "pricing": "oss",
         "website": "https://www.espocrm.com",
-        "affiliateParam": "ref=altswitch",
         "pros": [
           "Flexible self-host CRM",
           "Custom entities",
@@ -487,7 +465,6 @@
         "oneLiner": "Flexible, data-driven CRM for startups and modern teams.",
         "pricing": "freemium",
         "website": "https://attio.com",
-        "affiliateParam": "ref=altswitch",
         "pros": [
           "Flexible data model",
           "Beautiful UX",
@@ -507,7 +484,6 @@
         "oneLiner": "Affordable full-featured CRM in the Zoho suite.",
         "pricing": "freemium",
         "website": "https://www.zoho.com/crm/",
-        "affiliateParam": "ref=altswitch",
         "pros": [
           "Affordable full CRM",
           "Zoho suite bundling",
@@ -538,19 +514,18 @@
         "oneLiner": "Email, SMS, and CRM for growing businesses at lower cost.",
         "pricing": "freemium",
         "website": "https://www.brevo.com",
-        "affiliateParam": "ref=altswitch",
         "pros": [
           "Email + SMS + CRM lite",
+          "Transactional email (API/SMTP) and a free sales CRM included",
           "Generous free tier",
-          "EU-friendly option"
+          "EU-based, GDPR-focused"
         ],
         "cons": [
-          "Deliverability varies by setup",
-          "Less “inbound suite” than HubSpot",
-          "UI busier than niche ESPs"
+          "Free plan caps sending at 300 emails/day; dedicated IP only on Enterprise",
+          "Lighter inbound content tools (blog/SEO/CMS) than HubSpot"
         ],
         "bestFor": "SMBs needing email/SMS without HubSpot prices.",
-        "pricingNotes": "Free tier by daily emails; paid for scale and marketing features."
+        "pricingNotes": "Free forever: 300 emails/day, up to 100,000 contacts. Paid plans priced by monthly email volume; SMS credits sold separately."
       },
       {
         "slug": "activecampaign",
@@ -558,7 +533,6 @@
         "oneLiner": "Marketing automation with strong email + CRM features.",
         "pricing": "paid",
         "website": "https://www.activecampaign.com",
-        "affiliateParam": "ref=altswitch",
         "pros": [
           "Strong automation",
           "CRM + email combined",
@@ -578,7 +552,6 @@
         "oneLiner": "Open-source marketing automation you control.",
         "pricing": "oss",
         "website": "https://www.mautic.org",
-        "affiliateParam": "ref=altswitch",
         "pros": [
           "Full OSS marketing automation",
           "Self-host = data ownership",
@@ -598,7 +571,6 @@
         "oneLiner": "Pipeline CRM that many teams use instead of HubSpot Sales.",
         "pricing": "paid",
         "website": "https://www.pipedrive.com",
-        "affiliateParam": "ref=altswitch",
         "pros": [
           "Pipeline-first UX",
           "Sales activity focus",
@@ -618,19 +590,19 @@
         "oneLiner": "Sales CRM built for high-velocity outbound teams.",
         "pricing": "paid",
         "website": "https://www.close.com",
-        "affiliateParam": "ref=altswitch",
         "pros": [
           "Built for outbound sales",
           "Calling/SMS in-product",
-          "Fast pipeline UX"
+          "Fast pipeline UX",
+          "Built-in calling, SMS and email on all plans, plus Chloe AI sales agent"
         ],
         "cons": [
           "Sales-first, not marketing suite",
-          "Paid only",
+          "No free plan (14-day trial, no card)",
           "Overkill for nurture-only teams"
         ],
         "bestFor": "High-velocity outbound sales teams.",
-        "pricingNotes": "Paid per seat; includes communication features — compare total cost."
+        "pricingNotes": "From $9/user/mo (Solo, annual) to $139 (Scale). 14-day trial, no card needed; 30-day money-back. Calls and SMS billed at cost (about $0.02/min)."
       },
       {
         "slug": "listmonk",
@@ -638,7 +610,6 @@
         "oneLiner": "Self-hosted newsletter and mailing list manager.",
         "pricing": "oss",
         "website": "https://listmonk.app",
-        "affiliateParam": "ref=altswitch",
         "pros": [
           "Self-hosted & fast",
           "Simple lists/campaigns",
@@ -669,7 +640,6 @@
         "oneLiner": "Open-source design and prototyping platform for teams.",
         "pricing": "oss",
         "website": "https://penpot.app",
-        "affiliateParam": "ref=altswitch",
         "pros": [
           "OSS design + prototype",
           "Self-hostable",
@@ -689,7 +659,6 @@
         "oneLiner": "Mac-native UI design tool with strong plugin ecosystem.",
         "pricing": "paid",
         "website": "https://www.sketch.com",
-        "affiliateParam": "ref=altswitch",
         "pros": [
           "Mac-native & fast",
           "Mature symbols/plugins",
@@ -709,7 +678,6 @@
         "oneLiner": "Design and ship production websites in one tool.",
         "pricing": "freemium",
         "website": "https://www.framer.com",
-        "affiliateParam": "ref=altswitch",
         "pros": [
           "Design → production sites",
           "Strong marketing-site fit",
@@ -729,7 +697,6 @@
         "oneLiner": "Free design tool with offline support and built-in assets.",
         "pricing": "freemium",
         "website": "https://icons8.com/lunacy",
-        "affiliateParam": "ref=altswitch",
         "pros": [
           "Free core use",
           "Offline capable",
@@ -749,7 +716,6 @@
         "oneLiner": "Open-source prototyping tool focused on speed.",
         "pricing": "oss",
         "website": "https://pencil.evolus.vn",
-        "affiliateParam": "ref=altswitch",
         "pros": [
           "Open source",
           "Lightweight prototyping",
@@ -769,7 +735,6 @@
         "oneLiner": "Adobe's UI/UX design and prototyping app.",
         "pricing": "paid",
         "website": "https://www.adobe.com/products/xd.html",
-        "affiliateParam": "ref=altswitch",
         "pros": [
           "Adobe ecosystem ties",
           "Prototype + design",
@@ -798,21 +763,21 @@
         "slug": "freshdesk",
         "name": "Freshdesk",
         "oneLiner": "Affordable helpdesk with omnichannel support.",
-        "pricing": "freemium",
+        "pricing": "paid",
         "website": "https://www.freshworks.com/freshdesk/",
-        "affiliateParam": "ref=altswitch",
         "pros": [
-          "Affordable helpdesk",
-          "Omnichannel options",
+          "Ticketing, shared inbox, knowledge base and customer portal on every plan",
+          "Freddy AI Agent included (first 500 sessions)",
+          "Day passes for occasional agents",
           "Familiar ticket UX"
         ],
         "cons": [
-          "Upsell into Freshworks suite",
-          "Automation depth mid-tier",
-          "Less “delight” than Intercom"
+          "AI Agent sessions beyond the first 500 are a paid add-on ($49 per 100)",
+          "Skill-based routing, sandbox and audit logs are Enterprise-only",
+          "No permanent free plan since 2025"
         ],
         "bestFor": "SMBs needing tickets without Zendesk enterprise pricing.",
-        "pricingNotes": "Free tier (limited); paid per agent as channels grow."
+        "pricingNotes": "14-day free trial; Growth from $19/agent/mo billed annually (Pro $55, Enterprise $89). A 2-agent Free Program is available in-app for 6 months."
       },
       {
         "slug": "intercom",
@@ -820,7 +785,6 @@
         "oneLiner": "Conversational support and customer messaging platform.",
         "pricing": "paid",
         "website": "https://www.intercom.com",
-        "affiliateParam": "ref=altswitch",
         "pros": [
           "Great conversational UX",
           "Product messaging + support",
@@ -840,7 +804,6 @@
         "oneLiner": "Open-source customer engagement suite.",
         "pricing": "oss",
         "website": "https://www.chatwoot.com",
-        "affiliateParam": "ref=altswitch",
         "pros": [
           "OSS customer engagement",
           "Self-host or cloud",
@@ -860,7 +823,6 @@
         "oneLiner": "Lightweight open-source help desk and shared inbox.",
         "pricing": "oss",
         "website": "https://freescout.net",
-        "affiliateParam": "ref=altswitch",
         "pros": [
           "Lightweight shared inbox",
           "Helpscout-like UX",
@@ -880,7 +842,6 @@
         "oneLiner": "Human-friendly shared inbox for customer support.",
         "pricing": "paid",
         "website": "https://www.helpscout.com",
-        "affiliateParam": "ref=altswitch",
         "pros": [
           "Human, calm shared inbox",
           "Docs (Docs) + beacon",
@@ -900,7 +861,6 @@
         "oneLiner": "Helpdesk built for ecommerce brands.",
         "pricing": "paid",
         "website": "https://www.gorgias.com",
-        "affiliateParam": "ref=altswitch",
         "pros": [
           "Built for ecommerce",
           "Shopify/etc. deep links",
@@ -931,7 +891,6 @@
         "oneLiner": "Open-source Airtable alternative on top of any SQL database.",
         "pricing": "oss",
         "website": "https://nocodb.com",
-        "affiliateParam": "ref=altswitch",
         "pros": [
           "Airtable UX on your SQL DB",
           "OSS & self-host",
@@ -951,7 +910,6 @@
         "oneLiner": "No-code database, open-source and self-hostable.",
         "pricing": "oss",
         "website": "https://baserow.io",
-        "affiliateParam": "ref=altswitch",
         "pros": [
           "No-code database",
           "Self-host or cloud",
@@ -971,7 +929,6 @@
         "oneLiner": "Flexible databases inside the Notion workspace you already use.",
         "pricing": "freemium",
         "website": "https://www.notion.so",
-        "affiliateParam": "ref=altswitch",
         "pros": [
           "Already in Notion",
           "Flexible relations/views",
@@ -991,7 +948,6 @@
         "oneLiner": "Spreadsheet with built-in integrations and AI.",
         "pricing": "freemium",
         "website": "https://rows.com",
-        "affiliateParam": "ref=altswitch",
         "pros": [
           "Spreadsheet + integrations",
           "AI helpers",
@@ -1011,7 +967,6 @@
         "oneLiner": "Modern spreadsheet-database hybrid, open source.",
         "pricing": "oss",
         "website": "https://www.getgrist.com",
-        "affiliateParam": "ref=altswitch",
         "pros": [
           "Spreadsheet-DB hybrid",
           "Python formulas",
@@ -1031,7 +986,6 @@
         "oneLiner": "Fast open-source Airtable-like database on Postgres.",
         "pricing": "oss",
         "website": "https://teable.io",
-        "affiliateParam": "ref=altswitch",
         "pros": [
           "Airtable-like on Postgres",
           "Performance focus",
@@ -1062,7 +1016,6 @@
         "oneLiner": "Lightweight, privacy-friendly analytics — no cookies needed.",
         "pricing": "paid",
         "website": "https://plausible.io",
-        "affiliateParam": "ref=altswitch",
         "pros": [
           "Privacy-first, no cookies",
           "Tiny script",
@@ -1082,7 +1035,6 @@
         "oneLiner": "Simple, fast, open-source web analytics.",
         "pricing": "oss",
         "website": "https://umami.is",
-        "affiliateParam": "ref=altswitch",
         "pros": [
           "Simple OSS analytics",
           "Easy self-host",
@@ -1102,7 +1054,6 @@
         "oneLiner": "Full-featured open-source analytics you own.",
         "pricing": "oss",
         "website": "https://matomo.org",
-        "affiliateParam": "ref=altswitch",
         "pros": [
           "GA-depth on your infra",
           "Privacy controls",
@@ -1122,7 +1073,6 @@
         "oneLiner": "Simple privacy-first analytics with a clean dashboard.",
         "pricing": "paid",
         "website": "https://usefathom.com",
-        "affiliateParam": "ref=altswitch",
         "pros": [
           "Dead-simple privacy analytics",
           "Fast UI",
@@ -1142,7 +1092,6 @@
         "oneLiner": "Product analytics, feature flags, and session replay in one.",
         "pricing": "freemium",
         "website": "https://posthog.com",
-        "affiliateParam": "ref=altswitch",
         "pros": [
           "Product analytics + flags + replay",
           "Generous free cloud",
@@ -1162,7 +1111,6 @@
         "oneLiner": "Simple open-source web statistics, privacy-friendly.",
         "pricing": "oss",
         "website": "https://www.goatcounter.com",
-        "affiliateParam": "ref=altswitch",
         "pros": [
           "Ultra-simple privacy stats",
           "OSS",
@@ -1193,7 +1141,6 @@
         "oneLiner": "Simple, writer-friendly newsletter platform for indie creators.",
         "pricing": "freemium",
         "website": "https://buttondown.com",
-        "affiliateParam": "ref=altswitch",
         "pros": [
           "Writer-friendly",
           "Markdown-native",
@@ -1213,19 +1160,19 @@
         "oneLiner": "Creator-focused email marketing with automations.",
         "pricing": "freemium",
         "website": "https://kit.com",
-        "affiliateParam": "ref=altswitch",
         "pros": [
-          "Creator-focused automations",
-          "Tagging/sequences",
-          "Commerce extras"
+          "Free plan up to 10,000 subscribers",
+          "Sell digital products and paid newsletters, even on the Free plan",
+          "Creator Network recommendations for list growth",
+          "Creator-focused tagging, sequences and visual automations"
         ],
         "cons": [
-          "Price steps with subscribers",
-          "Less “enterprise ESP”",
-          "Rebrand to Kit — docs shift"
+          "Visual automations and email sequences require a paid plan",
+          "Email-first: no built-in SMS or sales CRM",
+          "Paid plans are priced by subscriber tier and step up automatically as your list grows"
         ],
         "bestFor": "Creators and course sellers nurturing an audience.",
-        "pricingNotes": "Free up to a limit then paid by subscribers (Kit)."
+        "pricingNotes": "Free plan up to 10,000 subscribers with unlimited broadcasts, forms and landing pages. Automations and sequences need Creator, from $39/mo for 1,000 subscribers."
       },
       {
         "slug": "mailerlite",
@@ -1236,16 +1183,16 @@
         "affiliateParam": "ref=altswitch",
         "pros": [
           "Clean builder and automations",
-          "Strong free/starter pricing",
-          "Landing pages and forms included"
+          "Landing pages and forms included",
+          "EU data storage"
         ],
         "cons": [
           "Fewer enterprise ESP features",
           "List size drives plan jumps",
-          "Less known than Mailchimp/Kit"
+          "Free plan capped at 250 subscribers"
         ],
         "bestFor": "Creators and SMBs leaving Mailchimp for simpler cheaper email.",
-        "pricingNotes": "Free forever tier; paid by subscribers."
+        "pricingNotes": "Free: 250 subs / 2,500 emails/mo; Comfort from $12/mo, Power from $25/mo."
       },
       {
         "slug": "beehiiv",
@@ -1253,19 +1200,19 @@
         "oneLiner": "Newsletter platform built for growth and monetization.",
         "pricing": "freemium",
         "website": "https://www.beehiiv.com",
-        "affiliateParam": "ref=altswitch",
         "pros": [
           "Growth + monetization tools",
           "Referral/ad network options",
-          "Modern writer UX"
+          "Modern writer UX",
+          "0% take rate on paid subscriptions; unlimited sends on every plan"
         ],
         "cons": [
-          "Newer vs Mailchimp",
-          "Best if you publish publicly",
-          "Pricing tiers to watch"
+          "Automations, ad network and paid subscriptions need Lite (from $49/mo annual)",
+          "Removing beehiiv branding needs Pro",
+          "Newsletter-first: no SMS or transactional email"
         ],
         "bestFor": "Substack-style growers who want owned email + monetization.",
-        "pricingNotes": "Freemium; paid for custom domains, boosts, advanced features."
+        "pricingNotes": "Free up to 2,500 subscribers with unlimited sends. Lite from $49/mo, Pro $95/mo (annual, 1,000 subs). 0% cut of paid-subscription revenue."
       },
       {
         "slug": "listmonk-mc",
@@ -1273,7 +1220,6 @@
         "oneLiner": "Self-hosted high-performance newsletter and mailing lists.",
         "pricing": "oss",
         "website": "https://listmonk.app",
-        "affiliateParam": "ref=altswitch",
         "pros": [
           "High-performance self-host",
           "Simple campaign model",
@@ -1293,19 +1239,17 @@
         "oneLiner": "Email + SMS marketing with a generous free tier.",
         "pricing": "freemium",
         "website": "https://www.brevo.com",
-        "affiliateParam": "ref=altswitch",
         "pros": [
           "Email + SMS under one roof",
           "Solid free tier",
-          "Cheaper than Mailchimp at scale"
+          "Priced by emails sent, not contacts stored (store up to 100k contacts free)"
         ],
         "cons": [
-          "Brand still building trust vs Mailchimp",
-          "Automation depth mid-pack",
-          "Support tiers vary"
+          "Phone support only on Professional and above",
+          "Free and Starter automations are capped at 2,000 contacts; unlimited from Standard"
         ],
         "bestFor": "Senders leaving Mailchimp for better price/performance.",
-        "pricingNotes": "Free daily send limits; paid plans as list/volume grows."
+        "pricingNotes": "Free forever: 300 emails/day, up to 100,000 contacts. Paid plans priced by monthly email volume; SMS credits sold separately."
       },
       {
         "slug": "resend",
@@ -1313,7 +1257,6 @@
         "oneLiner": "Modern email API for developers (transactional + marketing).",
         "pricing": "freemium",
         "website": "https://resend.com",
-        "affiliateParam": "ref=altswitch",
         "pros": [
           "Excellent DX / API",
           "Modern React email workflow",
@@ -1344,7 +1287,6 @@
         "oneLiner": "All-in-one tasks, docs, and goals that many use instead of Asana.",
         "pricing": "freemium",
         "website": "https://clickup.com",
-        "affiliateParam": "ref=altswitch",
         "pros": [
           "Many views in one app",
           "Docs + tasks together",
@@ -1364,7 +1306,6 @@
         "oneLiner": "Colorful work OS with boards, automations, and dashboards.",
         "pricing": "paid",
         "website": "https://monday.com",
-        "affiliateParam": "ref=altswitch",
         "pros": [
           "Visual boards",
           "Strong automations",
@@ -1384,7 +1325,6 @@
         "oneLiner": "Simple Kanban boards — lighter than full Asana.",
         "pricing": "freemium",
         "website": "https://trello.com",
-        "affiliateParam": "ref=altswitch",
         "pros": [
           "Dead-simple Kanban",
           "Power-Ups ecosystem",
@@ -1404,7 +1344,6 @@
         "oneLiner": "Fast issue tracker preferred by product/eng over heavy PM suites.",
         "pricing": "freemium",
         "website": "https://linear.app",
-        "affiliateParam": "ref=altswitch",
         "pros": [
           "Blazing UX",
           "Great for eng/product",
@@ -1424,7 +1363,6 @@
         "oneLiner": "Open-source project management with modern issue UX.",
         "pricing": "oss",
         "website": "https://plane.so",
-        "affiliateParam": "ref=altswitch",
         "pros": [
           "OSS + self-host",
           "Issues/cycles feel modern",
@@ -1444,7 +1382,6 @@
         "oneLiner": "Flexible PM with AI-assisted workflows.",
         "pricing": "freemium",
         "website": "https://height.app",
-        "affiliateParam": "ref=altswitch",
         "pros": [
           "Flexible views",
           "AI-assisted tasks",
@@ -1475,7 +1412,6 @@
         "oneLiner": "Open-source Kanban you can self-host.",
         "pricing": "oss",
         "website": "https://wekan.github.io",
-        "affiliateParam": "ref=altswitch",
         "pros": [
           "True self-host Kanban",
           "Familiar board model",
@@ -1495,7 +1431,6 @@
         "oneLiner": "Realtime open-source project boards.",
         "pricing": "oss",
         "website": "https://planka.app",
-        "affiliateParam": "ref=altswitch",
         "pros": [
           "Realtime collab",
           "Self-host friendly",
@@ -1515,7 +1450,6 @@
         "oneLiner": "Databases and boards inside the workspace you may already use.",
         "pricing": "freemium",
         "website": "https://www.notion.so",
-        "affiliateParam": "ref=altswitch",
         "pros": [
           "Boards + docs in one",
           "Flexible properties",
@@ -1535,7 +1469,6 @@
         "oneLiner": "Board view plus lists, docs, and goals beyond Kanban.",
         "pricing": "freemium",
         "website": "https://clickup.com",
-        "affiliateParam": "ref=altswitch",
         "pros": [
           "Board + many other views",
           "Replaces multiple tools",
@@ -1555,7 +1488,6 @@
         "oneLiner": "Atlassian’s deeper issue tracker when boards aren’t enough.",
         "pricing": "freemium",
         "website": "https://www.atlassian.com/software/jira",
-        "affiliateParam": "ref=altswitch",
         "pros": [
           "Powerful workflows",
           "Same Atlassian family",
@@ -1575,7 +1507,6 @@
         "oneLiner": "Structured tasks, timelines, and workloads beyond cards.",
         "pricing": "freemium",
         "website": "https://asana.com",
-        "affiliateParam": "ref=altswitch",
         "pros": [
           "Clear task hierarchy",
           "Timeline/workload views",
@@ -1606,7 +1537,6 @@
         "oneLiner": "Feature-dense Work OS alternative often compared to monday.",
         "pricing": "freemium",
         "website": "https://clickup.com",
-        "affiliateParam": "ref=altswitch",
         "pros": [
           "Broad feature set",
           "Competitive free tier",
@@ -1626,7 +1556,6 @@
         "oneLiner": "Established work management with cleaner task focus.",
         "pricing": "freemium",
         "website": "https://asana.com",
-        "affiliateParam": "ref=altswitch",
         "pros": [
           "Mature UX",
           "Strong mobile",
@@ -1646,7 +1575,6 @@
         "oneLiner": "Flexible databases that can replace light monday boards.",
         "pricing": "freemium",
         "website": "https://www.notion.so",
-        "affiliateParam": "ref=altswitch",
         "pros": [
           "Docs + DB in one",
           "Flexible",
@@ -1666,7 +1594,6 @@
         "oneLiner": "Open-source alternative for issues and project modules.",
         "pricing": "oss",
         "website": "https://plane.so",
-        "affiliateParam": "ref=altswitch",
         "pros": [
           "Self-host option",
           "Modern issue UX",
@@ -1686,7 +1613,6 @@
         "oneLiner": "Enterprise work management with proofing and complex workflows.",
         "pricing": "freemium",
         "website": "https://www.wrike.com",
-        "affiliateParam": "ref=altswitch",
         "pros": [
           "Enterprise features",
           "Proofing for creative",
@@ -1706,7 +1632,6 @@
         "oneLiner": "Spreadsheet-like work management popular in ops and PMO.",
         "pricing": "paid",
         "website": "https://www.smartsheet.com",
-        "affiliateParam": "ref=altswitch",
         "pros": [
           "Sheet mental model",
           "Strong for PMO",
@@ -1737,7 +1662,6 @@
         "oneLiner": "Minimal, fast issue tracking instead of a mega-suite.",
         "pricing": "freemium",
         "website": "https://linear.app",
-        "affiliateParam": "ref=altswitch",
         "pros": [
           "Speed and focus",
           "Excellent eng UX",
@@ -1757,7 +1681,6 @@
         "oneLiner": "Cleaner work management with less feature sprawl.",
         "pricing": "freemium",
         "website": "https://asana.com",
-        "affiliateParam": "ref=altswitch",
         "pros": [
           "Polished UX",
           "Clear hierarchy",
@@ -1777,7 +1700,6 @@
         "oneLiner": "Flexible autonomous PM with a modern feel.",
         "pricing": "freemium",
         "website": "https://height.app",
-        "affiliateParam": "ref=altswitch",
         "pros": [
           "Flexible tasks",
           "AI assists",
@@ -1797,7 +1719,6 @@
         "oneLiner": "Open-source project tool for issues and cycles.",
         "pricing": "oss",
         "website": "https://plane.so",
-        "affiliateParam": "ref=altswitch",
         "pros": [
           "Self-host",
           "Modern defaults",
@@ -1817,7 +1738,6 @@
         "oneLiner": "Personal/team task lists without the mega-platform.",
         "pricing": "freemium",
         "website": "https://todoist.com",
-        "affiliateParam": "ref=altswitch",
         "pros": [
           "Simple & fast",
           "Great mobile",
@@ -1837,7 +1757,6 @@
         "oneLiner": "Connected workspaces for product knowledge + work.",
         "pricing": "freemium",
         "website": "https://fibery.io",
-        "affiliateParam": "ref=altswitch",
         "pros": [
           "Linked databases",
           "Product-centric",
@@ -1868,7 +1787,6 @@
         "oneLiner": "Flexible docs and databases replacing many Confluence spaces.",
         "pricing": "freemium",
         "website": "https://www.notion.so",
-        "affiliateParam": "ref=altswitch",
         "pros": [
           "Modern editor",
           "Databases + docs",
@@ -1888,7 +1806,6 @@
         "oneLiner": "Beautiful self-hostable team knowledge base.",
         "pricing": "oss",
         "website": "https://www.getoutline.com",
-        "affiliateParam": "ref=altswitch",
         "pros": [
           "Clean UX",
           "Self-host",
@@ -1908,7 +1825,6 @@
         "oneLiner": "Simple open-source documentation platform (books/chapters/pages).",
         "pricing": "oss",
         "website": "https://www.bookstackapp.com",
-        "affiliateParam": "ref=altswitch",
         "pros": [
           "Clear content hierarchy",
           "Self-host easy",
@@ -1928,7 +1844,6 @@
         "oneLiner": "Docs platform popular for product and API documentation.",
         "pricing": "freemium",
         "website": "https://www.gitbook.com",
-        "affiliateParam": "ref=altswitch",
         "pros": [
           "Great for product docs",
           "Git sync options",
@@ -1948,7 +1863,6 @@
         "oneLiner": "Knowledge base built for searchable team topics.",
         "pricing": "paid",
         "website": "https://slab.com",
-        "affiliateParam": "ref=altswitch",
         "pros": [
           "Strong search",
           "Clean writing UX",
@@ -1968,7 +1882,6 @@
         "oneLiner": "Modern open-source wiki with many storage backends.",
         "pricing": "oss",
         "website": "https://js.wiki",
-        "affiliateParam": "ref=altswitch",
         "pros": [
           "OSS & flexible",
           "Markdown-friendly",
@@ -1999,7 +1912,6 @@
         "oneLiner": "Self-hosted files, sync, and collab suite.",
         "pricing": "oss",
         "website": "https://nextcloud.com",
-        "affiliateParam": "ref=altswitch",
         "pros": [
           "Full data ownership",
           "Apps beyond files",
@@ -2019,7 +1931,6 @@
         "oneLiner": "Encrypted cloud storage from the Proton privacy suite.",
         "pricing": "freemium",
         "website": "https://proton.me/drive",
-        "affiliateParam": "ref=altswitch",
         "pros": [
           "E2E encryption focus",
           "Proton ecosystem",
@@ -2039,7 +1950,6 @@
         "oneLiner": "Bundled storage with Docs/Sheets — often “free” with Workspace.",
         "pricing": "freemium",
         "website": "https://drive.google.com",
-        "affiliateParam": "ref=altswitch",
         "pros": [
           "Deep Docs integration",
           "Workspace bundling",
@@ -2059,7 +1969,6 @@
         "oneLiner": "Microsoft’s sync layer tied to Office and M365.",
         "pricing": "freemium",
         "website": "https://www.microsoft.com/en-us/microsoft-365/onedrive/online-cloud-storage",
-        "affiliateParam": "ref=altswitch",
         "pros": [
           "M365 bundle value",
           "Office integration",
@@ -2079,7 +1988,6 @@
         "oneLiner": "Consumer/pro cloud storage with optional lifetime deals.",
         "pricing": "paid",
         "website": "https://www.pcloud.com",
-        "affiliateParam": "ref=altswitch",
         "pros": [
           "Lifetime license options",
           "Crypto folder add-on",
@@ -2099,7 +2007,6 @@
         "oneLiner": "Open-source file sync focused on speed and reliability.",
         "pricing": "oss",
         "website": "https://www.seafile.com",
-        "affiliateParam": "ref=altswitch",
         "pros": [
           "Efficient sync",
           "Self-host",
@@ -2130,7 +2037,6 @@
         "oneLiner": "Browser meetings bundled with Google Workspace.",
         "pricing": "freemium",
         "website": "https://meet.google.com",
-        "affiliateParam": "ref=altswitch",
         "pros": [
           "No heavy client required",
           "Workspace integration",
@@ -2150,7 +2056,6 @@
         "oneLiner": "Chat + meetings inside the Microsoft 365 bundle.",
         "pricing": "freemium",
         "website": "https://www.microsoft.com/en-us/microsoft-teams/",
-        "affiliateParam": "ref=altswitch",
         "pros": [
           "M365 value bundle",
           "Chat + meet + files",
@@ -2170,7 +2075,6 @@
         "oneLiner": "Open-source video meetings you can self-host or use publicly.",
         "pricing": "oss",
         "website": "https://meet.jit.si",
-        "affiliateParam": "ref=altswitch",
         "pros": [
           "OSS / self-host",
           "No account required on public",
@@ -2190,7 +2094,6 @@
         "oneLiner": "Simple browser-based meeting rooms with permanent links.",
         "pricing": "freemium",
         "website": "https://whereby.com",
-        "affiliateParam": "ref=altswitch",
         "pros": [
           "No downloads",
           "Permanent room URLs",
@@ -2210,7 +2113,6 @@
         "oneLiner": "Always-on voice/video communities — different from scheduled Zoom.",
         "pricing": "freemium",
         "website": "https://discord.com",
-        "affiliateParam": "ref=altswitch",
         "pros": [
           "Free voice channels",
           "Community features",
@@ -2230,7 +2132,6 @@
         "oneLiner": "Open-source WebRTC stack to build your own meeting product.",
         "pricing": "oss",
         "website": "https://livekit.io",
-        "affiliateParam": "ref=altswitch",
         "pros": [
           "Build custom video",
           "OSS SFU",
@@ -2261,19 +2162,20 @@
         "oneLiner": "Affordable shared inbox and chat for SMBs.",
         "pricing": "freemium",
         "website": "https://crisp.chat",
-        "affiliateParam": "ref=altswitch",
         "pros": [
-          "Lower cost than Intercom",
+          "Flat pricing with unlimited conversations",
           "Chat + inbox",
-          "Quick setup"
+          "Quick setup",
+          "EU-hosted",
+          "AI agent plus WhatsApp, Instagram and email channels"
         ],
         "cons": [
-          "Less product suite depth",
-          "Brand smaller",
-          "Automation mid-tier"
+          "Ticketing portal, white-labelling and 100+ integrations start on Plus ($295/mo)",
+          "Free plan limited to 2 seats and 100 contact profiles",
+          "Workflow builder, omnichannel inbox and knowledge base start on Essentials"
         ],
         "bestFor": "SMBs needing chat without Intercom pricing.",
-        "pricingNotes": "Freemium; paid seats far below typical Intercom quotes."
+        "pricingNotes": "Free (2 seats). Flat per-workspace plans: Mini $45/mo (4 seats), Essentials $95 (10), Plus $295 (20+). Unlimited conversations."
       },
       {
         "slug": "chatwoot-ic",
@@ -2281,7 +2183,6 @@
         "oneLiner": "Open-source customer engagement suite.",
         "pricing": "oss",
         "website": "https://www.chatwoot.com",
-        "affiliateParam": "ref=altswitch",
         "pros": [
           "Self-host or cloud",
           "Multi-channel",
@@ -2301,7 +2202,6 @@
         "oneLiner": "Human shared inbox with docs — calmer than chat-first Intercom.",
         "pricing": "paid",
         "website": "https://www.helpscout.com",
-        "affiliateParam": "ref=altswitch",
         "pros": [
           "Friendly agent UX",
           "Docs + beacon",
@@ -2321,7 +2221,6 @@
         "oneLiner": "Enterprise ticketing suite when you outgrow chat widgets.",
         "pricing": "paid",
         "website": "https://www.zendesk.com",
-        "affiliateParam": "ref=altswitch",
         "pros": [
           "Mature ticketing",
           "Huge marketplace",
@@ -2341,7 +2240,6 @@
         "oneLiner": "Shared inbox for email-centric customer teams.",
         "pricing": "paid",
         "website": "https://front.com",
-        "affiliateParam": "ref=altswitch",
         "pros": [
           "Excellent shared inbox",
           "Assignments & rules",
@@ -2361,7 +2259,6 @@
         "oneLiner": "Modern support tool aimed at B2B SaaS clarity.",
         "pricing": "paid",
         "website": "https://www.plain.com",
-        "affiliateParam": "ref=altswitch",
         "pros": [
           "Clean modern UX",
           "Built for SaaS support",
@@ -2392,7 +2289,6 @@
         "oneLiner": "Professional UI/brand design with real-time collab.",
         "pricing": "freemium",
         "website": "https://www.figma.com",
-        "affiliateParam": "ref=altswitch",
         "pros": [
           "Pro design systems",
           "Multiplayer",
@@ -2412,7 +2308,6 @@
         "oneLiner": "Open-source design tool for teams.",
         "pricing": "oss",
         "website": "https://penpot.app",
-        "affiliateParam": "ref=altswitch",
         "pros": [
           "OSS / self-host",
           "SVG-native",
@@ -2432,7 +2327,6 @@
         "oneLiner": "One-time-purchase pro design apps (Designer/Photo/Publisher).",
         "pricing": "paid",
         "website": "https://affinity.serif.com",
-        "affiliateParam": "ref=altswitch",
         "pros": [
           "Often one-time pricing eras",
           "Pro capabilities",
@@ -2452,7 +2346,6 @@
         "oneLiner": "Browser Photoshop-like editor — free with ads or premium.",
         "pricing": "freemium",
         "website": "https://www.photopea.com",
-        "affiliateParam": "ref=altswitch",
         "pros": [
           "Runs in browser",
           "PSD support",
@@ -2472,7 +2365,6 @@
         "oneLiner": "Presentations and infographics for business content.",
         "pricing": "freemium",
         "website": "https://www.visme.co",
-        "affiliateParam": "ref=altswitch",
         "pros": [
           "Biz templates",
           "Charts/infographics",
@@ -2492,7 +2384,6 @@
         "oneLiner": "Adobe’s Canva-like quick content tool.",
         "pricing": "freemium",
         "website": "https://www.adobe.com/express/",
-        "affiliateParam": "ref=altswitch",
         "pros": [
           "Adobe assets",
           "Quick templates",
@@ -2523,7 +2414,6 @@
         "oneLiner": "Figma’s whiteboard — great if you already design in Figma.",
         "pricing": "freemium",
         "website": "https://www.figma.com/figjam/",
-        "affiliateParam": "ref=altswitch",
         "pros": [
           "Tight Figma handoff",
           "Fun facilitation tools",
@@ -2543,7 +2433,6 @@
         "oneLiner": "Hand-drawn feel diagrams — open source and delightfully simple.",
         "pricing": "oss",
         "website": "https://excalidraw.com",
-        "affiliateParam": "ref=altswitch",
         "pros": [
           "OSS + privacy modes",
           "Fast sketching",
@@ -2563,7 +2452,6 @@
         "oneLiner": "Excellent open-source canvas SDK and app.",
         "pricing": "oss",
         "website": "https://www.tldraw.com",
-        "affiliateParam": "ref=altswitch",
         "pros": [
           "Beautiful canvas UX",
           "OSS / embeddable",
@@ -2583,7 +2471,6 @@
         "oneLiner": "Enterprise facilitation whiteboards — Miro’s closest peer.",
         "pricing": "paid",
         "website": "https://www.mural.co",
-        "affiliateParam": "ref=altswitch",
         "pros": [
           "Facilitation methods",
           "Enterprise controls",
@@ -2603,7 +2490,6 @@
         "oneLiner": "Fast flowcharts, wireframes, and docs in one place.",
         "pricing": "freemium",
         "website": "https://whimsical.com",
-        "affiliateParam": "ref=altswitch",
         "pros": [
           "Speed for diagrams",
           "Docs + boards",
@@ -2623,7 +2509,6 @@
         "oneLiner": "Docs + whiteboard canvas with a privacy-first angle.",
         "pricing": "freemium",
         "website": "https://affine.pro",
-        "affiliateParam": "ref=altswitch",
         "pros": [
           "Docs and board together",
           "Local-first options",
@@ -2654,7 +2539,6 @@
         "oneLiner": "Open-source headless commerce engine built for customization.",
         "pricing": "oss",
         "website": "https://medusajs.com",
-        "affiliateParam": "ref=altswitch",
         "pros": [
           "True headless / API-first",
           "Self-hostable & extensible",
@@ -2674,7 +2558,6 @@
         "oneLiner": "WordPress ecommerce plugin — huge plugin ecosystem.",
         "pricing": "oss",
         "website": "https://woocommerce.com",
-        "affiliateParam": "ref=altswitch",
         "pros": [
           "Massive extension marketplace",
           "Familiar WordPress stack",
@@ -2694,7 +2577,6 @@
         "oneLiner": "Open-source ecommerce suite popular outside the US.",
         "pricing": "oss",
         "website": "https://www.prestashop.com",
-        "affiliateParam": "ref=altswitch",
         "pros": [
           "Full-featured OSS storefront",
           "Strong EU/multilingual pedigree",
@@ -2714,7 +2596,6 @@
         "oneLiner": "Drop-in cart for static sites and JAMstack storefronts.",
         "pricing": "paid",
         "website": "https://snipcart.com",
-        "affiliateParam": "ref=altswitch",
         "pros": [
           "Works with any HTML/static site",
           "Fast to ship a cart",
@@ -2734,7 +2615,6 @@
         "oneLiner": "Hosted ecommerce peer to Shopify with strong B2B/API angle.",
         "pricing": "paid",
         "website": "https://www.bigcommerce.com",
-        "affiliateParam": "ref=altswitch",
         "pros": [
           "Hosted reliability",
           "Solid APIs / headless options",
@@ -2765,7 +2645,6 @@
         "oneLiner": "Publishing-focused CMS and newsletter platform — Node.js OSS.",
         "pricing": "oss",
         "website": "https://ghost.org",
-        "affiliateParam": "ref=altswitch",
         "pros": [
           "Clean writing UX",
           "Built-in memberships/newsletters",
@@ -2785,7 +2664,6 @@
         "oneLiner": "Visual site builder with CMS — designer-grade, hosted.",
         "pricing": "paid",
         "website": "https://webflow.com",
-        "affiliateParam": "ref=altswitch",
         "pros": [
           "Pixel-level design control",
           "Hosted + CDN included",
@@ -2805,7 +2683,6 @@
         "oneLiner": "Design-to-site tool for fast, animated marketing pages.",
         "pricing": "freemium",
         "website": "https://www.framer.com",
-        "affiliateParam": "ref=altswitch",
         "pros": [
           "Designer-friendly canvas",
           "Great motion/animations",
@@ -2825,7 +2702,6 @@
         "oneLiner": "TypeScript headless CMS you can self-host or run on Payload Cloud.",
         "pricing": "oss",
         "website": "https://payloadcms.com",
-        "affiliateParam": "ref=altswitch",
         "pros": [
           "Modern TS/Node DX",
           "Self-hostable",
@@ -2845,7 +2721,6 @@
         "oneLiner": "Popular open-source headless CMS with admin UI.",
         "pricing": "oss",
         "website": "https://strapi.io",
-        "affiliateParam": "ref=altswitch",
         "pros": [
           "Familiar admin panel",
           "REST/GraphQL APIs",
@@ -2884,11 +2759,11 @@
         ],
         "cons": [
           "Steeper learning curve",
-          "App catalog slightly different",
+          "Some niche apps need the HTTP/custom-app module",
           "Debugging can get deep"
         ],
         "bestFor": "Ops teams building multi-step automations on a budget.",
-        "pricingNotes": "Freemium; paid by operations — often better value than Zapier at volume."
+        "pricingNotes": "Free plan 1,000 credits/mo; paid plans by monthly credits."
       },
       {
         "slug": "activepieces",
@@ -2896,7 +2771,6 @@
         "oneLiner": "Open-source Zapier-like automation with a growing piece catalog.",
         "pricing": "oss",
         "website": "https://www.activepieces.com",
-        "affiliateParam": "ref=altswitch",
         "pros": [
           "OSS + self-host",
           "Familiar Zap-like UX",
@@ -2916,7 +2790,6 @@
         "oneLiner": "Developer-first workflows with code steps and huge API coverage.",
         "pricing": "freemium",
         "website": "https://pipedream.com",
-        "affiliateParam": "ref=altswitch",
         "pros": [
           "Code-native steps",
           "Great for APIs/webhooks",
@@ -2936,7 +2809,6 @@
         "oneLiner": "Open-source platform for scripts, workflows, and internal tools.",
         "pricing": "oss",
         "website": "https://www.windmill.dev",
-        "affiliateParam": "ref=altswitch",
         "pros": [
           "Scripts as first-class citizens",
           "Self-hostable",
@@ -2993,12 +2865,11 @@
           "Usage-based vs fixed dynos"
         ],
         "cons": [
-          "Costs can surprise at scale",
-          "Less “enterprise Heroku” legacy",
-          "Regional options evolving"
+          "Per-second usage billing ($0.05/GB egress); set usage limits for spiky workloads",
+          "SSO and HIPAA need Enterprise or committed spend"
         ],
         "bestFor": "Indie hackers and startups wanting Heroku simplicity today.",
-        "pricingNotes": "Usage-based; free trial credits common — check current plans."
+        "pricingNotes": "$5 trial credit (no card), Free plan $1/mo credit, Hobby $5/mo incl. $5 usage, Pro $20/workspace."
       },
       {
         "slug": "render",
@@ -3006,7 +2877,6 @@
         "oneLiner": "Heroku-like PaaS with web services, cron, and Postgres.",
         "pricing": "freemium",
         "website": "https://render.com",
-        "affiliateParam": "ref=altswitch",
         "pros": [
           "Familiar Heroku mental model",
           "Managed Postgres/Redis",
@@ -3026,7 +2896,6 @@
         "oneLiner": "Run containers close to users on a global edge network.",
         "pricing": "freemium",
         "website": "https://fly.io",
-        "affiliateParam": "ref=altswitch",
         "pros": [
           "Global edge placement",
           "Full VM/container control",
@@ -3044,7 +2913,7 @@
         "slug": "digitalocean-app-platform",
         "name": "DigitalOcean App Platform",
         "oneLiner": "Managed app hosting on DigitalOcean with predictable droplets nearby.",
-        "pricing": "paid",
+        "pricing": "freemium",
         "website": "https://www.digitalocean.com/products/app-platform",
         "affiliateParam": "ref=altswitch",
         "pros": [
@@ -3053,12 +2922,11 @@
           "Clear pricing culture"
         ],
         "cons": [
-          "Less “magic” than Railway UX for some",
-          "Feature set mid-tier",
-          "Not the cheapest bare metal"
+          "Autoscaling only on dedicated instances",
+          "Dev databases are basic (512 MiB, no backups)"
         ],
         "bestFor": "Teams already on DigitalOcean wanting Heroku-like deploys.",
-        "pricingNotes": "Paid app tiers; combine with Droplets for hybrid setups."
+        "pricingNotes": "Free for 3 static sites; containers from $5/mo."
       },
       {
         "slug": "coolify",
@@ -3066,7 +2934,6 @@
         "oneLiner": "Self-hosted Heroku/Vercel-like PaaS on your own VPS.",
         "pricing": "oss",
         "website": "https://coolify.io",
-        "affiliateParam": "ref=altswitch",
         "pros": [
           "Self-host full PaaS UX",
           "Deploy many apps on one VPS",
@@ -3097,7 +2964,6 @@
         "oneLiner": "JAMstack hosting with functions, forms, and edge — Vercel’s closest peer.",
         "pricing": "freemium",
         "website": "https://www.netlify.com",
-        "affiliateParam": "ref=altswitch",
         "pros": [
           "Great static + functions DX",
           "Deploy previews",
@@ -3125,7 +2991,7 @@
         ],
         "cons": [
           "Not Next.js-specialized like Vercel",
-          "CDN story different",
+          "Next.js edge features (ISR, middleware, image optimization) need more manual setup than on Vercel",
           "Usage billing to monitor"
         ],
         "bestFor": "Apps that outgrew pure frontend serverless on Vercel.",
@@ -3137,7 +3003,6 @@
         "oneLiner": "Web services and static sites with a Heroku-like model.",
         "pricing": "freemium",
         "website": "https://render.com",
-        "affiliateParam": "ref=altswitch",
         "pros": [
           "Static + web services",
           "Managed datastores",
@@ -3157,7 +3022,6 @@
         "oneLiner": "Containers at the edge — more control than Vercel functions.",
         "pricing": "freemium",
         "website": "https://fly.io",
-        "affiliateParam": "ref=altswitch",
         "pros": [
           "Run real processes globally",
           "Fine-grained regions",
@@ -3177,7 +3041,6 @@
         "oneLiner": "Self-host a Vercel/Heroku-like panel on your hardware.",
         "pricing": "oss",
         "website": "https://coolify.io",
-        "affiliateParam": "ref=altswitch",
         "pros": [
           "Own your deploy UX",
           "Multi-app on one VPS",
@@ -3208,7 +3071,6 @@
         "oneLiner": "Anthropic’s assistant — strong at long documents and careful writing.",
         "pricing": "freemium",
         "website": "https://claude.ai",
-        "affiliateParam": "ref=altswitch",
         "pros": [
           "Excellent long-context work",
           "Strong writing/coding help",
@@ -3228,7 +3090,6 @@
         "oneLiner": "Google’s multimodal assistant tied into Workspace and Search.",
         "pricing": "freemium",
         "website": "https://gemini.google.com",
-        "affiliateParam": "ref=altswitch",
         "pros": [
           "Deep Google ecosystem",
           "Strong multimodal",
@@ -3248,7 +3109,6 @@
         "oneLiner": "Answer engine with cited web sources — research-first UX.",
         "pricing": "freemium",
         "website": "https://www.perplexity.ai",
-        "affiliateParam": "ref=altswitch",
         "pros": [
           "Citations by default",
           "Great for research queries",
@@ -3268,7 +3128,6 @@
         "oneLiner": "Run open LLMs locally with a simple CLI and API.",
         "pricing": "oss",
         "website": "https://ollama.com",
-        "affiliateParam": "ref=altswitch",
         "pros": [
           "Private / offline models",
           "Simple local DX",
@@ -3288,7 +3147,6 @@
         "oneLiner": "Self-hosted ChatGPT-like UI for Ollama and OpenAI-compatible APIs.",
         "pricing": "oss",
         "website": "https://openwebui.com",
-        "affiliateParam": "ref=altswitch",
         "pros": [
           "Familiar chat UI",
           "Self-host & multi-user",
@@ -3323,11 +3181,12 @@
         "pros": [
           "OSS & self-hostable",
           "Modern UX",
-          "Strong product velocity"
+          "Strong product velocity",
+          "Free plan with unlimited event types"
         ],
         "cons": [
           "Self-host needs ops",
-          "Some features on paid cloud",
+          "Round-robin and team scheduling need Teams ($12/user/mo annual)",
           "Ecosystem smaller than Calendly"
         ],
         "bestFor": "Teams that want Calendly UX with ownership options.",
@@ -3339,7 +3198,6 @@
         "oneLiner": "Overlay calendar scheduling that feels more human than rigid slots.",
         "pricing": "paid",
         "website": "https://savvycal.com",
-        "affiliateParam": "ref=altswitch",
         "pros": [
           "Calendar overlay UX",
           "Polished branding",
@@ -3359,7 +3217,6 @@
         "oneLiner": "AI calendar that auto-schedules tasks and meetings.",
         "pricing": "paid",
         "website": "https://www.usemotion.com",
-        "affiliateParam": "ref=altswitch",
         "pros": [
           "AI time-blocking",
           "Tasks + meetings together",
@@ -3379,7 +3236,6 @@
         "oneLiner": "Scheduling included with many Microsoft 365 plans.",
         "pricing": "freemium",
         "website": "https://www.microsoft.com/microsoft-365/business/booking-appointment-software",
-        "affiliateParam": "ref=altswitch",
         "pros": [
           "Often already paid via M365",
           "Teams/Outlook native",
@@ -3417,9 +3273,8 @@
           "Clean sharing"
         ],
         "cons": [
-          "Less “cinematic” than Typeform",
-          "Advanced logic on paid",
-          "Brand younger"
+          "Fewer animated, one-question-at-a-time styles than Typeform",
+          "Branding removal, custom domains and team workspaces need Pro (€20/mo)"
         ],
         "bestFor": "Startups replacing Typeform on a budget.",
         "pricingNotes": "Strong free tier; Pro for remove branding / advanced features."
@@ -3430,7 +3285,6 @@
         "oneLiner": "Powerful forms with calculations, scheduling, and payments.",
         "pricing": "freemium",
         "website": "https://www.fillout.com",
-        "affiliateParam": "ref=altswitch",
         "pros": [
           "Deep logic & integrations",
           "Scheduling/payments options",
@@ -3450,7 +3304,6 @@
         "oneLiner": "Free forms inside Google Workspace — simple and everywhere.",
         "pricing": "free",
         "website": "https://forms.google.com",
-        "affiliateParam": "ref=altswitch",
         "pros": [
           "Free",
           "Sheets integration",
@@ -3470,7 +3323,6 @@
         "oneLiner": "Open-source conversational form builder.",
         "pricing": "oss",
         "website": "https://typebot.io",
-        "affiliateParam": "ref=altswitch",
         "pros": [
           "Chat-style flows",
           "Self-hostable",
@@ -3490,7 +3342,6 @@
         "oneLiner": "Open-source experience management / in-product surveys.",
         "pricing": "oss",
         "website": "https://formbricks.com",
-        "affiliateParam": "ref=altswitch",
         "pros": [
           "OSS CX surveys",
           "In-app targeting",
@@ -3521,7 +3372,6 @@
         "oneLiner": "Free accounting and invoicing for small businesses (US/CA).",
         "pricing": "freemium",
         "website": "https://www.waveapps.com",
-        "affiliateParam": "ref=altswitch",
         "pros": [
           "Core accounting free",
           "Simple invoicing",
@@ -3541,7 +3391,6 @@
         "oneLiner": "Cloud accounting popular with accountants worldwide.",
         "pricing": "paid",
         "website": "https://www.xero.com",
-        "affiliateParam": "ref=altswitch",
         "pros": [
           "Strong accountant ecosystem",
           "Clean bank feeds",
@@ -3561,7 +3410,6 @@
         "oneLiner": "UK-friendly accounting for freelancers and small companies.",
         "pricing": "paid",
         "website": "https://www.freeagent.com",
-        "affiliateParam": "ref=altswitch",
         "pros": [
           "Great UK tax workflows",
           "Freelancer-focused UX",
@@ -3581,7 +3429,6 @@
         "oneLiner": "Open-source online accounting software.",
         "pricing": "oss",
         "website": "https://akaunting.com",
-        "affiliateParam": "ref=altswitch",
         "pros": [
           "OSS & self-host",
           "Invoicing + expenses",
@@ -3601,7 +3448,6 @@
         "oneLiner": "Open-source invoicing, quotes, and payments.",
         "pricing": "oss",
         "website": "https://invoiceninja.com",
-        "affiliateParam": "ref=altswitch",
         "pros": [
           "Strong invoicing OSS",
           "Client portal",
@@ -3632,7 +3478,6 @@
         "oneLiner": "Free CRM from HubSpot — upgrade path into Marketing/Sales Hub.",
         "pricing": "freemium",
         "website": "https://www.hubspot.com/products/crm",
-        "affiliateParam": "ref=altswitch",
         "pros": [
           "Real free CRM tier",
           "Huge ecosystem",
@@ -3652,19 +3497,19 @@
         "oneLiner": "Sales CRM with built-in calling and email power tools.",
         "pricing": "paid",
         "website": "https://www.close.com",
-        "affiliateParam": "ref=altswitch",
         "pros": [
           "Calling/email built-in",
           "Fast for SDR workflows",
-          "Less “marketing suite” bloat"
+          "Less “marketing suite” bloat",
+          "Built-in calling, SMS and email on all plans, plus Chloe AI sales agent"
         ],
         "cons": [
-          "Paid per seat",
-          "Smaller than HubSpot marketplace",
+          "No free plan; workflows and the power dialer start on Growth ($99/user/mo annual)",
+          "About 100 native integrations, a smaller marketplace than HubSpot's",
           "Overkill if you only need a pipeline board"
         ],
         "bestFor": "Outbound sales teams living on calls and sequences.",
-        "pricingNotes": "Paid plans; trial available."
+        "pricingNotes": "From $9/user/mo (Solo, annual) to $139 (Scale). 14-day trial, no card needed; 30-day money-back. Calls and SMS billed at cost (about $0.02/min)."
       },
       {
         "slug": "attio",
@@ -3672,7 +3517,6 @@
         "oneLiner": "Flexible, modern CRM with powerful data modeling.",
         "pricing": "freemium",
         "website": "https://attio.com",
-        "affiliateParam": "ref=altswitch",
         "pros": [
           "Beautiful modern UX",
           "Flexible objects/relations",
@@ -3692,7 +3536,6 @@
         "oneLiner": "Open-source CRM aiming at a modern Notion-like experience.",
         "pricing": "oss",
         "website": "https://twenty.com",
-        "affiliateParam": "ref=altswitch",
         "pros": [
           "OSS & self-host",
           "Modern product feel",
@@ -3712,7 +3555,6 @@
         "oneLiner": "Open-source CRM you can self-host for sales and support.",
         "pricing": "oss",
         "website": "https://www.espocrm.com",
-        "affiliateParam": "ref=altswitch",
         "pros": [
           "Mature OSS CRM",
           "Self-host control",
