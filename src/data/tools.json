@@ -297,25 +297,6 @@
         "pricingNotes": "Open source; cloud free tier + paid plans."
       },
       {
-        "slug": "height",
-        "name": "Height",
-        "oneLiner": "Autonomous project management with AI-assisted workflows.",
-        "pricing": "freemium",
-        "website": "https://height.app",
-        "pros": [
-          "AI-assisted workflows",
-          "Flexible views",
-          "All-in-one PM feel"
-        ],
-        "cons": [
-          "Less mindshare than Linear",
-          "AI features still maturing",
-          "Pricing to watch"
-        ],
-        "bestFor": "Product teams wanting autonomous / AI-leaning PM.",
-        "pricingNotes": "Freemium/paid — confirm current seat pricing on site."
-      },
-      {
         "slug": "taiga",
         "name": "Taiga",
         "oneLiner": "Open-source agile project management for scrum and kanban.",
@@ -1394,25 +1375,6 @@
         ],
         "bestFor": "Teams wanting Asana/Linear vibes without SaaS lock-in.",
         "pricingNotes": "Open source; cloud free tier + paid plans."
-      },
-      {
-        "slug": "height-asana",
-        "name": "Height",
-        "oneLiner": "Flexible PM with AI-assisted workflows.",
-        "pricing": "freemium",
-        "website": "https://height.app",
-        "pros": [
-          "Flexible views",
-          "AI-assisted tasks",
-          "All-in-one feel"
-        ],
-        "cons": [
-          "Less brand mindshare",
-          "Ecosystem smaller",
-          "Pricing to watch"
-        ],
-        "bestFor": "Product teams open to AI-leaning PM instead of Asana.",
-        "pricingNotes": "Freemium/paid — confirm seat pricing on site."
       }
     ]
   },
@@ -1763,25 +1725,6 @@
         ],
         "bestFor": "Teams wanting structure without ClickUp’s density.",
         "pricingNotes": "Freemium; Premium unlocks timeline and more."
-      },
-      {
-        "slug": "height-clickup",
-        "name": "Height",
-        "oneLiner": "Flexible autonomous PM with a modern feel.",
-        "pricing": "freemium",
-        "website": "https://height.app",
-        "pros": [
-          "Flexible tasks",
-          "AI assists",
-          "Less legacy UI"
-        ],
-        "cons": [
-          "Smaller ecosystem",
-          "Mindshare vs ClickUp",
-          "Maturity"
-        ],
-        "bestFor": "Startups shopping ClickUp alternatives with AI angle.",
-        "pricingNotes": "Freemium/paid — check current limits."
       },
       {
         "slug": "plane-clickup",
