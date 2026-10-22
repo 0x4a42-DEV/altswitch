@@ -553,17 +553,17 @@
         "pricing": "oss",
         "website": "https://www.mautic.org",
         "pros": [
-          "Full OSS marketing automation",
+          "Full open-source marketing automation",
           "Self-host = data ownership",
-          "No per-contact SaaS tax"
+          "No per-contact SaaS pricing"
         ],
         "cons": [
-          "Needs PHP/ops skills",
-          "UX less polished",
-          "You own deliverability"
+          "Needs PHP/server skills to self-host",
+          "Steeper learning curve than hosted email tools",
+          "You manage sending infrastructure and deliverability"
         ],
         "bestFor": "Technical teams wanting HubSpot-like automation without SaaS lock-in.",
-        "pricingNotes": "Software free; hosting + email infra are your cost."
+        "pricingNotes": "Open source and free; you pay for hosting and an email sending service, or a third-party managed Mautic host."
       },
       {
         "slug": "pipedrive-hs",
@@ -1269,6 +1269,25 @@
         ],
         "bestFor": "Developer teams sending product email with code.",
         "pricingNotes": "Freemium API usage; paid as volume grows."
+      },
+      {
+        "slug": "mautic-mailchimp",
+        "name": "Mautic",
+        "oneLiner": "Open-source marketing automation: emails, segments, campaigns and landing pages.",
+        "pricing": "oss",
+        "website": "https://www.mautic.org",
+        "pros": [
+          "Campaign builder with multi-step automation",
+          "Self-host = full data ownership",
+          "No per-contact SaaS pricing"
+        ],
+        "cons": [
+          "Needs PHP/server skills to self-host",
+          "Steeper learning curve than hosted email tools",
+          "You manage sending infrastructure and deliverability"
+        ],
+        "bestFor": "Technical teams wanting Mailchimp-style campaigns plus automation on their own servers.",
+        "pricingNotes": "Open source and free; you pay for hosting and an email sending service, or a third-party managed Mautic host."
       }
     ]
   },
@@ -1426,10 +1445,48 @@
         "pricingNotes": "OSS free; pay only for hosting."
       },
       {
+        "slug": "kanboard",
+        "name": "Kanboard",
+        "oneLiner": "Minimalist open-source Kanban board you self-host.",
+        "pricing": "oss",
+        "website": "https://kanboard.org",
+        "pros": [
+          "Lightweight; runs on modest servers",
+          "Swimlanes, WIP limits, automatic actions",
+          "Plugins and a JSON-RPC API"
+        ],
+        "cons": [
+          "Maintenance mode: regular fix and security releases, few new major features",
+          "Utilitarian UI compared with Trello",
+          "Self-host only; no official cloud"
+        ],
+        "bestFor": "Individuals and small teams wanting a simple, lightweight self-hosted board.",
+        "pricingNotes": "Free and open source (MIT); you pay only for hosting."
+      },
+      {
+        "slug": "taiga-trello",
+        "name": "Taiga",
+        "oneLiner": "Open-source agile tool with Kanban and Scrum boards.",
+        "pricing": "oss",
+        "website": "https://taiga.io",
+        "pros": [
+          "Kanban and Scrum in one tool",
+          "Built-in Trello importer",
+          "Self-host or use hosted Taiga"
+        ],
+        "cons": [
+          "More agile process than a casual board",
+          "Docker setup runs several services",
+          "Smaller integration ecosystem than Trello"
+        ],
+        "bestFor": "Agile teams moving from Trello boards to sprints and backlogs.",
+        "pricingNotes": "Open source (MPL-2.0), free to self-host; a hosted cloud version is also available."
+      },
+      {
         "slug": "planka",
         "name": "Planka",
-        "oneLiner": "Realtime open-source project boards.",
-        "pricing": "oss",
+        "oneLiner": "Realtime self-hosted Kanban boards with a free Community edition.",
+        "pricing": "free",
         "website": "https://planka.app",
         "pros": [
           "Realtime collab",
@@ -1437,12 +1494,12 @@
           "Clean board UI"
         ],
         "cons": [
-          "Smaller community",
-          "Fewer enterprise features",
-          "Ops required"
+          "Source-available Fair Use License, not OSI open source",
+          "SSO and extra views (calendar, timeline) need PLANKA Pro",
+          "You run the server"
         ],
         "bestFor": "Small teams wanting a modern self-hosted Trello.",
-        "pricingNotes": "Open source; self-host cost is your VPS."
+        "pricingNotes": "Community edition free to self-host for personal and internal use under PLANKA's Fair Use License; PLANKA Pro is paid."
       },
       {
         "slug": "notion-trello",
@@ -1520,7 +1577,20 @@
         "bestFor": "Cross-functional teams needing structure without Jira weight.",
         "pricingNotes": "Free basic; Premium/Business unlock timeline & more."
       }
-    ]
+    ],
+    "seoTitle": "Open-source Trello alternatives (2026) + SaaS picks",
+    "seoDescription": "Open-source Trello alternatives for 2026: Wekan, Kanboard, Taiga and self-hosted Planka, plus Notion, ClickUp, Jira and Asana. Pros, cons and pricing.",
+    "h1": "Best Trello alternatives, including open-source",
+    "ossSection": {
+      "heading": "Open-source Trello alternatives",
+      "intro": "Want Trello-style boards on your own server? These are actively maintained, self-hostable Kanban tools. Wekan, Kanboard and Taiga are open source; Planka's Community edition is free to self-host but source-available rather than OSI open source.",
+      "slugs": [
+        "wekan",
+        "kanboard",
+        "taiga-trello",
+        "planka"
+      ]
+    }
   },
   {
     "slug": "monday",
@@ -1937,9 +2007,9 @@
           "Privacy brand"
         ],
         "cons": [
-          "Fewer collab features than Dropbox",
-          "Ecosystem smaller",
-          "Speed varies"
+          "Fewer collaboration features than Dropbox",
+          "Smaller app ecosystem",
+          "Fewer third-party integrations"
         ],
         "bestFor": "Individuals prioritizing encrypted personal storage.",
         "pricingNotes": "Free limited storage; paid via Proton plans."
@@ -1975,9 +2045,9 @@
           "Familiar for Windows"
         ],
         "cons": [
-          "Microsoft lock-in",
-          "Consumer vs work confusion",
-          "Sync quirks"
+          "Best value inside Microsoft 365",
+          "Personal vs work accounts can confuse",
+          "Fewer non-Microsoft integrations"
         ],
         "bestFor": "Organizations standardized on Microsoft 365.",
         "pricingNotes": "Included with many M365 plans; standalone options exist."
@@ -1994,9 +2064,9 @@
           "Client apps"
         ],
         "cons": [
-          "Not enterprise Dropbox Business",
-          "Trust/vendor diligence",
-          "Collab lighter"
+          "Lighter team collaboration than Dropbox Business",
+          "Encryption (pCloud Encryption) is a paid add-on",
+          "Fewer third-party integrations"
         ],
         "bestFor": "Individuals comparing long-term storage cost vs Dropbox.",
         "pricingNotes": "Subscription or lifetime; Encryption is often an add-on."
@@ -2020,7 +2090,11 @@
         "bestFor": "Teams wanting Dropbox-like sync on their own servers.",
         "pricingNotes": "Community OSS; Professional licensed. Hosting separate."
       }
-    ]
+    ],
+    "seoTitle": "Dropbox alternatives (2026): 6 cloud storage options",
+    "seoDescription": "Looking for a Dropbox alternative in 2026? Compare Nextcloud, Proton Drive, Google Drive, OneDrive, pCloud and Seafile on privacy, self-hosting, sharing and pricing.",
+    "h1": "Best Dropbox alternatives (2026)",
+    "intro": "Whether you want end-to-end encryption, self-hosted sync, or storage bundled with your office suite, here are six Dropbox alternatives with honest pros, cons and pricing notes."
   },
   {
     "slug": "zoom",
@@ -3587,6 +3661,10 @@
         "bestFor": "SMBs that want a free/self-hosted Pipedrive-class CRM.",
         "pricingNotes": "OSS free; official cloud hosting paid."
       }
-    ]
+    ],
+    "seoTitle": "Better than Pipedrive? 5 CRM alternatives (2026)",
+    "seoDescription": "Looking for a CRM better than Pipedrive for your team? Compare HubSpot Free CRM, Close, Attio, and open-source Twenty and EspoCRM: free tiers, calling, self-hosting.",
+    "h1": "Better than Pipedrive? 5 CRM alternatives compared",
+    "intro": "Pipedrive is a strong pipeline-first CRM, so “better” depends on what you need: a free tier (HubSpot Free CRM, Attio), built-in calling and SMS (Close), flexible data modeling (Attio), or open-source self-hosting (Twenty, EspoCRM)."
   }
 ]

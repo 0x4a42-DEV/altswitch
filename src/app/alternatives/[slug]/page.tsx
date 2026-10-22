@@ -29,8 +29,13 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const tool = getToolBySlug(slug);
   if (!tool) return { title: "Not found" };
 
-  const title = `Best ${tool.name} alternatives (2026)`;
-  const description = `${tool.alternatives.length} SaaS and open-source alternatives to ${tool.name}. ${tool.tagline}`;
+  const title = tool.seoTitle ?? `Best ${tool.name} alternatives (2026)`;
+  const description =
+    tool.seoDescription ??
+    `${tool.alternatives.length} SaaS and open-source alternatives to ${tool.name}. ${tool.tagline}`;
+  const socialTitle = tool.seoTitle
+    ? `${tool.seoTitle} | AltSwitch`
+    : `Best ${tool.name} alternatives | AltSwitch`;
   const path = `/alternatives/${tool.slug}`;
   const url = `${siteUrl}${path}`;
 
@@ -39,15 +44,15 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     description,
     alternates: { canonical: path },
     openGraph: {
-      title: `Best ${tool.name} alternatives | AltSwitch`,
-      description: tool.description,
+      title: socialTitle,
+      description: tool.seoDescription ?? tool.description,
       url,
       type: "website",
       siteName: "AltSwitch",
     },
     twitter: {
       card: "summary",
-      title: `Best ${tool.name} alternatives | AltSwitch`,
+      title: socialTitle,
       description,
     },
   };
@@ -62,6 +67,9 @@ export default async function ToolAlternativesPage({ params }: Props) {
   const alsoCompare = toolsSharingAlternatives(tool, 4);
   const faqs = buildFaqs(tool);
   const jsonLd = pageJsonLd(tool, faqs, siteUrl);
+  const ossAlts = (tool.ossSection?.slugs ?? [])
+    .map((s) => tool.alternatives.find((a) => a.slug === s))
+    .filter((a): a is NonNullable<typeof a> => Boolean(a));
 
   return (
     <div>
@@ -80,11 +88,16 @@ export default async function ToolAlternativesPage({ params }: Props) {
             <span className="text-zinc-800">{tool.name}</span>
           </p>
           <h1 className="mt-3 text-3xl font-bold tracking-tight text-zinc-900 sm:text-4xl">
-            Best {tool.name} alternatives
+            {tool.h1 ?? `Best ${tool.name} alternatives`}
           </h1>
           <p className="mt-3 max-w-2xl text-lg text-zinc-600">
             {tool.description}
           </p>
+          {tool.intro && (
+            <p className="mt-3 max-w-2xl text-base text-zinc-600">
+              {tool.intro}
+            </p>
+          )}
           <div className="mt-4 flex flex-wrap gap-3 text-sm">
             <span className="rounded-full bg-zinc-100 px-3 py-1 text-zinc-700">
               {tool.category}
@@ -112,6 +125,34 @@ export default async function ToolAlternativesPage({ params }: Props) {
           </div>
         </div>
       </section>
+
+      {tool.ossSection && ossAlts.length > 0 && (
+        <section
+          id="open-source"
+          className="mx-auto max-w-5xl scroll-mt-24 px-4 pt-12"
+        >
+          <h2 className="text-xl font-semibold text-zinc-900">
+            {tool.ossSection.heading}
+          </h2>
+          <p className="mt-2 max-w-3xl text-sm text-zinc-600">
+            {tool.ossSection.intro}
+          </p>
+          <ul className="mt-4 space-y-2 text-sm text-zinc-700">
+            {ossAlts.map((alt) => (
+              <li key={`oss-${alt.slug}`}>
+                <a
+                  href={`#alt-${alt.slug}`}
+                  className="font-medium text-indigo-600 hover:underline"
+                >
+                  {alt.name}
+                </a>
+                {" — "}
+                {alt.oneLiner} <span className="text-zinc-500">{alt.pricingNotes}</span>
+              </li>
+            ))}
+          </ul>
+        </section>
+      )}
 
       <section
         id="compare"

@@ -25,6 +25,14 @@ export interface Tool {
   website: string;
   featured: boolean;
   alternatives: Alternative[];
+  /** Optional SEO overrides (fall back to generated defaults) */
+  seoTitle?: string;
+  seoDescription?: string;
+  h1?: string;
+  /** Extra intro paragraph under the description */
+  intro?: string;
+  /** Optional highlighted section, e.g. "Open-source X alternatives" */
+  ossSection?: { heading: string; intro: string; slugs: string[] };
 }
 
 export interface Subscriber {
