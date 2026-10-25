@@ -3,7 +3,7 @@
 Living log of affiliate / referral programs for [altswitch.xyz](https://altswitch.xyz).  
 Update this file when a program moves between sections. Do not invent approvals.
 
-**Last updated:** 2026-10-21 (Asia/Tokyo)
+**Last updated:** 2026-10-25 (Asia/Hong_Kong)
 
 Wiring lives in:
 - `src/lib/affiliates.ts` — referral URL constants
@@ -28,12 +28,26 @@ Non-partner alternatives use a plain official-site link (no `ref=` param, no `re
 
 ---
 
-## Pending approval
+## Applied — pending approval (do not chase / re-nudge)
+
+Partner applied these; waiting for approval emails or dashboard links. Do **not** re-apply or chase. When Partner pastes an approval/link, move to **Done** and wire.
+
+| Program | Applied | Notes | Covers GSC page(s) |
+|--------|---------|-------|-------------------|
+| **Kit (ConvertKit)** | ~2026-10-21 | PartnerStack; no link yet | Mailchimp (not a current top-GSC family) |
+| **Freshworks (Freshdesk)** | ~2026-10-21 | PartnerStack; Freshdesk only (first card on Zendesk page) | **zendesk**, **intercom** (Freshdesk alt) |
+| **Brevo** | ~2026-10-21 | partners.brevo.com; pending | HubSpot / Mailchimp pages |
+| **Hostinger** | ~2026-10-19 | affiliates.hostinger.com; pending review | Hosting / WP-adjacent |
+| **Crisp** | ~2026-10-21 | Applied via Hugo chatbot (Content Writer); awaiting feedback email (~5 days) then partnership call | **intercom** |
+
+---
+
+## Pending / blocked (no usable apply path)
 
 | Program | Status | Notes |
 |--------|--------|-------|
 | **ClickUp** | Blocked | Partners URL redirects to customer dashboard — no usable apply path yet. Revisit PartnerStack / official partners page later. |
-| **Pipedrive** | No apply link yet | Apply page 404 / no working link. Do not invent a URL. Retry when PartnerStack or Pipedrive Partners publishes a live apply page. Relevant to Salesforce/HubSpot/Pipedrive pages. |
+| **Pipedrive** | No apply link | Apply page 404 / no working link. Do not invent a URL. Retry when PartnerStack or Pipedrive Partners publishes a live apply page. Pipedrive itself cannot monetize the Pipedrive GSC page — cover via **alts** (Close, Zoho, HubSpot). |
 
 ---
 
@@ -47,36 +61,89 @@ Policy: programs that decline stay listed (factual, unchanged copy) but get no f
 
 ---
 
-## To do (prioritized apply list)
+## Top GSC query coverage (standing rule)
 
-Practical programs for a **new alternatives directory** — prefer public apply / self-serve dashboard, avoid enterprise-only PartnerStack hell. Research verified 2026-10-18. Apply in priority order; none below are approved yet.
+**Rule:** For every top GSC query/page, we must either (a) have a real affiliate/referral wired for at least one strong alt on that page, OR (b) have already applied and be pending. If neither, apply (or document blocked / no program).
 
-### P1 — apply first (easy / high fit)
+**Dual-maximize:** Traffic without payouts is worthless. Rank and fill gaps by **impressions × likelihood of affiliate $** (commission quality × conversion fit × apply feasibility). Prioritize **Pipedrive** and **Airtable** hardest while Intercom/Zendesk already have pending coverage.
 
-| Program | Apply URL | Why it fits AltSwitch | Commission (public) | Difficulty |
-|--------|-----------|----------------------|---------------------|------------|
-| **Hostinger** | https://affiliates.hostinger.com/signup (info: https://www.hostinger.com/affiliates) | WordPress / WooCommerce / Shopify-adjacent hosting; classic easy affiliate for directories | Up to **~40%** (volume tiers; first-term hosting; $100 + 3 conversions for PayPal) | **Easy** |
-| **Kit (ConvertKit)** | https://kit.com/affiliate → PartnerStack | Strong Mailchimp alternative already on site; creator-email fit | **50%** of payments for **first 12 months** (+10–20% recurring after tier) | **Medium** (PartnerStack) |
+GSC families from Partner 7-day snapshot (2026-10-25): intercom alternative(s), airtable alternatives, pipedrive alternatives, best intercom alternatives, open source zendesk alternative, zendesk alternative.
 
-### P2 — strong fits, slightly more friction
+| Query family | Page | Coverage status | Best monetizable alt | Notes |
+|-------------|------|-----------------|----------------------|-------|
+| **pipedrive alternatives** | `/alternatives/pipedrive` | **GAP** | **Close** (then Zoho CRM, HubSpot) | Zero wired partners on page. Pipedrive itself blocked. Close **never applied** (confirmed AFFILIATES.md + git log + journal). Fairness copy already shipped in 4192ae2. |
+| **airtable alternatives** | `/alternatives/airtable` | **GAP** | **Teable** (then Baserow inquiry) | Zero known applications for this stack. Teable has public Rewardful apply. NocoDB/Rows/Grist/Notion: no usable cash affiliate. |
+| **intercom alternative(s)** | `/alternatives/intercom` | **applied-pending** | Crisp (pending) + Freshdesk via Freshworks (pending) | Satisfies rule (b). Do not chase. Optional depth: Gorgias / Help Scout / HubSpot (see To-apply). |
+| **zendesk alternative** (+ OSS zendesk) | `/alternatives/zendesk` | **applied-pending** | Freshdesk via Freshworks (pending) | Satisfies rule (b). OSS alts (Chatwoot, FreeScout) have no cash affiliate. Optional depth: Help Scout / Gorgias. |
 
-| Program | Apply URL | Why it fits AltSwitch | Commission (public) | Difficulty |
-|--------|-----------|----------------------|---------------------|------------|
-| **Freshworks (Freshdesk / Freshservice)** | https://www.freshworks.com/partners/affiliate-partner-individual/ | Explicitly welcomes **SaaS review & comparison sites**; maps to `/alternatives/zendesk` | **20–30%** of first-year revenue (tiered, up to 12 months) | **Medium** (PartnerStack; comparison-site friendly) |
-| **Close CRM** | https://close.com/partners (affiliates track) | Listed HubSpot / Pipedrive alternative (not on `/alternatives/salesforce`); affiliate creators welcome | **30%** first-year subscription | **Medium** (1–2 day review + short call) |
-| **Contabo** | https://contabo.com/en-us/affiliate-program/ → CJ publisher (program via Contabo page) | Cheap VPS for OSS self-host callouts (next to Railway/DO) | Fixed **€20–€250** per first qualifying order (product table on page) | **Medium** (needs CJ account; ~1 week review) |
-| **Brevo** | https://partners.brevo.com/affiliates (info: https://www.brevo.com/partners/affiliates/) | HubSpot + Mailchimp alternative already listed | **$5**/validated free + **$100**/first paid (90-day cookie) | **Medium** (PartnerStack; may want business email + real traffic) |
-| **Crisp** | https://crisp.chat/en/partnerships/ (Marketing program) | Intercom alternative on site; lighter than Zendesk PartnerStack | ~**20%** cashback or discount codes (manual partnership) | **Medium** (manual review; promote with content) |
+### True gaps ranked (impressions × $ likelihood)
 
-### P3 — gatekept or secondary
+1. **Close** — Pipedrive family (high GSC) × 30% first-year subscription × comparison sites welcome × fairness already OK. **Apply next #1.**
+2. **Teable** — Airtable family (high GSC, zero coverage) × 25% recurring 12 months × easy Rewardful signup. **Apply next #2.**
+3. **Zoho CRM** — Pipedrive backup × 15–20% for 12 months × in-house apply (5 business days). Soften "support reviews mixed" cons before apply if Partner wants stricter fairness.
+4. **HubSpot Affiliates (Impact)** — Pipedrive + Intercom cards × 30% up to 1 year × explicitly welcomes SaaS reviewers / B2B marketplaces. Heavier review; still high $.
+5. **Gorgias** — Intercom/Zendesk depth (pages already pending-covered) × 20% for 2 years × instant PartnerStack. Ecommerce-niche fit; lower priority than Close/Teable until Pipedrive+Airtable are filed.
+6. **Help Scout** — Intercom/Zendesk depth × 15–20% × PartnerStack. Same secondary priority as Gorgias.
 
-| Program | Apply URL | Why it fits AltSwitch | Commission (public) | Difficulty |
-|--------|-----------|----------------------|---------------------|------------|
-| **Fathom Analytics** | https://usefathom.com/affiliates (Partners dashboard after purchase) | Privacy GA alternative on `/alternatives/google-analytics` | **25%** recurring | **Medium** — must be a **paying Fathom customer** |
-| **bunny.net** | https://bunny.net/affiliate/ (enable in dashboard) | CDN/storage for WordPress & self-host tips | **$20**/new paying customer | **Easy** if paying bunny customer; else skip |
-| **Ghost** | https://ghost.org/referrals/ | WordPress alternative; excellent recurring if approved | **30%** recurring lifetime | **Hard** — needs Ghost pub + ~**10k** audience |
+### No-program / not cash-affiliate (document, don't fake-apply)
 
-### Skip / revisit later (not joinable right now)
+| Brand | On page(s) | Finding (researched 2026-10-25) |
+|-------|------------|--------------------------------|
+| **NocoDB** | Airtable | No public affiliate/apply page found (terms mention referral credits only). Treat as **no-program**. |
+| **Rows** | Airtable | No public affiliate/referral program found. **No-program**. |
+| **Grist / Twenty / EspoCRM / Chatwoot / FreeScout / Plain / Front / Tidio / tawk.to** | various | No verified public cash affiliate for directory use. Leave plain listings. |
+| **Attio** | Pipedrive | **Customer referral only** ($200 gift card / valid Pro–Enterprise referral; need an Attio account). Not a creator cash affiliate. See Partner-needed. |
+| **Notion Databases** | Airtable | Notion PartnerStack closed to new affiliates (already Skip). |
+| **Pipedrive** (the brand) | Pipedrive | Blocked — no apply link (see Pending). |
+
+---
+
+## To-apply gaps (public path; not yet applied)
+
+Research verified 2026-10-25. Prefer these over secondary Contabo/Fathom/etc. until Pipedrive + Airtable satisfy the GSC rule. **Do not invent approvals or referral URLs.**
+
+### Priority A — close GSC gaps (apply first)
+
+| Program | Apply URL | Commission (public) | Difficulty | Fairness check | Form fields / notes |
+|--------|-----------|---------------------|------------|----------------|---------------------|
+| **Close CRM** | Overview: https://close.com/partners (Affiliate Partner). Direct PartnerStack: https://dash.partnerstack.com/application?company=close&group=affiliatepartner | **30%** subscription for up to **12 months** (Affiliate Partner group; lifetime available at higher volume). Explicitly for bloggers, review sites, publishers. | **Medium** — 1–2 day review; may request a **short call** (Partner-needed for the call) | **OK** — fair/current Close copy shipped 4192ae2 (pricing Solo→Scale, built-in calling/SMS/email, factual cons). | First name, Last name, Email, Business name, Website (`https://altswitch.xyz`), Phone, Country; agree to partner terms. Pitch: Pipedrive alternatives directory; Close is a strong sales-CRM alt with honest pros/cons. |
+| **Teable** | Info: https://teable.ai/affiliate · Signup: https://teable.getrewardful.com/signup | **25%** recurring for **12 months**; referrals get **10%** off first payment; 60-day attribution; PayPal payouts ($30 min) | **Easy** (Rewardful self-serve; Teable approves at discretion) | **OK** — factual "newer project / ecosystem growing" cons; no harsh slam | First name, Last name, Email, Password; set PayPal for payouts. Pitch: Airtable alternatives page; Teable as Postgres/Airtable-like OSS+cloud option. |
+
+### Priority B — Pipedrive depth / high $
+
+| Program | Apply URL | Commission (public) | Difficulty | Fairness check | Form fields / notes |
+|--------|-----------|---------------------|------------|----------------|---------------------|
+| **Zoho Affiliate** | https://www.zoho.com/affiliate/ · Signup: https://www.zoho.com/affiliate/signup.html | **15%** (tier 1) → **18%** / **20%** by volume; **12 months**; 90-day cookie; $100 wallet credit for referrals | **Medium** (in-house; ~5 business days; SMS verify) | **Soft-check** — cons include "UI can feel dated" and "Support reviews are mixed". Factual but Partner may want softer wording before apply. | Org type, name, industry, follower counts (YouTube etc.), Zoho product experience, marketing capabilities, mobile SMS verification. Covers Zoho CRM on Pipedrive page (and suite). |
+| **HubSpot Affiliates** | https://www.hubspot.com/partners/affiliates → Impact signup | **30%** recurring up to **1 year**; 180-day cookie; Starter/Sprocket/Elite tiers | **Medium** (Impact; 2–3 business day review). Welcomes SaaS reviewers & B2B marketplaces | **OK** on Pipedrive Free CRM + Intercom Service Hub cards | Apply as content/SaaS directory; not Solutions Partner (agency) track. Email affiliates@hubspot.com if stuck. |
+
+### Priority C — Intercom/Zendesk depth (pages already pending-covered)
+
+| Program | Apply URL | Commission (public) | Difficulty | Fairness check | Form fields / notes |
+|--------|-----------|---------------------|------------|----------------|---------------------|
+| **Gorgias** | https://www.gorgias.com/affiliate-program → PartnerStack (instant signup per page FAQ) | **20%** of payments for **2 years** (tiers to 22/25/40% by volume). Quarterly payouts. No affiliate links in branded ads. | **Easy–Medium** (claims instant PartnerStack access) | **OK** — ecommerce niche + ticket/AI volume cons are factual | Ecommerce-heavy audience; AltSwitch is broader SaaS — still list Gorgias on Intercom/Zendesk; expect lower conversion than Close on Pipedrive traffic. |
+| **Help Scout** | https://www.helpscout.com/partner/ (Affiliates) · PartnerStack: https://dash.partnerstack.com/application?company=helpscout&group=helpscoutaffiliates | **15%** (1–10 customers / 3 mo) or **20%** (11+); 90-day cookie. No PPC / coupon sites. | **Medium** (PartnerStack review) | **OK** | First/Last name, Email, Business name, Audience type, ≥3 industry focuses, promo channels, audience size, site/social links (`altswitch.xyz`). |
+
+### Partner-needed (do not fake-apply)
+
+| Item | Why Partner must act | Suggested action |
+|------|----------------------|------------------|
+| **Close post-apply call** | Close may require a short partner call after PartnerStack submit | Partner applies online, then takes the call |
+| **Attio referral** | Cash program does not exist; only customer referral ($200 gift card) requiring an Attio account | Optional: create Attio account → Account settings → Refer another team. Low priority vs Close cash 30% |
+| **Baserow** | Only an **inquiry form** (https://baserow.io/form/xTktqPeYmEPbgC80nneRmK8dc2QRLMYMrGfbXav1SOQ) — name, email, **phone**, self-definition, website, reason. No public commission terms | Partner fills inquiry if wanting Airtable depth beyond Teable; disclose phone required |
+| **Crisp feedback email / call** | Already applied; awaiting their process | Wait — do not chase (on hold) |
+| **Fathom / bunny.net** | Paying-customer gate | Only if Partner is already a paying customer |
+| **No LinkedIn** | Partner prefers not to provide personal LinkedIn on apps | Use altswitch.xyz / leave blank |
+
+### Still on backlog (not GSC-blocking)
+
+| Program | Apply URL | Why it fits | Commission (public) | Difficulty |
+|--------|-----------|-------------|---------------------|------------|
+| **Contabo** | https://contabo.com/en-us/affiliate-program/ → CJ | Cheap VPS next to Railway/DO | Fixed **€20–€250** per first qualifying order | Medium (CJ; ~1 week) |
+| **Fathom Analytics** | https://usefathom.com/affiliates | Privacy GA alt | **25%** recurring | Medium — must be **paying** Fathom customer |
+| **bunny.net** | https://bunny.net/affiliate/ | CDN/storage tips | **$20**/new paying customer | Easy if paying customer |
+| **Ghost** | https://ghost.org/referrals/ | WP alternative | **30%** recurring lifetime | Hard — Ghost pub + ~10k audience |
+
+### Skip / revisit later
 
 | Program | Why skip |
 |--------|----------|
@@ -86,8 +153,9 @@ Practical programs for a **new alternatives directory** — prefer public apply 
 | **Render** | No verified public self-serve affiliate; startup partner form ≠ affiliate |
 | **Plausible** | No affiliate program by policy |
 | **Hetzner** | Cloud referral program discontinued |
-| **Vercel / Zapier** | PartnerStack / inquiry gates — revisit after P1–P2 wins |
+| **Vercel / Zapier** | PartnerStack / inquiry gates — revisit after Priority A–B wins |
 | **ClickUp / Pipedrive** | See Pending (blocked / no apply link) |
+| **NocoDB / Rows** | No public cash affiliate found (2026-10-25) |
 
 When a program is approved: move it to **Done**, add the real URL to `affiliates.ts` / `affiliate.ts`, and disclose on `/about`.
 
@@ -99,3 +167,7 @@ When a program is approved: move it to **Done**, add the real URL to `affiliates
 2. Disclose affiliates on `/about` and use `rel="sponsored"` on outbound cards (already in UI).
 3. Never mark a program **Done** without a live URL in code.
 4. Prefer programs with public apply pages or in-product self-serve dashboards; treat enterprise PartnerStack sales tracks as P3+.
+5. **GSC coverage rule:** for every top GSC query/page, have (a) a real affiliate wired for at least one strong alt, OR (b) an application already pending. If neither → apply, or document blocked / no-program. Do not chase apps Partner marked on hold.
+6. **Dual-maximize (traffic × profits):** impressions alone are worthless without payouts. When choosing what to apply or wire next, rank by **impressions × likelihood of affiliate $** (rate × fit × feasibility). Push hardest on high-impression pages that still have **GAP** status (currently Pipedrive, Airtable).
+7. **Brand fairness before apply:** audit how the site portrays that brand (fair, accurate, current pricing, no harsh cons) — partner managers check. Soften copy first if needed.
+8. Do not invent approvals or referral URLs. Partner pastes links; then wire.
