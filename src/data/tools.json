@@ -2607,7 +2607,7 @@
     "name": "Intercom",
     "category": "Support",
     "tagline": "Customer messaging and support platform",
-    "description": "Intercom blends chat, helpdesk, and product messaging — at a premium. Teams seek cheaper inboxes or open-source engagement suites.",
+    "description": "Intercom blends chat, helpdesk, and product messaging — priced per seat plus Fin AI billed per outcome. Teams leave for flat workspace chat, free widgets, or open-source inboxes when seat + AI metering no longer fits.",
     "website": "https://www.intercom.com",
     "featured": true,
     "alternatives": [
@@ -2726,17 +2726,134 @@
         ],
         "bestFor": "B2B SaaS teams wanting a fresher Intercom alternative.",
         "pricingNotes": "Paid — check current pricing page for seat model."
+      },
+      {
+        "slug": "freshdesk-ic",
+        "name": "Freshdesk",
+        "oneLiner": "Ticket-first SMB helpdesk with AI agent sessions.",
+        "pricing": "paid",
+        "website": "https://www.freshworks.com/freshdesk/",
+        "pros": [
+          "Ticketing, shared inbox, knowledge base and customer portal",
+          "Freddy AI Agent included sessions on paid plans",
+          "Clear per-agent plans below Intercom suite complexity",
+          "Familiar ticket UX for support orgs"
+        ],
+        "cons": [
+          "AI Agent sessions beyond the included allotment are add-ons",
+          "Less product-messaging / outbound suite than Intercom",
+          "No permanent free plan"
+        ],
+        "bestFor": "Teams that need classic tickets and SLAs more than Intercom-style product messaging.",
+        "pricingNotes": "14-day free trial; Growth from $19/agent/mo billed annually (Pro $55, Enterprise $89). A short Free Program may appear in-app — verify on Freshworks."
+      },
+      {
+        "slug": "freescout-ic",
+        "name": "FreeScout",
+        "oneLiner": "Lightweight open-source help desk and shared inbox.",
+        "pricing": "oss",
+        "website": "https://freescout.net",
+        "pros": [
+          "Lightweight shared inbox with Help Scout–like UX",
+          "Self-host friendly",
+          "Optional paid modules when you need extras"
+        ],
+        "cons": [
+          "Fewer live-chat / product-messaging features than Intercom",
+          "Module/plugin model for advanced features",
+          "You own uptime and upgrades"
+        ],
+        "bestFor": "Small support teams wanting a simple open Intercom/Help Scout–style desk.",
+        "pricingNotes": "Free OSS; optional paid modules from FreeScout."
+      },
+      {
+        "slug": "tidio",
+        "name": "Tidio",
+        "oneLiner": "Marketing-friendly live chat with Flows and Lyro AI — cheaper Intercom-style widget.",
+        "pricing": "freemium",
+        "website": "https://www.tidio.com",
+        "pros": [
+          "Free forever tier for low-volume chat",
+          "Flows for proactive marketing chat",
+          "Lyro AI Agent available as add-on or bundle",
+          "Conversation-based paid plans instead of Intercom seat + Fin metering"
+        ],
+        "cons": [
+          "Free plan capped at 50 billable conversations/mo",
+          "Paid plans scale by billable conversations, not seats alone",
+          "Less of a full product-messaging / Series suite than Intercom"
+        ],
+        "bestFor": "SMB and ecommerce sites that want marketing chat plus support without Intercom seat pricing.",
+        "pricingNotes": "Free: 50 billable conversations/mo (up to 10 agents). Starter from ~$24/mo billed annually (~$29 monthly) for 100 billable conversations; higher Growth/Plus tiers by volume. Lyro AI and Flows have separate quotas — verify on tidio.com/pricing."
+      },
+      {
+        "slug": "tawk-to",
+        "name": "tawk.to",
+        "oneLiner": "Truly free live chat widget with optional paid extras.",
+        "pricing": "free",
+        "website": "https://www.tawk.to",
+        "pros": [
+          "Core live chat, ticketing, and knowledge base free forever",
+          "Unlimited agents on the free product",
+          "Optional AI Assist and hired agents if you need them"
+        ],
+        "cons": [
+          "Branding on the free widget unless you pay to remove it",
+          "Polish and product-messaging depth below Intercom",
+          "Monetization extras (AI Assist, remove branding) are paid add-ons"
+        ],
+        "bestFor": "Teams that mainly need a free chat widget, not Intercom’s full messaging suite.",
+        "pricingNotes": "Free forever for core chat/ticketing/KB. Optional: remove “Powered by tawk.to” branding ~$29/mo; AI Assist from ~$29/mo; hired chat agents available as a separate service."
+      },
+      {
+        "slug": "gorgias-ic",
+        "name": "Gorgias",
+        "oneLiner": "Ecommerce helpdesk (Shopify-deep) as an Intercom alternative for DTC brands.",
+        "pricing": "paid",
+        "website": "https://www.gorgias.com",
+        "pros": [
+          "Built for ecommerce with Shopify-deep order macros",
+          "Helpdesk priced by ticket volume, not per Intercom-style seat + Fin outcome",
+          "AI Agent available on every plan (pay when it resolves)"
+        ],
+        "cons": [
+          "Niche outside ecommerce / DTC",
+          "Cost scales with ticket and AI volume — model peak season carefully",
+          "Overkill for B2B SaaS product messaging"
+        ],
+        "bestFor": "DTC and Shopify brands replacing Intercom chat with an ecommerce-native desk.",
+        "pricingNotes": "Helpdesk tiers by tickets/mo (Starter from $10/mo for 50 tickets; Basic/Pro/Advanced scale up). AI Agent billed per automated interaction on top of ticket allotments — verify on gorgias.com/pricing."
+      },
+      {
+        "slug": "hubspot-ic",
+        "name": "HubSpot",
+        "oneLiner": "Service Hub + free CRM when support already lives next to marketing and sales.",
+        "pricing": "freemium",
+        "website": "https://www.hubspot.com/products/service",
+        "pros": [
+          "Free CRM forever with a path into Service Hub inbox/tickets",
+          "Support sits beside marketing and sales data you may already use",
+          "Large app ecosystem and shared contact timeline"
+        ],
+        "cons": [
+          "Paid Service Hub seats and HubSpot Credits add up at scale",
+          "Heavier platform than a focused chat tool",
+          "Less Intercom-like product tours / Series messaging"
+        ],
+        "bestFor": "Teams already on HubSpot CRM who want support in the same platform instead of Intercom.",
+        "pricingNotes": "Free CRM forever; Service Hub is paid (seat + HubSpot Credits for AI agents). Verify current Service Hub plans on HubSpot’s pricing page."
       }
     ],
-    "seoTitle": "Best Intercom Alternatives 2026 — Crisp & OSS",
-    "seoDescription": "Looking for an Intercom alternative? Compare Crisp, Chatwoot, Help Scout, Zendesk, Front & Plain — flat chat pricing, open-source self-hosting, fair tradeoffs.",
+    "seoTitle": "Best Intercom Alternatives 2026 — Crisp, Free & OSS",
+    "seoDescription": "Looking for an Intercom alternative? Compare Crisp, Chatwoot, FreeScout, Freshdesk, Tidio, tawk.to, Gorgias & HubSpot — flat chat pricing, free widgets, open-source self-hosting, fair tradeoffs.",
     "h1": "Best Intercom alternatives (2026)",
-    "intro": "Search traffic for “Intercom alternative” and “best Intercom alternatives” usually wants lower seat cost or an open inbox. Crisp is the closest paid chat swap; Chatwoot is the open-source path. Help Scout fits calmer email support; Zendesk, Front and Plain cover tickets and collaborative inboxes. Pick by pricing model and channel mix — not hype.",
+    "intro": "Leave reasons are usually seat pricing plus Fin-style AI resolution metering, versus flat workspace plans, free chat widgets, or OSS self-hosting. Quick picks: chat SMB → Crisp; OSS → Chatwoot or FreeScout; email → Help Scout; tickets → Zendesk or Freshdesk; free widget → tawk.to; marketing-chat → Tidio; ecommerce → Gorgias; already in CRM → HubSpot Service Hub. How to switch: export conversation history, run the new widget alongside Intercom briefly, verify AI/metered costs on the new stack, then train macros and the help center before cutting over.",
     "ossSection": {
       "heading": "Open-source Intercom alternatives",
-      "intro": "Want Intercom-style messaging without a closed SaaS lock-in? Chatwoot is the main open-source customer engagement suite on this page — self-host the MIT Community Edition or use Chatwoot Cloud.",
+      "intro": "Want Intercom-style messaging without a closed SaaS lock-in? Chatwoot is the full open-source customer engagement suite; FreeScout is the lighter Help Scout–style shared inbox. Self-host either, or use Chatwoot Cloud if you prefer managed hosting.",
       "slugs": [
-        "chatwoot-ic"
+        "chatwoot-ic",
+        "freescout-ic"
       ]
     }
   },
