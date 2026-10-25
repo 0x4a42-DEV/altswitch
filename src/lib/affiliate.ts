@@ -7,6 +7,7 @@ import {
   MAILERLITE_REFERRAL_URL,
   BEEHIIV_REFERRAL_URL,
   VULTR_REFERRAL_URL,
+  TEABLE_REFERRAL_URL,
 } from "@/lib/affiliates";
 
 /** Full referral URLs keyed by alternative slug (preferred when present). */
@@ -20,6 +21,7 @@ const REFERRAL_BY_SLUG: Record<string, string> = {
   mailerlite: MAILERLITE_REFERRAL_URL,
   beehiiv: BEEHIIV_REFERRAL_URL,
   vultr: VULTR_REFERRAL_URL,
+  teable: TEABLE_REFERRAL_URL,
 };
 
 /** Full referral URLs keyed by website hostname. */
@@ -43,6 +45,10 @@ const REFERRAL_BY_HOST: Record<string, string> = {
   "www.beehiiv.com": BEEHIIV_REFERRAL_URL,
   "vultr.com": VULTR_REFERRAL_URL,
   "www.vultr.com": VULTR_REFERRAL_URL,
+  "teable.ai": TEABLE_REFERRAL_URL,
+  "www.teable.ai": TEABLE_REFERRAL_URL,
+  "teable.io": TEABLE_REFERRAL_URL,
+  "www.teable.io": TEABLE_REFERRAL_URL,
 };
 
 function isDigitalOceanName(name?: string): boolean {
@@ -78,6 +84,10 @@ function isVultrName(name?: string): boolean {
   return name?.trim().toLowerCase() === "vultr";
 }
 
+function isTeableName(name?: string): boolean {
+  return name?.trim().toLowerCase() === "teable";
+}
+
 function referralOverride(
   website: string,
   meta?: { slug?: string; name?: string },
@@ -92,6 +102,7 @@ function referralOverride(
   if (isMailerLiteName(meta?.name)) return MAILERLITE_REFERRAL_URL;
   if (isBeehiivName(meta?.name)) return BEEHIIV_REFERRAL_URL;
   if (isVultrName(meta?.name)) return VULTR_REFERRAL_URL;
+  if (isTeableName(meta?.name)) return TEABLE_REFERRAL_URL;
 
   try {
     const host = new URL(website).hostname.toLowerCase();
@@ -122,6 +133,12 @@ function referralOverride(
     }
     if (host === "vultr.com" || host.endsWith(".vultr.com")) {
       return VULTR_REFERRAL_URL;
+    }
+    if (host === "teable.ai" || host.endsWith(".teable.ai")) {
+      return TEABLE_REFERRAL_URL;
+    }
+    if (host === "teable.io" || host.endsWith(".teable.io")) {
+      return TEABLE_REFERRAL_URL;
     }
   } catch {
     /* ignore invalid website */

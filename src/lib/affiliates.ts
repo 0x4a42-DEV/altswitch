@@ -38,3 +38,8 @@ export const VULTR_REFERRAL_URL =
   "https://www.vultr.com/?ref=9930011";
 
 export const VULTR_REFERRAL_LABEL = "Vultr";
+
+export const TEABLE_REFERRAL_URL =
+  "https://teable.ai/?via=Altswitch";
+
+export const TEABLE_REFERRAL_LABEL = "Teable";

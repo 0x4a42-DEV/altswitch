@@ -23,6 +23,7 @@ Wiring lives in:
 | **MailerLite** | Live | `https://www.mailerlite.com/?linkId=lp_170762&sourceId=altswitch&tenantId=mailerlite` | `MAILERLITE_REFERRAL_URL`; Mailchimp alternative cards override via `affiliate.ts` (slug `mailerlite` / host mailerlite.com) |
 | **beehiiv** | Live (approved 2026-10-21) | `https://www.beehiiv.com?via=alt-switch` (via `alt-switch`) | `BEEHIIV_REFERRAL_URL`; Mailchimp alternative cards override via `affiliate.ts` (slug `beehiiv` / host beehiiv.com). Program runs on Dub (partners.dub.co/beehiiv) — **payouts go through Dub**. |
 | **Vultr** | Live (approved 2026-10-21) | `https://www.vultr.com/?ref=9930011` (ref `9930011`) | `VULTR_REFERRAL_URL`; OSS self-host tip (with Railway/DO); Vultr card on `/alternatives/heroku` via `affiliate.ts` (slug `vultr` / host vultr.com). Customer referral program, not a % commission: per vultr.com/company/referral-program (checked 2026-10-21) you "earn up to $100" per referred customer, who must stay active 30+ days to count; payouts issued the business day after the 1st and 15th of each month. Exact amount and minimum-spend rules are in Vultr's program details / customer portal — not stated on the public page. |
+| **Teable** | Live (approved 2026-10-25) | `https://teable.ai/?via=Altswitch` (via `Altswitch`) | `TEABLE_REFERRAL_URL`; Airtable (+ NocoDB sibling) alternative cards override via `affiliate.ts` (slug `teable` / hosts teable.ai + teable.io). Rewardful Friends of Teable — **25%** recurring × 12 months; PayPal payouts. |
 
 Non-partner alternatives use a plain official-site link (no `ref=` param, no `rel="sponsored"`). Only the real overrides above are sponsored.
 
@@ -40,7 +41,6 @@ Partner applied these; waiting for approval emails or dashboard links. Do **not*
 | **Hostinger** | ~2026-10-19 | affiliates.hostinger.com; pending review | Hosting / WP-adjacent |
 | **Crisp** | ~2026-10-21 | Applied via Hugo chatbot (Content Writer); awaiting feedback email (~5 days) then partnership call | **intercom** |
 | **Close CRM** | 2026-10-25 | Applied via PartnerStack Affiliate Partner. hello@altswitch.xyz / Jon Berry / AltSwitch / https://altswitch.xyz / +852 55986128. Status: Application pending on dash.partnerstack.com/close/application. Covers Pipedrive GSC gap. Do not chase; paste referral URL when approved then wire affiliates.ts | **pipedrive** |
-| **Teable** | 2026-10-25 | Signed up on Rewardful https://teable.getrewardful.com — Friends of Teable. hello@altswitch.xyz (Jon Berry / AltSwitch). Status: awaiting email confirmation link (thanks page id 3da728b5-63e2-40b6-a9fc-eb678b491bb2); then Teable discretionary approval. Vault login saved as Teable Rewardful. Covers Airtable GSC gap; 25% × 12 months; PayPal for payouts later. Do not chase; after confirm+approval paste referral URL then wire affiliates.ts | **airtable** |
 
 ---
 
@@ -67,14 +67,14 @@ Policy: programs that decline stay listed (factual, unchanged copy) but get no f
 
 **Rule:** For every top GSC query/page, we must either (a) have a real affiliate/referral wired for at least one strong alt on that page, OR (b) have already applied and be pending. If neither, apply (or document blocked / no program).
 
-**Dual-maximize:** Traffic without payouts is worthless. Rank and fill gaps by **impressions × likelihood of affiliate $** (commission quality × conversion fit × apply feasibility). **Airtable** is applied-pending via Teable (email confirm); **Pipedrive** via Close. Intercom/Zendesk already have pending coverage. Next $ depth: Zoho CRM / HubSpot (Priority B).
+**Dual-maximize:** Traffic without payouts is worthless. Rank and fill gaps by **impressions × likelihood of affiliate $** (commission quality × conversion fit × apply feasibility). **Airtable** is **wired** via Teable; **Pipedrive** still applied-pending via Close. Intercom/Zendesk already have pending coverage. Next $ depth: Zoho CRM / HubSpot (Priority B).
 
 GSC families from Partner 7-day snapshot (2026-10-25): intercom alternative(s), airtable alternatives, pipedrive alternatives, best intercom alternatives, open source zendesk alternative, zendesk alternative.
 
 | Query family | Page | Coverage status | Best monetizable alt | Notes |
 |-------------|------|-----------------|----------------------|-------|
 | **pipedrive alternatives** | `/alternatives/pipedrive` | **applied-pending** via Close | **Close** (then Zoho CRM, HubSpot) | Close applied 2026-10-25 via PartnerStack; pending on dash.partnerstack.com/close/application. Satisfies rule (b). Do not chase. Pipedrive itself still blocked. Fairness copy already shipped in 4192ae2. Optional depth: Zoho CRM / HubSpot (Priority B). |
-| **airtable alternatives** | `/alternatives/airtable` | **applied-pending** via Teable (pending email confirm) | **Teable** (then Baserow inquiry) | Teable Rewardful signup 2026-10-25 (Friends of Teable); awaiting email confirmation then discretionary approval. Satisfies rule (b). Do not chase. NocoDB/Rows/Grist/Notion: no usable cash affiliate. Optional depth: Baserow inquiry (Partner-needed). |
+| **airtable alternatives** | `/alternatives/airtable` | **wired** via Teable | **Teable** (then Baserow inquiry) | Live `https://teable.ai/?via=Altswitch` wired 2026-10-25. NocoDB/Rows/Grist/Notion: no usable cash affiliate. Optional depth: Baserow inquiry (Partner-needed). |
 | **intercom alternative(s)** | `/alternatives/intercom` | **applied-pending** | Crisp (pending) + Freshdesk via Freshworks (pending) | Satisfies rule (b). Do not chase. Optional depth: Gorgias / Help Scout / HubSpot (see To-apply). |
 | **zendesk alternative** (+ OSS zendesk) | `/alternatives/zendesk` | **applied-pending** | Freshdesk via Freshworks (pending) | Satisfies rule (b). OSS alts (Chatwoot, FreeScout) have no cash affiliate. Optional depth: Help Scout / Gorgias. |
 
@@ -85,7 +85,7 @@ GSC families from Partner 7-day snapshot (2026-10-25): intercom alternative(s), 
 3. **Gorgias** — Intercom/Zendesk depth (pages already pending-covered) × 20% for 2 years × instant PartnerStack. Ecommerce-niche fit.
 4. **Help Scout** — Intercom/Zendesk depth × 15–20% × PartnerStack. Same secondary priority as Gorgias.
 5. **Close** — Pipedrive family. **Already applied-pending** (2026-10-25 PartnerStack). Do not chase; paste referral URL when approved then wire affiliates.ts.
-6. **Teable** — Airtable family. **Already applied-pending** (2026-10-25 Rewardful Friends of Teable; awaiting email confirm then discretionary approval). Do not chase; after confirm+approval paste referral URL then wire affiliates.ts.
+6. **Teable** — Airtable family. **Done / wired** 2026-10-25 (`https://teable.ai/?via=Altswitch`).
 
 ### No-program / not cash-affiliate (document, don't fake-apply)
 
@@ -102,13 +102,13 @@ GSC families from Partner 7-day snapshot (2026-10-25): intercom alternative(s), 
 
 ## To-apply gaps (public path; not yet applied)
 
-Research verified 2026-10-25. Airtable is applied-pending via Teable; Pipedrive via Close — top GSC families satisfy rule (b). Prefer Priority B/C depth over Contabo/Fathom/etc. **Do not invent approvals or referral URLs.**
+Research verified 2026-10-25. Airtable is wired via Teable; Pipedrive via Close — top GSC families satisfy rule (b). Prefer Priority B/C depth over Contabo/Fathom/etc. **Do not invent approvals or referral URLs.**
 
 ### Priority A — close GSC gaps (apply first)
 
 *(empty — top GSC families are applied-pending)*
 
-~~**Teable**~~ moved to **Applied — pending** (2026-10-25 Rewardful Friends of Teable; awaiting email confirm). Do not re-apply / do not chase.
+~~**Teable**~~ moved to **Done** (2026-10-25) — `https://teable.ai/?via=Altswitch` wired.
 
 ~~**Close CRM**~~ moved to **Applied — pending** (2026-10-25 PartnerStack). Do not re-apply.
 
@@ -130,7 +130,7 @@ Research verified 2026-10-25. Airtable is applied-pending via Teable; Pipedrive 
 
 | Item | Why Partner must act | Suggested action |
 |------|----------------------|------------------|
-| **Teable email confirm + approval** | Signed up 2026-10-25 Rewardful; awaiting confirmation link (thanks page id 3da728b5-63e2-40b6-a9fc-eb678b491bb2), then Teable discretionary approval. Vault: Teable Rewardful | Confirm email when link arrives; do not chase. After approval paste referral URL then wire affiliates.ts |
+| **Teable** | Live via `https://teable.ai/?via=Altswitch` (wired 2026-10-25). Vault: Teable Rewardful. PayPal for payouts later if Teable requires it | Optional: confirm PayPal in Rewardful when first payout approaches |
 | **Close post-apply call** | Applied 2026-10-25; pending. Close may still request a short partner call | Take the call if invited; do not chase. Paste referral URL when approved then wire affiliates.ts |
 | **Attio referral** | Cash program does not exist; only customer referral ($200 gift card) requiring an Attio account | Optional: create Attio account → Account settings → Refer another team. Low priority vs Close cash 30% |
 | **Baserow** | Only an **inquiry form** (https://baserow.io/form/xTktqPeYmEPbgC80nneRmK8dc2QRLMYMrGfbXav1SOQ) — name, email, **phone**, self-definition, website, reason. No public commission terms | Partner fills inquiry if wanting Airtable depth beyond Teable; disclose phone required |
@@ -172,6 +172,6 @@ When a program is approved: move it to **Done**, add the real URL to `affiliates
 3. Never mark a program **Done** without a live URL in code.
 4. Prefer programs with public apply pages or in-product self-serve dashboards; treat enterprise PartnerStack sales tracks as P3+.
 5. **GSC coverage rule:** for every top GSC query/page, have (a) a real affiliate wired for at least one strong alt, OR (b) an application already pending. If neither → apply, or document blocked / no-program. Do not chase apps Partner marked on hold.
-6. **Dual-maximize (traffic × profits):** impressions alone are worthless without payouts. When choosing what to apply or wire next, rank by **impressions × likelihood of affiliate $** (rate × fit × feasibility). Top GSC families are applied-pending (Airtable via Teable; Pipedrive via Close; Intercom/Zendesk). Next: Priority B depth (Zoho CRM / HubSpot).
+6. **Dual-maximize (traffic × profits):** impressions alone are worthless without payouts. When choosing what to apply or wire next, rank by **impressions × likelihood of affiliate $** (rate × fit × feasibility). Top GSC: Airtable wired (Teable); Pipedrive/Intercom/Zendesk still applied-pending (Close/Crisp/Freshworks). Next: Priority B depth (Zoho CRM / HubSpot).
 7. **Brand fairness before apply:** audit how the site portrays that brand (fair, accurate, current pricing, no harsh cons) — partner managers check. Soften copy first if needed.
 8. Do not invent approvals or referral URLs. Partner pastes links; then wire.
