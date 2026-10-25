@@ -736,7 +736,7 @@
     "name": "Zendesk",
     "category": "Support",
     "tagline": "Customer support and ticketing platform",
-    "description": "Zendesk is the enterprise helpdesk standard. Growing teams often switch to simpler, cheaper, or self-hosted support tools.",
+    "description": "Zendesk is the enterprise helpdesk standard. Growing teams often switch to an open source Zendesk alternative they can self-host, or a simpler SMB SaaS desk.",
     "website": "https://www.zendesk.com",
     "featured": false,
     "alternatives": [
@@ -759,25 +759,6 @@
         ],
         "bestFor": "SMBs needing tickets without Zendesk enterprise pricing.",
         "pricingNotes": "14-day free trial; Growth from $19/agent/mo billed annually (Pro $55, Enterprise $89). A 2-agent Free Program is available in-app for 6 months."
-      },
-      {
-        "slug": "intercom",
-        "name": "Intercom",
-        "oneLiner": "Conversational support and customer messaging platform.",
-        "pricing": "paid",
-        "website": "https://www.intercom.com",
-        "pros": [
-          "Great conversational UX",
-          "Product messaging + support",
-          "Strong automation/AI"
-        ],
-        "cons": [
-          "Premium pricing vs classic helpdesk tools",
-          "More chat/product-messaging oriented than ticket queues",
-          "Plan options take time to map to seat counts"
-        ],
-        "bestFor": "SaaS products mixing support chat with lifecycle messaging.",
-        "pricingNotes": "Paid platforms \u2014 expect significant monthly spend vs Zendesk SMB."
       },
       {
         "slug": "chatwoot",
@@ -837,6 +818,25 @@
         "pricingNotes": "Free up to 5 users. Annual: Standard $25, Plus $45, Pro $75 per user/mo. AI Answers ~$0.75 per resolution."
       },
       {
+        "slug": "intercom",
+        "name": "Intercom",
+        "oneLiner": "Conversational support and customer messaging platform.",
+        "pricing": "paid",
+        "website": "https://www.intercom.com",
+        "pros": [
+          "Great conversational UX",
+          "Product messaging + support",
+          "Strong automation/AI"
+        ],
+        "cons": [
+          "Premium pricing vs classic helpdesk tools",
+          "More chat/product-messaging oriented than ticket queues",
+          "Plan options take time to map to seat counts"
+        ],
+        "bestFor": "SaaS products mixing support chat with lifecycle messaging.",
+        "pricingNotes": "Paid platforms \u2014 expect significant monthly spend vs Zendesk SMB."
+      },
+      {
         "slug": "gorgias",
         "name": "Gorgias",
         "oneLiner": "Helpdesk built for ecommerce brands.",
@@ -856,18 +856,40 @@
         "pricingNotes": "Paid by ticket volume tiers \u2014 model cost on peak season."
       }
     ],
-    "seoTitle": "Open-Source Zendesk Alternatives (2026) + SaaS",
-    "seoDescription": "Need an open-source Zendesk alternative \u2014 or a simpler SaaS desk? Compare Chatwoot, FreeScout, Freshdesk, Help Scout, Intercom & Gorgias with pricing notes.",
-    "h1": "Open-source Zendesk alternatives (2026)",
-    "intro": "\u201cZendesk alternative\u201d usually means simpler SMB pricing (Freshdesk, Help Scout) or an open-source help desk (Chatwoot, FreeScout). Freshdesk is the closest ticket-first swap; Chatwoot and FreeScout cover self-hosting. Intercom and Gorgias fit chat-heavy or ecommerce teams. Verify current plans before you switch.",
+    "seoTitle": "Open source Zendesk alternative (2026) + SaaS",
+    "seoDescription": "Need an open source Zendesk alternative? Compare Chatwoot & FreeScout (self-host), plus Freshdesk, Help Scout, Intercom & Gorgias \u2014 fair pricing notes.",
+    "h1": "Open source Zendesk alternatives (2026)",
+    "intro": "Pick by job below, then use the comparison table for pricing and tradeoffs.",
     "ossSection": {
-      "heading": "Open-source Zendesk alternatives",
-      "intro": "If you want an open-source Zendesk alternative, start with Chatwoot (omnichannel engagement, MIT Community Edition) or FreeScout (lightweight shared inbox). Self-hosting means you own uptime; both also offer paid modules or cloud.",
+      "heading": "Open source Zendesk alternatives",
+      "intro": "For an open source Zendesk alternative, start with Chatwoot (omnichannel engagement, MIT Community Edition) or FreeScout (lightweight shared inbox). Self-hosting means you own uptime and data; both also offer paid modules or managed cloud if you prefer not to run infra.",
       "slugs": [
         "chatwoot",
         "free-scout"
       ]
-    }
+    },
+    "quickPicks": [
+      {
+        "useCase": "Open source / self-host",
+        "pick": "Chatwoot or FreeScout"
+      },
+      {
+        "useCase": "Ticket helpdesk (SMB)",
+        "pick": "Freshdesk"
+      },
+      {
+        "useCase": "Calm shared inbox",
+        "pick": "Help Scout"
+      },
+      {
+        "useCase": "Chat + product messaging",
+        "pick": "Intercom"
+      },
+      {
+        "useCase": "Ecommerce / Shopify",
+        "pick": "Gorgias"
+      }
+    ]
   },
   {
     "slug": "freshdesk",
@@ -1148,7 +1170,7 @@
     "name": "Airtable",
     "category": "Databases",
     "tagline": "Spreadsheet-database hybrid for teams",
-    "description": "Airtable popularized no-code databases. Price hikes pushed many teams toward open-source and self-hosted bases.",
+    "description": "Airtable popularized no-code databases. Teams often leave for open-source SQL bases or lighter freemium sheets when seat and record costs climb.",
     "website": "https://www.airtable.com",
     "featured": true,
     "alternatives": [
@@ -1267,20 +1289,46 @@
         "pricingNotes": "OSS / cloud plans \u2014 confirm current free tier limits."
       }
     ],
-    "seoTitle": "Best Airtable Alternatives 2026 \u2014 Open Source",
-    "seoDescription": "Looking for an Airtable alternative? Compare NocoDB, Baserow, Notion Databases, Rows, Grist & Teable \u2014 open-source SQL bases, freemium sheets, pricing notes.",
-    "h1": "Best Airtable alternatives (2026)",
-    "intro": "Most \u201cAirtable alternative\u201d searches want either self-hosted grids (NocoDB, Baserow, Grist, Teable) or a lighter freemium sheet (Notion Databases, Rows). NocoDB is listed first as the closest Airtable-like UI on your own SQL database. Match record volume, collaboration, and whether you want to run infra.",
+    "seoTitle": "Airtable alternatives (2026): NocoDB & open source",
+    "seoDescription": "Looking for Airtable alternatives? Compare NocoDB, Baserow, Notion Databases, Rows, Grist & Teable \u2014 open-source SQL bases, freemium sheets, fair notes.",
+    "h1": "Airtable alternatives (2026)",
+    "intro": "Pick by job below, then use the comparison table for pricing and tradeoffs.",
     "ossSection": {
       "heading": "Open-source Airtable alternatives",
-      "intro": "These tools let you run an Airtable-style base on your own infra or a vendor cloud. NocoDB and Teable sit on Postgres/MySQL; Baserow and Grist are full no-code / spreadsheet-DB hybrids.",
+      "intro": "NocoDB is the closest Airtable-like UI on Postgres/MySQL you can self-host. Baserow, Grist, and Teable cover no-code grids, spreadsheet-DB hybrids, and fast Postgres bases. Cloud plans exist if you do not want to run infra.",
       "slugs": [
         "nocodb",
         "baserow",
         "grist",
         "teable"
       ]
-    }
+    },
+    "quickPicks": [
+      {
+        "useCase": "Self-host on your SQL DB",
+        "pick": "NocoDB"
+      },
+      {
+        "useCase": "No-code OSS grid",
+        "pick": "Baserow"
+      },
+      {
+        "useCase": "Already in Notion",
+        "pick": "Notion Databases"
+      },
+      {
+        "useCase": "Spreadsheet + APIs",
+        "pick": "Rows"
+      },
+      {
+        "useCase": "Spreadsheet-DB + Python",
+        "pick": "Grist"
+      },
+      {
+        "useCase": "Fast Postgres Airtable-like",
+        "pick": "Teable"
+      }
+    ]
   },
   {
     "slug": "nocodb",
@@ -4377,7 +4425,7 @@
     "name": "Pipedrive",
     "category": "CRM",
     "tagline": "Sales CRM built around visual pipelines",
-    "description": "Pipedrive is the pipeline-first CRM for SMBs. Teams compare free CRMs, modern flexible databases, or open-source options when seat prices climb.",
+    "description": "Pipedrive is the pipeline-first CRM for SMBs. Teams compare free CRMs, affordable full suites, modern flexible databases, or open-source options when seat prices climb.",
     "website": "https://www.pipedrive.com",
     "featured": false,
     "alternatives": [
@@ -4401,6 +4449,26 @@
         "pricingNotes": "Free CRM; paid Hubs for automation/sequences at scale."
       },
       {
+        "slug": "zoho-crm-pd",
+        "name": "Zoho CRM",
+        "oneLiner": "Affordable full-featured CRM in the Zoho suite.",
+        "pricing": "freemium",
+        "website": "https://www.zoho.com/crm/",
+        "pros": [
+          "Affordable full CRM",
+          "Zoho suite bundling",
+          "Lots of automation",
+          "Free edition for up to 3 users"
+        ],
+        "cons": [
+          "UI can feel dated vs Pipedrive",
+          "Ecosystem locked to Zoho",
+          "Support reviews are mixed"
+        ],
+        "bestFor": "Cost-sensitive SMBs needing CRM depth without Pipedrive seat stacking.",
+        "pricingNotes": "Free forever for up to 3 users (limits apply). Paid editions are typically cheaper than Pipedrive at similar depth \u2014 verify current plans on Zoho."
+      },
+      {
         "slug": "close",
         "name": "Close",
         "oneLiner": "Sales CRM with built-in calling and email power tools.",
@@ -4418,7 +4486,7 @@
           "Overkill if you only need a pipeline board"
         ],
         "bestFor": "Outbound sales teams living on calls and sequences.",
-        "pricingNotes": "From $9/user/mo (Solo, annual) to $139 (Scale). 14-day trial, no card needed; 30-day money-back. Calls and SMS billed at cost (about $0.02/min)."
+        "pricingNotes": "From $9/user/mo (Solo, annual) to $139 (Scale). 14-day trial, no card needed; 30-day money-back. Calls and SMS billed at cost (about $0.02/min). Verify on close.com/pricing."
       },
       {
         "slug": "attio",
@@ -4478,17 +4546,39 @@
         "pricingNotes": "OSS free; official cloud hosting paid."
       }
     ],
-    "seoTitle": "Best Pipedrive Alternatives 2026 \u2014 Free & OSS",
-    "seoDescription": "Looking for Pipedrive alternatives? Compare HubSpot Free CRM, Close, Attio, Twenty & EspoCRM \u2014 free tiers, calling, flexible data models, and self-hosting.",
-    "h1": "Best Pipedrive alternatives (2026)",
-    "intro": "Pipedrive is a strong pipeline-first CRM. \u201cBetter\u201d depends on what you need: a free tier (HubSpot Free CRM, Attio), built-in calling and SMS (Close), flexible data modeling (Attio), or open-source self-hosting (Twenty, EspoCRM). Match your sales motion before migrating deals.",
+    "seoTitle": "Pipedrive alternatives (2026): free CRM & OSS",
+    "seoDescription": "Looking for Pipedrive alternatives? Compare HubSpot Free CRM, Zoho CRM, Close, Attio, Twenty & EspoCRM \u2014 free tiers, calling, flexible models, self-host.",
+    "h1": "Pipedrive alternatives (2026)",
+    "intro": "Pick by job below, then use the comparison table for pricing and tradeoffs.",
     "ossSection": {
       "heading": "Open-source Pipedrive alternatives",
-      "intro": "Want a pipeline CRM you can self-host? Twenty aims at a modern Notion-like CRM experience; EspoCRM is a mature open-source CRM with extensible entities.",
+      "intro": "Want a pipeline CRM you can self-host? Twenty aims at a modern CRM experience; EspoCRM is a mature open-source CRM with extensible entities. Neither is a Pipedrive clone \u2014 match your sales motion before migrating deals.",
       "slugs": [
         "twenty-crm",
         "espocrm"
       ]
-    }
+    },
+    "quickPicks": [
+      {
+        "useCase": "Free CRM start",
+        "pick": "HubSpot Free CRM"
+      },
+      {
+        "useCase": "Affordable full CRM",
+        "pick": "Zoho CRM"
+      },
+      {
+        "useCase": "Outbound calling / SMS",
+        "pick": "Close"
+      },
+      {
+        "useCase": "Flexible modern data model",
+        "pick": "Attio"
+      },
+      {
+        "useCase": "Open source / self-host",
+        "pick": "Twenty or EspoCRM"
+      }
+    ]
   }
 ]
