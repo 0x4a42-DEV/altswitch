@@ -31,6 +31,8 @@ export interface Tool {
   h1?: string;
   /** Extra intro paragraph under the description */
   intro?: string;
+  /** Scannable "job → pick" rows under the intro */
+  quickPicks?: { useCase: string; pick: string }[];
   /** Optional highlighted section, e.g. "Open-source X alternatives" */
   ossSection?: { heading: string; intro: string; slugs: string[] };
 }

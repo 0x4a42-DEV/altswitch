@@ -98,6 +98,24 @@ export default async function ToolAlternativesPage({ params }: Props) {
               {tool.intro}
             </p>
           )}
+          {tool.quickPicks && tool.quickPicks.length > 0 && (
+            <div className="mt-5 max-w-2xl">
+              <p className="text-sm font-medium text-zinc-800">Quick picks</p>
+              <ul className="mt-2 divide-y divide-zinc-100 rounded-xl border border-zinc-200 bg-white">
+                {tool.quickPicks.map((row) => (
+                  <li
+                    key={row.useCase}
+                    className="flex flex-col gap-0.5 px-3 py-2.5 sm:flex-row sm:items-baseline sm:justify-between sm:gap-4"
+                  >
+                    <span className="text-sm text-zinc-500">{row.useCase}</span>
+                    <span className="text-sm font-medium text-zinc-900">
+                      {row.pick}
+                    </span>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          )}
           <div className="mt-4 flex flex-wrap gap-3 text-sm">
             <span className="rounded-full bg-zinc-100 px-3 py-1 text-zinc-700">
               {tool.category}
