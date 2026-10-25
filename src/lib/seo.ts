@@ -75,19 +75,44 @@ export function buildFaqs(tool: Tool): FaqItem[] {
       (PRICING_RANK[a.pricing] ?? 9) - (PRICING_RANK[b.pricing] ?? 9)
   );
   const cheapest = byCheapest[0];
+  const closest = alts[0];
 
+  // GSC-style: "intercom alternative", "best intercom alternatives", "zendesk alternative"
+  if (closest) {
+    faqs.push({
+      question: `What is a good ${tool.name} alternative?`,
+      answer: `${closest.name} is listed first as a strong starting point: ${closest.oneLiner} Best for: ${closest.bestFor} Tradeoff: ${tradeoffLine(closest)} Always verify current pricing on their site.`,
+    });
+  }
+
+  // GSC-style: "open source zendesk alternative" / free OSS intent
   if (freeOrOss.length > 0) {
     const top = freeOrOss[0];
     const others = freeOrOss
       .slice(1, 3)
       .map((a) => a.name)
       .join(", ");
-    faqs.push({
-      question: `What is the best free or open-source ${tool.name} alternative?`,
-      answer: `${top.name} stands out among free/OSS options: ${top.oneLiner} Best for: ${top.bestFor}${
-        others ? ` Also worth a look: ${others}.` : ""
-      } Pricing notes: ${top.pricingNotes}`,
-    });
+    const ossOnly = freeOrOss.filter((a) => a.pricing === "oss");
+    if (ossOnly.length > 0) {
+      faqs.push({
+        question: `What is an open-source ${tool.name} alternative?`,
+        answer: `${ossOnly[0].name} is the open-source pick we lead with: ${ossOnly[0].oneLiner} Best for: ${ossOnly[0].bestFor}${
+          ossOnly.length > 1
+            ? ` Also open source on this page: ${ossOnly
+                .slice(1, 3)
+                .map((a) => a.name)
+                .join(", ")}.`
+            : ""
+        } Pricing notes: ${ossOnly[0].pricingNotes}`,
+      });
+    } else {
+      faqs.push({
+        question: `What is the best free or open-source ${tool.name} alternative?`,
+        answer: `${top.name} stands out among free/OSS options: ${top.oneLiner} Best for: ${top.bestFor}${
+          others ? ` Also worth a look: ${others}.` : ""
+        } Pricing notes: ${top.pricingNotes}`,
+      });
+    }
   } else if (freemium.length > 0) {
     const top = freemium[0];
     faqs.push({
@@ -128,14 +153,6 @@ export function buildFaqs(tool: Tool): FaqItem[] {
     question: `Who should switch from ${tool.name}?`,
     answer: `People who outgrew (or never needed) the full ${tool.name} stack. Quick guide: ${switchProfiles}. Match the “Best for” line on each card before migrating data.`,
   });
-
-  const closest = alts[0];
-  if (closest && faqs.length < 6) {
-    faqs.push({
-      question: `What’s the closest alternative to ${tool.name}?`,
-      answer: `${closest.name} is listed first as a strong starting point: ${closest.oneLiner} Tradeoff: ${tradeoffLine(closest)}`,
-    });
-  }
 
   return faqs.slice(0, 6);
 }

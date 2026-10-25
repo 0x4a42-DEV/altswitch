@@ -772,9 +772,9 @@
           "Strong automation/AI"
         ],
         "cons": [
-          "Expensive at scale",
-          "Can feel salesy",
-          "Complex pricing packs"
+          "Premium pricing vs classic helpdesk tools",
+          "More chat/product-messaging oriented than ticket queues",
+          "Plan options take time to map to seat counts"
         ],
         "bestFor": "SaaS products mixing support chat with lifecycle messaging.",
         "pricingNotes": "Paid platforms — expect significant monthly spend vs Zendesk SMB."
@@ -792,11 +792,11 @@
         ],
         "cons": [
           "You own uptime if self-hosted",
-          "Fewer enterprise bells",
-          "Plugin ecosystem smaller"
+          "Enterprise controls often need paid Cloud or EE",
+          "Smaller plugin ecosystem than Zendesk"
         ],
         "bestFor": "Teams wanting an open Intercom/Zendesk-lite stack.",
-        "pricingNotes": "OSS free; Chatwoot Cloud paid. Self-host = infra cost only."
+        "pricingNotes": "MIT Community Edition free to self-host. Chatwoot Cloud: Hacker $0 (2 agents); Startups $19, Business $39, Enterprise $99 per agent/mo billed annually."
       },
       {
         "slug": "free-scout",
@@ -830,11 +830,11 @@
         ],
         "cons": [
           "Not the deepest enterprise suite",
-          "Paid per user",
-          "AI/automation behind leaders"
+          "Paid per user beyond the free tier",
+          "AI Answers is a metered add-on"
         ],
         "bestFor": "Customer-centric SMBs that hate cluttered agent UIs.",
-        "pricingNotes": "Paid per user; standard helpdesk pricing mid-market."
+        "pricingNotes": "Free up to 5 users. Annual: Standard $25, Plus $45, Pro $75 per user/mo. AI Answers ~$0.75 per resolution."
       },
       {
         "slug": "gorgias",
@@ -854,6 +854,292 @@
         ],
         "bestFor": "DTC/ecommerce brands on Shopify-like stacks.",
         "pricingNotes": "Paid by ticket volume tiers — model cost on peak season."
+      }
+    ],
+    "seoTitle": "Zendesk alternatives (2026) + open-source options",
+    "seoDescription": "Looking for a Zendesk alternative or an open-source Zendesk alternative? Compare Freshdesk, Intercom, Chatwoot, FreeScout, Help Scout and Gorgias with current pricing notes.",
+    "h1": "Best Zendesk alternatives (2026)",
+    "intro": "“Zendesk alternative” usually means simpler SMB pricing (Freshdesk, Help Scout) or an open-source help desk (Chatwoot, FreeScout). Freshdesk is the closest ticket-first swap; Chatwoot and FreeScout cover the open-source Zendesk alternative intent.",
+    "ossSection": {
+      "heading": "Open-source Zendesk alternatives",
+      "intro": "If you want an open-source Zendesk alternative, start with Chatwoot (omnichannel engagement, MIT Community Edition) or FreeScout (lightweight shared inbox). Self-hosting means you own uptime; both also offer paid modules or cloud.",
+      "slugs": [
+        "chatwoot",
+        "free-scout"
+      ]
+    }
+  },
+  {
+    "slug": "freshdesk",
+    "name": "Freshdesk",
+    "category": "Support",
+    "tagline": "SMB helpdesk with ticketing and AI agent sessions",
+    "description": "Freshdesk is a common Zendesk alternative for growing support teams. Buyers also compare open-source desks, calmer shared inboxes, and chat-first tools.",
+    "website": "https://www.freshworks.com/freshdesk/",
+    "featured": false,
+    "seoTitle": "Freshdesk alternatives (2026): tickets and open source",
+    "seoDescription": "Looking for a Freshdesk alternative? Compare Zendesk, Help Scout, Chatwoot, FreeScout, Intercom and Gorgias — enterprise tickets, calm inboxes, and open-source options.",
+    "h1": "Best Freshdesk alternatives (2026)",
+    "intro": "Freshdesk sits in the mid-market ticket lane. Closest enterprise upgrade is Zendesk; Help Scout is calmer for email; Chatwoot and FreeScout cover open-source; Gorgias fits ecommerce.",
+    "ossSection": {
+      "heading": "Open-source Freshdesk alternatives",
+      "intro": "Chatwoot covers omnichannel engagement; FreeScout is a lighter Help Scout-style desk you can self-host.",
+      "slugs": [
+        "chatwoot-fd",
+        "freescout-fd"
+      ]
+    },
+    "alternatives": [
+      {
+        "slug": "zendesk-fd",
+        "name": "Zendesk",
+        "oneLiner": "Enterprise ticketing suite with a deep marketplace.",
+        "pricing": "paid",
+        "website": "https://www.zendesk.com",
+        "pros": [
+          "Mature ticketing",
+          "Huge marketplace",
+          "Omnichannel suites"
+        ],
+        "cons": [
+          "Higher total cost at scale",
+          "More admin surface",
+          "Plans need careful mapping"
+        ],
+        "bestFor": "Support orgs that outgrew Freshdesk’s mid-market ceiling.",
+        "pricingNotes": "Paid suites — compare agent + add-on totals on Zendesk’s pricing page."
+      },
+      {
+        "slug": "helpscout-fd",
+        "name": "Help Scout",
+        "oneLiner": "Human-friendly shared inbox with Docs.",
+        "pricing": "freemium",
+        "website": "https://www.helpscout.com",
+        "pros": [
+          "Calm UX",
+          "Free tier for tiny teams",
+          "Docs + Beacon"
+        ],
+        "cons": [
+          "Shallower enterprise routing",
+          "AI Answers metered",
+          "Less ticket-factory feel"
+        ],
+        "bestFor": "Brands that want a friendlier inbox than classic ticket UIs.",
+        "pricingNotes": "Free up to 5 users. Annual Standard $25 / Plus $45 / Pro $75 per user/mo."
+      },
+      {
+        "slug": "chatwoot-fd",
+        "name": "Chatwoot",
+        "oneLiner": "Open-source omnichannel customer engagement.",
+        "pricing": "oss",
+        "website": "https://www.chatwoot.com",
+        "pros": [
+          "Self-host or cloud",
+          "Multi-channel",
+          "MIT Community Edition"
+        ],
+        "cons": [
+          "Ops if self-hosted",
+          "Enterprise extras on paid tiers",
+          "Smaller marketplace"
+        ],
+        "bestFor": "Teams wanting an open Freshdesk/Zendesk-lite stack.",
+        "pricingNotes": "Self-host free (infra). Cloud Hacker $0; Startups $19, Business $39, Enterprise $99/agent/mo annual."
+      },
+      {
+        "slug": "freescout-fd",
+        "name": "FreeScout",
+        "oneLiner": "Lightweight open-source help desk and shared inbox.",
+        "pricing": "oss",
+        "website": "https://freescout.net",
+        "pros": [
+          "Simple shared inbox",
+          "Self-host friendly",
+          "Optional modules"
+        ],
+        "cons": [
+          "Fewer enterprise features",
+          "Module model",
+          "Smaller ecosystem"
+        ],
+        "bestFor": "Small support teams wanting a free open desk.",
+        "pricingNotes": "Free OSS; optional paid modules from FreeScout."
+      },
+      {
+        "slug": "intercom-fd",
+        "name": "Intercom",
+        "oneLiner": "Chat and product messaging when tickets are not the center.",
+        "pricing": "paid",
+        "website": "https://www.intercom.com",
+        "pros": [
+          "Conversational UX",
+          "Product messaging + support",
+          "Strong automation"
+        ],
+        "cons": [
+          "Premium pricing",
+          "Different philosophy than ticket queues",
+          "Complex plan mapping"
+        ],
+        "bestFor": "SaaS products mixing support chat with lifecycle messaging.",
+        "pricingNotes": "Paid platforms — expect higher monthly spend than Freshdesk Growth."
+      },
+      {
+        "slug": "gorgias-fd",
+        "name": "Gorgias",
+        "oneLiner": "Helpdesk built for ecommerce brands.",
+        "pricing": "paid",
+        "website": "https://www.gorgias.com",
+        "pros": [
+          "Shopify-deep workflows",
+          "Revenue-aware macros",
+          "Ecommerce channels"
+        ],
+        "cons": [
+          "Niche outside ecommerce",
+          "Price scales with tickets",
+          "Overkill for B2B SaaS"
+        ],
+        "bestFor": "DTC brands on Shopify-like stacks.",
+        "pricingNotes": "Paid by ticket volume tiers — model cost on peak season."
+      }
+    ]
+  },
+  {
+    "slug": "help-scout",
+    "name": "Help Scout",
+    "category": "Support",
+    "tagline": "Human shared inbox and knowledge base",
+    "description": "Help Scout is a calm shared inbox for customer-centric brands. Teams compare open-source desks, chat-first tools, and fuller ticket suites when they need more channels or self-hosting.",
+    "website": "https://www.helpscout.com",
+    "featured": false,
+    "seoTitle": "Help Scout alternatives (2026): inbox and OSS",
+    "seoDescription": "Looking for a Help Scout alternative? Compare FreeScout, Freshdesk, Chatwoot, Crisp, Front and Zendesk — open-source inboxes, tickets, and chat with pricing notes.",
+    "h1": "Best Help Scout alternatives (2026)",
+    "intro": "Help Scout’s closest open twin is FreeScout. Freshdesk and Zendesk go ticket-heavier; Chatwoot and Crisp lean chat/omnichannel; Front fits collaborative email at a premium.",
+    "ossSection": {
+      "heading": "Open-source Help Scout alternatives",
+      "intro": "FreeScout is deliberately Help Scout-like; Chatwoot is the broader open omnichannel suite.",
+      "slugs": [
+        "freescout-hs",
+        "chatwoot-hs"
+      ]
+    },
+    "alternatives": [
+      {
+        "slug": "freescout-hs",
+        "name": "FreeScout",
+        "oneLiner": "Open-source shared inbox inspired by Help Scout.",
+        "pricing": "oss",
+        "website": "https://freescout.net",
+        "pros": [
+          "Help Scout-like UX",
+          "Self-host friendly",
+          "Optional paid modules"
+        ],
+        "cons": [
+          "You own uptime",
+          "Module model for extras",
+          "Smaller ecosystem"
+        ],
+        "bestFor": "Teams that love Help Scout’s calm inbox but want to self-host.",
+        "pricingNotes": "Free OSS; optional paid modules from FreeScout."
+      },
+      {
+        "slug": "freshdesk-hs",
+        "name": "Freshdesk",
+        "oneLiner": "Ticket-first SMB helpdesk with AI agent sessions.",
+        "pricing": "paid",
+        "website": "https://www.freshworks.com/freshdesk/",
+        "pros": [
+          "Tickets + portal + KB",
+          "Clear per-agent plans",
+          "Freddy AI Agent included sessions"
+        ],
+        "cons": [
+          "Busier agent UI",
+          "AI session overages",
+          "No permanent free plan"
+        ],
+        "bestFor": "Teams needing classic tickets and SLAs beyond a shared inbox.",
+        "pricingNotes": "Growth $19, Pro $55, Enterprise $89 per agent/mo billed annually."
+      },
+      {
+        "slug": "chatwoot-hs",
+        "name": "Chatwoot",
+        "oneLiner": "Open-source omnichannel customer engagement.",
+        "pricing": "oss",
+        "website": "https://www.chatwoot.com",
+        "pros": [
+          "Self-host or cloud",
+          "Multi-channel",
+          "MIT Community Edition"
+        ],
+        "cons": [
+          "Ops if self-hosted",
+          "More chat-first than Docs-first",
+          "Paid for some enterprise extras"
+        ],
+        "bestFor": "Teams wanting open omnichannel beyond email.",
+        "pricingNotes": "Self-host free (infra). Cloud Hacker $0; Startups $19, Business $39, Enterprise $99/agent/mo annual."
+      },
+      {
+        "slug": "crisp-hs",
+        "name": "Crisp",
+        "oneLiner": "Flat-priced chat and shared inbox for SMBs.",
+        "pricing": "freemium",
+        "website": "https://crisp.chat",
+        "pros": [
+          "Flat workspace pricing",
+          "Unlimited conversations",
+          "Quick setup"
+        ],
+        "cons": [
+          "Ticketing portal on Plus",
+          "Less Docs-centric than Help Scout",
+          "Not open source"
+        ],
+        "bestFor": "SMBs prioritizing live chat over a calm email inbox.",
+        "pricingNotes": "Free (2 seats). Mini $45, Essentials $95, Plus $295 per workspace/mo."
+      },
+      {
+        "slug": "front-hs",
+        "name": "Front",
+        "oneLiner": "Collaborative shared inbox for email-centric teams.",
+        "pricing": "paid",
+        "website": "https://front.com",
+        "pros": [
+          "Excellent shared inbox",
+          "Assignments & rules",
+          "Polished UX"
+        ],
+        "cons": [
+          "Seat pricing",
+          "No free self-host path",
+          "Less knowledge-base-native than Help Scout Docs"
+        ],
+        "bestFor": "CS teams centered on collaborative email threads.",
+        "pricingNotes": "Paid per seat — verify current Front plan tiers."
+      },
+      {
+        "slug": "zendesk-hs",
+        "name": "Zendesk",
+        "oneLiner": "Enterprise ticketing when you need marketplace depth.",
+        "pricing": "paid",
+        "website": "https://www.zendesk.com",
+        "pros": [
+          "Mature ticketing",
+          "Huge marketplace",
+          "Omnichannel"
+        ],
+        "cons": [
+          "Cost and complexity",
+          "Heavier than Help Scout’s calm UX",
+          "Different product philosophy"
+        ],
+        "bestFor": "Support orgs needing classic enterprise tickets.",
+        "pricingNotes": "Paid suites — compare total agent cost carefully."
       }
     ]
   },
@@ -878,12 +1164,12 @@
           "No per-row SaaS tax"
         ],
         "cons": [
-          "You manage the database",
-          "Some Airtable niceties missing",
-          "Ops responsibility"
+          "You manage the underlying SQL database when self-hosting",
+          "Some Airtable templates and marketplace apps are missing",
+          "Cloud free tier caps records and API calls"
         ],
         "bestFor": "Teams with Postgres/MySQL who want Airtable without lock-in.",
-        "pricingNotes": "OSS free; NocoDB Cloud has free/paid tiers."
+        "pricingNotes": "OSS free to self-host. NocoDB Cloud Free: up to 3 editors, 1,000 records. Paid Plus from about $12/editor/mo annual (pay for up to 9 seats, then unlimited)."
       },
       {
         "slug": "baserow",
@@ -897,9 +1183,9 @@
           "Open source"
         ],
         "cons": [
-          "Realtime collab vs Airtable",
-          "Plugin ecosystem smaller",
-          "Self-host maintenance"
+          "Realtime collaboration still catching Airtable",
+          "Smaller plugin/template ecosystem",
+          "Self-host maintenance if you go that route"
         ],
         "bestFor": "Ops teams wanting Airtable-like grids they can host.",
         "pricingNotes": "OSS; cloud freemium/paid by rows/users."
@@ -973,12 +1259,164 @@
           "Open source path"
         ],
         "cons": [
-          "Newer project",
-          "Ecosystem still growing",
-          "Cloud maturity TBD"
+          "Newer project than Airtable or NocoDB",
+          "Ecosystem and templates still growing",
+          "Confirm current cloud free-tier limits before migrating"
         ],
         "bestFor": "Builders who want Airtable speed with SQL underneath.",
         "pricingNotes": "OSS / cloud plans — confirm current free tier limits."
+      }
+    ],
+    "seoTitle": "Airtable alternatives (2026): open-source and SaaS",
+    "seoDescription": "Looking for an Airtable alternative? Compare NocoDB, Baserow, Notion Databases, Rows, Grist and Teable — open-source SQL bases, freemium sheets, and pricing notes.",
+    "h1": "Best Airtable alternatives (2026)",
+    "intro": "Most “Airtable alternative” searches want either self-hosted grids (NocoDB, Baserow, Grist, Teable) or a lighter freemium sheet (Notion Databases, Rows). NocoDB is listed first as the closest Airtable-like UX on your own SQL database.",
+    "ossSection": {
+      "heading": "Open-source Airtable alternatives",
+      "intro": "These tools let you run an Airtable-style base on your own infra or a vendor cloud. NocoDB and Teable sit on Postgres/MySQL; Baserow and Grist are full no-code / spreadsheet-DB hybrids.",
+      "slugs": [
+        "nocodb",
+        "baserow",
+        "grist",
+        "teable"
+      ]
+    }
+  },
+  {
+    "slug": "nocodb",
+    "name": "NocoDB",
+    "category": "Databases",
+    "tagline": "Open-source Airtable-like UI on SQL databases",
+    "description": "NocoDB turns Postgres/MySQL into an Airtable-style grid. Teams compare other open bases, spreadsheet hybrids, and hosted no-code databases when they want different UX or less SQL ownership.",
+    "website": "https://nocodb.com",
+    "featured": false,
+    "seoTitle": "NocoDB alternatives (2026): open-source bases",
+    "seoDescription": "Looking for a NocoDB alternative? Compare Baserow, Teable, Grist, Airtable, Notion Databases and Rows — self-hosted grids, spreadsheet-DBs, and hosted no-code options.",
+    "h1": "Best NocoDB alternatives (2026)",
+    "intro": "NocoDB is the closest Airtable UX on your SQL DB. Baserow and Teable are peer open bases; Grist is a spreadsheet-DB hybrid; Airtable/Notion/Rows if you prefer hosted no-code without running SQL.",
+    "ossSection": {
+      "heading": "Open-source NocoDB alternatives",
+      "intro": "Baserow, Teable and Grist are the main open peers if NocoDB’s SQL-on-rails model is not the fit.",
+      "slugs": [
+        "baserow-nc",
+        "teable-nc",
+        "grist-nc"
+      ]
+    },
+    "alternatives": [
+      {
+        "slug": "baserow-nc",
+        "name": "Baserow",
+        "oneLiner": "No-code open-source database with cloud or self-host.",
+        "pricing": "oss",
+        "website": "https://baserow.io",
+        "pros": [
+          "No-code database",
+          "Self-host or cloud",
+          "Open source"
+        ],
+        "cons": [
+          "Realtime collab still maturing",
+          "Smaller plugin ecosystem",
+          "Self-host maintenance"
+        ],
+        "bestFor": "Ops teams wanting Airtable-like grids without binding to an existing SQL DB first.",
+        "pricingNotes": "OSS; cloud freemium/paid by rows and users."
+      },
+      {
+        "slug": "teable-nc",
+        "name": "Teable",
+        "oneLiner": "Fast open-source Airtable-like database on Postgres.",
+        "pricing": "oss",
+        "website": "https://teable.io",
+        "pros": [
+          "Airtable-like on Postgres",
+          "Performance focus",
+          "Open source path"
+        ],
+        "cons": [
+          "Newer project",
+          "Ecosystem still growing",
+          "Confirm cloud free limits"
+        ],
+        "bestFor": "Builders who want Airtable speed with SQL underneath.",
+        "pricingNotes": "OSS / cloud plans — verify current free tier before migrating."
+      },
+      {
+        "slug": "grist-nc",
+        "name": "Grist",
+        "oneLiner": "Spreadsheet-database hybrid with Python formulas, open source.",
+        "pricing": "oss",
+        "website": "https://www.getgrist.com",
+        "pros": [
+          "Spreadsheet-DB hybrid",
+          "Python formulas",
+          "OSS / self-host"
+        ],
+        "cons": [
+          "UX learning curve",
+          "Fewer Airtable-style templates",
+          "Different mental model than pure bases"
+        ],
+        "bestFor": "Data-savvy teams needing relational sheets with code-like power.",
+        "pricingNotes": "OSS; Grist Cloud free/paid. Self-host free."
+      },
+      {
+        "slug": "airtable-nc",
+        "name": "Airtable",
+        "oneLiner": "The original hosted spreadsheet-database hybrid.",
+        "pricing": "freemium",
+        "website": "https://www.airtable.com",
+        "pros": [
+          "Polished UX",
+          "Huge template marketplace",
+          "Interfaces and automations"
+        ],
+        "cons": [
+          "Hosted lock-in",
+          "Seat and record pricing climbs",
+          "Not self-hostable"
+        ],
+        "bestFor": "Teams that want zero ops and will pay for polish.",
+        "pricingNotes": "Freemium; paid plans by seats and record limits — check Airtable’s current pricing."
+      },
+      {
+        "slug": "notion-db-nc",
+        "name": "Notion Databases",
+        "oneLiner": "Flexible databases inside the Notion workspace you already use.",
+        "pricing": "freemium",
+        "website": "https://www.notion.so",
+        "pros": [
+          "Already in Notion",
+          "Flexible views",
+          "Zero new vendor"
+        ],
+        "cons": [
+          "Not a real relational SQL DB",
+          "API/rate limits",
+          "Perf on huge bases"
+        ],
+        "bestFor": "Teams already living in Notion who need light databases.",
+        "pricingNotes": "Included in Notion free/plus/business — seat pricing applies."
+      },
+      {
+        "slug": "rows-nc",
+        "name": "Rows",
+        "oneLiner": "Spreadsheet with built-in integrations and AI.",
+        "pricing": "freemium",
+        "website": "https://rows.com",
+        "pros": [
+          "Spreadsheet + integrations",
+          "AI helpers",
+          "Familiar sheet model"
+        ],
+        "cons": [
+          "Less “base” than NocoDB/Airtable",
+          "Hosted vendor",
+          "Limits on integrations by plan"
+        ],
+        "bestFor": "Analysts who want sheets that connect to APIs easily.",
+        "pricingNotes": "Freemium; paid for more integrations and workspace limits."
       }
     ]
   },
@@ -2206,12 +2644,12 @@
           "No Intercom lock-in"
         ],
         "cons": [
-          "Ops if self-hosted",
-          "Fewer enterprise bells",
-          "DIY polish"
+          "You run ops and upgrades if you self-host",
+          "Enterprise extras (SSO, audit logs) sit on paid tiers",
+          "Smaller marketplace than Intercom"
         ],
         "bestFor": "Teams wanting an open Intercom-like stack.",
-        "pricingNotes": "OSS free; Chatwoot Cloud paid."
+        "pricingNotes": "MIT Community Edition free to self-host (infra only). Chatwoot Cloud: Hacker $0 (2 agents, 500 convos/mo); Startups $19, Business $39, Enterprise $99 per agent/mo (annual)."
       },
       {
         "slug": "helpscout-ic",
@@ -2225,12 +2663,12 @@
           "Email-first strength"
         ],
         "cons": [
-          "Less “conversational marketing”",
-          "Paid per user",
-          "AI catching up"
+          "Less product-messaging / outbound suite than Intercom",
+          "Paid per user on Standard and above",
+          "Customer-facing AI Answers billed per resolution"
         ],
         "bestFor": "Support teams that live in email more than live chat.",
-        "pricingNotes": "Paid per user; mid-market vs Intercom enterprise."
+        "pricingNotes": "Free up to 5 users. Paid annual: Standard $25, Plus $45, Pro $75 per user/mo. 15-day trial on Standard/Plus. AI Answers add-on ~$0.75/resolution."
       },
       {
         "slug": "zendesk-ic",
@@ -2244,9 +2682,9 @@
           "Omnichannel"
         ],
         "cons": [
-          "Also expensive",
-          "Complex admin",
-          "Different product philosophy"
+          "Also a paid enterprise suite",
+          "Heavier admin surface than chat-first tools",
+          "Different product philosophy (tickets vs messaging)"
         ],
         "bestFor": "Support orgs needing classic tickets more than Intercom chat.",
         "pricingNotes": "Paid suites — compare total agent cost carefully."
@@ -2263,9 +2701,9 @@
           "Polished UX"
         ],
         "cons": [
-          "Pricey seats",
-          "Less product messaging suite",
-          "Not OSS"
+          "Seat pricing adds up for larger teams",
+          "Less of a full product-messaging suite",
+          "Not open source"
         ],
         "bestFor": "CS teams centered on collaborative email.",
         "pricingNotes": "Paid per seat; positioned below Intercom suite complexity."
@@ -2288,6 +2726,290 @@
         ],
         "bestFor": "B2B SaaS teams wanting a fresher Intercom alternative.",
         "pricingNotes": "Paid — check current pricing page for seat model."
+      }
+    ],
+    "seoTitle": "Best Intercom alternatives (2026)",
+    "seoDescription": "Looking for an Intercom alternative? Compare Crisp, Chatwoot, Help Scout, Zendesk, Front and Plain — flat pricing, open-source self-hosting, and honest tradeoffs.",
+    "h1": "Best Intercom alternatives (2026)",
+    "intro": "Search traffic for “Intercom alternative” and “best Intercom alternatives” usually wants lower seat cost or an open inbox. Crisp is the closest paid chat swap; Chatwoot is the open-source path. Help Scout and Front fit email-first teams; Zendesk if you need classic tickets.",
+    "ossSection": {
+      "heading": "Open-source Intercom alternatives",
+      "intro": "Want Intercom-style messaging without a closed SaaS lock-in? Chatwoot is the main open-source customer engagement suite on this page — self-host the MIT Community Edition or use Chatwoot Cloud.",
+      "slugs": [
+        "chatwoot-ic"
+      ]
+    }
+  },
+  {
+    "slug": "crisp",
+    "name": "Crisp",
+    "category": "Support",
+    "tagline": "Flat-priced shared inbox and live chat",
+    "description": "Crisp is a popular Intercom alternative with workspace pricing. Teams compare open-source inboxes, email-first help desks, or deeper ticket suites when they outgrow chat.",
+    "website": "https://crisp.chat",
+    "featured": false,
+    "seoTitle": "Crisp alternatives (2026): chat and inbox options",
+    "seoDescription": "Looking for a Crisp alternative? Compare Chatwoot, Help Scout, Freshdesk, Intercom, Front and FreeScout — open-source, email-first, and ticket-first options with pricing notes.",
+    "h1": "Best Crisp alternatives (2026)",
+    "intro": "Crisp wins on flat workspace pricing and unlimited conversations. Switch when you need true open-source (Chatwoot, FreeScout), calmer email-first support (Help Scout, Front), or classic tickets (Freshdesk).",
+    "ossSection": {
+      "heading": "Open-source Crisp alternatives",
+      "intro": "Chatwoot is the closest open omnichannel inbox; FreeScout is a lighter shared-inbox help desk you can self-host.",
+      "slugs": [
+        "chatwoot-crisp",
+        "freescout-crisp"
+      ]
+    },
+    "alternatives": [
+      {
+        "slug": "chatwoot-crisp",
+        "name": "Chatwoot",
+        "oneLiner": "Open-source omnichannel inbox closest to Crisp’s chat + engagement model.",
+        "pricing": "oss",
+        "website": "https://www.chatwoot.com",
+        "pros": [
+          "Self-host or cloud",
+          "Multi-channel inbox",
+          "No per-workspace SaaS lock-in"
+        ],
+        "cons": [
+          "You run ops if self-hosted",
+          "Paid tiers for SSO/audit extras",
+          "Smaller marketplace than Crisp plugins"
+        ],
+        "bestFor": "Teams that liked Crisp’s chat model but want open source.",
+        "pricingNotes": "MIT CE free to self-host. Cloud: Hacker $0 (2 agents); Startups $19, Business $39, Enterprise $99/agent/mo annual."
+      },
+      {
+        "slug": "helpscout-crisp",
+        "name": "Help Scout",
+        "oneLiner": "Human shared inbox and Docs — stronger on email than live-chat widgets.",
+        "pricing": "freemium",
+        "website": "https://www.helpscout.com",
+        "pros": [
+          "Calm agent UX",
+          "Docs + Beacon",
+          "Free plan for tiny teams"
+        ],
+        "cons": [
+          "Less chat-widget marketing focus",
+          "Paid per user above Free",
+          "AI Answers metered"
+        ],
+        "bestFor": "Support teams centered on email and knowledge base.",
+        "pricingNotes": "Free up to 5 users. Annual Standard $25 / Plus $45 / Pro $75 per user/mo."
+      },
+      {
+        "slug": "freshdesk-crisp",
+        "name": "Freshdesk",
+        "oneLiner": "Ticket-first helpdesk when chat alone is not enough.",
+        "pricing": "paid",
+        "website": "https://www.freshworks.com/freshdesk/",
+        "pros": [
+          "Tickets + portal + knowledge base",
+          "Freddy AI Agent sessions included",
+          "Clear per-agent plans"
+        ],
+        "cons": [
+          "Extra AI Agent sessions are add-ons",
+          "Heavier than a simple chat widget",
+          "No permanent free plan"
+        ],
+        "bestFor": "SMBs needing structured tickets after outgrowing chat-only tools.",
+        "pricingNotes": "14-day trial. Growth $19, Pro $55, Enterprise $89 per agent/mo billed annually."
+      },
+      {
+        "slug": "intercom-crisp",
+        "name": "Intercom",
+        "oneLiner": "Full product messaging and support suite above Crisp’s price band.",
+        "pricing": "paid",
+        "website": "https://www.intercom.com",
+        "pros": [
+          "Product tours + messaging + support",
+          "Mature automation",
+          "Large integration catalog"
+        ],
+        "cons": [
+          "Premium pricing vs Crisp flat plans",
+          "More suite complexity",
+          "Overkill for simple chat"
+        ],
+        "bestFor": "Product-led SaaS that needs lifecycle messaging, not just an inbox.",
+        "pricingNotes": "Paid platforms — compare total monthly spend carefully against Crisp Plus."
+      },
+      {
+        "slug": "front-crisp",
+        "name": "Front",
+        "oneLiner": "Collaborative shared inbox for email-heavy customer teams.",
+        "pricing": "paid",
+        "website": "https://front.com",
+        "pros": [
+          "Excellent shared inbox",
+          "Assignments and rules",
+          "Polished UX"
+        ],
+        "cons": [
+          "Seat pricing",
+          "Less live-chat-first than Crisp",
+          "Not open source"
+        ],
+        "bestFor": "CS teams living in collaborative email more than website chat.",
+        "pricingNotes": "Paid per seat — check Front’s current plan page for seat tiers."
+      },
+      {
+        "slug": "freescout-crisp",
+        "name": "FreeScout",
+        "oneLiner": "Lightweight open-source shared inbox inspired by Help Scout.",
+        "pricing": "oss",
+        "website": "https://freescout.net",
+        "pros": [
+          "Self-host friendly",
+          "Simple shared inbox",
+          "Optional paid modules"
+        ],
+        "cons": [
+          "Fewer live-chat marketing features",
+          "Module model for extras",
+          "Smaller vendor ecosystem"
+        ],
+        "bestFor": "Small teams wanting a free self-hosted inbox.",
+        "pricingNotes": "Free OSS; optional paid modules from FreeScout."
+      }
+    ]
+  },
+  {
+    "slug": "chatwoot",
+    "name": "Chatwoot",
+    "category": "Support",
+    "tagline": "Open-source customer engagement and shared inbox",
+    "description": "Chatwoot is a leading open-source Intercom/Zendesk-lite suite. Teams compare hosted chat tools, classic help desks, and lighter OSS inboxes when cloud seats or self-host ops do not fit.",
+    "website": "https://www.chatwoot.com",
+    "featured": false,
+    "seoTitle": "Chatwoot alternatives (2026): OSS and hosted support",
+    "seoDescription": "Looking for a Chatwoot alternative? Compare Crisp, FreeScout, Help Scout, Freshdesk, Intercom and Zendesk — flat-priced chat, lighter OSS, and enterprise tickets.",
+    "h1": "Best Chatwoot alternatives (2026)",
+    "intro": "Chatwoot is the open engagement default. Closest hosted chat swap is Crisp; FreeScout is a lighter OSS inbox; Help Scout and Freshdesk fit paid help desks; Intercom/Zendesk when you need a full suite.",
+    "ossSection": {
+      "heading": "Other open-source Chatwoot alternatives",
+      "intro": "FreeScout is the main lighter open-source shared inbox if Chatwoot feels heavy to operate.",
+      "slugs": [
+        "freescout-cw"
+      ]
+    },
+    "alternatives": [
+      {
+        "slug": "crisp-cw",
+        "name": "Crisp",
+        "oneLiner": "Hosted chat and shared inbox with flat workspace pricing.",
+        "pricing": "freemium",
+        "website": "https://crisp.chat",
+        "pros": [
+          "Flat pricing, unlimited conversations",
+          "Quick setup",
+          "EU-hosted option"
+        ],
+        "cons": [
+          "Ticketing portal and white-label on Plus ($295/mo)",
+          "Free plan limited seats/profiles",
+          "Not open source"
+        ],
+        "bestFor": "Teams that want Chatwoot-like chat without self-hosting.",
+        "pricingNotes": "Free (2 seats). Mini $45, Essentials $95, Plus $295 per workspace/mo. Unlimited conversations."
+      },
+      {
+        "slug": "freescout-cw",
+        "name": "FreeScout",
+        "oneLiner": "Lighter open-source shared inbox inspired by Help Scout.",
+        "pricing": "oss",
+        "website": "https://freescout.net",
+        "pros": [
+          "Simple to self-host",
+          "Help Scout-like UX",
+          "Optional paid modules"
+        ],
+        "cons": [
+          "Fewer omnichannel channels OOTB",
+          "Module model for extras",
+          "Smaller community than Chatwoot"
+        ],
+        "bestFor": "Small teams wanting OSS email/inbox without Chatwoot’s full stack.",
+        "pricingNotes": "Free OSS; optional paid modules from FreeScout."
+      },
+      {
+        "slug": "helpscout-cw",
+        "name": "Help Scout",
+        "oneLiner": "Hosted human shared inbox with Docs.",
+        "pricing": "freemium",
+        "website": "https://www.helpscout.com",
+        "pros": [
+          "Calm UX",
+          "Docs + Beacon",
+          "Free tier"
+        ],
+        "cons": [
+          "Not self-hostable",
+          "Paid per user above Free",
+          "AI Answers metered"
+        ],
+        "bestFor": "Teams that want polished hosted email support, not ops.",
+        "pricingNotes": "Free up to 5 users. Annual Standard $25 / Plus $45 / Pro $75 per user/mo."
+      },
+      {
+        "slug": "freshdesk-cw",
+        "name": "Freshdesk",
+        "oneLiner": "Ticket-first SMB helpdesk with AI agent sessions.",
+        "pricing": "paid",
+        "website": "https://www.freshworks.com/freshdesk/",
+        "pros": [
+          "Familiar tickets",
+          "Portal + knowledge base",
+          "Clear per-agent pricing"
+        ],
+        "cons": [
+          "Not open source",
+          "AI session overages",
+          "Heavier than a chat inbox"
+        ],
+        "bestFor": "Support orgs standardized on ticket queues.",
+        "pricingNotes": "Growth $19, Pro $55, Enterprise $89 per agent/mo billed annually."
+      },
+      {
+        "slug": "intercom-cw",
+        "name": "Intercom",
+        "oneLiner": "Premium conversational support and product messaging.",
+        "pricing": "paid",
+        "website": "https://www.intercom.com",
+        "pros": [
+          "Product messaging + support",
+          "Mature automation",
+          "Large ecosystem"
+        ],
+        "cons": [
+          "Premium pricing",
+          "Closed SaaS",
+          "More suite than inbox"
+        ],
+        "bestFor": "Product-led SaaS with budget for a full messaging platform.",
+        "pricingNotes": "Paid platforms — expect significant monthly spend vs Chatwoot Cloud."
+      },
+      {
+        "slug": "zendesk-cw",
+        "name": "Zendesk",
+        "oneLiner": "Enterprise ticketing when you need marketplace depth.",
+        "pricing": "paid",
+        "website": "https://www.zendesk.com",
+        "pros": [
+          "Mature tickets",
+          "Huge marketplace",
+          "Omnichannel suites"
+        ],
+        "cons": [
+          "Cost and complexity",
+          "Not open source",
+          "Different philosophy than chat-first OSS"
+        ],
+        "bestFor": "Enterprises standardizing on classic helpdesk processes.",
+        "pricingNotes": "Paid suites — compare total agent cost carefully."
       }
     ]
   },
@@ -3520,9 +4242,9 @@
           "Easy reporting start"
         ],
         "cons": [
-          "Upsell pressure to Hubs",
-          "Can get complex",
-          "Free limits on seats/features"
+          "Advanced automation lives in paid Hubs",
+          "Workspace can get complex as you add tools",
+          "Free tier has seat and feature limits"
         ],
         "bestFor": "Teams okay entering the HubSpot universe for $0 CRM.",
         "pricingNotes": "Free CRM; paid Hubs for automation/sequences at scale."
@@ -3605,9 +4327,17 @@
         "pricingNotes": "OSS free; official cloud hosting paid."
       }
     ],
-    "seoTitle": "Better than Pipedrive? 5 CRM alternatives (2026)",
-    "seoDescription": "Looking for a CRM better than Pipedrive for your team? Compare HubSpot Free CRM, Close, Attio, and open-source Twenty and EspoCRM: free tiers, calling, self-hosting.",
-    "h1": "Better than Pipedrive? 5 CRM alternatives compared",
-    "intro": "Pipedrive is a strong pipeline-first CRM, so “better” depends on what you need: a free tier (HubSpot Free CRM, Attio), built-in calling and SMS (Close), flexible data modeling (Attio), or open-source self-hosting (Twenty, EspoCRM)."
+    "seoTitle": "Pipedrive alternatives (2026): 5 CRM options",
+    "seoDescription": "Looking for Pipedrive alternatives? Compare HubSpot Free CRM, Close, Attio, and open-source Twenty and EspoCRM — free tiers, calling, flexible data models, self-hosting.",
+    "h1": "Best Pipedrive alternatives (2026)",
+    "intro": "Pipedrive is a strong pipeline-first CRM. “Better” depends on what you need: a free tier (HubSpot Free CRM, Attio), built-in calling and SMS (Close), flexible data modeling (Attio), or open-source self-hosting (Twenty, EspoCRM). HubSpot Free CRM is listed first as the closest low-friction swap.",
+    "ossSection": {
+      "heading": "Open-source Pipedrive alternatives",
+      "intro": "Want a pipeline CRM you can self-host? Twenty aims at a modern Notion-like CRM experience; EspoCRM is a mature open-source CRM with extensible entities.",
+      "slugs": [
+        "twenty-crm",
+        "espocrm"
+      ]
+    }
   }
 ]
