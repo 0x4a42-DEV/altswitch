@@ -60,7 +60,7 @@
         "cons": [
           "Learning curve",
           "Light on enterprise admin",
-          "Sync model \u2260 Notion"
+          "Sync model ≠ Notion"
         ],
         "bestFor": "Individuals who want ownership of a personal knowledge base.",
         "pricingNotes": "Strong free tier; paid for extra storage/backup features."
@@ -120,7 +120,7 @@
           "Heavier than plain notes"
         ],
         "bestFor": "Ops/product teams building lightweight internal tools in docs.",
-        "pricingNotes": "Freemium; paid by Doc Makers \u2014 check current Maker limits."
+        "pricingNotes": "Freemium; paid by Doc Makers — check current Maker limits."
       }
     ]
   },
@@ -241,7 +241,7 @@
         ],
         "cons": [
           "Model takes getting used to",
-          "Less \u201cfun\u201d than Discord",
+          "Less “fun” than Discord",
           "Mobile UX polarizing"
         ],
         "bestFor": "Open-source communities and big async-heavy orgs.",
@@ -254,7 +254,7 @@
     "name": "Jira",
     "category": "Project Management",
     "tagline": "Issue tracking and agile project management",
-    "description": "Jira is the default for software teams \u2014 and often feels heavy. Lighter issue trackers and open-source project tools are popular switches.",
+    "description": "Jira is the default for software teams — and often feels heavy. Lighter issue trackers and open-source project tools are popular switches.",
     "website": "https://www.atlassian.com/software/jira",
     "featured": true,
     "alternatives": [
@@ -419,7 +419,7 @@
           "Enterprise features catching up"
         ],
         "bestFor": "Startups wanting a modern CRM they can fork/self-host.",
-        "pricingNotes": "Open source; cloud offerings emerging \u2014 check current plans."
+        "pricingNotes": "Open source; cloud offerings emerging — check current plans."
       },
       {
         "slug": "espocrm",
@@ -457,7 +457,7 @@
           "Pricing for scale TBD"
         ],
         "bestFor": "Startups that want a modern, relational CRM.",
-        "pricingNotes": "Freemium/paid \u2014 verify seat and enrichment pricing."
+        "pricingNotes": "Freemium/paid — verify seat and enrichment pricing."
       },
       {
         "slug": "zoho-crm",
@@ -525,7 +525,7 @@
           "Not open source"
         ],
         "bestFor": "Marketers who need serious automations beyond basic newsletters.",
-        "pricingNotes": "Paid from low tiers; contact-based pricing \u2014 watch list growth."
+        "pricingNotes": "Paid from low tiers; contact-based pricing — watch list growth."
       },
       {
         "slug": "mautic",
@@ -660,7 +660,7 @@
         "pricing": "freemium",
         "website": "https://www.framer.com",
         "pros": [
-          "Design \u2192 production sites",
+          "Design → production sites",
           "Strong marketing-site fit",
           "Modern interactions"
         ],
@@ -727,7 +727,7 @@
           "CC subscription baggage"
         ],
         "bestFor": "Teams already deep in Creative Cloud who must stay there.",
-        "pricingNotes": "Via Adobe CC plans \u2014 often bundled, not best standalone value."
+        "pricingNotes": "Via Adobe CC plans — often bundled, not best standalone value."
       }
     ]
   },
@@ -834,7 +834,7 @@
           "Plan options take time to map to seat counts"
         ],
         "bestFor": "SaaS products mixing support chat with lifecycle messaging.",
-        "pricingNotes": "Paid platforms \u2014 expect significant monthly spend vs Zendesk SMB."
+        "pricingNotes": "Paid platforms — expect significant monthly spend vs Zendesk SMB."
       },
       {
         "slug": "gorgias",
@@ -853,13 +853,13 @@
           "Overkill for B2B SaaS"
         ],
         "bestFor": "DTC/ecommerce brands on Shopify-like stacks.",
-        "pricingNotes": "Paid by ticket volume tiers \u2014 model cost on peak season."
+        "pricingNotes": "Paid by ticket volume tiers — model cost on peak season."
       }
     ],
-    "seoTitle": "Open source Zendesk alternative (2026) + SaaS",
-    "seoDescription": "Need an open source Zendesk alternative? Compare Chatwoot & FreeScout (self-host), plus Freshdesk, Help Scout, Intercom & Gorgias \u2014 fair pricing notes.",
-    "h1": "Open source Zendesk alternatives (2026)",
-    "intro": "Pick by job below, then use the comparison table for pricing and tradeoffs.",
+    "seoTitle": "Zendesk Alternative Open Source (2026) + SaaS",
+    "seoDescription": "Need a Zendesk alternative open source? Compare Chatwoot & FreeScout (self-host), plus Freshdesk, Help Scout, Intercom & Gorgias — fair pricing notes.",
+    "h1": "Zendesk alternative open source (2026)",
+    "intro": "Looking for an open source Zendesk alternative? Pick by job below, then use the comparison table for pricing and tradeoffs.",
     "ossSection": {
       "heading": "Open source Zendesk alternatives",
       "intro": "For an open source Zendesk alternative, start with Chatwoot (omnichannel engagement, MIT Community Edition) or FreeScout (lightweight shared inbox). Self-hosting means you own uptime and data; both also offer paid modules or managed cloud if you prefer not to run infra.",
@@ -899,8 +899,8 @@
     "description": "Freshdesk is a common Zendesk alternative for growing support teams. Buyers also compare open-source desks, calmer shared inboxes, and chat-first tools.",
     "website": "https://www.freshworks.com/freshdesk/",
     "featured": false,
-    "seoTitle": "Best Freshdesk Alternatives 2026 \u2014 Tickets & OSS",
-    "seoDescription": "Looking for a Freshdesk alternative? Compare Zendesk, Help Scout, Chatwoot, FreeScout, Intercom & Gorgias \u2014 enterprise tickets, calm inboxes, open source.",
+    "seoTitle": "Best Freshdesk Alternatives 2026 — Tickets & OSS",
+    "seoDescription": "Looking for a Freshdesk alternative? Compare Zendesk, Help Scout, Chatwoot, FreeScout, Intercom & Gorgias — enterprise tickets, calm inboxes, open source.",
     "h1": "Best Freshdesk alternatives (2026)",
     "intro": "Freshdesk sits in the mid-market ticket lane. Closest enterprise upgrade is Zendesk; Help Scout is calmer for email; Chatwoot and FreeScout cover open-source; Gorgias fits ecommerce.",
     "ossSection": {
@@ -928,8 +928,8 @@
           "More admin surface",
           "Plans need careful mapping"
         ],
-        "bestFor": "Support orgs that outgrew Freshdesk\u2019s mid-market ceiling.",
-        "pricingNotes": "Paid suites \u2014 compare agent + add-on totals on Zendesk\u2019s pricing page."
+        "bestFor": "Support orgs that outgrew Freshdesk’s mid-market ceiling.",
+        "pricingNotes": "Paid suites — compare agent + add-on totals on Zendesk’s pricing page."
       },
       {
         "slug": "helpscout-fd",
@@ -1005,7 +1005,7 @@
           "Complex plan mapping"
         ],
         "bestFor": "SaaS products mixing support chat with lifecycle messaging.",
-        "pricingNotes": "Paid platforms \u2014 expect higher monthly spend than Freshdesk Growth."
+        "pricingNotes": "Paid platforms — expect higher monthly spend than Freshdesk Growth."
       },
       {
         "slug": "gorgias-fd",
@@ -1024,7 +1024,7 @@
           "Overkill for B2B SaaS"
         ],
         "bestFor": "DTC brands on Shopify-like stacks.",
-        "pricingNotes": "Paid by ticket volume tiers \u2014 model cost on peak season."
+        "pricingNotes": "Paid by ticket volume tiers — model cost on peak season."
       }
     ]
   },
@@ -1036,10 +1036,10 @@
     "description": "Help Scout is a calm shared inbox for customer-centric brands. Teams compare open-source desks, chat-first tools, and fuller ticket suites when they need more channels or self-hosting.",
     "website": "https://www.helpscout.com",
     "featured": false,
-    "seoTitle": "Best Help Scout Alternatives 2026 \u2014 Inbox & OSS",
-    "seoDescription": "Looking for a Help Scout alternative? Compare FreeScout, Freshdesk, Chatwoot, Crisp, Front & Zendesk \u2014 open-source inboxes, tickets, and live chat options.",
+    "seoTitle": "Best Help Scout Alternatives 2026 — Inbox & OSS",
+    "seoDescription": "Looking for a Help Scout alternative? Compare FreeScout, Freshdesk, Chatwoot, Crisp, Front & Zendesk — open-source inboxes, tickets, and live chat options.",
     "h1": "Best Help Scout alternatives (2026)",
-    "intro": "Help Scout\u2019s closest open twin is FreeScout. Freshdesk and Zendesk go ticket-heavier; Chatwoot and Crisp lean chat/omnichannel; Front fits collaborative email at a premium.",
+    "intro": "Help Scout’s closest open twin is FreeScout. Freshdesk and Zendesk go ticket-heavier; Chatwoot and Crisp lean chat/omnichannel; Front fits collaborative email at a premium.",
     "ossSection": {
       "heading": "Open-source Help Scout alternatives",
       "intro": "FreeScout is deliberately Help Scout-like; Chatwoot is the broader open omnichannel suite.",
@@ -1065,7 +1065,7 @@
           "Module model for extras",
           "Smaller ecosystem"
         ],
-        "bestFor": "Teams that love Help Scout\u2019s calm inbox but want to self-host.",
+        "bestFor": "Teams that love Help Scout’s calm inbox but want to self-host.",
         "pricingNotes": "Free OSS; optional paid modules from FreeScout."
       },
       {
@@ -1142,7 +1142,7 @@
           "Less knowledge-base-native than Help Scout Docs"
         ],
         "bestFor": "CS teams centered on collaborative email threads.",
-        "pricingNotes": "Paid per seat \u2014 verify current Front plan tiers."
+        "pricingNotes": "Paid per seat — verify current Front plan tiers."
       },
       {
         "slug": "zendesk-hs",
@@ -1157,11 +1157,11 @@
         ],
         "cons": [
           "Cost and complexity",
-          "Heavier than Help Scout\u2019s calm UX",
+          "Heavier than Help Scout’s calm UX",
           "Different product philosophy"
         ],
         "bestFor": "Support orgs needing classic enterprise tickets.",
-        "pricingNotes": "Paid suites \u2014 compare total agent cost carefully."
+        "pricingNotes": "Paid suites — compare total agent cost carefully."
       }
     ]
   },
@@ -1229,7 +1229,7 @@
           "Perf on huge bases"
         ],
         "bestFor": "Teams already living in Notion who need light databases.",
-        "pricingNotes": "Included in Notion free/plus/business \u2014 seat pricing applies."
+        "pricingNotes": "Included in Notion free/plus/business — seat pricing applies."
       },
       {
         "slug": "rows",
@@ -1243,7 +1243,7 @@
           "Familiar sheet mental model"
         ],
         "cons": [
-          "Less \u201cbase\u201d than Airtable",
+          "Less “base” than Airtable",
           "Vendor lock-in risk",
           "Pricing for data/API use"
         ],
@@ -1286,13 +1286,13 @@
           "Confirm current cloud free-tier limits before migrating"
         ],
         "bestFor": "Builders who want Airtable speed with SQL underneath.",
-        "pricingNotes": "OSS / cloud plans \u2014 confirm current free tier limits."
+        "pricingNotes": "OSS / cloud plans — confirm current free tier limits."
       }
     ],
-    "seoTitle": "Airtable alternatives (2026): NocoDB & open source",
-    "seoDescription": "Looking for Airtable alternatives? Compare NocoDB, Baserow, Notion Databases, Rows, Grist & Teable \u2014 open-source SQL bases, freemium sheets, fair notes.",
-    "h1": "Airtable alternatives (2026)",
-    "intro": "Pick by job below, then use the comparison table for pricing and tradeoffs.",
+    "seoTitle": "Airtable Alternative (2026): NocoDB, Teable & OSS",
+    "seoDescription": "Looking for an Airtable alternative? Compare NocoDB, Baserow, Notion Databases, Rows, Grist & Teable — open-source SQL bases, freemium sheets, fair notes.",
+    "h1": "Airtable alternative (2026)",
+    "intro": "Looking for Airtable alternatives? Pick by job below, then use the comparison table for pricing and tradeoffs.",
     "ossSection": {
       "heading": "Open-source Airtable alternatives",
       "intro": "NocoDB is the closest Airtable-like UI on Postgres/MySQL you can self-host. Baserow, Grist, and Teable cover no-code grids, spreadsheet-DB hybrids, and fast Postgres bases. Cloud plans exist if you do not want to run infra.",
@@ -1338,13 +1338,13 @@
     "description": "NocoDB turns Postgres/MySQL into an Airtable-style grid. Teams compare other open bases, spreadsheet hybrids, and hosted no-code databases when they want different UX or less SQL ownership.",
     "website": "https://nocodb.com",
     "featured": false,
-    "seoTitle": "Best NocoDB Alternatives 2026 \u2014 Bases & Sheets",
-    "seoDescription": "Looking for a NocoDB alternative? Compare Baserow, Teable, Grist, Airtable, Notion Databases & Rows \u2014 self-hosted grids, spreadsheet-DBs, hosted no-code.",
+    "seoTitle": "Best NocoDB Alternatives 2026 — Bases & Sheets",
+    "seoDescription": "Looking for a NocoDB alternative? Compare Baserow, Teable, Grist, Airtable, Notion Databases & Rows — self-hosted grids, spreadsheet-DBs, hosted no-code.",
     "h1": "Best NocoDB alternatives (2026)",
     "intro": "NocoDB is the closest Airtable UX on your SQL DB. Baserow and Teable are peer open bases; Grist is a spreadsheet-DB hybrid; Airtable/Notion/Rows if you prefer hosted no-code without running SQL.",
     "ossSection": {
       "heading": "Open-source NocoDB alternatives",
-      "intro": "Baserow, Teable and Grist are the main open peers if NocoDB\u2019s SQL-on-rails model is not the fit.",
+      "intro": "Baserow, Teable and Grist are the main open peers if NocoDB’s SQL-on-rails model is not the fit.",
       "slugs": [
         "baserow-nc",
         "teable-nc",
@@ -1388,7 +1388,7 @@
           "Confirm cloud free limits"
         ],
         "bestFor": "Builders who want Airtable speed with SQL underneath.",
-        "pricingNotes": "OSS / cloud plans \u2014 verify current free tier before migrating."
+        "pricingNotes": "OSS / cloud plans — verify current free tier before migrating."
       },
       {
         "slug": "grist-nc",
@@ -1426,7 +1426,7 @@
           "Not self-hostable"
         ],
         "bestFor": "Teams that want zero ops and will pay for polish.",
-        "pricingNotes": "Freemium; paid plans by seats and record limits \u2014 check Airtable\u2019s current pricing."
+        "pricingNotes": "Freemium; paid plans by seats and record limits — check Airtable’s current pricing."
       },
       {
         "slug": "notion-db-nc",
@@ -1445,7 +1445,7 @@
           "Perf on huge bases"
         ],
         "bestFor": "Teams already living in Notion who need light databases.",
-        "pricingNotes": "Included in Notion free/plus/business \u2014 seat pricing applies."
+        "pricingNotes": "Included in Notion free/plus/business — seat pricing applies."
       },
       {
         "slug": "rows-nc",
@@ -1459,7 +1459,7 @@
           "Familiar sheet model"
         ],
         "cons": [
-          "Less \u201cbase\u201d than NocoDB/Airtable",
+          "Less “base” than NocoDB/Airtable",
           "Hosted vendor",
           "Limits on integrations by plan"
         ],
@@ -1480,7 +1480,7 @@
       {
         "slug": "plausible",
         "name": "Plausible",
-        "oneLiner": "Lightweight, privacy-friendly analytics \u2014 no cookies needed.",
+        "oneLiner": "Lightweight, privacy-friendly analytics — no cookies needed.",
         "pricing": "paid",
         "website": "https://plausible.io",
         "pros": [
@@ -1565,7 +1565,7 @@
           "Self-host option"
         ],
         "cons": [
-          "Broader than \u201cweb stats\u201d",
+          "Broader than “web stats”",
           "Can be overwhelming",
           "Resource-heavy if self-hosted"
         ],
@@ -1808,7 +1808,7 @@
       {
         "slug": "trello-asana",
         "name": "Trello",
-        "oneLiner": "Simple Kanban boards \u2014 lighter than full Asana.",
+        "oneLiner": "Simple Kanban boards — lighter than full Asana.",
         "pricing": "freemium",
         "website": "https://trello.com",
         "pros": [
@@ -1990,7 +1990,7 @@
       {
         "slug": "jira-trello",
         "name": "Jira",
-        "oneLiner": "Atlassian\u2019s deeper issue tracker when boards aren\u2019t enough.",
+        "oneLiner": "Atlassian’s deeper issue tracker when boards aren’t enough.",
         "pricing": "freemium",
         "website": "https://www.atlassian.com/software/jira",
         "pros": [
@@ -2063,10 +2063,10 @@
         "cons": [
           "Complexity",
           "UI density",
-          "Similar \u201csuite\u201d feel"
+          "Similar “suite” feel"
         ],
         "bestFor": "Teams comparing Work OS vendors on price and features.",
-        "pricingNotes": "Freemium vs monday\u2019s paid-first model \u2014 run the math."
+        "pricingNotes": "Freemium vs monday’s paid-first model — run the math."
       },
       {
         "slug": "asana-monday",
@@ -2080,12 +2080,12 @@
           "Clear task model"
         ],
         "cons": [
-          "Less \u201cOS\u201d customization",
+          "Less “OS” customization",
           "Paid for advanced",
           "Reporting limits by plan"
         ],
-        "bestFor": "Teams wanting polish without monday\u2019s board-first aesthetic.",
-        "pricingNotes": "Free + paid tiers; often cheaper at similar seats \u2014 verify."
+        "bestFor": "Teams wanting polish without monday’s board-first aesthetic.",
+        "pricingNotes": "Free + paid tiers; often cheaper at similar seats — verify."
       },
       {
         "slug": "notion-monday",
@@ -2123,7 +2123,7 @@
           "Integrations growing"
         ],
         "bestFor": "Tech teams escaping Work OS pricing.",
-        "pricingNotes": "OSS / cloud free + paid \u2014 far less than typical monday seats."
+        "pricingNotes": "OSS / cloud free + paid — far less than typical monday seats."
       },
       {
         "slug": "wrike",
@@ -2157,7 +2157,7 @@
         ],
         "cons": [
           "Enterprise pricing",
-          "Less \u201cstartup cute\u201d",
+          "Less “startup cute”",
           "Learning curve"
         ],
         "bestFor": "Ops/PMO teams that think in grids not Kanban.",
@@ -2205,11 +2205,11 @@
           "Strong adoption"
         ],
         "cons": [
-          "Fewer \u201ceverything\u201d features",
+          "Fewer “everything” features",
           "Paid for advanced",
           "Less customizable"
         ],
-        "bestFor": "Teams wanting structure without ClickUp\u2019s density.",
+        "bestFor": "Teams wanting structure without ClickUp’s density.",
         "pricingNotes": "Freemium; Premium unlocks timeline and more."
       },
       {
@@ -2446,7 +2446,7 @@
       {
         "slug": "google-drive-db",
         "name": "Google Drive",
-        "oneLiner": "Bundled storage with Docs/Sheets \u2014 often \u201cfree\u201d with Workspace.",
+        "oneLiner": "Bundled storage with Docs/Sheets — often “free” with Workspace.",
         "pricing": "freemium",
         "website": "https://drive.google.com",
         "pros": [
@@ -2465,7 +2465,7 @@
       {
         "slug": "onedrive",
         "name": "OneDrive",
-        "oneLiner": "Microsoft\u2019s sync layer tied to Office and M365.",
+        "oneLiner": "Microsoft’s sync layer tied to Office and M365.",
         "pricing": "freemium",
         "website": "https://www.microsoft.com/en-us/microsoft-365/onedrive/online-cloud-storage",
         "pros": [
@@ -2613,7 +2613,7 @@
       {
         "slug": "discord-zoom",
         "name": "Discord",
-        "oneLiner": "Always-on voice/video communities \u2014 different from scheduled Zoom.",
+        "oneLiner": "Always-on voice/video communities — different from scheduled Zoom.",
         "pricing": "freemium",
         "website": "https://discord.com",
         "pros": [
@@ -2655,7 +2655,7 @@
     "name": "Intercom",
     "category": "Support",
     "tagline": "Customer messaging and support platform",
-    "description": "Intercom blends chat, helpdesk, and product messaging. It is priced per seat, with Fin AI billed per outcome \u2014 so teams often leave for flat workspace chat, a free widget, or an open-source inbox.",
+    "description": "Intercom blends chat, helpdesk, and product messaging. It is priced per seat, with Fin AI billed per outcome — so teams often leave for flat workspace chat, a free widget, or an open-source inbox.",
     "website": "https://www.intercom.com",
     "featured": true,
     "alternatives": [
@@ -2702,7 +2702,7 @@
       {
         "slug": "helpscout-ic",
         "name": "Help Scout",
-        "oneLiner": "Human shared inbox with docs \u2014 calmer than chat-first Intercom.",
+        "oneLiner": "Human shared inbox with docs — calmer than chat-first Intercom.",
         "pricing": "paid",
         "website": "https://www.helpscout.com",
         "pros": [
@@ -2735,7 +2735,7 @@
           "Different product philosophy (tickets vs messaging)"
         ],
         "bestFor": "Support orgs needing classic tickets more than Intercom chat.",
-        "pricingNotes": "Paid suites \u2014 compare total agent cost carefully."
+        "pricingNotes": "Paid suites — compare total agent cost carefully."
       },
       {
         "slug": "front",
@@ -2773,7 +2773,7 @@
           "Paid only"
         ],
         "bestFor": "B2B SaaS teams wanting a fresher Intercom alternative.",
-        "pricingNotes": "Paid \u2014 check current pricing page for seat model."
+        "pricingNotes": "Paid — check current pricing page for seat model."
       },
       {
         "slug": "freshdesk-ic",
@@ -2793,7 +2793,7 @@
           "No permanent free plan"
         ],
         "bestFor": "Teams that need classic tickets and SLAs more than Intercom-style product messaging.",
-        "pricingNotes": "14-day free trial; Growth from $19/agent/mo billed annually (Pro $55, Enterprise $89). A short Free Program may appear in-app \u2014 verify on Freshworks."
+        "pricingNotes": "14-day free trial; Growth from $19/agent/mo billed annually (Pro $55, Enterprise $89). A short Free Program may appear in-app — verify on Freshworks."
       },
       {
         "slug": "freescout-ic",
@@ -2802,7 +2802,7 @@
         "pricing": "oss",
         "website": "https://freescout.net",
         "pros": [
-          "Lightweight shared inbox with Help Scout\u2013like UX",
+          "Lightweight shared inbox with Help Scout–like UX",
           "Self-host friendly",
           "Optional paid modules when you need extras"
         ],
@@ -2811,13 +2811,13 @@
           "Module/plugin model for advanced features",
           "You own uptime and upgrades"
         ],
-        "bestFor": "Small support teams wanting a simple open Intercom/Help Scout\u2013style desk.",
+        "bestFor": "Small support teams wanting a simple open Intercom/Help Scout–style desk.",
         "pricingNotes": "Free OSS; optional paid modules from FreeScout."
       },
       {
         "slug": "tidio",
         "name": "Tidio",
-        "oneLiner": "Marketing-friendly live chat with Flows and Lyro AI \u2014 cheaper Intercom-style widget.",
+        "oneLiner": "Marketing-friendly live chat with Flows and Lyro AI — cheaper Intercom-style widget.",
         "pricing": "freemium",
         "website": "https://www.tidio.com",
         "pros": [
@@ -2832,7 +2832,7 @@
           "Less of a full product-messaging / Series suite than Intercom"
         ],
         "bestFor": "SMB and ecommerce sites that want marketing chat plus support without Intercom seat pricing.",
-        "pricingNotes": "Free: 50 billable conversations/mo (up to 10 agents). Starter from ~$24/mo billed annually (~$29 monthly) for 100 billable conversations; higher Growth/Plus tiers by volume. Lyro AI and Flows have separate quotas \u2014 verify on tidio.com/pricing."
+        "pricingNotes": "Free: 50 billable conversations/mo (up to 10 agents). Starter from ~$24/mo billed annually (~$29 monthly) for 100 billable conversations; higher Growth/Plus tiers by volume. Lyro AI and Flows have separate quotas — verify on tidio.com/pricing."
       },
       {
         "slug": "tawk-to",
@@ -2850,8 +2850,8 @@
           "Polish and product-messaging depth below Intercom",
           "Monetization extras (AI Assist, remove branding) are paid add-ons"
         ],
-        "bestFor": "Teams that mainly need a free chat widget, not Intercom\u2019s full messaging suite.",
-        "pricingNotes": "Free forever for core chat/ticketing/KB. Optional: remove \u201cPowered by tawk.to\u201d branding ~$29/mo; AI Assist from ~$29/mo; hired chat agents available as a separate service."
+        "bestFor": "Teams that mainly need a free chat widget, not Intercom’s full messaging suite.",
+        "pricingNotes": "Free forever for core chat/ticketing/KB. Optional: remove “Powered by tawk.to” branding ~$29/mo; AI Assist from ~$29/mo; hired chat agents available as a separate service."
       },
       {
         "slug": "gorgias-ic",
@@ -2866,11 +2866,11 @@
         ],
         "cons": [
           "Niche outside ecommerce / DTC",
-          "Cost scales with ticket and AI volume \u2014 model peak season carefully",
+          "Cost scales with ticket and AI volume — model peak season carefully",
           "Overkill for B2B SaaS product messaging"
         ],
         "bestFor": "DTC and Shopify brands replacing Intercom chat with an ecommerce-native desk.",
-        "pricingNotes": "Helpdesk tiers by tickets/mo (Starter from $10/mo for 50 tickets; Basic/Pro/Advanced scale up). AI Agent billed per automated interaction on top of ticket allotments \u2014 verify on gorgias.com/pricing."
+        "pricingNotes": "Helpdesk tiers by tickets/mo (Starter from $10/mo for 50 tickets; Basic/Pro/Advanced scale up). AI Agent billed per automated interaction on top of ticket allotments — verify on gorgias.com/pricing."
       },
       {
         "slug": "hubspot-ic",
@@ -2889,16 +2889,16 @@
           "Less Intercom-like product tours / Series messaging"
         ],
         "bestFor": "Teams already on HubSpot CRM who want support in the same platform instead of Intercom.",
-        "pricingNotes": "Free CRM forever; Service Hub is paid (seat + HubSpot Credits for AI agents). Verify current Service Hub plans on HubSpot\u2019s pricing page."
+        "pricingNotes": "Free CRM forever; Service Hub is paid (seat + HubSpot Credits for AI agents). Verify current Service Hub plans on HubSpot’s pricing page."
       }
     ],
-    "seoTitle": "Best Intercom Alternatives 2026 \u2014 Crisp, Free & OSS",
-    "seoDescription": "Looking for an Intercom alternative? Compare Crisp, Chatwoot, FreeScout, Freshdesk, Tidio, tawk.to, Gorgias & HubSpot \u2014 flat chat pricing, free widgets, open-source self-hosting, fair tradeoffs.",
-    "h1": "Best Intercom alternatives (2026)",
-    "intro": "Pick by job below, then use the comparison table for pricing and tradeoffs. Switch tips are in the FAQ.",
+    "seoTitle": "Best Intercom Alternative (2026) — Crisp, Free & OSS",
+    "seoDescription": "Looking for the best Intercom alternative — or an alternative for Intercom? Compare Crisp, Chatwoot, FreeScout, Freshdesk, Tidio, tawk.to, Gorgias & HubSpot — flat chat pricing, free widgets, open-source self-hosting, fair tradeoffs.",
+    "h1": "Best Intercom alternative (2026)",
+    "intro": "Looking for an Intercom alternative? Pick by job below, then use the comparison table for pricing and tradeoffs. Switch tips are in the FAQ.",
     "ossSection": {
       "heading": "Open-source Intercom alternatives",
-      "intro": "Want Intercom-style messaging without a closed SaaS lock-in? Chatwoot is the full open-source customer engagement suite; FreeScout is the lighter Help Scout\u2013style shared inbox. Self-host either, or use Chatwoot Cloud if you prefer managed hosting.",
+      "intro": "Want Intercom-style messaging without a closed SaaS lock-in? Chatwoot is the full open-source customer engagement suite; FreeScout is the lighter Help Scout–style shared inbox. Self-host either, or use Chatwoot Cloud if you prefer managed hosting.",
       "slugs": [
         "chatwoot-ic",
         "freescout-ic"
@@ -2947,8 +2947,8 @@
     "description": "Crisp is a popular Intercom alternative with workspace pricing. Teams compare open-source inboxes, email-first help desks, or deeper ticket suites when they outgrow chat.",
     "website": "https://crisp.chat",
     "featured": false,
-    "seoTitle": "Best Crisp Alternatives 2026 \u2014 Chat & Help Desk",
-    "seoDescription": "Looking for a Crisp alternative? Compare Chatwoot, Help Scout, Freshdesk, Intercom, Front & FreeScout \u2014 open-source chat, email-first, and ticket options.",
+    "seoTitle": "Best Crisp Alternatives 2026 — Chat & Help Desk",
+    "seoDescription": "Looking for a Crisp alternative? Compare Chatwoot, Help Scout, Freshdesk, Intercom, Front & FreeScout — open-source chat, email-first, and ticket options.",
     "h1": "Best Crisp alternatives (2026)",
     "intro": "Crisp wins on flat workspace pricing and unlimited conversations. Switch when you need true open-source (Chatwoot, FreeScout), calmer email-first support (Help Scout, Front), or classic tickets (Freshdesk).",
     "ossSection": {
@@ -2963,7 +2963,7 @@
       {
         "slug": "chatwoot-crisp",
         "name": "Chatwoot",
-        "oneLiner": "Open-source omnichannel inbox closest to Crisp\u2019s chat + engagement model.",
+        "oneLiner": "Open-source omnichannel inbox closest to Crisp’s chat + engagement model.",
         "pricing": "oss",
         "website": "https://www.chatwoot.com",
         "pros": [
@@ -2976,13 +2976,13 @@
           "Paid tiers for SSO/audit extras",
           "Smaller marketplace than Crisp plugins"
         ],
-        "bestFor": "Teams that liked Crisp\u2019s chat model but want open source.",
+        "bestFor": "Teams that liked Crisp’s chat model but want open source.",
         "pricingNotes": "MIT CE free to self-host. Cloud: Hacker $0 (2 agents); Startups $19, Business $39, Enterprise $99/agent/mo annual."
       },
       {
         "slug": "helpscout-crisp",
         "name": "Help Scout",
-        "oneLiner": "Human shared inbox and Docs \u2014 stronger on email than live-chat widgets.",
+        "oneLiner": "Human shared inbox and Docs — stronger on email than live-chat widgets.",
         "pricing": "freemium",
         "website": "https://www.helpscout.com",
         "pros": [
@@ -3020,7 +3020,7 @@
       {
         "slug": "intercom-crisp",
         "name": "Intercom",
-        "oneLiner": "Full product messaging and support suite above Crisp\u2019s price band.",
+        "oneLiner": "Full product messaging and support suite above Crisp’s price band.",
         "pricing": "paid",
         "website": "https://www.intercom.com",
         "pros": [
@@ -3034,7 +3034,7 @@
           "Overkill for simple chat"
         ],
         "bestFor": "Product-led SaaS that needs lifecycle messaging, not just an inbox.",
-        "pricingNotes": "Paid platforms \u2014 compare total monthly spend carefully against Crisp Plus."
+        "pricingNotes": "Paid platforms — compare total monthly spend carefully against Crisp Plus."
       },
       {
         "slug": "front-crisp",
@@ -3053,7 +3053,7 @@
           "Not open source"
         ],
         "bestFor": "CS teams living in collaborative email more than website chat.",
-        "pricingNotes": "Paid per seat \u2014 check Front\u2019s current plan page for seat tiers."
+        "pricingNotes": "Paid per seat — check Front’s current plan page for seat tiers."
       },
       {
         "slug": "freescout-crisp",
@@ -3084,8 +3084,8 @@
     "description": "Chatwoot is a leading open-source Intercom/Zendesk-lite suite. Teams compare hosted chat tools, classic help desks, and lighter OSS inboxes when cloud seats or self-host ops do not fit.",
     "website": "https://www.chatwoot.com",
     "featured": false,
-    "seoTitle": "Best Chatwoot Alternatives 2026 \u2014 Hosted & OSS",
-    "seoDescription": "Looking for a Chatwoot alternative? Compare Crisp, FreeScout, Help Scout, Freshdesk, Intercom & Zendesk \u2014 flat-priced chat, lighter OSS, enterprise tickets.",
+    "seoTitle": "Best Chatwoot Alternatives 2026 — Hosted & OSS",
+    "seoDescription": "Looking for a Chatwoot alternative? Compare Crisp, FreeScout, Help Scout, Freshdesk, Intercom & Zendesk — flat-priced chat, lighter OSS, enterprise tickets.",
     "h1": "Best Chatwoot alternatives (2026)",
     "intro": "Chatwoot is the open engagement default. Closest hosted chat swap is Crisp; FreeScout is a lighter OSS inbox; Help Scout and Freshdesk fit paid help desks; Intercom/Zendesk when you need a full suite.",
     "ossSection": {
@@ -3131,7 +3131,7 @@
           "Module model for extras",
           "Smaller community than Chatwoot"
         ],
-        "bestFor": "Small teams wanting OSS email/inbox without Chatwoot\u2019s full stack.",
+        "bestFor": "Small teams wanting OSS email/inbox without Chatwoot’s full stack.",
         "pricingNotes": "Free OSS; optional paid modules from FreeScout."
       },
       {
@@ -3189,7 +3189,7 @@
           "More suite than inbox"
         ],
         "bestFor": "Product-led SaaS with budget for a full messaging platform.",
-        "pricingNotes": "Paid platforms \u2014 expect significant monthly spend vs Chatwoot Cloud."
+        "pricingNotes": "Paid platforms — expect significant monthly spend vs Chatwoot Cloud."
       },
       {
         "slug": "zendesk-cw",
@@ -3208,7 +3208,7 @@
           "Different philosophy than chat-first OSS"
         ],
         "bestFor": "Enterprises standardizing on classic helpdesk processes.",
-        "pricingNotes": "Paid suites \u2014 compare total agent cost carefully."
+        "pricingNotes": "Paid suites — compare total agent cost carefully."
       }
     ]
   },
@@ -3217,7 +3217,7 @@
     "name": "Canva",
     "category": "Design",
     "tagline": "Easy graphic design for non-designers",
-    "description": "Canva owns \u201cdesign for everyone.\u201d Alternatives range from open-source editors to Figma for UI and Adobe for pros.",
+    "description": "Canva owns “design for everyone.” Alternatives range from open-source editors to Figma for UI and Adobe for pros.",
     "website": "https://www.canva.com",
     "featured": true,
     "alternatives": [
@@ -3254,7 +3254,7 @@
         "cons": [
           "Fewer ready templates",
           "Learning curve",
-          "Less \u201cmagic resize\u201d"
+          "Less “magic resize”"
         ],
         "bestFor": "Teams wanting design freedom without Canva Pro.",
         "pricingNotes": "OSS free; Penpot Cloud freemium/paid."
@@ -3281,7 +3281,7 @@
       {
         "slug": "photopea",
         "name": "Photopea",
-        "oneLiner": "Browser Photoshop-like editor \u2014 free with ads or premium.",
+        "oneLiner": "Browser Photoshop-like editor — free with ads or premium.",
         "pricing": "freemium",
         "website": "https://www.photopea.com",
         "pros": [
@@ -3319,7 +3319,7 @@
       {
         "slug": "acrobat-express",
         "name": "Adobe Express",
-        "oneLiner": "Adobe\u2019s Canva-like quick content tool.",
+        "oneLiner": "Adobe’s Canva-like quick content tool.",
         "pricing": "freemium",
         "website": "https://www.adobe.com/express/",
         "pros": [
@@ -3349,7 +3349,7 @@
       {
         "slug": "figjam",
         "name": "FigJam",
-        "oneLiner": "Figma\u2019s whiteboard \u2014 great if you already design in Figma.",
+        "oneLiner": "Figma’s whiteboard — great if you already design in Figma.",
         "pricing": "freemium",
         "website": "https://www.figma.com/figjam/",
         "pros": [
@@ -3359,16 +3359,16 @@
         ],
         "cons": [
           "Figma pricing world",
-          "Less \u201centerprise workshop\u201d depth than Miro",
+          "Less “enterprise workshop” depth than Miro",
           "Vendor concentration"
         ],
         "bestFor": "Product/design teams standardized on Figma.",
-        "pricingNotes": "Included/add-on in Figma plans \u2014 check seat bundling."
+        "pricingNotes": "Included/add-on in Figma plans — check seat bundling."
       },
       {
         "slug": "excalidraw",
         "name": "Excalidraw",
-        "oneLiner": "Hand-drawn feel diagrams \u2014 open source and delightfully simple.",
+        "oneLiner": "Hand-drawn feel diagrams — open source and delightfully simple.",
         "pricing": "oss",
         "website": "https://excalidraw.com",
         "pros": [
@@ -3406,7 +3406,7 @@
       {
         "slug": "mural",
         "name": "Mural",
-        "oneLiner": "Enterprise facilitation whiteboards \u2014 Miro\u2019s closest peer.",
+        "oneLiner": "Enterprise facilitation whiteboards — Miro’s closest peer.",
         "pricing": "paid",
         "website": "https://www.mural.co",
         "pros": [
@@ -3493,7 +3493,7 @@
       {
         "slug": "woocommerce",
         "name": "WooCommerce",
-        "oneLiner": "WordPress ecommerce plugin \u2014 huge plugin ecosystem.",
+        "oneLiner": "WordPress ecommerce plugin — huge plugin ecosystem.",
         "pricing": "oss",
         "website": "https://woocommerce.com",
         "pros": [
@@ -3542,7 +3542,7 @@
         "cons": [
           "Transaction-based pricing",
           "Not a full Shopify admin suite",
-          "Less \u201cmerchant OS\u201d depth"
+          "Less “merchant OS” depth"
         ],
         "bestFor": "Devs adding checkout to custom or static storefronts.",
         "pricingNotes": "Paid with % of sales; free developer/test mode."
@@ -3580,7 +3580,7 @@
       {
         "slug": "ghost",
         "name": "Ghost",
-        "oneLiner": "Publishing-focused CMS and newsletter platform \u2014 Node.js OSS.",
+        "oneLiner": "Publishing-focused CMS and newsletter platform — Node.js OSS.",
         "pricing": "oss",
         "website": "https://ghost.org",
         "pros": [
@@ -3599,7 +3599,7 @@
       {
         "slug": "webflow",
         "name": "Webflow",
-        "oneLiner": "Visual site builder with CMS \u2014 designer-grade, hosted.",
+        "oneLiner": "Visual site builder with CMS — designer-grade, hosted.",
         "pricing": "paid",
         "website": "https://webflow.com",
         "pros": [
@@ -3610,7 +3610,7 @@
         "cons": [
           "Can get expensive at scale",
           "Learning curve for interactions",
-          "Less \u201cblog community\u201d than WP"
+          "Less “blog community” than WP"
         ],
         "bestFor": "Marketing/design teams shipping polished marketing sites.",
         "pricingNotes": "Paid site/workspace plans; free staging limited."
@@ -3686,7 +3686,7 @@
       {
         "slug": "make",
         "name": "Make",
-        "oneLiner": "Visual scenario automation \u2014 often cheaper per operation than Zapier.",
+        "oneLiner": "Visual scenario automation — often cheaper per operation than Zapier.",
         "pricing": "freemium",
         "website": "https://www.make.com",
         "affiliateParam": "ref=altswitch",
@@ -3774,7 +3774,7 @@
         "cons": [
           "You run the infra",
           "Fewer one-click consumer apps than Zapier",
-          "UI less \u201cconsumer polished\u201d"
+          "UI less “consumer polished”"
         ],
         "bestFor": "Technical teams who want Zapier power without SaaS lock-in.",
         "pricingNotes": "OSS free to self-host; n8n Cloud paid."
@@ -3793,7 +3793,7 @@
       {
         "slug": "railway",
         "name": "Railway",
-        "oneLiner": "Modern PaaS \u2014 deploy from Git with usage-based pricing.",
+        "oneLiner": "Modern PaaS — deploy from Git with usage-based pricing.",
         "pricing": "freemium",
         "website": "https://railway.com",
         "affiliateParam": "ref=altswitch",
@@ -3845,7 +3845,7 @@
           "Billing model to watch"
         ],
         "bestFor": "Teams that outgrew Heroku and want global containers.",
-        "pricingNotes": "Usage-based; free allowances vary \u2014 check current Free tier."
+        "pricingNotes": "Usage-based; free allowances vary — check current Free tier."
       },
       {
         "slug": "digitalocean-app-platform",
@@ -3918,7 +3918,7 @@
       {
         "slug": "netlify",
         "name": "Netlify",
-        "oneLiner": "JAMstack hosting with functions, forms, and edge \u2014 Vercel\u2019s closest peer.",
+        "oneLiner": "JAMstack hosting with functions, forms, and edge — Vercel’s closest peer.",
         "pricing": "freemium",
         "website": "https://www.netlify.com",
         "pros": [
@@ -3937,7 +3937,7 @@
       {
         "slug": "railway",
         "name": "Railway",
-        "oneLiner": "Full-stack PaaS when you need backends, workers, and DBs \u2014 not only frontends.",
+        "oneLiner": "Full-stack PaaS when you need backends, workers, and DBs — not only frontends.",
         "pricing": "freemium",
         "website": "https://railway.com",
         "affiliateParam": "ref=altswitch",
@@ -3976,7 +3976,7 @@
       {
         "slug": "fly-io",
         "name": "Fly.io",
-        "oneLiner": "Containers at the edge \u2014 more control than Vercel functions.",
+        "oneLiner": "Containers at the edge — more control than Vercel functions.",
         "pricing": "freemium",
         "website": "https://fly.io",
         "pros": [
@@ -4017,7 +4017,7 @@
     "slug": "chatgpt",
     "name": "ChatGPT",
     "category": "AI",
-    "tagline": "OpenAI\u2019s conversational AI assistant",
+    "tagline": "OpenAI’s conversational AI assistant",
     "description": "ChatGPT is the mainstream AI chat product. People look for alternatives for different models, privacy/self-hosting, research UX, or lower subscription costs.",
     "website": "https://chatgpt.com",
     "featured": true,
@@ -4025,7 +4025,7 @@
       {
         "slug": "claude",
         "name": "Claude",
-        "oneLiner": "Anthropic\u2019s assistant \u2014 strong at long documents and careful writing.",
+        "oneLiner": "Anthropic’s assistant — strong at long documents and careful writing.",
         "pricing": "freemium",
         "website": "https://claude.ai",
         "pros": [
@@ -4044,7 +4044,7 @@
       {
         "slug": "gemini",
         "name": "Google Gemini",
-        "oneLiner": "Google\u2019s multimodal assistant tied into Workspace and Search.",
+        "oneLiner": "Google’s multimodal assistant tied into Workspace and Search.",
         "pricing": "freemium",
         "website": "https://gemini.google.com",
         "pros": [
@@ -4063,7 +4063,7 @@
       {
         "slug": "perplexity",
         "name": "Perplexity",
-        "oneLiner": "Answer engine with cited web sources \u2014 research-first UX.",
+        "oneLiner": "Answer engine with cited web sources — research-first UX.",
         "pricing": "freemium",
         "website": "https://www.perplexity.ai",
         "pros": [
@@ -4072,7 +4072,7 @@
           "Multi-model options on Pro"
         ],
         "cons": [
-          "Less \u201ccreative teammate\u201d than ChatGPT",
+          "Less “creative teammate” than ChatGPT",
           "Pro for heavy model use",
           "Not a full Assistants platform"
         ],
@@ -4092,7 +4092,7 @@
         ],
         "cons": [
           "Needs decent hardware",
-          "Quality \u2260 frontier GPT for hard tasks",
+          "Quality ≠ frontier GPT for hard tasks",
           "You manage updates"
         ],
         "bestFor": "Developers who want local LLMs without cloud bills.",
@@ -4124,14 +4124,14 @@
     "name": "Calendly",
     "category": "Scheduling",
     "tagline": "Scheduling links that book meetings without email ping-pong",
-    "description": "Calendly owns the \u201cpick a time\u201d link. Alternatives win on open source, team pricing, or deeper calendar/AI scheduling.",
+    "description": "Calendly owns the “pick a time” link. Alternatives win on open source, team pricing, or deeper calendar/AI scheduling.",
     "website": "https://calendly.com",
     "featured": false,
     "alternatives": [
       {
         "slug": "cal-com",
         "name": "Cal.com",
-        "oneLiner": "Open-source Calendly alternative \u2014 self-host or use Cal.com Cloud.",
+        "oneLiner": "Open-source Calendly alternative — self-host or use Cal.com Cloud.",
         "pricing": "oss",
         "website": "https://cal.com",
         "affiliateParam": "ref=altswitch",
@@ -4165,7 +4165,7 @@
           "Smaller than Calendly",
           "Fewer enterprise bells"
         ],
-        "bestFor": "Solopreneurs who hate rigid \u201conly these slots\u201d pages.",
+        "bestFor": "Solopreneurs who hate rigid “only these slots” pages.",
         "pricingNotes": "Paid plans; trial available."
       },
       {
@@ -4204,7 +4204,7 @@
           "Weaker for public creator branding"
         ],
         "bestFor": "Orgs standardized on Microsoft 365.",
-        "pricingNotes": "Included in many M365 business SKUs \u2014 verify your plan."
+        "pricingNotes": "Included in many M365 business SKUs — verify your plan."
       }
     ]
   },
@@ -4213,7 +4213,7 @@
     "name": "Typeform",
     "category": "Forms",
     "tagline": "Beautiful conversational forms and surveys",
-    "description": "Typeform made one-question-at-a-time forms mainstream. Teams switch for price, open source, or logic-heavy forms without Typeform\u2019s per-response feel.",
+    "description": "Typeform made one-question-at-a-time forms mainstream. Teams switch for price, open source, or logic-heavy forms without Typeform’s per-response feel.",
     "website": "https://www.typeform.com",
     "featured": false,
     "alternatives": [
@@ -4231,7 +4231,7 @@
         ],
         "cons": [
           "Fewer animated, one-question-at-a-time styles than Typeform",
-          "Branding removal, custom domains and team workspaces need Pro (\u20ac20/mo)"
+          "Branding removal, custom domains and team workspaces need Pro (€20/mo)"
         ],
         "bestFor": "Startups replacing Typeform on a budget.",
         "pricingNotes": "Strong free tier; Pro for remove branding / advanced features."
@@ -4250,7 +4250,7 @@
         "cons": [
           "Feature density = learning",
           "Paid for higher volumes",
-          "Less \u201cartsy\u201d brand than Typeform"
+          "Less “artsy” brand than Typeform"
         ],
         "bestFor": "Ops teams needing forms that do more than collect email.",
         "pricingNotes": "Freemium; paid for higher responses and features."
@@ -4258,7 +4258,7 @@
       {
         "slug": "google-forms",
         "name": "Google Forms",
-        "oneLiner": "Free forms inside Google Workspace \u2014 simple and everywhere.",
+        "oneLiner": "Free forms inside Google Workspace — simple and everywhere.",
         "pricing": "free",
         "website": "https://forms.google.com",
         "pros": [
@@ -4411,7 +4411,7 @@
           "Self-host or hosted"
         ],
         "cons": [
-          "Full accounting \u2260 QBO depth",
+          "Full accounting ≠ QBO depth",
           "Setup time",
           "Integrations thinner"
         ],
@@ -4432,7 +4432,7 @@
       {
         "slug": "hubspot-free",
         "name": "HubSpot Free CRM",
-        "oneLiner": "Free CRM from HubSpot \u2014 upgrade path into Marketing/Sales Hub.",
+        "oneLiner": "Free CRM from HubSpot — upgrade path into Marketing/Sales Hub.",
         "pricing": "freemium",
         "website": "https://www.hubspot.com/products/crm",
         "pros": [
@@ -4466,7 +4466,7 @@
           "Support reviews are mixed"
         ],
         "bestFor": "Cost-sensitive SMBs needing CRM depth without Pipedrive seat stacking.",
-        "pricingNotes": "Free forever for up to 3 users (limits apply). Paid editions are typically cheaper than Pipedrive at similar depth \u2014 verify current plans on Zoho."
+        "pricingNotes": "Free forever for up to 3 users (limits apply). Paid editions are typically cheaper than Pipedrive at similar depth — verify current plans on Zoho."
       },
       {
         "slug": "close",
@@ -4477,7 +4477,7 @@
         "pros": [
           "Calling/email built-in",
           "Fast for SDR workflows",
-          "Less \u201cmarketing suite\u201d bloat",
+          "Less “marketing suite” bloat",
           "Built-in calling, SMS and email on all plans, plus Chloe AI sales agent"
         ],
         "cons": [
@@ -4538,7 +4538,7 @@
           "Extensible entities"
         ],
         "cons": [
-          "UI less \u201cstartup trendy\u201d",
+          "UI less “startup trendy”",
           "Admin learning curve",
           "Fewer SaaS integrations OOTB"
         ],
@@ -4546,13 +4546,13 @@
         "pricingNotes": "OSS free; official cloud hosting paid."
       }
     ],
-    "seoTitle": "Pipedrive alternatives (2026): free CRM & OSS",
-    "seoDescription": "Looking for Pipedrive alternatives? Compare HubSpot Free CRM, Zoho CRM, Close, Attio, Twenty & EspoCRM \u2014 free tiers, calling, flexible models, self-host.",
+    "seoTitle": "Pipedrive Alternatives (2026): Free CRM & OSS",
+    "seoDescription": "Looking for Pipedrive alternatives? Compare HubSpot Free CRM, Zoho CRM, Close, Attio, Twenty & EspoCRM — free tiers, calling, flexible models, self-host. Fair notes.",
     "h1": "Pipedrive alternatives (2026)",
     "intro": "Pick by job below, then use the comparison table for pricing and tradeoffs.",
     "ossSection": {
       "heading": "Open-source Pipedrive alternatives",
-      "intro": "Want a pipeline CRM you can self-host? Twenty aims at a modern CRM experience; EspoCRM is a mature open-source CRM with extensible entities. Neither is a Pipedrive clone \u2014 match your sales motion before migrating deals.",
+      "intro": "Want a pipeline CRM you can self-host? Twenty aims at a modern CRM experience; EspoCRM is a mature open-source CRM with extensible entities. Neither is a Pipedrive clone — match your sales motion before migrating deals.",
       "slugs": [
         "twenty-crm",
         "espocrm"
@@ -4578,6 +4578,688 @@
       {
         "useCase": "Open source / self-host",
         "pick": "Twenty or EspoCRM"
+      }
+    ]
+  },
+  {
+    "slug": "substack",
+    "name": "Substack",
+    "category": "Email Marketing",
+    "tagline": "Newsletter platform with built-in discovery and paid subscriptions",
+    "description": "Substack helps writers publish and monetize newsletters. Creators often look for Substack alternatives that keep more revenue, own their list, or cost less than Substack's 10% platform fee on paid subscriptions.",
+    "website": "https://substack.com",
+    "featured": false,
+    "alternatives": [
+      {
+        "slug": "beehiiv",
+        "name": "beehiiv",
+        "oneLiner": "Newsletter platform built for growth and monetization — 0% take rate.",
+        "pricing": "freemium",
+        "website": "https://www.beehiiv.com",
+        "pros": [
+          "0% take rate on paid subscriptions (Stripe fees still apply)",
+          "Free plan up to 2,500 subscribers with unlimited sends",
+          "Growth tools: referrals, ads network, landing pages"
+        ],
+        "cons": [
+          "Automations, ads, and paid subs need Lite (from $49/mo billed yearly at 1,000 subs)",
+          "Removing beehiiv branding needs Pro",
+          "Newsletter-first — not a full marketing suite with SMS/CRM"
+        ],
+        "bestFor": "Creators who want Substack-like publishing with owned email and no platform cut.",
+        "pricingNotes": "Free up to 2,500 subscribers. Lite from $49/mo, Pro from $95/mo (yearly billing, 1,000-subscriber tier). Prices rise with list size."
+      },
+      {
+        "slug": "mailerlite-ss",
+        "name": "MailerLite",
+        "oneLiner": "Affordable email marketing with newsletters, forms, and automations.",
+        "pricing": "freemium",
+        "website": "https://www.mailerlite.com",
+        "pros": [
+          "Comfort from $12/mo (500 subscribers) — often cheaper than Substack for small lists",
+          "Drag-and-drop campaigns, landing pages, and automations included",
+          "Free plan: 250 subscribers / 2,500 emails per month"
+        ],
+        "cons": [
+          "Free plan capped at 250 subscribers",
+          "No Substack-style recommendation network",
+          "List size drives plan jumps"
+        ],
+        "bestFor": "Creators and small teams who want cheaper-than-Substack email without a platform fee.",
+        "pricingNotes": "Free: 250 subs / 2,500 emails/mo. Comfort from $12/mo, Power from $25/mo (500-subscriber tier)."
+      },
+      {
+        "slug": "ghost-ss",
+        "name": "Ghost",
+        "oneLiner": "Open-source publishing platform with memberships and newsletters.",
+        "pricing": "freemium",
+        "website": "https://ghost.org",
+        "pros": [
+          "0% platform fee on paid memberships (Stripe fees still apply)",
+          "Self-host free, or Ghost(Pro) managed hosting",
+          "Full site + newsletter, not just email"
+        ],
+        "cons": [
+          "Ghost(Pro) Starter from about $15–18/mo — you pay hosting even before paid readers",
+          "Less built-in discovery than Substack's network",
+          "Self-host needs ops skills"
+        ],
+        "bestFor": "Writers who want a full publication site plus memberships they control.",
+        "pricingNotes": "Self-host OSS free. Ghost(Pro): Starter from ~$15/mo yearly / ~$18 monthly (1,000 members tier); Publisher and Business scale with members."
+      },
+      {
+        "slug": "buttondown-ss",
+        "name": "Buttondown",
+        "oneLiner": "Simple, Markdown-friendly newsletter tool for indie writers.",
+        "pricing": "freemium",
+        "website": "https://buttondown.com",
+        "pros": [
+          "Calm writer UX with Markdown",
+          "Free plan for small lists (up to 100 active subscribers)",
+          "Custom sending domain supported"
+        ],
+        "cons": [
+          "Not a growth/monetization suite like beehiiv or Substack",
+          "Fewer enterprise marketing features",
+          "Smaller ecosystem than Kit or beehiiv"
+        ],
+        "bestFor": "Indie writers who want a calm newsletter tool cheaper than Substack complexity.",
+        "pricingNotes": "Free up to 100 active subscribers; paid from about $9/mo as the list grows."
+      },
+      {
+        "slug": "kit-ss",
+        "name": "Kit (ConvertKit)",
+        "oneLiner": "Creator-focused email marketing with automations and digital products.",
+        "pricing": "freemium",
+        "website": "https://kit.com",
+        "pros": [
+          "Free plan up to 10,000 subscribers",
+          "Sell digital products and paid newsletters even on Free",
+          "Creator Network for list growth"
+        ],
+        "cons": [
+          "Visual automations and sequences need a paid Creator plan",
+          "Email-first — no built-in SMS or sales CRM",
+          "Paid tiers step up automatically as subscribers grow"
+        ],
+        "bestFor": "Creators who need tagging, sequences, and product sales more than Substack discovery.",
+        "pricingNotes": "Free up to 10,000 subscribers with broadcasts, forms, and landing pages. Automations need Creator, from $39/mo at 1,000 subscribers."
+      }
+    ],
+    "seoTitle": "Substack Alternatives (2026) — Cheaper Than Substack",
+    "seoDescription": "Looking for Substack alternatives that are cheaper than Substack? Compare beehiiv (0% take rate), MailerLite, Ghost, Buttondown & Kit — fair pricing notes for creators.",
+    "h1": "Substack alternatives (2026)",
+    "intro": "Want Substack alternatives — or something cheaper than Substack's 10% paid-subscription fee? Pick by job below, then compare pricing and tradeoffs in the table.",
+    "quickPicks": [
+      {
+        "useCase": "0% take rate + growth tools",
+        "pick": "beehiiv"
+      },
+      {
+        "useCase": "Cheaper email for small lists",
+        "pick": "MailerLite"
+      },
+      {
+        "useCase": "Full site + memberships",
+        "pick": "Ghost"
+      },
+      {
+        "useCase": "Calm Markdown newsletter",
+        "pick": "Buttondown"
+      },
+      {
+        "useCase": "Creator automations & products",
+        "pick": "Kit"
+      }
+    ]
+  },
+  {
+    "slug": "google-forms",
+    "name": "Google Forms",
+    "category": "Forms",
+    "tagline": "Free forms and surveys inside Google Workspace",
+    "description": "Google Forms is free and familiar, but teams often want better branding, logic, payments, or a dedicated form UX. Google Forms alternatives for small teams range from generous freemium builders to open-source survey tools.",
+    "website": "https://forms.google.com",
+    "featured": false,
+    "alternatives": [
+      {
+        "slug": "tally",
+        "name": "Tally",
+        "oneLiner": "Notion-like forms with unlimited free responses under fair use.",
+        "pricing": "freemium",
+        "website": "https://tally.so",
+        "pros": [
+          "Unlimited forms and submissions on Free (fair-use guidelines)",
+          "Conditional logic, payments, signatures, and file uploads on Free",
+          "Fast document-style editor — no drag-and-drop maze"
+        ],
+        "cons": [
+          "Forms show Tally branding on Free",
+          "Pro needed for custom domains, collaboration workspaces, and branding removal (~$29/mo or ~$24/mo yearly)",
+          "Less 'one question at a time' polish than Typeform"
+        ],
+        "bestFor": "Small teams replacing Google Forms with branded, logic-heavy forms on a budget.",
+        "pricingNotes": "Free: unlimited forms/submissions (fair use). Pro ~$29/mo monthly or ~$290/yr; Business ~$89/mo."
+      },
+      {
+        "slug": "typeform-gf",
+        "name": "Typeform",
+        "oneLiner": "Polished conversational forms and surveys.",
+        "pricing": "freemium",
+        "website": "https://www.typeform.com",
+        "pros": [
+          "Best-in-class one-question-at-a-time UX",
+          "Strong templates and embed options",
+          "Good for public-facing surveys and lead forms"
+        ],
+        "cons": [
+          "Paid plans cost more than Tally or Google Forms for similar volume",
+          "Response and feature limits on lower tiers",
+          "Overkill for simple internal surveys"
+        ],
+        "bestFor": "Brands that care about form aesthetics and conversion over lowest cost.",
+        "pricingNotes": "Freemium; paid plans scale with responses and features — check current Typeform pricing."
+      },
+      {
+        "slug": "fillout",
+        "name": "Fillout",
+        "oneLiner": "Powerful forms with calculations, scheduling, payments, and workflows.",
+        "pricing": "freemium",
+        "website": "https://www.fillout.com",
+        "pros": [
+          "Free: unlimited forms/seats, 1,000 responses/mo, logic and payments",
+          "Deep integrations and workflow features",
+          "Strong upgrade path when Google Forms feels too basic"
+        ],
+        "cons": [
+          "Free includes Fillout branding",
+          "Feature-dense — steeper learning curve than Google Forms",
+          "Higher volumes and advanced themes need paid plans"
+        ],
+        "bestFor": "Ops and product teams needing forms that do more than collect answers.",
+        "pricingNotes": "Free forever with 1,000 responses/mo. Paid plans unlock higher volume, themes, and advanced endings."
+      },
+      {
+        "slug": "forms-app",
+        "name": "forms.app",
+        "oneLiner": "Online form builder with free unlimited responses on a capped form count.",
+        "pricing": "freemium",
+        "website": "https://forms.app",
+        "pros": [
+          "Free plan: unlimited responses and team members (5 forms, 10 MB storage)",
+          "Templates for surveys, quizzes, and registrations",
+          "Paid plans add more forms, storage, and branding options"
+        ],
+        "cons": [
+          "Free capped at 5 forms",
+          "Storage is tight on Free (10 MB)",
+          "Less developer/OSS flexibility than self-hosted options"
+        ],
+        "bestFor": "Small teams that need a few polished public forms without Google's look.",
+        "pricingNotes": "Free: 5 forms, unlimited responses. Basic from ~$19/mo yearly / $29 monthly; Pro ~$29/mo yearly; Premium ~$59/mo yearly."
+      },
+      {
+        "slug": "formbricks-gf",
+        "name": "Formbricks",
+        "oneLiner": "Open-source experience management and in-product surveys.",
+        "pricing": "oss",
+        "website": "https://formbricks.com",
+        "pros": [
+          "OSS and self-hostable for privacy",
+          "In-app / website survey targeting",
+          "Cloud option if you do not want to run infra"
+        ],
+        "cons": [
+          "More CX/product feedback than classic Google Forms clones",
+          "Self-host needs Docker/ops comfort",
+          "Younger ecosystem than Typeform or Google"
+        ],
+        "bestFor": "Product teams collecting in-app feedback instead of Workspace forms.",
+        "pricingNotes": "OSS free to self-host; Formbricks Cloud paid. Budget for your own server if self-hosting."
+      }
+    ],
+    "seoTitle": "Google Forms Alternatives for Small Teams (2026)",
+    "seoDescription": "Google Forms alternatives for small teams: compare Tally, Typeform, Fillout, forms.app & Formbricks — unlimited free responses, logic, OSS surveys, fair notes.",
+    "h1": "Google Forms alternatives for small teams (2026)",
+    "intro": "Looking for Google Forms alternatives for small teams? Pick by job below, then compare pricing and tradeoffs in the table.",
+    "ossSection": {
+      "heading": "Open-source Google Forms alternatives",
+      "intro": "Formbricks is a solid OSS path for in-product and website surveys you can self-host. For classic multi-page forms with a generous free SaaS tier, start with Tally.",
+      "slugs": [
+        "formbricks-gf"
+      ]
+    },
+    "quickPicks": [
+      {
+        "useCase": "Unlimited free forms (fair use)",
+        "pick": "Tally"
+      },
+      {
+        "useCase": "Polished conversational UX",
+        "pick": "Typeform"
+      },
+      {
+        "useCase": "Logic, payments, workflows",
+        "pick": "Fillout"
+      },
+      {
+        "useCase": "Few public forms, unlimited responses",
+        "pick": "forms.app"
+      },
+      {
+        "useCase": "Open source / in-product surveys",
+        "pick": "Formbricks"
+      }
+    ]
+  },
+  {
+    "slug": "render",
+    "name": "Render",
+    "category": "Hosting",
+    "tagline": "Heroku-like PaaS for web services, workers, and databases",
+    "description": "Render offers git-push deploys with managed Postgres and Redis. Teams shopping for Render alternatives — or something cheaper than Render at scale — often compare usage-based PaaS, VPS, and self-hosted Coolify.",
+    "website": "https://render.com",
+    "featured": false,
+    "alternatives": [
+      {
+        "slug": "railway",
+        "name": "Railway",
+        "oneLiner": "Modern PaaS — deploy from Git with usage-based pricing.",
+        "pricing": "freemium",
+        "website": "https://railway.com",
+        "pros": [
+          "Fast git deploys with databases and services in one UX",
+          "Usage-based billing — pay for what you use past included credits",
+          "Hobby $5/mo incl. $5 usage; Pro $20/workspace"
+        ],
+        "cons": [
+          "Per-second usage billing ($0.05/GB egress); set spending limits for spiky traffic",
+          "SSO/HIPAA need Enterprise or committed spend",
+          "Less Heroku-clone mental model than Render for some teams"
+        ],
+        "bestFor": "Indie hackers and startups wanting a cheaper-than-Render PaaS feel with modern DX.",
+        "pricingNotes": "$5 trial credit (no card), Free $1/mo credit, Hobby $5/mo incl. $5 usage, Pro $20/workspace incl. $20 usage."
+      },
+      {
+        "slug": "digitalocean-app-platform",
+        "name": "DigitalOcean App Platform",
+        "oneLiner": "Managed app hosting on DigitalOcean with predictable container pricing.",
+        "pricing": "freemium",
+        "website": "https://www.digitalocean.com/products/app-platform",
+        "pros": [
+          "Clear container pricing from $5/mo",
+          "Ties into Droplets, Spaces, and managed DBs",
+          "Simple PaaS path if you already know DigitalOcean"
+        ],
+        "cons": [
+          "Autoscaling mainly on dedicated instances",
+          "Dev databases are basic",
+          "Fewer niche platform add-ons than Render's catalog"
+        ],
+        "bestFor": "Teams already on DigitalOcean wanting Render-like deploys at predictable cost.",
+        "pricingNotes": "Static sites free (limited); shared containers from $5/mo; dedicated plans from ~$29/mo."
+      },
+      {
+        "slug": "vultr",
+        "name": "Vultr",
+        "oneLiner": "Cloud VPS and managed services when you prefer servers over a full PaaS.",
+        "pricing": "paid",
+        "website": "https://www.vultr.com",
+        "pros": [
+          "Cloud Compute from about $2.50–$5/mo depending on IPv4/IPv6 and size",
+          "Hourly billing with bandwidth included on plans",
+          "Pair with Coolify for a self-hosted PaaS UX"
+        ],
+        "cons": [
+          "Not a PaaS by itself — you manage the OS (or add Coolify)",
+          "Automatic backups add ~20% to instance price",
+          "Managed databases are a separate product"
+        ],
+        "bestFor": "Teams comfortable with Linux who want cheaper-than-Render compute.",
+        "pricingNotes": "Regular Performance from ~$2.50/mo (IPv6-only) / higher with IPv4; High Performance from ~$6/mo. Backups +20%. Prices vary by region."
+      },
+      {
+        "slug": "fly-io",
+        "name": "Fly.io",
+        "oneLiner": "Run containers close to users on a global edge network.",
+        "pricing": "freemium",
+        "website": "https://fly.io",
+        "pros": [
+          "Global edge placement for lower latency",
+          "Full container/VM control",
+          "Strong fit for multi-region apps"
+        ],
+        "cons": [
+          "More ops than classic Render/Heroku PaaS",
+          "Learning flyctl and networking takes time",
+          "Watch usage-based billing on egress and machines"
+        ],
+        "bestFor": "Teams that outgrew single-region PaaS and need global containers.",
+        "pricingNotes": "Usage-based; free allowances vary — check current Fly.io Free tier."
+      },
+      {
+        "slug": "coolify",
+        "name": "Coolify",
+        "oneLiner": "Self-hosted Heroku/Vercel-like PaaS on your own VPS.",
+        "pricing": "oss",
+        "website": "https://coolify.io",
+        "pros": [
+          "Self-host full PaaS UX on a cheap VPS",
+          "Deploy many apps without per-dyno vendor tax",
+          "OSS core; optional Coolify Cloud"
+        ],
+        "cons": [
+          "You manage the server and updates",
+          "Support is community / self",
+          "HA and backups are your responsibility"
+        ],
+        "bestFor": "DevOps-comfortable teams escaping Render bills with a VPS + PaaS UI.",
+        "pricingNotes": "OSS free; Coolify Cloud optional. Run on a VPS (e.g. Vultr or DigitalOcean)."
+      }
+    ],
+    "seoTitle": "Render Alternatives (2026) — Cheaper Than Render",
+    "seoDescription": "Looking for Render alternatives or something cheaper than Render? Compare Railway, DigitalOcean App Platform, Vultr, Fly.io & Coolify — usage-based PaaS, VPS, OSS.",
+    "h1": "Render alternatives (2026)",
+    "intro": "Shopping for Render alternatives — or a stack that can be cheaper than Render at your workload? Pick by job below, then compare pricing and tradeoffs.",
+    "ossSection": {
+      "heading": "Open-source / self-host Render alternatives",
+      "intro": "Coolify gives you a Heroku-like dashboard on a VPS you control. Pair it with Vultr or DigitalOcean for compute that often undercuts managed PaaS at steady load.",
+      "slugs": [
+        "coolify"
+      ]
+    },
+    "quickPicks": [
+      {
+        "useCase": "Modern usage-based PaaS",
+        "pick": "Railway"
+      },
+      {
+        "useCase": "Predictable DO containers",
+        "pick": "DigitalOcean App Platform"
+      },
+      {
+        "useCase": "Cheap VPS compute",
+        "pick": "Vultr"
+      },
+      {
+        "useCase": "Global edge containers",
+        "pick": "Fly.io"
+      },
+      {
+        "useCase": "Self-host PaaS on a VPS",
+        "pick": "Coolify"
+      }
+    ]
+  },
+  {
+    "slug": "activecampaign",
+    "name": "ActiveCampaign",
+    "category": "Email Marketing",
+    "tagline": "Marketing automation with email, CRM-style contacts, and AI assists",
+    "description": "ActiveCampaign is a full marketing automation suite. Teams looking for ActiveCampaign alternatives — or something cheaper than ActiveCampaign — often switch to simpler ESPs, creator newsletter platforms, or HubSpot Marketing when seat and contact costs climb.",
+    "website": "https://www.activecampaign.com",
+    "featured": false,
+    "alternatives": [
+      {
+        "slug": "mailerlite-ac",
+        "name": "MailerLite",
+        "oneLiner": "Simple email marketing and automations that stay affordable as lists grow.",
+        "pricing": "freemium",
+        "website": "https://www.mailerlite.com",
+        "pros": [
+          "Comfort from $12/mo (500 subscribers) — often cheaper than ActiveCampaign Starter",
+          "Campaigns, automations, landing pages, and forms included",
+          "Free plan to try: 250 subscribers / 2,500 emails/mo"
+        ],
+        "cons": [
+          "Fewer deep CRM / multi-channel features than ActiveCampaign Plus+",
+          "Free plan capped at 250 subscribers",
+          "List size drives plan price"
+        ],
+        "bestFor": "SMBs and creators who want cheaper-than-ActiveCampaign email automation.",
+        "pricingNotes": "Free: 250 subs / 2,500 emails/mo. Comfort from $12/mo, Power from $25/mo (500-subscriber tier)."
+      },
+      {
+        "slug": "beehiiv-ac",
+        "name": "beehiiv",
+        "oneLiner": "Newsletter-first platform with growth and monetization tools.",
+        "pricing": "freemium",
+        "website": "https://www.beehiiv.com",
+        "pros": [
+          "Free up to 2,500 subscribers with unlimited sends",
+          "0% take rate on paid subscriptions",
+          "Built for audience growth (referrals, ads, web)"
+        ],
+        "cons": [
+          "Not a full ActiveCampaign-style marketing automation + CRM suite",
+          "Automations and monetization features need Lite+",
+          "No SMS or deep sales CRM"
+        ],
+        "bestFor": "Publishers and creators who need newsletters more than enterprise automation.",
+        "pricingNotes": "Free up to 2,500 subs. Lite from $49/mo, Pro from $95/mo (yearly, 1,000-sub tier)."
+      },
+      {
+        "slug": "brevo-ac",
+        "name": "Brevo",
+        "oneLiner": "Email + SMS marketing priced by sends, with a generous free tier.",
+        "pricing": "freemium",
+        "website": "https://www.brevo.com",
+        "pros": [
+          "Email and SMS under one roof",
+          "Free forever: 300 emails/day, up to 100,000 contacts stored",
+          "Priced mainly by email volume, not contacts stored"
+        ],
+        "cons": [
+          "Phone support only on higher paid plans",
+          "Free/Starter automation contact caps (unlimited from Standard)",
+          "Less 'ActiveCampaign depth' on advanced attribution"
+        ],
+        "bestFor": "Teams leaving ActiveCampaign for send-based pricing and SMS.",
+        "pricingNotes": "Free: 300 emails/day. Paid plans by monthly email volume; SMS credits separate."
+      },
+      {
+        "slug": "kit-ac",
+        "name": "Kit (ConvertKit)",
+        "oneLiner": "Creator email marketing with tagging, sequences, and digital products.",
+        "pricing": "freemium",
+        "website": "https://kit.com",
+        "pros": [
+          "Free plan up to 10,000 subscribers",
+          "Creator-focused automations and product sales",
+          "Creator Network for growth"
+        ],
+        "cons": [
+          "Visual automations need paid Creator plan",
+          "Email-first — not a full B2B marketing automation stack",
+          "Subscriber-tier pricing steps up as you grow"
+        ],
+        "bestFor": "Creators who find ActiveCampaign heavier than they need.",
+        "pricingNotes": "Free up to 10,000 subscribers. Creator automations from $39/mo at 1,000 subscribers."
+      },
+      {
+        "slug": "hubspot-marketing-ac",
+        "name": "HubSpot Marketing Hub",
+        "oneLiner": "Marketing automation inside the HubSpot CRM ecosystem.",
+        "pricing": "freemium",
+        "website": "https://www.hubspot.com/products/marketing",
+        "pros": [
+          "Free CRM foundation; Marketing Hub adds email and automation",
+          "Strong reporting and CRM-native workflows",
+          "Large integration and agency ecosystem"
+        ],
+        "cons": [
+          "Marketing Hub paid seats/contacts can exceed simpler ESPs at scale",
+          "Feature gates between Free, Starter, and Professional",
+          "Can feel complex if you only need newsletters"
+        ],
+        "bestFor": "Teams already on HubSpot CRM who want marketing automation in one vendor.",
+        "pricingNotes": "Free CRM tools available. Marketing Hub Starter and above are paid — confirm current HubSpot pricing for your contact band."
+      }
+    ],
+    "seoTitle": "ActiveCampaign Alternatives (2026) — Cheaper Options",
+    "seoDescription": "Looking for ActiveCampaign alternatives cheaper than ActiveCampaign? Compare MailerLite, beehiiv, Brevo, Kit & HubSpot Marketing — fair pricing notes for automation and email.",
+    "h1": "ActiveCampaign alternatives (2026)",
+    "intro": "Want ActiveCampaign alternatives — or something cheaper than ActiveCampaign for email automation? Pick by job below, then compare pricing and tradeoffs.",
+    "quickPicks": [
+      {
+        "useCase": "Cheaper SMB email + automation",
+        "pick": "MailerLite"
+      },
+      {
+        "useCase": "Newsletter growth & monetization",
+        "pick": "beehiiv"
+      },
+      {
+        "useCase": "Email + SMS, send-based pricing",
+        "pick": "Brevo"
+      },
+      {
+        "useCase": "Creator sequences & products",
+        "pick": "Kit"
+      },
+      {
+        "useCase": "Already on HubSpot CRM",
+        "pick": "HubSpot Marketing Hub"
+      }
+    ]
+  },
+  {
+    "slug": "coda",
+    "name": "Coda",
+    "category": "Productivity",
+    "tagline": "Doc-database hybrid (now Superhuman Docs) for team wikis and apps",
+    "description": "Coda (rebranding toward Superhuman Docs) blends docs with tables and automations. Teams looking for Coda alternatives — especially Coda alternatives for small teams — often want Airtable-like bases, Notion docs, or open-source grids without Doc Maker pricing.",
+    "website": "https://coda.io",
+    "featured": false,
+    "alternatives": [
+      {
+        "slug": "teable",
+        "name": "Teable",
+        "oneLiner": "Fast open-source Airtable-like database on Postgres.",
+        "pricing": "oss",
+        "website": "https://teable.ai",
+        "pros": [
+          "Airtable-like grids with SQL/Postgres underneath",
+          "Cloud Free plan plus self-host OSS path",
+          "AI fields/chat available; Pro from about $13/seat/mo yearly"
+        ],
+        "cons": [
+          "Newer than Notion or Airtable — templates still growing",
+          "Cloud Free has row/storage limits (e.g. ~1,000 rows/space)",
+          "Less 'doc canvas' than classic Coda pages"
+        ],
+        "bestFor": "Small teams who want Coda-like structured data with an Airtable feel and OSS option.",
+        "pricingNotes": "Cloud Free $0 (limited rows/storage). Pro ~$13/seat/mo yearly, Business ~$20/seat/mo yearly. Self-host OSS available."
+      },
+      {
+        "slug": "notion-coda",
+        "name": "Notion",
+        "oneLiner": "All-in-one docs, wikis, and databases most teams already know.",
+        "pricing": "freemium",
+        "website": "https://www.notion.so",
+        "pros": [
+          "Docs + databases in one workspace",
+          "Huge template and integration ecosystem",
+          "Free plan strong for individuals and small teams"
+        ],
+        "cons": [
+          "Databases are not a full relational DB",
+          "Perf can dip on very large bases",
+          "Fewer 'Pack-like' live syncs than Coda's strongest packs"
+        ],
+        "bestFor": "Teams who want Coda-style docs without learning a new doc-maker model.",
+        "pricingNotes": "Free / Plus / Business seat plans — confirm current Notion pricing for your team size."
+      },
+      {
+        "slug": "airtable-coda",
+        "name": "Airtable",
+        "oneLiner": "Spreadsheet-database hybrid with views, interfaces, and automations.",
+        "pricing": "freemium",
+        "website": "https://www.airtable.com",
+        "pros": [
+          "Best-in-class grid + interface builder",
+          "Strong automations and integrations",
+          "Familiar for ops and product teams"
+        ],
+        "cons": [
+          "Seat and record limits push teams to paid plans",
+          "Less freeform long-form docs than Coda/Notion",
+          "Can get expensive as collaborators grow"
+        ],
+        "bestFor": "Teams that outgrew Coda tables and want a dedicated database UX.",
+        "pricingNotes": "Freemium; Team/Business priced per collaborator — check current Airtable plans."
+      },
+      {
+        "slug": "nocodb-coda",
+        "name": "NocoDB",
+        "oneLiner": "Open-source Airtable alternative on top of your SQL database.",
+        "pricing": "oss",
+        "website": "https://nocodb.com",
+        "pros": [
+          "Airtable-like UI on Postgres/MySQL you own",
+          "OSS self-host — no per-row SaaS tax",
+          "Cloud option if you skip ops"
+        ],
+        "cons": [
+          "Self-host means you manage the SQL database",
+          "Fewer polished doc/page features than Coda",
+          "Cloud free tier caps records and editors"
+        ],
+        "bestFor": "Technical small teams wanting Coda/Airtable structure with data ownership.",
+        "pricingNotes": "OSS free to self-host. NocoDB Cloud Free limited; paid Plus from about $12/editor/mo annual."
+      },
+      {
+        "slug": "craft-coda",
+        "name": "Craft",
+        "oneLiner": "Beautiful docs and notes with a strong writing-first UX.",
+        "pricing": "freemium",
+        "website": "https://www.craft.do",
+        "pros": [
+          "Polished writing and publishing experience",
+          "Free/Starter available for light use",
+          "Good for handbooks and narrative docs"
+        ],
+        "cons": [
+          "Not an Airtable-strength database — weaker relational tables than Coda/Teable",
+          "Team plan is a bigger jump than solo Plus",
+          "Smaller automation ecosystem than Coda Packs"
+        ],
+        "bestFor": "Writers and small teams who loved Coda's docs more than its databases.",
+        "pricingNotes": "Free/Starter with limits; Plus about $8/mo yearly ($10 monthly); Team plans for multi-seat."
+      }
+    ],
+    "seoTitle": "Coda Alternatives for Small Teams (2026)",
+    "seoDescription": "Looking for Coda alternatives for small teams? Compare Teable, Notion, Airtable, NocoDB & Craft — Airtable-like docs, OSS grids, fair pricing notes.",
+    "h1": "Coda alternatives for small teams (2026)",
+    "intro": "Shopping for Coda alternatives — especially Coda alternatives for small teams who want Airtable-like structure without Doc Maker pricing? Pick by job below.",
+    "ossSection": {
+      "heading": "Open-source Coda / Airtable-like alternatives",
+      "intro": "Teable and NocoDB give you spreadsheet-database grids you can self-host. Notion remains the closest mainstream doc+database workspace if you prefer SaaS.",
+      "slugs": [
+        "teable",
+        "nocodb-coda"
+      ]
+    },
+    "quickPicks": [
+      {
+        "useCase": "Airtable-like + OSS / Postgres",
+        "pick": "Teable"
+      },
+      {
+        "useCase": "Docs + databases everyone knows",
+        "pick": "Notion"
+      },
+      {
+        "useCase": "Dedicated spreadsheet-DB",
+        "pick": "Airtable"
+      },
+      {
+        "useCase": "Self-host on your SQL DB",
+        "pick": "NocoDB"
+      },
+      {
+        "useCase": "Writing-first polished docs",
+        "pick": "Craft"
       }
     ]
   }
