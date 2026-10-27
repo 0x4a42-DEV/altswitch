@@ -856,10 +856,10 @@
         "pricingNotes": "Paid by ticket volume tiers — model cost on peak season."
       }
     ],
-    "seoTitle": "Zendesk Alternative Open Source (2026) + SaaS",
-    "seoDescription": "Need a Zendesk alternative open source? Compare Chatwoot & FreeScout (self-host), plus Freshdesk, Help Scout, Intercom & Gorgias — fair pricing notes.",
-    "h1": "Zendesk alternative open source (2026)",
-    "intro": "Looking for an open source Zendesk alternative? Pick by job below, then use the comparison table for pricing and tradeoffs.",
+    "seoTitle": "Zendesk Alternative Open Source (2026): Chatwoot & FreeScout",
+    "seoDescription": "Need a Zendesk alternative open source — or an open source Zendesk alternative? Compare Chatwoot & FreeScout (self-host free), plus Freshdesk, Help Scout, Intercom & Gorgias — fair pricing notes.",
+    "h1": "Open source Zendesk alternatives (2026)",
+    "intro": "Looking for an open source Zendesk alternative? Chatwoot and FreeScout are free to self-host; Freshdesk and Help Scout cover SMB SaaS desks; Gorgias fits ecommerce. Pick by job below, then use the comparison table for pricing and tradeoffs.",
     "ossSection": {
       "heading": "Open source Zendesk alternatives",
       "intro": "For an open source Zendesk alternative, start with Chatwoot (omnichannel engagement, MIT Community Edition) or FreeScout (lightweight shared inbox). Self-hosting means you own uptime and data; both also offer paid modules or managed cloud if you prefer not to run infra.",
@@ -870,11 +870,11 @@
     },
     "quickPicks": [
       {
-        "useCase": "Open source / self-host",
+        "useCase": "Open source / self-host (free)",
         "pick": "Chatwoot or FreeScout"
       },
       {
-        "useCase": "Ticket helpdesk (SMB)",
+        "useCase": "Ticket helpdesk (SMB SaaS)",
         "pick": "Freshdesk"
       },
       {
@@ -1289,10 +1289,10 @@
         "pricingNotes": "OSS / cloud plans — confirm current free tier limits."
       }
     ],
-    "seoTitle": "Airtable Alternative (2026): NocoDB, Teable & OSS",
-    "seoDescription": "Looking for an Airtable alternative? Compare NocoDB, Baserow, Notion Databases, Rows, Grist & Teable — open-source SQL bases, freemium sheets, fair notes.",
-    "h1": "Airtable alternative (2026)",
-    "intro": "Looking for Airtable alternatives? Pick by job below, then use the comparison table for pricing and tradeoffs.",
+    "seoTitle": "Airtable Alternatives (2026): NocoDB, Baserow & Teable",
+    "seoDescription": "Looking for Airtable alternatives? Compare NocoDB, Baserow, Teable, Notion Databases, Rows & Grist — free open-source self-host bases and freemium sheets, fair notes.",
+    "h1": "Airtable alternatives (2026)",
+    "intro": "Looking for Airtable alternatives? NocoDB and Baserow cover free open-source self-host grids; Teable is a fast Postgres Airtable-like base; Notion Databases and Rows fit hosted freemium. Pick by job below, then use the comparison table for pricing and tradeoffs.",
     "ossSection": {
       "heading": "Open-source Airtable alternatives",
       "intro": "NocoDB is the closest Airtable-like UI on Postgres/MySQL you can self-host. Baserow, Grist, and Teable cover no-code grids, spreadsheet-DB hybrids, and fast Postgres bases. Cloud plans exist if you do not want to run infra.",
@@ -1305,12 +1305,16 @@
     },
     "quickPicks": [
       {
-        "useCase": "Self-host on your SQL DB",
+        "useCase": "Free OSS on your SQL DB",
         "pick": "NocoDB"
       },
       {
-        "useCase": "No-code OSS grid",
+        "useCase": "No-code open-source grid",
         "pick": "Baserow"
+      },
+      {
+        "useCase": "Fast Postgres Airtable-like",
+        "pick": "Teable"
       },
       {
         "useCase": "Already in Notion",
@@ -1323,10 +1327,6 @@
       {
         "useCase": "Spreadsheet-DB + Python",
         "pick": "Grist"
-      },
-      {
-        "useCase": "Fast Postgres Airtable-like",
-        "pick": "Teable"
       }
     ]
   },
@@ -2892,10 +2892,10 @@
         "pricingNotes": "Free CRM forever; Service Hub is paid (seat + HubSpot Credits for AI agents). Verify current Service Hub plans on HubSpot’s pricing page."
       }
     ],
-    "seoTitle": "Best Intercom Alternative (2026) — Crisp, Free & OSS",
-    "seoDescription": "Looking for the best Intercom alternative — or an alternative for Intercom? Compare Crisp, Chatwoot, FreeScout, Freshdesk, Tidio, tawk.to, Gorgias & HubSpot — flat chat pricing, free widgets, open-source self-hosting, fair tradeoffs.",
-    "h1": "Best Intercom alternative (2026)",
-    "intro": "Looking for an Intercom alternative? Pick by job below, then use the comparison table for pricing and tradeoffs. Switch tips are in the FAQ.",
+    "seoTitle": "Best Intercom Alternatives (2026): Crisp, Chatwoot & Free",
+    "seoDescription": "Looking for the best Intercom alternatives — or an Intercom alternative? Compare Crisp, Chatwoot, FreeScout, Freshdesk, Tidio, tawk.to, Gorgias & HubSpot — flat chat pricing, free widgets, open-source self-hosting, fair tradeoffs.",
+    "h1": "Best Intercom alternatives (2026)",
+    "intro": "Looking for the best Intercom alternatives? Crisp for flat SMB chat pricing, Chatwoot or FreeScout for free open-source self-host, tawk.to for a free live-chat widget, or Freshdesk / Help Scout for ticket-first support. Pick by job below, then use the comparison table. Switch tips are in the FAQ.",
     "ossSection": {
       "heading": "Open-source Intercom alternatives",
       "intro": "Want Intercom-style messaging without a closed SaaS lock-in? Chatwoot is the full open-source customer engagement suite; FreeScout is the lighter Help Scout–style shared inbox. Self-host either, or use Chatwoot Cloud if you prefer managed hosting.",
@@ -2906,12 +2906,16 @@
     },
     "quickPicks": [
       {
-        "useCase": "Chat for SMBs",
+        "useCase": "Chat for SMBs (flat pricing)",
         "pick": "Crisp"
       },
       {
-        "useCase": "Open source / self-host",
+        "useCase": "Free open source / self-host",
         "pick": "Chatwoot or FreeScout"
+      },
+      {
+        "useCase": "Free live chat widget",
+        "pick": "tawk.to"
       },
       {
         "useCase": "Email-first support",
@@ -2919,11 +2923,7 @@
       },
       {
         "useCase": "Ticket helpdesk",
-        "pick": "Zendesk or Freshdesk"
-      },
-      {
-        "useCase": "Free live chat widget",
-        "pick": "tawk.to"
+        "pick": "Freshdesk"
       },
       {
         "useCase": "Marketing chat",
@@ -4546,10 +4546,10 @@
         "pricingNotes": "OSS free; official cloud hosting paid."
       }
     ],
-    "seoTitle": "Pipedrive Alternatives (2026): Free CRM & OSS",
-    "seoDescription": "Looking for Pipedrive alternatives? Compare HubSpot Free CRM, Zoho CRM, Close, Attio, Twenty & EspoCRM — free tiers, calling, flexible models, self-host. Fair notes.",
+    "seoTitle": "Pipedrive Alternatives (2026): HubSpot Free, Zoho & Twenty",
+    "seoDescription": "Looking for Pipedrive alternatives? Compare HubSpot Free CRM, Zoho CRM, Close, Attio, Twenty & EspoCRM — free tiers, calling, flexible models, open-source self-host. Fair notes.",
     "h1": "Pipedrive alternatives (2026)",
-    "intro": "Pick by job below, then use the comparison table for pricing and tradeoffs.",
+    "intro": "Looking for Pipedrive alternatives? HubSpot Free CRM for a zero-cost start, Zoho CRM for affordable full CRM depth, Close for outbound calling, Attio for a flexible modern model, or Twenty / EspoCRM to self-host open source. Pick by job below, then use the comparison table for pricing and tradeoffs.",
     "ossSection": {
       "heading": "Open-source Pipedrive alternatives",
       "intro": "Want a pipeline CRM you can self-host? Twenty aims at a modern CRM experience; EspoCRM is a mature open-source CRM with extensible entities. Neither is a Pipedrive clone — match your sales motion before migrating deals.",
@@ -4560,11 +4560,11 @@
     },
     "quickPicks": [
       {
-        "useCase": "Free CRM start",
+        "useCase": "Free CRM (no seat fee to start)",
         "pick": "HubSpot Free CRM"
       },
       {
-        "useCase": "Affordable full CRM",
+        "useCase": "Affordable full CRM suite",
         "pick": "Zoho CRM"
       },
       {
