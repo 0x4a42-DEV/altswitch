@@ -471,9 +471,9 @@
           "Lots of automation"
         ],
         "cons": [
-          "UI can feel dated",
-          "Ecosystem locked to Zoho",
-          "Support mixed reviews"
+          "Interface can feel denser than newer CRMs",
+          "Best value when you also use other Zoho apps",
+          "Paid support tiers available beyond classic support"
         ],
         "bestFor": "Cost-sensitive SMBs needing CRM + adjacent Zoho apps.",
         "pricingNotes": "Free forever (limited) + cheap paid editions vs Salesforce."
@@ -4461,12 +4461,12 @@
           "Free edition for up to 3 users"
         ],
         "cons": [
-          "UI can feel dated vs Pipedrive",
-          "Ecosystem locked to Zoho",
-          "Support reviews are mixed"
+          "Pipeline UI is denser than Pipedrive for some teams",
+          "Best value when you also use other Zoho apps",
+          "Paid support tiers available beyond classic support"
         ],
         "bestFor": "Cost-sensitive SMBs needing CRM depth without Pipedrive seat stacking.",
-        "pricingNotes": "Free forever for up to 3 users (limits apply). Paid editions are typically cheaper than Pipedrive at similar depth — verify current plans on Zoho."
+        "pricingNotes": "Free forever for up to 3 users (limits apply). Paid Standard/Professional/Enterprise billed per user/month — verify current prices on Zoho."
       },
       {
         "slug": "close",

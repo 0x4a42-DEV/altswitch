@@ -3,7 +3,7 @@
 Living log of affiliate / referral programs for [altswitch.xyz](https://altswitch.xyz).  
 Update this file when a program moves between sections. Do not invent approvals.
 
-**Last updated:** 2026-10-25 (Asia/Hong_Kong)
+**Last updated:** 2026-10-27 (Asia/Hong_Kong)
 
 Wiring lives in:
 - `src/lib/affiliates.ts` — referral URL constants
@@ -80,7 +80,7 @@ GSC families from Partner 7-day snapshot (2026-10-25): intercom alternative(s), 
 
 ### True gaps ranked (impressions × $ likelihood)
 
-1. **Zoho CRM** — Pipedrive depth (Close already applied-pending) × 15–20% for 12 months × in-house apply (5 business days). Soften "support reviews mixed" cons before apply if Partner wants stricter fairness. **Apply next #1** (Priority B).
+1. **Zoho CRM** — Pipedrive depth (Close already applied-pending) × 15–20% for 12 months × in-house apply (5 business days). Copy softened 2026-10-27 — **ready to apply** (Priority B #1).
 2. **HubSpot Affiliates (Impact)** — Pipedrive + Intercom cards × 30% up to 1 year × explicitly welcomes SaaS reviewers / B2B marketplaces. Heavier review; still high $.
 3. **Gorgias** — Intercom/Zendesk depth (pages already pending-covered) × 20% for 2 years × instant PartnerStack. Ecommerce-niche fit.
 4. **Help Scout** — Intercom/Zendesk depth × 15–20% × PartnerStack. Same secondary priority as Gorgias.
@@ -116,7 +116,7 @@ Research verified 2026-10-25. Airtable is wired via Teable; Pipedrive via Close 
 
 | Program | Apply URL | Commission (public) | Difficulty | Fairness check | Form fields / notes |
 |--------|-----------|---------------------|------------|----------------|---------------------|
-| **Zoho Affiliate** | https://www.zoho.com/affiliate/ · Signup: https://www.zoho.com/affiliate/signup.html | **15%** (tier 1) → **18%** / **20%** by volume; **12 months**; 90-day cookie; $100 wallet credit for referrals | **Medium** (in-house; ~5 business days; SMS verify) | **Soft-check** — cons include "UI can feel dated" and "Support reviews are mixed". Factual but Partner may want softer wording before apply. | Org type, name, industry, follower counts (YouTube etc.), Zoho product experience, marketing capabilities, mobile SMS verification. Covers Zoho CRM on Pipedrive page (and suite). |
+| **Zoho Affiliate** | https://www.zoho.com/affiliate/ · Signup: https://www.zoho.com/affiliate/signup.html | **15%** (tier 1) → **18%** / **20%** by volume; **12 months**; 90-day cookie; $100 wallet credit for referrals | **Medium** (in-house; ~5 business days; SMS verify) | **OK** — cons softened 2026-10-27 (dense UI / suite value / paid support tiers). Pricing notes match free-for-3 + paid editions. | Org type, name, industry, follower counts (YouTube etc.), Zoho product experience, marketing capabilities, mobile SMS verification. Covers Zoho CRM on Pipedrive page (and suite). |
 | **HubSpot Affiliates** | https://www.hubspot.com/partners/affiliates → Impact signup | **30%** recurring up to **1 year**; 180-day cookie; Starter/Sprocket/Elite tiers | **Medium** (Impact; 2–3 business day review). Welcomes SaaS reviewers & B2B marketplaces | **OK** on Pipedrive Free CRM + Intercom Service Hub cards | Apply as content/SaaS directory; not Solutions Partner (agency) track. Email affiliates@hubspot.com if stuck. |
 
 ### Priority C — Intercom/Zendesk depth (pages already pending-covered)
