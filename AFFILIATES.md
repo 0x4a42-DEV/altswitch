@@ -27,6 +27,9 @@ Wiring lives in:
 
 Non-partner alternatives use a plain official-site link (no `ref=` param, no `rel="sponsored"`). Only the real overrides above are sponsored.
 
+**Decline → scrub PII:** If a program rejects/declines us, record it under Declined, then help Partner remove name/phone/email/address from that vendor (opt-out, delete affiliate account, or email support). Do not leave personal details sitting on declined programs.
+
+
 ---
 
 ## Applied — pending approval (do not chase / re-nudge)
@@ -41,6 +44,7 @@ Partner applied these; waiting for approval emails or dashboard links. Do **not*
 | **Hostinger** | ~2026-10-19 | affiliates.hostinger.com; pending review | Hosting / WP-adjacent |
 | **Crisp** | ~2026-10-21 | Applied via Hugo chatbot (Content Writer); awaiting feedback email (~5 days) then partnership call | **intercom** |
 | **Close CRM** | 2026-10-25 | Applied via PartnerStack Affiliate Partner. hello@altswitch.xyz / Jon Berry / AltSwitch / https://altswitch.xyz / +852 55986128. Status: Application pending on dash.partnerstack.com/close/application. Covers Pipedrive GSC gap. Do not chase; paste referral URL when approved then wire affiliates.ts | **pipedrive** |
+| **Zoho CRM** | 2026-10-27 | Partner submitted via https://www.zoho.com/affiliate/signup.html (hello@altswitch.xyz / Jon Berry / AltSwitch / Software Review Site / USA DC / HK). Captcha blocked on bot computer; Partner completed on their side. ~5 business days. Covers Pipedrive depth. Do not chase; paste referral URL when approved then wire affiliates.ts. **On decline: scrub Partner PII from Zoho.** | **pipedrive** |
 
 ---
 
@@ -59,7 +63,7 @@ Partner applied these; waiting for approval emails or dashboard links. Do **not*
 |--------|--------|-------|
 | **n8n** | Declined 2026-10-21 (via PartnerStack) | Demoted to a plain listing: still on `/alternatives/zapier` with factual description/pros/cons, but moved to the **last** position, no `ref=` param or `rel="sponsored"` (plain `https://n8n.io` link), and not used as a FAQ "best free/OSS" or "lower-cost" pick (Activepieces is). Re-apply in **1–2 months** (~Dec 2026). **If they decline again, remove n8n from the site completely.** Original apply path: https://n8n.io/affiliates/ → PartnerStack. |
 
-Policy: programs that decline stay listed (factual, unchanged copy) but get no favourable placement — last in list, plain official link, not featured in FAQ picks.
+Policy: programs that decline stay listed (factual, unchanged copy) but get no favourable placement — last in list, plain official link, not featured in FAQ picks. **Also scrub Partner PII** (name, phone, email, address) from that vendor’s affiliate account/support — do not leave personal details on declined programs.
 
 ---
 
@@ -73,14 +77,14 @@ GSC families from Partner 7-day snapshot (2026-10-25): intercom alternative(s), 
 
 | Query family | Page | Coverage status | Best monetizable alt | Notes |
 |-------------|------|-----------------|----------------------|-------|
-| **pipedrive alternatives** | `/alternatives/pipedrive` | **applied-pending** via Close | **Close** (then Zoho CRM, HubSpot) | Close applied 2026-10-25 via PartnerStack; pending on dash.partnerstack.com/close/application. Satisfies rule (b). Do not chase. Pipedrive itself still blocked. Fairness copy already shipped in 4192ae2. Optional depth: Zoho CRM / HubSpot (Priority B). |
+| **pipedrive alternatives** | `/alternatives/pipedrive` | **applied-pending** via Close + Zoho | **Close** + **Zoho CRM** (then HubSpot) | Close applied 2026-10-25 PartnerStack; Zoho Affiliate submitted 2026-10-27 by Partner. Satisfies rule (b). Do not chase. Pipedrive itself still blocked. Optional depth: HubSpot. |
 | **airtable alternatives** | `/alternatives/airtable` | **wired** via Teable | **Teable** (then Baserow inquiry) | Live `https://teable.ai/?via=Altswitch` wired 2026-10-25. NocoDB/Rows/Grist/Notion: no usable cash affiliate. Optional depth: Baserow inquiry (Partner-needed). |
 | **intercom alternative(s)** | `/alternatives/intercom` | **applied-pending** | Crisp (pending) + Freshdesk via Freshworks (pending) | Satisfies rule (b). Do not chase. Optional depth: Gorgias / Help Scout / HubSpot (see To-apply). |
 | **zendesk alternative** (+ OSS zendesk) | `/alternatives/zendesk` | **applied-pending** | Freshdesk via Freshworks (pending) | Satisfies rule (b). OSS alts (Chatwoot, FreeScout) have no cash affiliate. Optional depth: Help Scout / Gorgias. |
 
 ### True gaps ranked (impressions × $ likelihood)
 
-1. **Zoho CRM** — Pipedrive depth (Close already applied-pending) × 15–20% for 12 months × in-house apply (5 business days). Copy softened 2026-10-27 — **ready to apply** (Priority B #1).
+1. **Zoho CRM** — Pipedrive depth. **Applied-pending** 2026-10-27 (Partner submitted signup). Do not chase; paste referral URL when approved then wire. On decline: scrub PII.
 2. **HubSpot Affiliates (Impact)** — Pipedrive + Intercom cards × 30% up to 1 year × explicitly welcomes SaaS reviewers / B2B marketplaces. Heavier review; still high $.
 3. **Gorgias** — Intercom/Zendesk depth (pages already pending-covered) × 20% for 2 years × instant PartnerStack. Ecommerce-niche fit.
 4. **Help Scout** — Intercom/Zendesk depth × 15–20% × PartnerStack. Same secondary priority as Gorgias.
@@ -132,6 +136,7 @@ Research verified 2026-10-25. Airtable is wired via Teable; Pipedrive via Close 
 |------|----------------------|------------------|
 | **Teable** | Live via `https://teable.ai/?via=Altswitch` (wired 2026-10-25). Vault: Teable Rewardful. PayPal for payouts later if Teable requires it | Optional: confirm PayPal in Rewardful when first payout approaches |
 | **Close post-apply call** | Applied 2026-10-25; pending. Close may still request a short partner call | Take the call if invited; do not chase. Paste referral URL when approved then wire affiliates.ts |
+| **Zoho Affiliate approval** | Submitted 2026-10-27 by Partner (signup form; ~5 business days) | Do not chase. Paste referral URL when approved then wire. **If declined: scrub Partner PII from Zoho.** |
 | **Attio referral** | Cash program does not exist; only customer referral ($200 gift card) requiring an Attio account | Optional: create Attio account → Account settings → Refer another team. Low priority vs Close cash 30% |
 | **Baserow** | Only an **inquiry form** (https://baserow.io/form/xTktqPeYmEPbgC80nneRmK8dc2QRLMYMrGfbXav1SOQ) — name, email, **phone**, self-definition, website, reason. No public commission terms | Partner fills inquiry if wanting Airtable depth beyond Teable; disclose phone required |
 | **Crisp feedback email / call** | Already applied; awaiting their process | Wait — do not chase (on hold) |
