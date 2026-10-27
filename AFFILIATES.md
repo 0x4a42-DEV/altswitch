@@ -29,6 +29,8 @@ Non-partner alternatives use a plain official-site link (no `ref=` param, no `re
 
 **Decline → scrub PII:** If a program rejects/declines us, record it under Declined, then help Partner remove name/phone/email/address from that vendor (opt-out, delete affiliate account, or email support). Do not leave personal details sitting on declined programs.
 
+**PartnerStack calls:** Partner is **not interested** in PartnerStack sales/onboarding calls — decline/skip; do not nudge. Wait for dashboard approval + paste referral link only.
+
 
 ---
 
@@ -135,7 +137,7 @@ Research verified 2026-10-25. Airtable is wired via Teable; Pipedrive via Close 
 | Item | Why Partner must act | Suggested action |
 |------|----------------------|------------------|
 | **Teable** | Live via `https://teable.ai/?via=Altswitch` (wired 2026-10-25). Vault: Teable Rewardful. PayPal for payouts later if Teable requires it | Optional: confirm PayPal in Rewardful when first payout approaches |
-| **Close post-apply call** | Applied 2026-10-25; pending. Close may still request a short partner call | Take the call if invited; do not chase. Paste referral URL when approved then wire affiliates.ts |
+| **Close / PartnerStack calls** | Applied 2026-10-25; PartnerStack has emailed about calls | **Skip / decline** — Partner not interested in PartnerStack calls. Paste referral URL only if approved in dashboard; do not chase. |
 | **Zoho Affiliate approval** | Submitted 2026-10-27 by Partner (signup form; ~5 business days) | Do not chase. Paste referral URL when approved then wire. **If declined: scrub Partner PII from Zoho.** |
 | **Attio referral** | Cash program does not exist; only customer referral ($200 gift card) requiring an Attio account | Optional: create Attio account → Account settings → Refer another team. Low priority vs Close cash 30% |
 | **Baserow** | Only an **inquiry form** (https://baserow.io/form/xTktqPeYmEPbgC80nneRmK8dc2QRLMYMrGfbXav1SOQ) — name, email, **phone**, self-definition, website, reason. No public commission terms | Partner fills inquiry if wanting Airtable depth beyond Teable; disclose phone required |
