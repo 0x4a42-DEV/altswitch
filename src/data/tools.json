@@ -363,6 +363,40 @@
     "description": "Salesforce is powerful but expensive and complex. SMBs often migrate to simpler CRMs or open-source options.",
     "website": "https://www.salesforce.com",
     "featured": true,
+    "seoTitle": "Salesforce Alternatives (2026): HubSpot, Zoho & Twenty",
+    "seoDescription": "Looking for Salesforce alternatives? Compare HubSpot CRM, Zoho CRM, Pipedrive, Attio, Twenty & EspoCRM — free tiers, simpler pipelines, open-source self-host. Fair notes.",
+    "h1": "Salesforce alternatives (2026)",
+    "intro": "Looking for Salesforce alternatives? HubSpot CRM for a free-forever start, Zoho CRM for affordable full CRM depth, Pipedrive for pipeline-first sales, Attio for a flexible modern model, or Twenty / EspoCRM to self-host open source. Pick by job below, then use the comparison table for pricing and tradeoffs.",
+    "quickPicks": [
+      {
+        "useCase": "Free CRM (no seat fee to start)",
+        "pick": "HubSpot CRM"
+      },
+      {
+        "useCase": "Affordable full CRM suite",
+        "pick": "Zoho CRM"
+      },
+      {
+        "useCase": "Pipeline-first sales CRM",
+        "pick": "Pipedrive"
+      },
+      {
+        "useCase": "Flexible modern data model",
+        "pick": "Attio"
+      },
+      {
+        "useCase": "Open source / self-host",
+        "pick": "Twenty or EspoCRM"
+      }
+    ],
+    "ossSection": {
+      "heading": "Open-source Salesforce alternatives",
+      "intro": "Want a CRM you can self-host instead of Salesforce seats? Twenty aims at a modern Salesforce-inspired experience; EspoCRM is a mature open-source CRM with extensible entities. Neither is a Salesforce clone — match your sales motion and admin capacity before migrating orgs.",
+      "slugs": [
+        "twenty",
+        "espocrm"
+      ]
+    },
     "alternatives": [
       {
         "slug": "hubspot-crm",
