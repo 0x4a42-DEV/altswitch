@@ -363,10 +363,10 @@
     "description": "Salesforce is powerful but expensive and complex. SMBs often migrate to simpler CRMs or open-source options.",
     "website": "https://www.salesforce.com",
     "featured": true,
-    "seoTitle": "Salesforce Alternatives (2026): HubSpot, Zoho & Twenty",
-    "seoDescription": "Looking for Salesforce alternatives? Compare HubSpot CRM, Zoho CRM, Pipedrive, Attio, Twenty & EspoCRM — free tiers, simpler pipelines, open-source self-host. Fair notes.",
+    "seoTitle": "Salesforce Alternatives (2026): HubSpot, Zoho & Close",
+    "seoDescription": "Looking for Salesforce alternatives? Compare HubSpot CRM, Zoho CRM, Pipedrive, Close, Attio, Twenty & EspoCRM — free tiers, outbound calling, simpler pipelines, open-source self-host. Fair notes.",
     "h1": "Salesforce alternatives (2026)",
-    "intro": "Looking for Salesforce alternatives? HubSpot CRM for a free-forever start, Zoho CRM for affordable full CRM depth, Pipedrive for pipeline-first sales, Attio for a flexible modern model, or Twenty / EspoCRM to self-host open source. Pick by job below, then use the comparison table for pricing and tradeoffs.",
+    "intro": "Looking for Salesforce alternatives? HubSpot CRM for a free-forever start, Zoho CRM for affordable full CRM depth, Pipedrive for pipeline-first sales, Close for outbound calling and SMS, Attio for a flexible modern model, or Twenty / EspoCRM to self-host open source. Pick by job below, then use the comparison table for pricing and tradeoffs.",
     "quickPicks": [
       {
         "useCase": "Free CRM (no seat fee to start)",
@@ -381,8 +381,8 @@
         "pick": "Pipedrive"
       },
       {
-        "useCase": "Flexible modern data model",
-        "pick": "Attio"
+        "useCase": "Outbound calling / SMS",
+        "pick": "Close"
       },
       {
         "useCase": "Open source / self-host",
@@ -435,6 +435,26 @@
         ],
         "bestFor": "Sales teams that live in deal stages, not marketing automation.",
         "pricingNotes": "Paid per seat; trial available. No heavy free forever tier."
+      },
+      {
+        "slug": "close",
+        "name": "Close",
+        "oneLiner": "Sales CRM with built-in calling — simpler than Salesforce for outbound teams.",
+        "pricing": "paid",
+        "website": "https://www.close.com",
+        "pros": [
+          "Calling/email built-in",
+          "Fast for SDR workflows",
+          "Less “marketing suite” bloat",
+          "Built-in calling, SMS and email on all plans, plus Chloe AI sales agent"
+        ],
+        "cons": [
+          "No free plan; workflows and the power dialer start on Growth ($99/user/mo annual)",
+          "About 100 native integrations, a smaller marketplace than HubSpot's",
+          "Overkill if you only need a pipeline board"
+        ],
+        "bestFor": "Outbound sales teams who want calling/SMS without Salesforce complexity.",
+        "pricingNotes": "From $9/user/mo (Solo, annual) to $139 (Scale). 14-day trial, no card needed; 30-day money-back. Calls and SMS billed at cost (about $0.02/min). Verify on close.com/pricing."
       },
       {
         "slug": "twenty",
@@ -523,25 +543,6 @@
     "website": "https://www.hubspot.com",
     "featured": true,
     "alternatives": [
-      {
-        "slug": "brevo",
-        "name": "Brevo",
-        "oneLiner": "Email, SMS, and CRM for growing businesses at lower cost.",
-        "pricing": "freemium",
-        "website": "https://www.brevo.com",
-        "pros": [
-          "Email + SMS + CRM lite",
-          "Transactional email (API/SMTP) and a free sales CRM included",
-          "Generous free tier",
-          "EU-based, GDPR-focused"
-        ],
-        "cons": [
-          "Free plan caps sending at 300 emails/day; dedicated IP only on Enterprise",
-          "Lighter inbound content tools (blog/SEO/CMS) than HubSpot"
-        ],
-        "bestFor": "SMBs needing email/SMS without HubSpot prices.",
-        "pricingNotes": "Free forever: 300 emails/day, up to 100,000 contacts. Paid plans priced by monthly email volume; SMS credits sold separately."
-      },
       {
         "slug": "activecampaign",
         "name": "ActiveCampaign",
@@ -637,8 +638,61 @@
         ],
         "bestFor": "Dev-friendly teams sending newsletters they fully control.",
         "pricingNotes": "100% free OSS; pay only for VPS and email provider."
+      },
+      {
+        "slug": "brevo",
+        "name": "Brevo",
+        "oneLiner": "Email, SMS, and CRM for growing businesses at lower cost.",
+        "pricing": "freemium",
+        "website": "https://www.brevo.com",
+        "pros": [
+          "Email + SMS + CRM lite",
+          "Transactional email (API/SMTP) and a free sales CRM included",
+          "Generous free tier",
+          "EU-based, GDPR-focused"
+        ],
+        "cons": [
+          "Free plan caps sending at 300 emails/day; dedicated IP only on Enterprise",
+          "Lighter inbound content tools (blog/SEO/CMS) than HubSpot"
+        ],
+        "bestFor": "SMBs needing email/SMS without HubSpot prices.",
+        "pricingNotes": "Free forever: 300 emails/day, up to 100,000 contacts. Paid plans priced by monthly email volume; SMS credits sold separately."
       }
-    ]
+    ],
+    "seoTitle": "HubSpot Alternatives (2026): Pipedrive, Close & ActiveCampaign",
+    "seoDescription": "Looking for HubSpot alternatives? Compare Pipedrive, Close, ActiveCampaign, Mautic & Listmonk — lighter CRM, outbound calling, marketing automation, open-source self-host. Fair pricing notes.",
+    "h1": "HubSpot alternatives (2026)",
+    "intro": "Looking for HubSpot alternatives? Pipedrive for pipeline-first sales CRM, Close for high-velocity outbound calling and SMS, ActiveCampaign for marketing automation with CRM depth, or Mautic / Listmonk to self-host open source. Brevo remains a plain email/SMS+CRM option. Pick by job below, then use the comparison table for pricing and tradeoffs.",
+    "quickPicks": [
+      {
+        "useCase": "Pipeline-first sales CRM",
+        "pick": "Pipedrive"
+      },
+      {
+        "useCase": "Outbound calling / SMS",
+        "pick": "Close"
+      },
+      {
+        "useCase": "Marketing automation + CRM",
+        "pick": "ActiveCampaign"
+      },
+      {
+        "useCase": "Open-source marketing automation",
+        "pick": "Mautic"
+      },
+      {
+        "useCase": "Self-hosted newsletters",
+        "pick": "Listmonk"
+      }
+    ],
+    "ossSection": {
+      "heading": "Open-source HubSpot alternatives",
+      "intro": "Want marketing automation or email without HubSpot seats? Mautic is open-source marketing automation you control; Listmonk is a self-hosted newsletter and mailing list manager. Neither is a full HubSpot clone — match inbound vs outbound needs before migrating contacts and workflows.",
+      "slugs": [
+        "mautic",
+        "listmonk"
+      ]
+    }
   },
   {
     "slug": "figma",
@@ -4461,7 +4515,7 @@
     "tagline": "Sales CRM built around visual pipelines",
     "description": "Pipedrive is the pipeline-first CRM for SMBs. Teams compare free CRMs, affordable full suites, modern flexible databases, or open-source options when seat prices climb.",
     "website": "https://www.pipedrive.com",
-    "featured": false,
+    "featured": true,
     "alternatives": [
       {
         "slug": "hubspot-free",
