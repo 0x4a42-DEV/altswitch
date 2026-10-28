@@ -43,3 +43,8 @@ export const TEABLE_REFERRAL_URL =
   "https://teable.ai/?via=Altswitch";
 
 export const TEABLE_REFERRAL_LABEL = "Teable";
+
+export const CLOSE_REFERRAL_URL =
+  "https://refer.close.com/9q4xm4f96mmh";
+
+export const CLOSE_REFERRAL_LABEL = "Close";
