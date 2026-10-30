@@ -3941,6 +3941,19 @@
     "description": "Zapier connects SaaS tools with Zaps. Power users migrate when task limits get pricey, they need self-hosting, or they want more developer-grade workflows.",
     "website": "https://zapier.com",
     "featured": true,
+    "seoTitle": "Zapier Alternatives (2026): Make, Activepieces & Pipedream",
+    "seoDescription": "Looking for Zapier alternatives? Compare Make, Activepieces, Pipedream & Windmill — visual automation, developer workflows, open-source self-host options.",
+    "h1": "Zapier alternatives (2026)",
+    "intro": "Looking for Zapier alternatives? Make is the closest visual scenario builder and often cheaper per operation; Activepieces and Windmill cover open-source automation; Pipedream fits developer/API workflows; n8n remains a plain self-host option. Pick by job below, then use the comparison table for pricing and tradeoffs.",
+    "ossSection": {
+      "heading": "Open-source Zapier alternatives",
+      "intro": "Activepieces aims at a familiar Zap-like UX you can self-host; Windmill leans scripts and internal tools; n8n is listed for teams that already know it and want self-host workflows.",
+      "slugs": [
+        "activepieces",
+        "windmill",
+        "n8n"
+      ]
+    },
     "alternatives": [
       {
         "slug": "make",
@@ -4037,6 +4050,28 @@
         ],
         "bestFor": "Technical teams who want Zapier power without SaaS lock-in.",
         "pricingNotes": "OSS free to self-host; n8n Cloud paid."
+      }
+    ],
+    "quickPicks": [
+      {
+        "useCase": "Cheaper visual automation",
+        "pick": "Make"
+      },
+      {
+        "useCase": "Open-source Zapier-like",
+        "pick": "Activepieces"
+      },
+      {
+        "useCase": "Developer / API workflows",
+        "pick": "Pipedream"
+      },
+      {
+        "useCase": "Scripts + internal tools",
+        "pick": "Windmill"
+      },
+      {
+        "useCase": "Self-host workflows (plain)",
+        "pick": "n8n"
       }
     ]
   },
