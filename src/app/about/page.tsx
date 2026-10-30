@@ -31,7 +31,7 @@ export default function AboutPage() {
           live price crawls or paid rankings dressed up as research.
         </li>
         <li>
-          A newsletter with new picks and switch ideas — launching soon.
+          Optional email list for future picks — newsletter sends are parked until comparison traffic converts; signup still works, no ESP campaigns yet.
         </li>
       </ul>
 

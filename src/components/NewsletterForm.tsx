@@ -36,7 +36,7 @@ export default function NewsletterForm({
         setMessage("You're already on the list — thanks!");
       } else {
         setStatus("ok");
-        setMessage("You're on the list. Weekly picks launch soon.");
+        setMessage("You're on the list. We're not sending yet — newsletter is parked until the directory earns its keep.");
         setEmail("");
       }
     } catch {
@@ -61,14 +61,14 @@ export default function NewsletterForm({
             : "text-2xl font-semibold tracking-tight"
         }
       >
-        Join the list — weekly picks launching soon
+        Join the list — sends parked for now
       </h2>
       <p
         className={
           compact ? "mt-1 text-sm text-zinc-600" : "mt-2 text-indigo-100"
         }
       >
-        Curated SaaS &amp; open-source alternatives. No spam — unsubscribe anytime.
+        Optional signup for later updates. No spam; we are not emailing yet. Unsubscribe anytime.
       </p>
       <form onSubmit={onSubmit} className="mt-4 flex flex-col gap-2 sm:flex-row">
         <input
