@@ -182,3 +182,10 @@ When a program is approved: move it to **Done**, add the real URL to `affiliates
 6. **Dual-maximize (traffic × profits):** impressions alone are worthless without payouts. When choosing what to apply or wire next, rank by **impressions × likelihood of affiliate $** (rate × fit × feasibility). Top GSC: Airtable wired (Teable); Pipedrive wired (Close); Intercom/Zendesk still applied-pending (Crisp/Freshworks). Next: Priority B depth (Zoho CRM / HubSpot).
 7. **Brand fairness before apply:** audit how the site portrays that brand (fair, accurate, current pricing, no harsh cons) — partner managers check. Soften copy first if needed.
 8. Do not invent approvals or referral URLs. Partner pastes links; then wire.
+
+---
+
+## New page gate (2026-10-30)
+
+Do **not** add comparison pages for catalog completeness. Ship a new `/alternatives/[slug]` only if (1) a **Done** affiliate will feature on that page, or (2) a **Priority-B** program for that cluster is applied-pending / ready to apply this week. Full rule: `PAGE-GATE.md`. Prefer CTR fixes on pages that already have impressions.
+
