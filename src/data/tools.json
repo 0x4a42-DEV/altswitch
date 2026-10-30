@@ -826,7 +826,7 @@
     "tagline": "Customer support and ticketing platform",
     "description": "Zendesk is the enterprise helpdesk standard. Growing teams often switch to an open source Zendesk alternative they can self-host, or a simpler SMB SaaS desk.",
     "website": "https://www.zendesk.com",
-    "featured": false,
+    "featured": true,
     "alternatives": [
       {
         "slug": "freshdesk",
@@ -2114,19 +2114,46 @@
         "pricingNotes": "Free basic; Premium/Business unlock timeline & more."
       }
     ],
-    "seoTitle": "Open-source Trello alternatives (2026) + SaaS picks",
-    "seoDescription": "Open-source Trello alternatives for 2026: Wekan, Kanboard, Taiga and self-hosted Planka, plus Notion, ClickUp, Jira and Asana. Pros, cons and pricing.",
-    "h1": "Best Trello alternatives, including open-source",
+    "seoTitle": "Open Source Trello Alternatives (2026): Wekan, Kanboard & Planka",
+    "seoDescription": "Looking for open source Trello alternatives? Compare Wekan, Kanboard, Taiga & Planka (self-host free), plus Notion, ClickUp, Jira & Asana — fair Kanban tradeoffs.",
+    "h1": "Open source Trello alternatives (2026)",
     "ossSection": {
       "heading": "Open-source Trello alternatives",
-      "intro": "Want Trello-style boards on your own server? These are actively maintained, self-hostable Kanban tools. Wekan, Kanboard and Taiga are open source; Planka's Community edition is free to self-host but source-available rather than OSI open source.",
+      "intro": "Want Trello-style boards on your own server? Wekan, Kanboard and Taiga are open source; Planka’s Community edition is free to self-host (source-available). Match your workflow before migrating cards.",
       "slugs": [
         "wekan",
         "kanboard",
         "taiga-trello",
         "planka"
       ]
-    }
+    },
+    "intro": "Looking for open source Trello alternatives? Wekan, Kanboard and Taiga are free to self-host; Planka’s Community edition is a realtime board you can run yourself; Notion, ClickUp, Jira and Asana cover hosted SaaS when you outgrow cards. Pick by job below, then use the comparison table for pricing and tradeoffs.",
+    "quickPicks": [
+      {
+        "pick": "Wekan or Kanboard",
+        "useCase": "Open source / self-host Kanban"
+      },
+      {
+        "pick": "Taiga",
+        "useCase": "OSS agile (Kanban + Scrum)"
+      },
+      {
+        "pick": "Planka",
+        "useCase": "Realtime self-hosted boards"
+      },
+      {
+        "pick": "Notion",
+        "useCase": "Boards inside your workspace"
+      },
+      {
+        "pick": "ClickUp",
+        "useCase": "Boards + docs beyond Kanban"
+      },
+      {
+        "pick": "Jira or Asana",
+        "useCase": "Deeper PM when cards aren’t enough"
+      }
+    ]
   },
   {
     "slug": "monday",
@@ -2491,7 +2518,7 @@
     "tagline": "Cloud file sync and sharing",
     "description": "Dropbox made sync mainstream. Alternatives compete on price, privacy, open-source self-hosting, and Google/Microsoft bundles.",
     "website": "https://www.dropbox.com",
-    "featured": false,
+    "featured": true,
     "alternatives": [
       {
         "slug": "nextcloud",
@@ -2608,10 +2635,40 @@
         "pricingNotes": "Community OSS; Professional licensed. Hosting separate."
       }
     ],
-    "seoTitle": "Dropbox alternatives (2026): 6 cloud storage options",
-    "seoDescription": "Looking for a Dropbox alternative in 2026? Compare Nextcloud, Proton Drive, Google Drive, OneDrive, pCloud and Seafile on privacy, self-hosting, sharing and pricing.",
-    "h1": "Best Dropbox alternatives (2026)",
-    "intro": "Whether you want end-to-end encryption, self-hosted sync, or storage bundled with your office suite, here are six Dropbox alternatives with honest pros, cons and pricing notes."
+    "seoTitle": "Dropbox Alternatives (2026): Nextcloud, Proton Drive & Seafile",
+    "seoDescription": "Looking for Dropbox alternatives? Compare Nextcloud & Seafile (open-source self-host), Proton Drive for E2E privacy, plus Google Drive, OneDrive & pCloud — fair storage tradeoffs.",
+    "h1": "Dropbox alternatives (2026)",
+    "intro": "Looking for Dropbox alternatives? Nextcloud and Seafile for open-source self-host sync, Proton Drive for end-to-end encrypted cloud, Google Drive or OneDrive when you want office-suite bundles, or pCloud for lifetime deals. Pick by job below, then use the comparison table for pricing and tradeoffs.",
+    "quickPicks": [
+      {
+        "pick": "Nextcloud or Seafile",
+        "useCase": "Open source / self-host sync"
+      },
+      {
+        "pick": "Proton Drive",
+        "useCase": "E2E encrypted cloud"
+      },
+      {
+        "pick": "Google Drive",
+        "useCase": "Bundled with Docs / Workspace"
+      },
+      {
+        "pick": "OneDrive",
+        "useCase": "Bundled with Microsoft 365"
+      },
+      {
+        "pick": "pCloud",
+        "useCase": "Lifetime / consumer cloud"
+      }
+    ],
+    "ossSection": {
+      "heading": "Open-source Dropbox alternatives",
+      "intro": "Want file sync you control? Nextcloud is a full self-hosted collab suite; Seafile focuses on fast reliable sync. Both need you to run (or pay someone to run) the server.",
+      "slugs": [
+        "nextcloud",
+        "seafile"
+      ]
+    }
   },
   {
     "slug": "zoom",
