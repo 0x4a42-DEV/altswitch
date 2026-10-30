@@ -4048,6 +4048,17 @@
     "description": "Heroku made deploy-from-git famous. Teams leave for better pricing, modern DX, or self-hosted PaaS after dyno costs and ecosystem shifts.",
     "website": "https://www.heroku.com",
     "featured": true,
+    "seoTitle": "Heroku Alternatives (2026): Railway, Render & Fly.io",
+    "seoDescription": "Looking for Heroku alternatives? Compare Railway, Render, Fly.io, DigitalOcean App Platform, Coolify & Vultr — modern PaaS, edge containers, VPS, self-host.",
+    "h1": "Heroku alternatives (2026)",
+    "intro": "Looking for Heroku alternatives? Railway and Render cover modern git-push PaaS; Fly.io goes global containers; DigitalOcean App Platform and Vultr fit predictable cloud; Coolify self-hosts the PaaS on your VPS. Pick by job below, then use the comparison table for pricing and tradeoffs.",
+    "ossSection": {
+      "heading": "Open-source / self-host Heroku alternatives",
+      "intro": "Coolify gives you a Heroku-like dashboard on a VPS you control. Pair it with Vultr or DigitalOcean for compute that often undercuts classic dyno pricing at steady load.",
+      "slugs": [
+        "coolify"
+      ]
+    },
     "alternatives": [
       {
         "slug": "railway",
@@ -4163,6 +4174,32 @@
         "bestFor": "Teams comfortable managing Linux servers who want low-cost VMs instead of dynos.",
         "pricingNotes": "Cloud Compute from $5/mo (1 vCPU / 1 GB; $2.50/mo IPv6-only), High Performance from $6/mo, billed hourly. Backups +20%; extra bandwidth $0.01/GB. Prices can vary by region."
       }
+    ],
+    "quickPicks": [
+      {
+        "useCase": "Modern usage-based PaaS",
+        "pick": "Railway"
+      },
+      {
+        "useCase": "Heroku-like PaaS migration",
+        "pick": "Render"
+      },
+      {
+        "useCase": "Predictable DO containers",
+        "pick": "DigitalOcean App Platform"
+      },
+      {
+        "useCase": "Cheap VPS compute",
+        "pick": "Vultr"
+      },
+      {
+        "useCase": "Global edge containers",
+        "pick": "Fly.io"
+      },
+      {
+        "useCase": "Self-host PaaS on a VPS",
+        "pick": "Coolify"
+      }
     ]
   },
   {
@@ -4173,6 +4210,17 @@
     "description": "Vercel is the default host for Next.js. Teams compare alternatives for lower egress costs, longer-running backends, or open-source self-hosted frontends.",
     "website": "https://vercel.com",
     "featured": true,
+    "seoTitle": "Vercel Alternatives (2026): Netlify, Railway & Render",
+    "seoDescription": "Looking for Vercel alternatives? Compare Netlify, Railway, Render, Fly.io & Coolify — JAMstack peers, full-stack PaaS, edge containers, self-host.",
+    "h1": "Vercel alternatives (2026)",
+    "intro": "Looking for Vercel alternatives? Netlify is the closest JAMstack peer; Railway and Render fit full-stack backends and workers; Fly.io for regional containers; Coolify to self-host. Pick by job below, then use the comparison table for pricing and tradeoffs.",
+    "ossSection": {
+      "heading": "Open-source / self-host Vercel alternatives",
+      "intro": "Coolify is the main self-hosted panel if you want a Vercel-like deploy UX on your own VPS without a managed frontend cloud.",
+      "slugs": [
+        "coolify"
+      ]
+    },
     "alternatives": [
       {
         "slug": "netlify",
@@ -4269,6 +4317,28 @@
         ],
         "bestFor": "Cost-sensitive teams happy to run a VPS + Coolify.",
         "pricingNotes": "OSS free; pair with a VPS (DigitalOcean etc.)."
+      }
+    ],
+    "quickPicks": [
+      {
+        "useCase": "Closest JAMstack peer",
+        "pick": "Netlify"
+      },
+      {
+        "useCase": "Full-stack PaaS (backends + DB)",
+        "pick": "Railway"
+      },
+      {
+        "useCase": "Heroku-like web services",
+        "pick": "Render"
+      },
+      {
+        "useCase": "Global edge containers",
+        "pick": "Fly.io"
+      },
+      {
+        "useCase": "Self-host PaaS on a VPS",
+        "pick": "Coolify"
       }
     ]
   },
