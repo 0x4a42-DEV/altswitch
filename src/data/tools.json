@@ -1759,6 +1759,18 @@
     "description": "Mailchimp raised prices and cut free tiers. Creators and startups often move to cheaper ESPs or self-hosted newsletter tools.",
     "website": "https://mailchimp.com",
     "featured": true,
+    "seoTitle": "Mailchimp Alternatives (2026): MailerLite, beehiiv & Kit",
+    "seoDescription": "Looking for Mailchimp alternatives? Compare MailerLite, beehiiv, Kit, Buttondown, Listmonk & Resend — cheaper email, newsletters, OSS lists, developer APIs.",
+    "h1": "Mailchimp alternatives (2026)",
+    "intro": "Looking for Mailchimp alternatives? MailerLite fits simpler cheaper SMB email; beehiiv targets newsletter growth and monetization; Kit covers creator sequences; Buttondown stays calm for indie writers; Listmonk and Mautic cover self-host; Resend fits developer email APIs. Brevo stays a plain listing for send-based email + SMS. Pick by job below, then use the comparison table for pricing and tradeoffs.",
+    "ossSection": {
+      "heading": "Open-source Mailchimp alternatives",
+      "intro": "Listmonk is a fast self-hosted newsletter stack; Mautic covers broader marketing automation (campaigns, segments, landing pages) you run yourself.",
+      "slugs": [
+        "listmonk-mc",
+        "mautic-mailchimp"
+      ]
+    },
     "alternatives": [
       {
         "slug": "buttondown",
@@ -1913,6 +1925,36 @@
         ],
         "bestFor": "Technical teams wanting Mailchimp-style campaigns plus automation on their own servers.",
         "pricingNotes": "Open source and free; you pay for hosting and an email sending service, or a third-party managed Mautic host."
+      }
+    ],
+    "quickPicks": [
+      {
+        "useCase": "Cheaper SMB email + automation",
+        "pick": "MailerLite"
+      },
+      {
+        "useCase": "Newsletter growth & monetization",
+        "pick": "beehiiv"
+      },
+      {
+        "useCase": "Creator sequences & products",
+        "pick": "Kit"
+      },
+      {
+        "useCase": "Calm indie newsletter",
+        "pick": "Buttondown"
+      },
+      {
+        "useCase": "Self-host mailing lists",
+        "pick": "Listmonk"
+      },
+      {
+        "useCase": "Developer email API",
+        "pick": "Resend"
+      },
+      {
+        "useCase": "Email + SMS (plain listing)",
+        "pick": "Brevo"
       }
     ]
   },
@@ -4491,6 +4533,17 @@
     "description": "Calendly owns the “pick a time” link. Alternatives win on open source, team pricing, or deeper calendar/AI scheduling.",
     "website": "https://calendly.com",
     "featured": false,
+    "seoTitle": "Calendly Alternatives (2026): Cal.com, SavvyCal & Motion",
+    "seoDescription": "Looking for Calendly alternatives? Compare Cal.com, SavvyCal, Motion & Microsoft Bookings — open-source scheduling, overlay booking, AI calendars.",
+    "h1": "Calendly alternatives (2026)",
+    "intro": "Looking for Calendly alternatives? Cal.com is the open-source path (self-host or cloud); SavvyCal feels more human with overlay availability; Motion auto-schedules focus time; Microsoft Bookings fits orgs already on Microsoft 365. Pick by job below, then use the comparison table for pricing and tradeoffs.",
+    "ossSection": {
+      "heading": "Open-source Calendly alternatives",
+      "intro": "Cal.com is the main open-source Calendly-shaped scheduler — run Cal.com Cloud or self-host when you want ownership.",
+      "slugs": [
+        "cal-com"
+      ]
+    },
     "alternatives": [
       {
         "slug": "cal-com",
@@ -4570,6 +4623,24 @@
         "bestFor": "Orgs standardized on Microsoft 365.",
         "pricingNotes": "Included in many M365 business SKUs — verify your plan."
       }
+    ],
+    "quickPicks": [
+      {
+        "useCase": "Open source / self-host or cloud",
+        "pick": "Cal.com"
+      },
+      {
+        "useCase": "Human overlay scheduling",
+        "pick": "SavvyCal"
+      },
+      {
+        "useCase": "AI calendar + focus time",
+        "pick": "Motion"
+      },
+      {
+        "useCase": "Already on Microsoft 365",
+        "pick": "Microsoft Bookings"
+      }
     ]
   },
   {
@@ -4580,6 +4651,18 @@
     "description": "Typeform made one-question-at-a-time forms mainstream. Teams switch for price, open source, or logic-heavy forms without Typeform’s per-response feel.",
     "website": "https://www.typeform.com",
     "featured": false,
+    "seoTitle": "Typeform Alternatives (2026): Tally, Fillout & Formbricks",
+    "seoDescription": "Looking for Typeform alternatives? Compare Tally, Fillout, Google Forms, Typebot & Formbricks — free tiers, logic forms, conversational OSS surveys.",
+    "h1": "Typeform alternatives (2026)",
+    "intro": "Looking for Typeform alternatives? Tally covers Notion-like forms with a generous free tier; Fillout adds calculations, scheduling, and payments; Google Forms stays free and familiar; Typebot and Formbricks cover open-source conversational and in-product surveys. Pick by job below, then use the comparison table for pricing and tradeoffs.",
+    "ossSection": {
+      "heading": "Open-source Typeform alternatives",
+      "intro": "Typebot is the conversational open-source builder; Formbricks fits in-product and website experience surveys you can self-host.",
+      "slugs": [
+        "typebot",
+        "formbricks"
+      ]
+    },
     "alternatives": [
       {
         "slug": "tally",
@@ -4675,6 +4758,28 @@
         ],
         "bestFor": "Product teams collecting in-app feedback without Typeform.",
         "pricingNotes": "OSS free; Formbricks Cloud paid."
+      }
+    ],
+    "quickPicks": [
+      {
+        "useCase": "Generous free / Notion-like forms",
+        "pick": "Tally"
+      },
+      {
+        "useCase": "Logic, payments, workflows",
+        "pick": "Fillout"
+      },
+      {
+        "useCase": "Free Workspace forms",
+        "pick": "Google Forms"
+      },
+      {
+        "useCase": "Conversational OSS forms",
+        "pick": "Typebot"
+      },
+      {
+        "useCase": "In-product OSS surveys",
+        "pick": "Formbricks"
       }
     ]
   },
