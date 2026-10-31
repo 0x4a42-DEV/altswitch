@@ -48,3 +48,8 @@ export const CLOSE_REFERRAL_URL =
   "https://refer.close.com/9q4xm4f96mmh";
 
 export const CLOSE_REFERRAL_LABEL = "Close";
+
+export const GORGIAS_REFERRAL_URL =
+  "https://partner.gorgias.com/r5r04o8apzx1";
+
+export const GORGIAS_REFERRAL_LABEL = "Gorgias";

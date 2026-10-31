@@ -9,6 +9,7 @@ import {
   VULTR_REFERRAL_URL,
   TEABLE_REFERRAL_URL,
   CLOSE_REFERRAL_URL,
+  GORGIAS_REFERRAL_URL,
 } from "@/lib/affiliates";
 
 /** Full referral URLs keyed by alternative slug (preferred when present). */
@@ -24,6 +25,9 @@ const REFERRAL_BY_SLUG: Record<string, string> = {
   vultr: VULTR_REFERRAL_URL,
   teable: TEABLE_REFERRAL_URL,
   close: CLOSE_REFERRAL_URL,
+  gorgias: GORGIAS_REFERRAL_URL,
+  "gorgias-ic": GORGIAS_REFERRAL_URL,
+  "gorgias-fd": GORGIAS_REFERRAL_URL,
 };
 
 /** Full referral URLs keyed by website hostname. */
@@ -54,6 +58,9 @@ const REFERRAL_BY_HOST: Record<string, string> = {
   "close.com": CLOSE_REFERRAL_URL,
   "www.close.com": CLOSE_REFERRAL_URL,
   "refer.close.com": CLOSE_REFERRAL_URL,
+  "gorgias.com": GORGIAS_REFERRAL_URL,
+  "www.gorgias.com": GORGIAS_REFERRAL_URL,
+  "partner.gorgias.com": GORGIAS_REFERRAL_URL,
 };
 
 function isDigitalOceanName(name?: string): boolean {
@@ -98,6 +105,10 @@ function isCloseName(name?: string): boolean {
   return n === "close" || n === "close crm";
 }
 
+function isGorgiasName(name?: string): boolean {
+  return name?.trim().toLowerCase() === "gorgias";
+}
+
 function referralOverride(
   website: string,
   meta?: { slug?: string; name?: string },
@@ -114,6 +125,7 @@ function referralOverride(
   if (isVultrName(meta?.name)) return VULTR_REFERRAL_URL;
   if (isTeableName(meta?.name)) return TEABLE_REFERRAL_URL;
   if (isCloseName(meta?.name)) return CLOSE_REFERRAL_URL;
+  if (isGorgiasName(meta?.name)) return GORGIAS_REFERRAL_URL;
 
   try {
     const host = new URL(website).hostname.toLowerCase();
@@ -153,6 +165,9 @@ function referralOverride(
     }
     if (host === "close.com" || host.endsWith(".close.com")) {
       return CLOSE_REFERRAL_URL;
+    }
+    if (host === "gorgias.com" || host.endsWith(".gorgias.com")) {
+      return GORGIAS_REFERRAL_URL;
     }
   } catch {
     /* ignore invalid website */
