@@ -13,12 +13,11 @@
 | Crisp | ~2026-10-21 | Paste URL after their process → wire Intercom |
 | Zoho CRM | 2026-10-27 | Paste referral URL → wire Pipedrive depth; on decline scrub PII |
 | HubSpot Affiliates (Impact) | 2026-10-31 | Paste referral URL → wire Pipedrive/Intercom; on decline scrub PII |
+| Help Scout | 2026-10-31 PartnerStack | Paste referral URL → wire Intercom/Zendesk depth |
 
-## Optional Priority-B applies (when you want depth — not chased)
+## Optional Priority applies (when you want depth — not chased)
 
-| Program | Apply | Notes |
-|--------|-------|-------|
-| Help Scout | PartnerStack helpscoutaffiliates | Intercom/Zendesk depth |
+*(empty — Help Scout moved to Applied / paste-when-approved)*
 
 ## Already wired — no action
 
