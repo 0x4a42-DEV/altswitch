@@ -32,6 +32,13 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        {/* Impact expects name + value (not content) for HubSpot affiliate verification */}
+        <meta
+          name="impact-site-verification"
+          {...{ value: "898fa29e-d673-410a-92f7-17c569a25290" }}
+        />
+      </head>
       <body className="min-h-screen antialiased">
         <Header />
         <main>{children}</main>
