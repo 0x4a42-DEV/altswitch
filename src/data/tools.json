@@ -843,7 +843,7 @@
         "cons": [
           "AI Agent sessions beyond the first 500 are a paid add-on ($49 per 100)",
           "Skill-based routing, sandbox and audit logs are Enterprise-only",
-          "No permanent free plan since 2025"
+          "Free Program is time-limited for small teams (verify current Free Program terms)"
         ],
         "bestFor": "SMBs needing tickets without Zendesk enterprise pricing.",
         "pricingNotes": "14-day free trial; Growth from $19/agent/mo billed annually (Pro $55, Enterprise $89). A 2-agent Free Program is available in-app for 6 months."
@@ -917,11 +917,11 @@
           "Good for friendly brands"
         ],
         "cons": [
-          "Not the deepest enterprise suite",
+          "Lighter feature set than enterprise ticket suites",
           "Paid per user beyond the free tier",
           "AI Answers is a metered add-on"
         ],
-        "bestFor": "Customer-centric SMBs that hate cluttered agent UIs.",
+        "bestFor": "Customer-centric SMBs that prefer a calm shared inbox.",
         "pricingNotes": "Free up to 5 users. Annual: Standard $25, Plus $45, Pro $75 per user/mo. AI Answers ~$0.75 per resolution."
       },
       {
@@ -1031,9 +1031,9 @@
           "Docs + Beacon"
         ],
         "cons": [
-          "Shallower enterprise routing",
+          "Fewer enterprise routing options than full ticket suites",
           "AI Answers metered",
-          "Less ticket-factory feel"
+          "Less high-volume ticket-queue focus than classic helpdesks"
         ],
         "bestFor": "Brands that want a friendlier inbox than classic ticket UIs.",
         "pricingNotes": "Free up to 5 users. Annual Standard $25 / Plus $45 / Pro $75 per user/mo."
@@ -1190,9 +1190,9 @@
           "Freddy AI Agent included sessions"
         ],
         "cons": [
-          "Busier agent UI",
-          "AI session overages",
-          "No permanent free plan"
+          "More ticket-oriented agent UI than a calm shared inbox",
+          "AI Agent sessions beyond the included allotment are add-ons",
+          "Free Program is time-limited for small teams (verify current terms)"
         ],
         "bestFor": "Teams needing classic tickets and SLAs beyond a shared inbox.",
         "pricingNotes": "Growth $19, Pro $55, Enterprise $89 per agent/mo billed annually."
@@ -3066,7 +3066,7 @@
         "cons": [
           "AI Agent sessions beyond the included allotment are add-ons",
           "Less product-messaging / outbound suite than Intercom",
-          "No permanent free plan"
+          "Free Program is time-limited for small teams (verify current terms)"
         ],
         "bestFor": "Teams that need classic tickets and SLAs more than Intercom-style product messaging.",
         "pricingNotes": "14-day free trial; Growth from $19/agent/mo billed annually (Pro $55, Enterprise $89). A short Free Program may appear in-app \u2014 verify on Freshworks."
@@ -3268,8 +3268,8 @@
         ],
         "cons": [
           "Extra AI Agent sessions are add-ons",
-          "Heavier than a simple chat widget",
-          "No permanent free plan"
+          "Broader ticket suite versus a chat-only widget",
+          "Free Program is time-limited for small teams (verify current terms)"
         ],
         "bestFor": "SMBs needing structured tickets after outgrowing chat-only tools.",
         "pricingNotes": "14-day trial. Growth $19, Pro $55, Enterprise $89 per agent/mo billed annually."
@@ -3425,7 +3425,7 @@
           "Free tier"
         ],
         "cons": [
-          "Not self-hostable",
+          "Hosted SaaS only (no self-host option)",
           "Paid per user above Free",
           "AI Answers metered"
         ],
@@ -3445,8 +3445,8 @@
         ],
         "cons": [
           "Not open source",
-          "AI session overages",
-          "Heavier than a chat inbox"
+          "AI Agent sessions beyond the included allotment are add-ons",
+          "Broader ticket suite versus a chat-first inbox"
         ],
         "bestFor": "Support orgs standardized on ticket queues.",
         "pricingNotes": "Growth $19, Pro $55, Enterprise $89 per agent/mo billed annually."

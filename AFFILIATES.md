@@ -43,7 +43,7 @@ Partner applied these; waiting for approval emails or dashboard links. Do **not*
 | Program | Applied | Notes | Covers GSC page(s) |
 |--------|---------|-------|-------------------|
 | **Kit (ConvertKit)** | ~2026-10-21 | PartnerStack; no link yet | Mailchimp (not a current top-GSC family) |
-| **Freshworks (Freshdesk)** | ~2026-10-21 | PartnerStack; Freshdesk only (first card on Zendesk page) | **zendesk**, **intercom** (Freshdesk alt) |
+| **Freshworks (Freshdesk)** | ~2026-10-21 | PartnerStack; Freshdesk only (first card on Zendesk page). Fairness: cons softened 2026-10-31 (Free Program time-limited wording; ticket-UI tradeoffs). | **zendesk**, **intercom** (Freshdesk alt) |
 | **Hostinger** | ~2026-10-19 | affiliates.hostinger.com; pending review | Hosting / WP-adjacent |
 | **Crisp** | ~2026-10-21 | Applied via Hugo chatbot (Content Writer); awaiting feedback email (~5 days) then partnership call | **intercom** |
 | **Zoho CRM** | 2026-10-27 | Partner submitted via https://www.zoho.com/affiliate/signup.html (hello@altswitch.xyz / Jon Berry / AltSwitch / Software Review Site / USA DC / HK). Captcha blocked on bot computer; Partner completed on their side. ~5 business days. Covers Pipedrive depth. Do not chase; paste referral URL when approved then wire affiliates.ts. **On decline: scrub Partner PII from Zoho.** | **pipedrive** |
@@ -138,7 +138,7 @@ Research verified 2026-10-25 (Close wired 2026-10-28; Gorgias wired 2026-10-31; 
 
 | Program | Apply URL | Commission (public) | Difficulty | Fairness check | Form fields / notes |
 |--------|-----------|---------------------|------------|----------------|---------------------|
-| ~~**Help Scout**~~ | https://www.helpscout.com/partner/ (Affiliates) · PartnerStack: https://dash.partnerstack.com/application?company=helpscout&group=helpscoutaffiliates | **15%** / **20%** (tiered); 90-day cookie | Applied 2026-10-31 — see **Applied** | **OK** | Moved to Applied — pending PartnerStack review. |
+| ~~**Help Scout**~~ | https://www.helpscout.com/partner/ (Affiliates) · PartnerStack: https://dash.partnerstack.com/application?company=helpscout&group=helpscoutaffiliates | **15%** / **20%** (tiered); 90-day cookie | Applied 2026-10-31 — see **Applied** | **OK** — cons softened 2026-10-31 (enterprise depth / routing / hosted-only tradeoffs; bestFor calm-inbox wording). | Moved to Applied — pending PartnerStack review. |
 
 ### Partner-needed (do not fake-apply)
 
