@@ -410,12 +410,12 @@
           "Huge integration catalog"
         ],
         "cons": [
-          "Paid hubs get expensive",
-          "Can push upsells",
-          "Complex when fully loaded"
+          "Marketing, Sales, and Service Hubs are paid beyond free CRM",
+          "Highest value when you grow into multiple Hubs",
+          "Full suite has more surface area than a single-purpose CRM"
         ],
         "bestFor": "SMBs starting CRM free and growing into inbound.",
-        "pricingNotes": "Free CRM forever; Marketing/Sales hubs are paid seats."
+        "pricingNotes": "Free CRM forever; Starter Hubs from low per-seat pricing; Professional scales with seats/contacts \u2014 verify current plans on HubSpot."
       },
       {
         "slug": "pipedrive",
@@ -539,7 +539,7 @@
     "name": "HubSpot",
     "category": "Marketing",
     "tagline": "Inbound marketing, CRM, and sales platform",
-    "description": "HubSpot's free tier is generous, but paid seats add up. Teams seek lighter marketing automation and open CRM stacks.",
+    "description": "HubSpot's free CRM is a strong starting point, with paid Hubs for deeper marketing, sales, and service. Teams also compare lighter CRMs and open-source marketing stacks when they want a narrower toolset.",
     "website": "https://www.hubspot.com",
     "featured": true,
     "alternatives": [
@@ -655,7 +655,7 @@
           "Free plan caps sending at 300 emails/day; dedicated IP only on Enterprise",
           "Lighter inbound content tools (blog/SEO/CMS) than HubSpot"
         ],
-        "bestFor": "SMBs needing email/SMS without HubSpot prices.",
+        "bestFor": "SMBs wanting email/SMS plus a light CRM at volume-based pricing.",
         "pricingNotes": "Free forever: 300 emails/day, up to 100,000 contacts. Paid plans priced by monthly email volume; SMS credits sold separately."
       }
     ],
@@ -3141,9 +3141,9 @@
           "Large app ecosystem and shared contact timeline"
         ],
         "cons": [
-          "Paid Service Hub seats and HubSpot Credits add up at scale",
-          "Heavier platform than a focused chat tool",
-          "Less Intercom-like product tours / Series messaging"
+          "Service Hub seats and HubSpot Credits scale with team and AI usage",
+          "Broader CRM + service suite versus a chat-only tool",
+          "Product tours and Series-style messaging are lighter than Intercom\u2019s"
         ],
         "bestFor": "Teams already on HubSpot CRM who want support in the same platform instead of Intercom.",
         "pricingNotes": "Free CRM forever; Service Hub is paid (seat + HubSpot Credits for AI agents). Verify current Service Hub plans on HubSpot\u2019s pricing page."
@@ -4910,11 +4910,11 @@
           "Easy reporting start"
         ],
         "cons": [
-          "Advanced automation lives in paid Hubs",
-          "Workspace can get complex as you add tools",
-          "Free tier has seat and feature limits"
+          "Advanced automation and sequences live in paid Hubs",
+          "Workspace expands as you enable more Hubs and apps",
+          "Free tier includes seat and feature limits (verify current)"
         ],
-        "bestFor": "Teams okay entering the HubSpot universe for $0 CRM.",
+        "bestFor": "Teams starting on free CRM with a clear path into HubSpot Hubs.",
         "pricingNotes": "Free CRM; paid Hubs for automation/sequences at scale."
       },
       {
@@ -5557,9 +5557,9 @@
           "Large integration and agency ecosystem"
         ],
         "cons": [
-          "Marketing Hub paid seats/contacts can exceed simpler ESPs at scale",
-          "Feature gates between Free, Starter, and Professional",
-          "Can feel complex if you only need newsletters"
+          "Marketing Hub pricing scales with seats and marketing contacts",
+          "Feature depth steps up across Free, Starter, and Professional",
+          "More CRM and automation surface than a newsletter-only ESP"
         ],
         "bestFor": "Teams already on HubSpot CRM who want marketing automation in one vendor.",
         "pricingNotes": "Free CRM tools available. Marketing Hub Starter and above are paid \u2014 confirm current HubSpot pricing for your contact band."
