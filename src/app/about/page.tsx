@@ -76,8 +76,11 @@ export default function AboutPage() {
           them.
         </li>
         <li>
-          A short path into pages we keep current, including Airtable, Pipedrive,
-          Intercom, Zapier, and Mailchimp.
+          A short path into pages we keep current, including Airtable, Pipedrive,{" "}
+          <Link href="/alternatives/intercom" className="text-indigo-600 hover:underline">
+            Intercom
+          </Link>
+          {", Zapier, and Mailchimp."}
         </li>
         <li>
           Side-by-side notes on pricing models, strengths, and tradeoffs. These

@@ -35,6 +35,20 @@ export interface Tool {
   quickPicks?: { useCase: string; pick: string }[];
   /** Optional highlighted section, e.g. "Open-source X alternatives" */
   ossSection?: { heading: string; intro: string; slugs: string[] };
+  /** Scannable when / poor-fit notes. Rendered only when present. */
+  compareGuide?: {
+    heading: string;
+    intro: string;
+    rows: { title: string; slugs: string[]; when: string; skip: string }[];
+  };
+  /** Practical migration notes. Rendered only when present. */
+  switchGuide?: {
+    heading: string;
+    intro: string;
+    steps: { title: string; body: string }[];
+  };
+  /** Page-specific FAQs. When set, they replace the generated set. */
+  faqs?: { question: string; answer: string }[];
 }
 
 export interface Subscriber {

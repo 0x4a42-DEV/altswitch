@@ -63,8 +63,12 @@ export function toolsSharingAlternatives(tool: Tool, limit = 4): Tool[] {
 }
 
 export function buildFaqs(tool: Tool): FaqItem[] {
+  if (tool.faqs && tool.faqs.length > 0) {
+    return tool.faqs.filter((f) => f.question.trim() && f.answer.trim());
+  }
+
   const alts = tool.alternatives;
-  let faqs: FaqItem[] = [];
+  const faqs: FaqItem[] = [];
 
   const freeOrOss = alts.filter(
     (a) => a.pricing === "free" || a.pricing === "oss"
@@ -123,8 +127,9 @@ export function buildFaqs(tool: Tool): FaqItem[] {
 
   if (freeOrOss.some((a) => a.pricing === "oss")) {
     const selfHost = freeOrOss.filter((a) => a.pricing === "oss");
+    const article = /^[aeiou]/i.test(tool.name) ? "an" : "a";
     faqs.push({
-      question: `Can I self-host a ${tool.name} alternative?`,
+      question: `Can I self-host ${article} ${tool.name} alternative?`,
       answer: `Yes. Open-source options on this page: ${selfHost
         .map((a) => a.name)
         .join(", ")}. ${selfHost[0].pricingNotes} Self-hosting means you run ops; hosted ${tool.name} may still win on polish and support.`,
@@ -153,22 +158,6 @@ export function buildFaqs(tool: Tool): FaqItem[] {
     question: `Who should switch from ${tool.name}?`,
     answer: `People who outgrew (or never needed) the full ${tool.name} stack. Quick guide: ${switchProfiles}. Match the “Best for” line on each card before migrating data.`,
   });
-
-  // Intercom GSC: free-alt + practical switch checklist (no lock-in FUD)
-  if (tool.slug === "intercom") {
-    const freeAngle: FaqItem = {
-      question: "Is there a free Intercom alternative?",
-      answer:
-        "Yes — depending on how “free” you mean. Chatwoot’s Community Edition is free to self-host (you pay infra). Crisp has a free tier (2 seats, limited contacts). tawk.to offers free-forever live chat with optional paid extras (remove branding, AI Assist). Always verify current free-plan limits on each vendor’s site.",
-    };
-    const howSwitch: FaqItem = {
-      question: "How do I switch from Intercom?",
-      answer:
-        "Export conversation history from Intercom, install the new chat/inbox widget and run both briefly in parallel, model AI or metered costs on the new stack before cutover, then rebuild macros, saved replies, and the help center. Keep Intercom available until the new inbox is answering production traffic cleanly.",
-    };
-    // Prefer free + how-to near the top; keep total at 6
-    faqs = [faqs[0], freeAngle, howSwitch, ...faqs.slice(1)].slice(0, 6);
-  }
 
   return faqs.slice(0, 6);
 }
