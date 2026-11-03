@@ -43,7 +43,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title,
     description,
-    alternates: { canonical: path },
+    alternates: { canonical: `${siteUrl}${path}` },
     openGraph: {
       title: socialTitle,
       description: tool.seoDescription ?? tool.description,
@@ -142,12 +142,28 @@ export default async function ToolAlternativesPage({ params }: Props) {
                 Official site →
               </a>
             )}
+            {tool.compareGuide && tool.compareGuide.rows.length > 0 && (
+              <a
+                href="#which"
+                className="rounded-full bg-zinc-50 px-3 py-1 text-zinc-700 hover:bg-zinc-100"
+              >
+                Which fits
+              </a>
+            )}
             <a
               href="#compare"
               className="rounded-full bg-zinc-50 px-3 py-1 text-zinc-700 hover:bg-zinc-100"
             >
               Compare
             </a>
+            {tool.switchGuide && tool.switchGuide.steps.length > 0 && (
+              <a
+                href="#switch"
+                className="rounded-full bg-zinc-50 px-3 py-1 text-zinc-700 hover:bg-zinc-100"
+              >
+                Switch
+              </a>
+            )}
             <a
               href="#faq"
               className="rounded-full bg-zinc-50 px-3 py-1 text-zinc-700 hover:bg-zinc-100"
@@ -157,6 +173,92 @@ export default async function ToolAlternativesPage({ params }: Props) {
           </div>
         </div>
       </section>
+
+      {tool.compareGuide && tool.compareGuide.rows.length > 0 && (
+        <section
+          id="which"
+          className="scroll-mt-24 bg-zinc-50"
+        >
+          <div className="mx-auto max-w-5xl px-4 py-12">
+            <h2 className="text-xl font-semibold text-zinc-900">
+              {tool.compareGuide.heading}
+            </h2>
+            <p className="mt-2 max-w-3xl text-sm leading-relaxed text-zinc-600">
+              {tool.compareGuide.intro}
+            </p>
+            <div className="mt-6 grid gap-4 lg:grid-cols-2">
+              {tool.compareGuide.rows.map((row) => {
+                const rowAlts = row.slugs
+                  .map((slug) => tool.alternatives.find((a) => a.slug === slug))
+                  .filter((a): a is NonNullable<typeof a> => Boolean(a));
+                const single = rowAlts.length === 1 ? rowAlts[0] : undefined;
+                const linked = rowAlts.filter(
+                  (alt) => !single || internalToolSlugForAlt(alt)
+                );
+                return (
+                <article
+                  key={row.title}
+                  className="rounded-2xl border border-zinc-200 bg-white p-5"
+                >
+                  <h3 className="text-base font-semibold text-zinc-900">
+                    {single ? (
+                      <a
+                        href={`#alt-${single.slug}`}
+                        className="hover:text-indigo-600"
+                      >
+                        {row.title}
+                      </a>
+                    ) : (
+                      row.title
+                    )}
+                  </h3>
+                  {linked.length > 0 && (
+                  <p className="mt-1 flex flex-wrap gap-x-3 gap-y-1 text-sm">
+                    {linked.map((alt) => {
+                      const internal = internalToolSlugForAlt(alt);
+                      return (
+                        <span key={alt.slug}>
+                          {!single && (
+                            <a
+                              href={`#alt-${alt.slug}`}
+                              className="text-indigo-600 hover:underline"
+                            >
+                              {alt.name}
+                            </a>
+                          )}
+                          {internal && (
+                            <>
+                              {!single && " · "}
+                              <Link
+                                href={`/alternatives/${internal}`}
+                                className="text-indigo-600 hover:underline"
+                              >
+                                {single ? `${alt.name} alternatives` : "alternatives"}
+                              </Link>
+                            </>
+                          )}
+                        </span>
+                      );
+                    })}
+                  </p>
+                  )}
+                  <div className="mt-3 space-y-2 text-sm leading-relaxed">
+                    <p>
+                      <span className="font-medium text-zinc-900">When. </span>
+                      <span className="text-zinc-700">{row.when}</span>
+                    </p>
+                    <p>
+                      <span className="font-medium text-zinc-900">Poor fit. </span>
+                      <span className="text-zinc-600">{row.skip}</span>
+                    </p>
+                  </div>
+                </article>
+                );
+              })}
+            </div>
+          </div>
+        </section>
+      )}
 
       {tool.ossSection && ossAlts.length > 0 && (
         <section
@@ -269,6 +371,32 @@ export default async function ToolAlternativesPage({ params }: Props) {
           ))}
         </div>
       </section>
+
+      {tool.switchGuide && tool.switchGuide.steps.length > 0 && (
+        <section id="switch" className="mx-auto max-w-5xl scroll-mt-24 px-4 pb-12">
+          <h2 className="text-xl font-semibold text-zinc-900">
+            {tool.switchGuide.heading}
+          </h2>
+          <p className="mt-2 max-w-3xl text-sm leading-relaxed text-zinc-600">
+            {tool.switchGuide.intro}
+          </p>
+          <ol className="mt-6 space-y-4">
+            {tool.switchGuide.steps.map((step, i) => (
+              <li
+                key={step.title}
+                className="rounded-2xl border border-zinc-200 bg-white p-5"
+              >
+                <p className="font-medium text-zinc-900">
+                  {i + 1}. {step.title}
+                </p>
+                <p className="mt-2 text-sm leading-relaxed text-zinc-600">
+                  {step.body}
+                </p>
+              </li>
+            ))}
+          </ol>
+        </section>
+      )}
 
       <section id="faq" className="mx-auto max-w-5xl scroll-mt-24 px-4 pb-12">
         <h2 className="text-xl font-semibold text-zinc-900">

@@ -2908,7 +2908,7 @@
     "name": "Intercom",
     "category": "Support",
     "tagline": "Customer messaging and support platform",
-    "description": "Intercom blends chat, helpdesk, and product messaging. It is priced per seat, with Fin AI billed per outcome \u2014 so teams often leave for flat workspace chat, a free widget, or an open-source inbox.",
+    "description": "Intercom blends live chat, a helpdesk, and product messaging, priced per seat with Fin AI billed per outcome. People look up an Intercom alternative when that bundle costs more than the support queue they actually run.",
     "website": "https://www.intercom.com",
     "featured": true,
     "alternatives": [
@@ -2975,7 +2975,7 @@
         "slug": "helpscout-ic",
         "name": "Help Scout",
         "oneLiner": "Human shared inbox with docs \u2014 calmer than chat-first Intercom.",
-        "pricing": "paid",
+        "pricing": "freemium",
         "website": "https://www.helpscout.com",
         "pros": [
           "Friendly agent UX",
@@ -3148,10 +3148,10 @@
     "seoTitle": "Best Intercom Alternatives (2026): Gorgias, Crisp & Free",
     "seoDescription": "Looking for the best Intercom alternatives \u2014 or an Intercom alternative? Compare Gorgias, Crisp, Chatwoot, FreeScout, Freshdesk, Tidio & tawk.to \u2014 ecommerce helpdesk, flat chat pricing, free widgets, open-source self-hosting, fair tradeoffs.",
     "h1": "Best Intercom alternatives (2026)",
-    "intro": "Looking for the best Intercom alternatives? Gorgias for ecommerce / Shopify helpdesks, Crisp for flat SMB chat pricing, Chatwoot or FreeScout for free open-source self-host, tawk.to for a free live-chat widget, or Freshdesk / Help Scout for ticket-first support. Pick by job below, then use the comparison table. Switch tips are in the FAQ.",
+    "intro": "The best Intercom alternatives split by job. Gorgias is the ecommerce and Shopify helpdesk. Crisp is flat-priced chat for smaller teams. Chatwoot is the open-source customer engagement suite you can self-host or run in the cloud; FreeScout is the lighter open-source shared inbox, closer to Help Scout than to Intercom\u2019s messenger. tawk.to is the free chat widget. Freshdesk and Help Scout cover tickets and email. The notes under \u201cWhich Intercom alternative fits\u201d say when each one is a poor fit, not only when it works.",
     "ossSection": {
       "heading": "Open-source Intercom alternatives",
-      "intro": "Want Intercom-style messaging without a closed SaaS lock-in? Chatwoot is the full open-source customer engagement suite; FreeScout is the lighter Help Scout\u2013style shared inbox. Self-host either, or use Chatwoot Cloud if you prefer managed hosting.",
+      "intro": "Chatwoot is the open-source Intercom alternative that still covers multi-channel engagement. FreeScout is open source too, and it is a lighter shared inbox \u2014 closer to Help Scout than to Intercom\u2019s messenger. Self-host either, or use Chatwoot Cloud if you want the hosting done for you.",
       "slugs": [
         "chatwoot-ic",
         "freescout-ic"
@@ -3185,6 +3185,116 @@
       {
         "useCase": "Marketing chat",
         "pick": "Tidio"
+      }
+    ],
+    "compareGuide": {
+      "heading": "Which Intercom alternative fits",
+      "intro": "Same shortlist, different jobs. Prices here are the notes already on each card, not a live quote \u2014 confirm them on the vendor\u2019s site before you switch.",
+      "rows": [
+        {
+          "title": "Gorgias",
+          "slugs": ["gorgias-ic"],
+          "when": "You sell on Shopify or a similar DTC stack and agents live in orders, refunds, and macros. Gorgias is priced by ticket volume (Starter from $10/mo for 50 tickets; higher tiers scale up) and bills its AI Agent per automated interaction, instead of Intercom\u2019s per-seat plan plus Fin per outcome.",
+          "skip": "Your team is B2B, and the part of Intercom you use is tours, outbound Series, and in-app messaging. Gorgias is an ecommerce desk, and the bill climbs with ticket and AI volume in peak season."
+        },
+        {
+          "title": "Crisp",
+          "slugs": ["crisp"],
+          "when": "You want chat plus a shared inbox at a flat workspace price, with unlimited conversations. The free plan is 2 seats and 100 contact profiles. Mini is $45/mo, Essentials $95, Plus $295.",
+          "skip": "You need the ticketing portal, white-label, or the large integration catalog \u2014 those start on Plus \u2014 or you want software you can self-host. Crisp is hosted SaaS."
+        },
+        {
+          "title": "Chatwoot",
+          "slugs": ["chatwoot-ic"],
+          "when": "You want an open-source Intercom-style engagement suite: a multi-channel inbox you self-host (MIT Community Edition; you pay for servers) or Chatwoot Cloud. Cloud Hacker is $0 for 2 agents and 500 conversations/mo. Startups, Business, and Enterprise are $19, $39, and $99 per agent/mo billed annually.",
+          "skip": "You would rather not run upgrades yourself, or you need Intercom\u2019s product-messaging catalog. SSO and audit logs sit on paid tiers, and the marketplace is smaller."
+        },
+        {
+          "title": "FreeScout",
+          "slugs": ["freescout-ic"],
+          "when": "You want a lightweight open-source shared inbox with a Help Scout\u2013like layout. The software is free. Optional modules cost extra. You host it.",
+          "skip": "You need live chat, campaigns, or product messaging. FreeScout replaces the inbox. For an open-source messenger, use Chatwoot. For a hosted free widget, use tawk.to."
+        },
+        {
+          "title": "Help Scout",
+          "slugs": ["helpscout-ic"],
+          "when": "Support lives in email and docs more than in a chat widget. Free for up to 5 users. Paid annual plans are Standard $25, Plus $45, and Pro $75 per user/mo. AI Answers is about $0.75 per resolution.",
+          "skip": "You rely on Intercom\u2019s outbound product messaging. Help Scout is the calmer inbox, and customer-facing AI is a metered add-on."
+        },
+        {
+          "title": "Freshdesk",
+          "slugs": ["freshdesk-ic"],
+          "when": "You want classic tickets, a portal, a knowledge base, and SLAs on per-agent plans. Growth starts at $19/agent/mo billed annually, Pro $55, Enterprise $89. A short Free Program may appear in-app \u2014 confirm the current terms.",
+          "skip": "The reason you pay for Intercom is product messaging. Freshdesk is a ticket helpdesk, and AI Agent sessions past the included allotment are add-ons."
+        },
+        {
+          "title": "tawk.to and Tidio",
+          "slugs": ["tawk-to", "tidio"],
+          "when": "You mainly need a website chat widget. tawk.to keeps core chat, ticketing, and a knowledge base free for unlimited agents. Removing the \u201cPowered by tawk.to\u201d branding is about $29/mo, and AI Assist starts around $29/mo. Tidio\u2019s free tier is 50 billable conversations/mo, then conversation-based plans, with Flows and Lyro if you also want marketing chat.",
+          "skip": "You need one system for product tours, a deep help center, and a full support-team workflow. These replace the widget and a light inbox, not the whole Intercom suite."
+        },
+        {
+          "title": "Zendesk, Front, and Plain",
+          "slugs": ["zendesk-ic", "front", "plain"],
+          "when": "Zendesk if you are moving to enterprise ticket queues and a large app marketplace. Front if the team collaborates in email. Plain if you want a younger B2B support tool with a clean API and a narrower scope than Intercom.",
+          "skip": "You are looking for a cheaper chat widget. All three are paid. Zendesk is another full suite \u2014 compare total agent cost on each vendor\u2019s pricing page. This page does not quote Zendesk, Front, or Plain seat prices."
+        }
+      ]
+    },
+    "switchGuide": {
+      "heading": "Switching off Intercom",
+      "intro": "These notes do not list an Intercom exit fee. The cost is the new pricing model, plus the time to move history, rebuild macros and the help center, and run both inboxes until the new one is answering real customers.",
+      "steps": [
+        {
+          "title": "Map the bill before you export",
+          "body": "Write down what you pay Intercom for today: seats, and Fin outcomes if you use them. Then map the replacement. Gorgias moves you to ticket volume plus AI resolutions. Crisp is a flat workspace. Freshdesk and Help Scout are per user, and Help Scout is free for up to 5 users. Chatwoot and FreeScout are free software plus hosting, unless you take Chatwoot Cloud\u2019s per-agent plans. A ticket-priced desk can cost more in peak season than a quiet month suggests. Confirm every number on the vendor\u2019s pricing page."
+        },
+        {
+          "title": "Export history and list what will not transfer",
+          "body": "Export conversation history from Intercom. Assume macros, assignment rules, product tours, and Series will be rebuilt, not imported. Help center articles can usually be copied. In-app messages and product tours generally cannot. Keep a short list of the saved replies agents actually use so you do not recreate dead ones."
+        },
+        {
+          "title": "Run Intercom and the new inbox together",
+          "body": "Install the new chat widget on a low-traffic page or a staging property first. Leave Intercom on the production site until agents can reply from the new tool without falling back. A week or two of overlap is normal, and longer if automations are doing real work. That overlap is most of the migration cost in staff time."
+        },
+        {
+          "title": "Turn on AI only after you know the meter",
+          "body": "If Fin is why the Intercom bill grew, the replacement may meter AI too: Gorgias per automated interaction, Help Scout AI Answers per resolution, and Tidio Lyro or tawk.to AI Assist as paid add-ons. Start with human replies, then enable AI on a subset once you have a week of volume to estimate. Open-source Chatwoot or FreeScout does not skip this choice \u2014 you still decide whether to add a paid AI layer."
+        },
+        {
+          "title": "Cut over the widget, then keep Intercom readable",
+          "body": "Point the site widget, support email, and any social channels at the new inbox. Watch the first full day of traffic. Keep Intercom available for search until the export has the threads you still need, then remove the old widget so customers are not writing into a queue nobody checks."
+        }
+      ]
+    },
+    "faqs": [
+      {
+        "question": "What is a good Intercom alternative?",
+        "answer": "Gorgias is the ecommerce default on this page: a Shopify-deep helpdesk priced by tickets (Starter from $10/mo for 50 tickets) rather than Intercom seats plus Fin outcomes. It is a poor fit for B2B product messaging. If that is the job, look next at Crisp for flat-priced chat, Chatwoot for an open-source suite, or Help Scout for email."
+      },
+      {
+        "question": "What are the best Intercom alternatives?",
+        "answer": "It depends on the job. Gorgias for an ecommerce helpdesk, Crisp for flat-priced SMB chat, Chatwoot for an open-source engagement suite, FreeScout for a lightweight open-source inbox, Help Scout for email, Freshdesk for tickets and SLAs, and tawk.to when you only need a free chat widget. Tidio sits with the widget tools if you also want marketing chat flows."
+      },
+      {
+        "question": "Is there a free Intercom alternative?",
+        "answer": "Yes, if you are precise about free. tawk.to\u2019s core live chat, ticketing, and knowledge base are free, with unlimited agents; removing branding or adding AI Assist is paid. Crisp is free for 2 seats and 100 contact profiles. Help Scout is free for up to 5 users. Chatwoot\u2019s Community Edition is free to self-host (you pay for the server), and Chatwoot Cloud\u2019s Hacker plan is $0 for 2 agents and 500 conversations a month. FreeScout is free open-source software plus optional paid modules. None of these include Intercom\u2019s product tours and outbound messaging."
+      },
+      {
+        "question": "What is an open-source Intercom alternative?",
+        "answer": "Chatwoot. It is the open-source customer engagement suite on this page: a multi-channel inbox, an MIT Community Edition you can self-host, or Chatwoot Cloud if you want it hosted. FreeScout is also open source, and it is a different product \u2014 a lightweight shared inbox, closer to Help Scout than to Intercom\u2019s messenger. Self-hosting means you run backups and upgrades. Hosted Intercom can still be the better choice if you want that done for you and you use the product-messaging features."
+      },
+      {
+        "question": "How much does it cost to leave Intercom?",
+        "answer": "Two costs, not one fee. Intercom charges per seat, and Fin AI per outcome. The replacement has its own model: Gorgias by ticket volume and AI resolutions, Crisp as a flat workspace from a free 2-seat plan through Plus at $295/mo, Freshdesk from $19/agent/mo billed annually, and Help Scout free for 5 users then Standard $25, Plus $45, or Pro $75 per user/mo annual. Chatwoot and FreeScout can be $0 in software if you self-host, plus server cost, or Chatwoot Cloud per agent. On top of the subscription, plan staff time to export history, rebuild macros and the help center, and run both tools in parallel. These notes do not list a separate Intercom cancellation fee."
+      },
+      {
+        "question": "How do I switch from Intercom?",
+        "answer": "Export conversation history. Install the new widget and keep Intercom live until agents are answering real chats in the new inbox. Rebuild the macros, tags, and help center articles you still need \u2014 product tours and Series usually have to be redesigned, not imported. Check AI or ticket overage pricing before you turn automation on. Remove the Intercom widget only after the new queue is the one customers are actually reaching."
+      },
+      {
+        "question": "When should I stay on Intercom?",
+        "answer": "Stay if your team uses Intercom\u2019s product messaging, in-app tours, and Fin, and the seat-plus-outcome bill matches that work. Move if you are paying for the suite and mostly running ecommerce support, a shared inbox, a ticket queue, or a chat widget."
       }
     ]
   },
