@@ -10,10 +10,9 @@ import {
   tradeoffLine,
   internalToolSlugForAlt,
 } from "@/lib/seo";
-import { isWiredAffiliatePick } from "@/lib/affiliate";
+import { isSponsoredOutbound } from "@/lib/affiliate";
 import { siteOrigin } from "@/lib/site";
 import AlternativeCard from "@/components/AlternativeCard";
-import AffiliateMark from "@/components/AffiliateMark";
 import OssHostingCta, { toolShowsOssHosting } from "@/components/OssHostingCta";
 import NewsletterForm from "@/components/NewsletterForm";
 import ToolCard from "@/components/ToolCard";
@@ -73,6 +72,15 @@ export default async function ToolAlternativesPage({ params }: Props) {
     .map((s) => tool.alternatives.find((a) => a.slug === s))
     .filter((a): a is NonNullable<typeof a> => Boolean(a));
   const showHosting = toolShowsOssHosting(tool);
+  // One page-level line. Hosting buttons stay sponsored, without a per-button badge.
+  const hasCommissionLink =
+    tool.alternatives.some((alt) => alt.pricing === "oss") ||
+    tool.alternatives.some((alt) =>
+      isSponsoredOutbound(alt.website, alt.affiliateParam, {
+        slug: alt.slug,
+        name: alt.name,
+      }),
+    );
 
   return (
     <div>
@@ -111,24 +119,21 @@ export default async function ToolAlternativesPage({ params }: Props) {
                     className="flex flex-col gap-0.5 px-3 py-2.5 sm:flex-row sm:items-baseline sm:justify-between sm:gap-4"
                   >
                     <span className="text-sm text-zinc-500">{row.useCase}</span>
-                    <span className="inline-flex flex-wrap items-center gap-2 text-sm font-medium text-zinc-900">
+                    <span className="text-sm font-medium text-zinc-900">
                       {row.pick}
-                      {isWiredAffiliatePick(row.pick) && <AffiliateMark compact />}
                     </span>
                   </li>
                 ))}
               </ul>
-              {tool.quickPicks.some((row) => isWiredAffiliatePick(row.pick)) && (
-                <p className="mt-2 text-xs text-zinc-500">
-                  Affiliate marks a partner we may earn a commission from.
-                  Other picks are plain listings.{" "}
-                  <Link href="/disclosure" className="text-indigo-600 hover:underline">
-                    How this works
-                  </Link>
-                  .
-                </p>
-              )}
             </div>
+          )}
+          {hasCommissionLink && (
+            <p className="mt-4 text-sm text-zinc-500">
+              Some links may earn us a commission.{" "}
+              <Link href="/disclosure" className="text-indigo-600 hover:underline">
+                Disclosure
+              </Link>
+            </p>
           )}
           {showHosting && <OssHostingCta />}
           <div className="mt-4 flex flex-wrap gap-3 text-sm">

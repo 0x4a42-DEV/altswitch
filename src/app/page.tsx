@@ -144,7 +144,7 @@ export default function HomePage() {
           </h1>
           <p className="mt-4 max-w-2xl text-lg text-zinc-600">
             AltSwitch is an independent directory — pricing notes, strengths,
-            and tradeoffs in plain language. Affiliate links are labeled.
+            and tradeoffs in plain language. Some links may earn us a commission.
             Placement stays editorial.
           </p>
           <ul className="mt-6 flex flex-wrap gap-2 text-sm text-zinc-700">

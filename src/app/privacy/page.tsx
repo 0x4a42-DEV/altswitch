@@ -56,15 +56,17 @@ export default function PrivacyPage() {
         account.
       </p>
       <p className="mt-3 text-zinc-700">
-        Some outbound links are affiliate or referral links. They are labeled{" "}
-        <Link href="/disclosure" className="text-indigo-600 hover:underline">
-          Affiliate
-        </Link>{" "}
-        on the page and use <span className="font-medium">rel=&quot;sponsored&quot;</span>.
+        Some outbound links are affiliate or referral links. A page that includes
+        them says so once (“Some links may earn us a commission”) and those
+        links use <span className="font-medium">rel=&quot;sponsored&quot;</span>.
         When you follow one, the partner site or its affiliate network may set
         its own cookie or store a referral code so it can tell the visit came
         from AltSwitch. We do not control those cookies. Links that are not
-        labeled Affiliate go to the vendor&apos;s ordinary website.
+        partner links go to the vendor&apos;s ordinary website. See the{" "}
+        <Link href="/disclosure" className="text-indigo-600 hover:underline">
+          affiliate disclosure
+        </Link>
+        .
       </p>
 
       <h2 className="mt-10 text-xl font-semibold text-zinc-900">

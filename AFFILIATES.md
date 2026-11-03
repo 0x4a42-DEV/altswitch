@@ -184,7 +184,7 @@ When a program is approved: move it to **Done**, add the real URL to `affiliates
 ## Process reminders
 
 1. Prefer real referral overrides over fake `?ref=` params.
-2. Disclose affiliates on `/about` and `/disclosure`. Label sponsored Visit links and wired quick picks in the UI, and use `rel="sponsored"` on those outbound links.
+2. Disclose affiliates on `/about` and `/disclosure`. Comparison pages that include a partner link say once, “Some links may earn us a commission.” Use `rel="sponsored"` on those outbound links. Do not stamp Affiliate on each Visit button, quick pick, or hosting link.
 3. Never mark a program **Done** without a live URL in code.
 4. Prefer programs with public apply pages or in-product self-serve dashboards; treat enterprise PartnerStack sales tracks as P3+.
 5. **GSC coverage rule:** for every top GSC query/page, have (a) a real affiliate wired for at least one strong alt, OR (b) an application already pending. If neither → apply, or document blocked / no-program. Do not chase apps Partner marked on hold.

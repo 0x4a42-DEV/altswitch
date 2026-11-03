@@ -7,7 +7,6 @@ import {
   VULTR_REFERRAL_LABEL,
   VULTR_REFERRAL_URL,
 } from "@/lib/affiliates";
-import AffiliateMark from "@/components/AffiliateMark";
 
 /**
  * Railway and DigitalOcean lead (stronger commission path). Vultr stays third.
@@ -80,9 +79,6 @@ export default function OssHostingCta({
             <HostLink key={host.label} host={host} compact />
           ))}
         </div>
-        <span className="mt-2 block">
-          <AffiliateMark />
-        </span>
       </div>
     );
   }
@@ -93,15 +89,11 @@ export default function OssHostingCta({
       aria-label="Where to run the open-source pick"
       className="mt-5 max-w-2xl scroll-mt-24 rounded-2xl border border-amber-200 bg-white p-4 shadow-sm"
     >
-      <div className="flex flex-wrap items-center gap-2">
-        <p className="text-sm font-semibold text-zinc-900">
-          Where to run the open-source pick
-        </p>
-        <AffiliateMark compact />
-      </div>
+      <p className="text-sm font-semibold text-zinc-900">
+        Where to run the open-source pick
+      </p>
       <p className="mt-1 text-sm text-zinc-700">
-        If you self-host, the software is free and the server is not. These
-        are affiliate links.
+        If you self-host, the software is free and the server is not.
       </p>
       <div className="mt-3 flex flex-wrap gap-2">
         {HOSTS.map((host) => (

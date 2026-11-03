@@ -4,7 +4,7 @@ import Link from "next/link";
 export const metadata: Metadata = {
   title: "Affiliate disclosure",
   description:
-    "How AltSwitch monetizes: labeled affiliate and referral links, and what is a plain listing.",
+    "How AltSwitch monetizes: some links may earn a commission, and what is a plain listing.",
   alternates: { canonical: "/disclosure" },
 };
 
@@ -36,15 +36,16 @@ export default function DisclosurePage() {
       </p>
 
       <h2 className="mt-10 text-xl font-semibold text-zinc-900">
-        How a partner link is labeled
+        How a partner link is disclosed
       </h2>
       <ul className="mt-4 list-disc space-y-2 pl-5 text-zinc-700">
         <li>
-          A sponsored <span className="font-medium">Visit website</span> button
-          shows “Affiliate · may earn a commission” on the card.
+          A comparison page that includes a partner link says once, near the
+          top: “Some links may earn us a commission.”
         </li>
         <li>
-          A quick pick we can earn from is marked <span className="font-medium">Affiliate</span>.
+          That line covers Visit buttons, quick picks, and hosting links on the
+          page. We do not stamp Affiliate on each one.
         </li>
         <li>
           Open-source pages include a hosting note for Railway, DigitalOcean,
@@ -54,8 +55,8 @@ export default function DisclosurePage() {
           Those links use <span className="font-medium">rel=&quot;sponsored&quot;</span>.
         </li>
         <li>
-          Listings without that label go to the vendor&apos;s public site. They
-          are not our referral links.
+          A plain listing goes to the vendor&apos;s public site. It is not our
+          referral link.
         </li>
       </ul>
 
@@ -66,11 +67,11 @@ export default function DisclosurePage() {
         We do not sell placement. Pros, cons, and pricing notes are ours,
         including limitations of products we can earn from. A page may lead
         with a partner when that product fits the job the page is about. The
-        Affiliate label is what tells you we may earn from the link.
+        line on the page is what tells you we may earn from a partner link.
       </p>
       <p className="mt-3 text-zinc-700">
         Current partner links point at: {PARTNERS.join(", ")}. Programs change.
-        The label on the card is the live signal, not this list.
+        The sponsored links on the page are the live signal, not this list.
       </p>
 
       <h2 className="mt-10 text-xl font-semibold text-zinc-900">Contact</h2>

@@ -199,28 +199,11 @@ export function affiliateUrl(
   }
 }
 
-/**
- * Quick-pick labels that are wired partners. Exact match only — compound
- * picks such as "Chatwoot or Crisp" stay unlabeled, and pending/declined
- * brands (HubSpot, n8n, Brevo, …) are not in this set.
- */
-const WIRED_AFFILIATE_PICKS = new Set([
-  "railway",
-  "digitalocean",
-  "digitalocean app platform",
-  "make",
-  "cal.com",
-  "calcom",
-  "tally",
-  "mailerlite",
-  "beehiiv",
-  "vultr",
-  "teable",
-  "close",
-  "close crm",
-  "gorgias",
-]);
-
-export function isWiredAffiliatePick(pick: string): boolean {
-  return WIRED_AFFILIATE_PICKS.has(pick.trim().toLowerCase());
+/** True when the outbound URL is a wired referral, not the plain vendor site. */
+export function isSponsoredOutbound(
+  website: string,
+  affiliateParam?: string,
+  meta?: { slug?: string; name?: string },
+): boolean {
+  return affiliateUrl(website, affiliateParam, meta) !== website;
 }
