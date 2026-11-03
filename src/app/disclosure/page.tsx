@@ -47,6 +47,10 @@ export default function DisclosurePage() {
           A quick pick we can earn from is marked <span className="font-medium">Affiliate</span>.
         </li>
         <li>
+          Open-source pages include a hosting note for Railway, DigitalOcean,
+          and Vultr. Those are affiliate links.
+        </li>
+        <li>
           Those links use <span className="font-medium">rel=&quot;sponsored&quot;</span>.
         </li>
         <li>
