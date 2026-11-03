@@ -1,9 +1,8 @@
 import Link from "next/link";
 import type { Alternative } from "@/lib/types";
 import { pricingLabel } from "@/lib/data";
-import { affiliateUrl } from "@/lib/affiliate";
+import { affiliateUrl, isSponsoredOutbound } from "@/lib/affiliate";
 import { internalToolSlugForAlt } from "@/lib/seo";
-import AffiliateMark from "@/components/AffiliateMark";
 import OssHostingCta from "@/components/OssHostingCta";
 
 const pricingStyles: Record<string, string> = {
@@ -20,7 +19,10 @@ export default function AlternativeCard({ alt }: { alt: Alternative }) {
   });
   const internalSlug = internalToolSlugForAlt(alt);
   // Plain official-site links (no referral/ref param) are not sponsored.
-  const isSponsored = href !== alt.website;
+  const isSponsored = isSponsoredOutbound(alt.website, alt.affiliateParam, {
+    slug: alt.slug,
+    name: alt.name,
+  });
 
   return (
     <article
@@ -92,7 +94,6 @@ export default function AlternativeCard({ alt }: { alt: Alternative }) {
         >
           Visit website →
         </a>
-        {isSponsored && <AffiliateMark />}
         {internalSlug && (
           <Link
             href={`/alternatives/${internalSlug}`}
