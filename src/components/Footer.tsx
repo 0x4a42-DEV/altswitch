@@ -8,7 +8,9 @@ export default function Footer() {
           <p className="font-medium text-zinc-800">
             Alt<span className="text-indigo-600">Switch</span>
           </p>
-          <p className="mt-1">Find SaaS &amp; open-source alternatives.</p>
+          <p className="mt-1">
+            Independent directory of SaaS &amp; open-source alternatives.
+          </p>
           <p className="mt-2">
             <a
               href="mailto:hello@altswitch.xyz"
@@ -23,6 +25,13 @@ export default function Footer() {
             <Link href="/about" className="hover:text-indigo-600">
               About
             </Link>
+            <a
+              href="https://www.linkedin.com/company/altswitch/"
+              className="hover:text-indigo-600"
+              rel="noopener noreferrer"
+            >
+              LinkedIn
+            </a>
             <Link href="/#newsletter" className="hover:text-indigo-600">
               Newsletter
             </Link>
