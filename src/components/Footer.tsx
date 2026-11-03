@@ -21,9 +21,15 @@ export default function Footer() {
           </p>
         </div>
         <div className="flex flex-col gap-2 sm:items-end">
-          <div className="flex gap-6">
+          <div className="flex flex-wrap gap-x-6 gap-y-2 sm:justify-end">
             <Link href="/about" className="hover:text-indigo-600">
               About
+            </Link>
+            <Link href="/privacy" className="hover:text-indigo-600">
+              Privacy
+            </Link>
+            <Link href="/disclosure" className="hover:text-indigo-600">
+              Affiliate disclosure
             </Link>
             <a
               href="https://www.linkedin.com/company/altswitch/"
@@ -39,8 +45,11 @@ export default function Footer() {
         </div>
       </div>
       <div className="border-t border-zinc-200 py-4 text-center text-xs text-zinc-400">
-        © {new Date().getFullYear()} AltSwitch. Some outbound links may be
-        affiliate partnerships.
+        © {new Date().getFullYear()} AltSwitch. Some outbound links are{" "}
+        <Link href="/disclosure" className="hover:text-indigo-600">
+          affiliate partnerships
+        </Link>{" "}
+        and are labeled on the page.
       </div>
     </footer>
   );

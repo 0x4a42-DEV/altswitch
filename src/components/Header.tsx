@@ -12,19 +12,23 @@ export default function Header() {
             Alt<span className="text-indigo-600">Switch</span>
           </span>
         </Link>
-        <nav className="flex items-center gap-5 text-sm text-zinc-600">
-          <Link href="/" className="hover:text-indigo-600 transition-colors">
-            Directory
+        <nav className="flex items-center gap-3 text-sm text-zinc-600 sm:gap-5">
+          <Link
+            href="/#tools"
+            className="rounded-full bg-indigo-600 px-3 py-1.5 text-white hover:bg-indigo-500 transition-colors"
+          >
+            <span className="sm:hidden">Browse</span>
+            <span className="hidden sm:inline">Browse tools</span>
           </Link>
           <Link href="/about" className="hover:text-indigo-600 transition-colors">
             About
           </Link>
-          <a
-            href="#newsletter"
-            className="rounded-full bg-indigo-600 px-3 py-1.5 text-white hover:bg-indigo-500 transition-colors"
+          <Link
+            href="/#newsletter"
+            className="hover:text-indigo-600 transition-colors"
           >
             Newsletter
-          </a>
+          </Link>
         </nav>
       </div>
     </header>

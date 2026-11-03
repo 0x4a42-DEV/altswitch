@@ -1,13 +1,12 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { getAllTools, getFeaturedTools } from "@/lib/data";
+import { siteOrigin } from "@/lib/site";
 import SearchBox from "@/components/SearchBox";
 import ToolCard from "@/components/ToolCard";
 import NewsletterForm from "@/components/NewsletterForm";
 
-const siteUrl = (
-  process.env.NEXT_PUBLIC_SITE_URL || "https://altswitch.xyz"
-).replace(/\/$/, "");
+const siteUrl = siteOrigin();
 
 const title = "AltSwitch — SaaS & Open-Source Alternatives Directory";
 const description =
@@ -16,11 +15,11 @@ const description =
 export const metadata: Metadata = {
   title: { absolute: title },
   description,
-  alternates: { canonical: "/" },
+  alternates: { canonical: "https://altswitch.xyz/" },
   openGraph: {
     title,
     description,
-    url: "/",
+    url: "https://altswitch.xyz/",
     type: "website",
     siteName: "AltSwitch",
   },
@@ -167,7 +166,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      <section className="mx-auto max-w-5xl px-4 py-14">
+      <section id="tools" className="mx-auto max-w-5xl scroll-mt-20 px-4 py-14">
         <h2 className="text-2xl font-semibold text-zinc-900">Popular switches</h2>
         <p className="mt-1 max-w-2xl text-zinc-600">
           Start with a tool you know. Each link opens a full comparison with

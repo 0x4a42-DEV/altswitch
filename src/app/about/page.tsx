@@ -85,8 +85,12 @@ export default function AboutPage() {
           can buy.
         </li>
         <li>
-          An optional email list for later updates. Signup works; we are not
-          sending a newsletter yet.
+          Optional email signup for occasional product updates. We store the
+          address you submit and we don&apos;t sell it.{" "}
+          <Link href="/privacy" className="text-indigo-600 hover:underline">
+            Privacy policy
+          </Link>
+          .
         </li>
       </ul>
 
@@ -95,7 +99,12 @@ export default function AboutPage() {
       </h2>
       <ul className="mt-4 list-disc space-y-2 pl-5 text-zinc-700">
         <li>No fake reviews, traffic claims, or undisclosed paid rankings</li>
-        <li>Some outbound links are affiliate partnerships and are labeled</li>
+        <li>
+          Some outbound links are affiliate partnerships and are labeled.{" "}
+          <Link href="/disclosure" className="text-indigo-600 hover:underline">
+            Affiliate disclosure
+          </Link>
+        </li>
         <li>We never sell your email</li>
         <li>Browsing the directory never requires a credit card</li>
       </ul>
