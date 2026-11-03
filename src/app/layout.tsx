@@ -33,7 +33,8 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        {/* Impact expects name + value (not content) for HubSpot affiliate verification */}
+        {/* Impact site-verification meta from the HubSpot Affiliates application.
+            Declined 2026-11-03. Kept: this is not a referral link, and no other Impact program is wired. */}
         <meta
           name="impact-site-verification"
           {...{ value: "898fa29e-d673-410a-92f7-17c569a25290" }}
