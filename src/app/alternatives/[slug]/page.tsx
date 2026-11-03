@@ -14,6 +14,7 @@ import { isWiredAffiliatePick } from "@/lib/affiliate";
 import { siteOrigin } from "@/lib/site";
 import AlternativeCard from "@/components/AlternativeCard";
 import AffiliateMark from "@/components/AffiliateMark";
+import OssHostingCta, { toolShowsOssHosting } from "@/components/OssHostingCta";
 import NewsletterForm from "@/components/NewsletterForm";
 import ToolCard from "@/components/ToolCard";
 
@@ -71,6 +72,7 @@ export default async function ToolAlternativesPage({ params }: Props) {
   const ossAlts = (tool.ossSection?.slugs ?? [])
     .map((s) => tool.alternatives.find((a) => a.slug === s))
     .filter((a): a is NonNullable<typeof a> => Boolean(a));
+  const showHosting = toolShowsOssHosting(tool);
 
   return (
     <div>
@@ -128,6 +130,7 @@ export default async function ToolAlternativesPage({ params }: Props) {
               )}
             </div>
           )}
+          {showHosting && <OssHostingCta />}
           <div className="mt-4 flex flex-wrap gap-3 text-sm">
             <span className="rounded-full bg-zinc-100 px-3 py-1 text-zinc-700">
               {tool.category}

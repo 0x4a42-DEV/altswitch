@@ -2,13 +2,9 @@ import Link from "next/link";
 import type { Alternative } from "@/lib/types";
 import { pricingLabel } from "@/lib/data";
 import { affiliateUrl } from "@/lib/affiliate";
-import {
-  DIGITALOCEAN_REFERRAL_URL,
-  RAILWAY_REFERRAL_URL,
-  VULTR_REFERRAL_URL,
-} from "@/lib/affiliates";
 import { internalToolSlugForAlt } from "@/lib/seo";
 import AffiliateMark from "@/components/AffiliateMark";
+import OssHostingCta from "@/components/OssHostingCta";
 
 const pricingStyles: Record<string, string> = {
   free: "bg-emerald-50 text-emerald-700",
@@ -85,41 +81,7 @@ export default function AlternativeCard({ alt }: { alt: Alternative }) {
         {alt.pricingNotes}
       </p>
 
-      {alt.pricing === "oss" && (
-        <p className="mt-3 rounded-lg bg-zinc-50 px-3 py-2 text-xs text-zinc-600">
-          Self-host tip: many teams run this on{" "}
-          <a
-            href={RAILWAY_REFERRAL_URL}
-            target="_blank"
-            rel="noopener noreferrer sponsored"
-            className="font-medium text-indigo-600 hover:underline"
-          >
-            Railway
-          </a>
-          ,{" "}
-          <a
-            href={DIGITALOCEAN_REFERRAL_URL}
-            target="_blank"
-            rel="noopener noreferrer sponsored"
-            className="font-medium text-indigo-600 hover:underline"
-          >
-            DigitalOcean
-          </a>{" "}
-          or{" "}
-          <a
-            href={VULTR_REFERRAL_URL}
-            target="_blank"
-            rel="noopener noreferrer sponsored"
-            className="font-medium text-indigo-600 hover:underline"
-          >
-            Vultr
-          </a>
-          .
-          <span className="mt-1.5 block">
-            <AffiliateMark />
-          </span>
-        </p>
-      )}
+      {alt.pricing === "oss" && <OssHostingCta variant="card" />}
 
       <div className="mt-4 flex flex-wrap items-center gap-x-4 gap-y-2 text-sm font-medium">
         <a
