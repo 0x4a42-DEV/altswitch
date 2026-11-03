@@ -1,8 +1,9 @@
 import type { MetadataRoute } from "next";
 import { getAllToolSlugs } from "@/lib/data";
+import { siteOrigin } from "@/lib/site";
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const base = (process.env.NEXT_PUBLIC_SITE_URL || "https://altswitch.xyz").replace(/\/$/, "");
+  const base = siteOrigin();
   const now = new Date();
   const toolEntries = getAllToolSlugs().map((slug) => ({
     url: `${base}/alternatives/${slug}`,
@@ -23,6 +24,18 @@ export default function sitemap(): MetadataRoute.Sitemap {
       lastModified: now,
       changeFrequency: "monthly",
       priority: 0.5,
+    },
+    {
+      url: `${base}/privacy`,
+      lastModified: now,
+      changeFrequency: "yearly",
+      priority: 0.3,
+    },
+    {
+      url: `${base}/disclosure`,
+      lastModified: now,
+      changeFrequency: "yearly",
+      priority: 0.3,
     },
     ...toolEntries,
   ];

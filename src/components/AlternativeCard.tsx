@@ -8,6 +8,7 @@ import {
   VULTR_REFERRAL_URL,
 } from "@/lib/affiliates";
 import { internalToolSlugForAlt } from "@/lib/seo";
+import AffiliateMark from "@/components/AffiliateMark";
 
 const pricingStyles: Record<string, string> = {
   free: "bg-emerald-50 text-emerald-700",
@@ -114,6 +115,9 @@ export default function AlternativeCard({ alt }: { alt: Alternative }) {
             Vultr
           </a>
           .
+          <span className="mt-1.5 block">
+            <AffiliateMark />
+          </span>
         </p>
       )}
 
@@ -126,6 +130,7 @@ export default function AlternativeCard({ alt }: { alt: Alternative }) {
         >
           Visit website →
         </a>
+        {isSponsored && <AffiliateMark />}
         {internalSlug && (
           <Link
             href={`/alternatives/${internalSlug}`}

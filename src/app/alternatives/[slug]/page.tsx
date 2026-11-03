@@ -10,15 +10,16 @@ import {
   tradeoffLine,
   internalToolSlugForAlt,
 } from "@/lib/seo";
+import { isWiredAffiliatePick } from "@/lib/affiliate";
+import { siteOrigin } from "@/lib/site";
 import AlternativeCard from "@/components/AlternativeCard";
+import AffiliateMark from "@/components/AffiliateMark";
 import NewsletterForm from "@/components/NewsletterForm";
 import ToolCard from "@/components/ToolCard";
 
 type Props = { params: Promise<{ slug: string }> };
 
-const siteUrl =
-  process.env.NEXT_PUBLIC_SITE_URL?.replace(/\/$/, "") ||
-  "https://altswitch.xyz";
+const siteUrl = siteOrigin();
 
 export async function generateStaticParams() {
   return getAllToolSlugs().map((slug) => ({ slug }));
@@ -108,12 +109,23 @@ export default async function ToolAlternativesPage({ params }: Props) {
                     className="flex flex-col gap-0.5 px-3 py-2.5 sm:flex-row sm:items-baseline sm:justify-between sm:gap-4"
                   >
                     <span className="text-sm text-zinc-500">{row.useCase}</span>
-                    <span className="text-sm font-medium text-zinc-900">
+                    <span className="inline-flex flex-wrap items-center gap-2 text-sm font-medium text-zinc-900">
                       {row.pick}
+                      {isWiredAffiliatePick(row.pick) && <AffiliateMark compact />}
                     </span>
                   </li>
                 ))}
               </ul>
+              {tool.quickPicks.some((row) => isWiredAffiliatePick(row.pick)) && (
+                <p className="mt-2 text-xs text-zinc-500">
+                  Affiliate marks a partner we may earn a commission from.
+                  Other picks are plain listings.{" "}
+                  <Link href="/disclosure" className="text-indigo-600 hover:underline">
+                    How this works
+                  </Link>
+                  .
+                </p>
+              )}
             </div>
           )}
           <div className="mt-4 flex flex-wrap gap-3 text-sm">

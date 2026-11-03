@@ -1,6 +1,7 @@
 "use client";
 
 import { FormEvent, useState } from "react";
+import Link from "next/link";
 
 export default function NewsletterForm({
   source = "home",
@@ -36,7 +37,7 @@ export default function NewsletterForm({
         setMessage("You're already on the list — thanks!");
       } else {
         setStatus("ok");
-        setMessage("You're on the list. We're not sending yet — newsletter is parked until the directory earns its keep.");
+        setMessage("You're on the list. Thanks.");
         setEmail("");
       }
     } catch {
@@ -61,14 +62,14 @@ export default function NewsletterForm({
             : "text-2xl font-semibold tracking-tight"
         }
       >
-        Join the list — sends parked for now
+        Get occasional product updates
       </h2>
       <p
         className={
           compact ? "mt-1 text-sm text-zinc-600" : "mt-2 text-indigo-100"
         }
       >
-        Optional signup for later updates. No spam; we are not emailing yet. Unsubscribe anytime.
+        Occasional notes on tools and alternatives. No spam. Unsubscribe anytime.
       </p>
       <form onSubmit={onSubmit} className="mt-4 flex flex-col gap-2 sm:flex-row">
         <input
@@ -92,9 +93,18 @@ export default function NewsletterForm({
               : "rounded-lg bg-white px-4 py-2.5 font-medium text-indigo-700 hover:bg-indigo-50 disabled:opacity-60"
           }
         >
-          {status === "loading" ? "Saving…" : "Join the list"}
+          {status === "loading" ? "Saving…" : "Get updates"}
         </button>
       </form>
+      <p
+        className={
+          compact ? "mt-3 text-xs text-zinc-500" : "mt-3 text-xs text-indigo-100"
+        }
+      >
+        <Link href="/privacy" className="underline hover:no-underline">
+          Privacy policy
+        </Link>
+      </p>
       {message && (
         <p
           className={

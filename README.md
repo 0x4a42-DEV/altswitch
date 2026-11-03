@@ -19,8 +19,10 @@ npm run dev
 
 Pushed to GitHub and deployed on Railway. Set:
 
-- `NEXT_PUBLIC_SITE_URL` — public site URL
+- `NEXT_PUBLIC_SITE_URL` — public site URL (apex `https://altswitch.xyz`; a `www` value is rewritten to apex for canonicals)
 - `SUBSCRIBERS_DIR` — defaults to `/data` (mount a volume there)
+
+HTTP → HTTPS is Railway’s edge (verified 2026-11-03: `http://altswitch.xyz` and `http://www.altswitch.xyz` return 301 to the matching https host). It is not duplicated in the app, because Railway health checks are plain HTTP and a second redirect can loop. `www.altswitch.xyz` → `https://altswitch.xyz` is a 308 in `src/middleware.ts` (and `next.config.ts`). Railway does not canonicalize www.
 
 ## Scope
 
