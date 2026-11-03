@@ -1298,10 +1298,29 @@
     "name": "Airtable",
     "category": "Databases",
     "tagline": "Spreadsheet-database hybrid for teams",
-    "description": "Airtable popularized no-code databases. Teams often leave for open-source SQL bases or lighter freemium sheets when seat and record costs climb.",
+    "description": "Airtable is the hosted spreadsheet-database. People look up an Airtable alternative when seat and record costs climb, or when they want an open-source base on their own SQL.",
     "website": "https://www.airtable.com",
     "featured": true,
     "alternatives": [
+      {
+        "slug": "teable",
+        "name": "Teable",
+        "oneLiner": "Fast open-source Airtable-like database on Postgres.",
+        "pricing": "oss",
+        "website": "https://teable.io",
+        "pros": [
+          "Airtable-like on Postgres",
+          "Performance focus",
+          "Open source path"
+        ],
+        "cons": [
+          "Newer project than Airtable or NocoDB",
+          "Ecosystem and templates still growing",
+          "Confirm current cloud free-tier limits before migrating"
+        ],
+        "bestFor": "Builders who want Airtable speed with SQL underneath.",
+        "pricingNotes": "OSS / cloud plans \u2014 confirm current free tier limits."
+      },
       {
         "slug": "nocodb",
         "name": "NocoDB",
@@ -1396,42 +1415,28 @@
         ],
         "bestFor": "Data-savvy teams needing relational sheets with code-like power.",
         "pricingNotes": "OSS; Grist Cloud free/paid. Self-host free."
-      },
-      {
-        "slug": "teable",
-        "name": "Teable",
-        "oneLiner": "Fast open-source Airtable-like database on Postgres.",
-        "pricing": "oss",
-        "website": "https://teable.io",
-        "pros": [
-          "Airtable-like on Postgres",
-          "Performance focus",
-          "Open source path"
-        ],
-        "cons": [
-          "Newer project than Airtable or NocoDB",
-          "Ecosystem and templates still growing",
-          "Confirm current cloud free-tier limits before migrating"
-        ],
-        "bestFor": "Builders who want Airtable speed with SQL underneath.",
-        "pricingNotes": "OSS / cloud plans \u2014 confirm current free tier limits."
       }
+
     ],
-    "seoTitle": "Airtable Alternatives (2026): NocoDB, Baserow & Teable",
-    "seoDescription": "Looking for Airtable alternatives? Compare NocoDB, Baserow, Teable, Notion Databases, Rows & Grist \u2014 free open-source self-host bases and freemium sheets, fair notes.",
-    "h1": "Airtable alternatives (2026)",
-    "intro": "Looking for Airtable alternatives? NocoDB and Baserow cover free open-source self-host grids; Teable is a fast Postgres Airtable-like base; Notion Databases and Rows fit hosted freemium. Pick by job below, then use the comparison table for pricing and tradeoffs.",
+    "seoTitle": "Best Airtable Alternatives (2026): Teable, NocoDB & Baserow",
+    "seoDescription": "Looking for the best Airtable alternatives \u2014 or an open-source Airtable alternative? Compare Teable, NocoDB, Baserow, Grist, Notion Databases, and Rows. Postgres bases, self-host grids, and hosted sheets, with fair tradeoffs.",
+    "h1": "Best Airtable alternatives (2026)",
+    "intro": "The best Airtable alternatives split by job. Teable is the fast open-source Airtable-like base on Postgres. NocoDB is the Airtable-style grid on a SQL database you already run. Baserow is the no-code open-source grid, and Grist is the spreadsheet-database with Python formulas. Notion Databases and Rows stay hosted. The notes under \u201cWhich Airtable alternative fits\u201d say when each one is a poor fit, not only when it works.",
     "ossSection": {
       "heading": "Open-source Airtable alternatives",
-      "intro": "NocoDB is the closest Airtable-like UI on Postgres/MySQL you can self-host. Baserow, Grist, and Teable cover no-code grids, spreadsheet-DB hybrids, and fast Postgres bases. Cloud plans exist if you do not want to run infra.",
+      "intro": "Teable, NocoDB, Baserow, and Grist are the open-source Airtable alternatives on this page. Teable is the Postgres base this page leads with. NocoDB is the closest Airtable-like UI on Postgres or MySQL you already run. Baserow is a no-code grid, and Grist is a spreadsheet-database hybrid with Python formulas. Each can be self-hosted. Cloud plans exist when you do not want to run the server.",
       "slugs": [
+        "teable",
         "nocodb",
         "baserow",
-        "grist",
-        "teable"
+        "grist"
       ]
     },
     "quickPicks": [
+      {
+        "useCase": "Fast Postgres Airtable-like",
+        "pick": "Teable"
+      },
       {
         "useCase": "Free OSS on your SQL DB",
         "pick": "NocoDB"
@@ -1441,8 +1446,8 @@
         "pick": "Baserow"
       },
       {
-        "useCase": "Fast Postgres Airtable-like",
-        "pick": "Teable"
+        "useCase": "Spreadsheet-DB + Python",
+        "pick": "Grist"
       },
       {
         "useCase": "Already in Notion",
@@ -1451,10 +1456,104 @@
       {
         "useCase": "Spreadsheet + APIs",
         "pick": "Rows"
+      }
+    ],
+    "compareGuide": {
+      "heading": "Which Airtable alternative fits",
+      "intro": "Same shortlist, different jobs. Prices here are the notes already on each card, not a live quote \u2014 confirm them on the vendor\u2019s site before you switch.",
+      "rows": [
+        {
+          "title": "Teable",
+          "slugs": ["teable"],
+          "when": "You want an Airtable-like grid on Postgres, with cloud plans and an open-source path. Teable is the option this page leads with for that job. The listing is open-source software plus cloud plans, and the free-tier limits need a check on Teable\u2019s site before you migrate.",
+          "skip": "You need Airtable\u2019s template gallery and marketplace apps. Teable is newer than Airtable or NocoDB, and that ecosystem is still growing. A grid that has to sit on SQL you already operate is a closer fit for NocoDB."
+        },
+        {
+          "title": "NocoDB",
+          "slugs": ["nocodb"],
+          "when": "You already run Postgres or MySQL and want an Airtable-style grid on it, without a per-row SaaS charge. Self-hosting is free, and you manage that database. NocoDB Cloud Free covers up to 3 editors and 1,000 records. Plus starts from about $12 per editor per month, billed annually (pay for up to 9 seats, then seats are unlimited).",
+          "skip": "You need Airtable templates and marketplace apps this card says are missing, or you do not want to manage the SQL database behind a self-hosted grid. The cloud free tier also caps records and API calls, so a large base does not stay there."
+        },
+        {
+          "title": "Baserow",
+          "slugs": ["baserow"],
+          "when": "Ops teams want a no-code database they can self-host or run in Baserow\u2019s cloud. The software is open source. Cloud plans are freemium or paid by rows and users. This card does not list a dollar price.",
+          "skip": "Realtime collaboration, or a large plugin and template ecosystem, is why the team stayed on Airtable. Both are still catching up on Baserow. Self-hosting also means you do the maintenance."
+        },
+        {
+          "title": "Grist",
+          "slugs": ["grist"],
+          "when": "A data-savvy team wants a spreadsheet-database hybrid with Python formulas. Grist is open source and free to self-host. Grist Cloud has free and paid plans. This card does not list those cloud prices.",
+          "skip": "You want Airtable\u2019s templates and a shorter learning curve. The community is smaller, and the product is a formula-heavy sheet. Baserow and Teable are the no-code grids on this page."
+        },
+        {
+          "title": "Notion Databases",
+          "slugs": ["notion-db"],
+          "when": "The team already lives in Notion and the database is light: relations and views inside that workspace. Databases are included in Notion\u2019s free, Plus, and Business plans, and seat pricing applies. This card does not list Notion\u2019s seat prices.",
+          "skip": "You need a real relational database, room for API traffic, or a base that stays fast when it gets large. This card calls out API and rate limits and weak performance on huge bases. There is no open-source path on this listing."
+        },
+        {
+          "title": "Rows",
+          "slugs": ["rows"],
+          "when": "Analysts want a spreadsheet that connects to APIs, plus AI helpers, and they think in sheets rather than multi-table bases. Rows is freemium. Paid plans cover more integrations and workspace limits. This card does not list a dollar price.",
+          "skip": "You are replacing Airtable\u2019s relational base or a self-hosted SQL grid. This card\u2019s tradeoff is that Rows is less of a base, with vendor lock-in and pricing that follows data and API use."
+        }
+      ]
+    },
+    "switchGuide": {
+      "heading": "Switching off Airtable",
+      "intro": "These notes do not list an Airtable exit fee. The cost is the next plan \u2014 seats, records, or a server you run \u2014 plus the time to export every table, rebuild what a CSV cannot carry, and keep Airtable editable until the new base is the one people use.",
+      "steps": [
+        {
+          "title": "Map the bill before you export",
+          "body": "Write down what you pay Airtable for today: seats, and the record or automation limits you actually hit. Then map the replacement from the notes on this page. Teable is open source, with cloud plans \u2014 confirm the current free tier on their site before you treat it as free. NocoDB is free to self-host; NocoDB Cloud Free is 3 editors and 1,000 records, and Plus starts from about $12 per editor per month, billed annually. Baserow and Grist are open source, with cloud freemium or paid tiers this page does not price in dollars. Notion Databases and Rows are hosted freemium. A self-hosted base can cost less in software and more in the database you have to run."
+        },
+        {
+          "title": "Export tables and list what will not transfer",
+          "body": "Export each table. Plan to rebuild interfaces, automations, scripts, extensions, and forms \u2014 they do not arrive as working objects. Linked records need to be reconnected after the import. Download attachments you still need; do not assume a link inside an export keeps working. Comments and revision history stay in Airtable. Keep a short list of the views people open every week so you do not recreate dead ones."
+        },
+        {
+          "title": "Run Airtable and the new base together",
+          "body": "Import one base, or one table when the base is large, and leave Airtable editable until those views match what the team uses. A week of overlap is normal when automations are doing real work. That overlap is most of the migration cost in staff time. Cancelling Airtable on the day of the first import leaves you with a spreadsheet and a missing interface."
+        },
+        {
+          "title": "Decide who runs the database",
+          "body": "NocoDB on your own SQL means you manage that database. Teable, Baserow, and Grist can be self-hosted too, or you can take their cloud plans and skip the server. Open-source cards on this page already include a hosting note for Railway, DigitalOcean, or Vultr when you are not using the vendor\u2019s cloud. That hosting bill is separate from the software, which is free for the open-source editions."
+        },
+        {
+          "title": "Cut over, then keep Airtable readable",
+          "body": "Point forms, embeds, and the people who typed into Airtable at the new base. Watch the first real workday. Keep Airtable available for search until the export has the tables you still need, then remove edit access so the two bases do not diverge."
+        }
+      ]
+    },
+    "faqs": [
+      {
+        "question": "What is a good Airtable alternative?",
+        "answer": "Teable is the one this page leads with: a fast open-source Airtable-like database on Postgres, for builders who want that speed with SQL underneath. The card lists open-source software and cloud plans, and it says to confirm current free-tier limits \u2014 these notes do not quote a Teable seat price. It is a poor fit when you need Airtable\u2019s template marketplace. Teable is newer than Airtable or NocoDB, and the ecosystem is still growing. When the grid has to sit on SQL you already run, look at NocoDB next."
       },
       {
-        "useCase": "Spreadsheet-DB + Python",
-        "pick": "Grist"
+        "question": "What are the best Airtable alternatives?",
+        "answer": "It depends on the job. Teable for a Postgres Airtable-like base, NocoDB for an Airtable-style grid on your SQL database, Baserow for a no-code open-source grid, Grist for a spreadsheet-database with Python formulas, Notion Databases when the team is already in Notion, and Rows when you want a spreadsheet that talks to APIs."
+      },
+      {
+        "question": "Is there a free Airtable alternative?",
+        "answer": "Yes, if you are precise about free. Teable, NocoDB, Baserow, and Grist are open source and free to self-host; you still pay for a server when you do not already have one. NocoDB Cloud Free is up to 3 editors and 1,000 records, then Plus from about $12 per editor per month, billed annually. Teable\u2019s card says to confirm the current cloud free tier rather than assume one. Notion Databases are included in Notion\u2019s free, Plus, and Business plans, and seat pricing applies. Rows is freemium. None of these include Airtable\u2019s interface and extension catalog."
+      },
+      {
+        "question": "What is an open-source Airtable alternative?",
+        "answer": "Teable, NocoDB, Baserow, and Grist. Teable is the open-source Airtable alternative this page leads with: Postgres underneath, and cloud plans when you do not want to host it. NocoDB is the closest Airtable-like UI on a SQL database you already run. Baserow is the no-code grid. Grist adds Python formulas and is a different mental model. Self-hosting means you run backups and upgrades. Hosted Airtable can still be the better choice when you want that done for you and you use interfaces and the marketplace."
+      },
+      {
+        "question": "How much does it cost to leave Airtable?",
+        "answer": "Two costs, and no separate exit fee in these notes. You stop paying Airtable seats and record limits, and you start the replacement: Teable\u2019s cloud plan (confirm the free tier on their site) or free software if you self-host; NocoDB Cloud Free for 3 editors and 1,000 records, Plus from about $12 per editor per month billed annually, or free self-host plus the database; Baserow and Grist as open source with cloud tiers this page does not price in dollars; Notion or Rows as hosted freemium. On top of the subscription, plan staff time to export every table, download attachments, rebuild automations and interfaces, and run both bases until the new one is in daily use."
+      },
+      {
+        "question": "How do I switch from Airtable?",
+        "answer": "Export each table and download attachments before you depend on links in that export. Import into Teable, NocoDB, Baserow, Grist, Notion, or Rows, then reconnect linked records. Rebuild the views, automations, and forms people still use. Interfaces and extensions do not come across as working objects. Keep Airtable editable until the new base matches a real workday, then remove edit access so the two copies do not diverge."
+      },
+      {
+        "question": "When should I stay on Airtable?",
+        "answer": "Stay when the team depends on Airtable interfaces, automations, and the extension marketplace, and the seat and record bill matches that work. Move when you are paying for the suite and mostly need a grid: a Postgres base (Teable), a SQL-backed grid you host (NocoDB), a no-code open-source database (Baserow), formulas (Grist), or a light database inside Notion."
       }
     ]
   },
@@ -2624,7 +2723,7 @@
     "name": "Dropbox",
     "category": "File Storage",
     "tagline": "Cloud file sync and sharing",
-    "description": "Dropbox made sync mainstream. Alternatives compete on price, privacy, open-source self-hosting, and Google/Microsoft bundles.",
+    "description": "Dropbox is cloud file sync and sharing. People look up a Dropbox alternative when they want a lower storage bill, end-to-end encryption, an open-source server they run themselves, or files inside a Google or Microsoft bundle they already pay for.",
     "website": "https://www.dropbox.com",
     "featured": true,
     "alternatives": [
@@ -2743,40 +2842,138 @@
         "pricingNotes": "Community OSS; Professional licensed. Hosting separate."
       }
     ],
-    "seoTitle": "Dropbox Alternatives (2026): Nextcloud, Proton Drive & Seafile",
-    "seoDescription": "Looking for Dropbox alternatives? Compare Nextcloud & Seafile (open-source self-host), Proton Drive for E2E privacy, plus Google Drive, OneDrive & pCloud \u2014 fair storage tradeoffs.",
-    "h1": "Dropbox alternatives (2026)",
-    "intro": "Looking for Dropbox alternatives? Nextcloud and Seafile for open-source self-host sync, Proton Drive for end-to-end encrypted cloud, Google Drive or OneDrive when you want office-suite bundles, or pCloud for lifetime deals. Pick by job below, then use the comparison table for pricing and tradeoffs.",
+    "seoTitle": "Best Dropbox Alternatives (2026): Nextcloud, Proton & OSS",
+    "seoDescription": "Looking for the best Dropbox alternatives \u2014 or an open-source Dropbox alternative? Compare Nextcloud and Seafile for self-host sync, Proton Drive for encrypted cloud, plus Google Drive, OneDrive, and pCloud. Fair storage tradeoffs.",
+    "h1": "Best Dropbox alternatives (2026)",
+    "intro": "The best Dropbox alternatives split by job. Nextcloud is the open-source collab suite you self-host. Seafile is the open-source sync tool built for speed. Proton Drive is encrypted cloud storage in the Proton suite. Google Drive and OneDrive fit when the files should live in Workspace or Microsoft 365. pCloud is consumer cloud storage with subscription or lifetime pricing. The notes under \u201cWhich Dropbox alternative fits\u201d say when each one is a poor fit, not only when it works.",
     "quickPicks": [
       {
-        "pick": "Nextcloud or Seafile",
-        "useCase": "Open source / self-host sync"
+        "useCase": "Open source / self-host sync",
+        "pick": "Nextcloud or Seafile"
       },
       {
-        "pick": "Proton Drive",
-        "useCase": "E2E encrypted cloud"
+        "useCase": "E2E encrypted cloud",
+        "pick": "Proton Drive"
       },
       {
-        "pick": "Google Drive",
-        "useCase": "Bundled with Docs / Workspace"
+        "useCase": "Bundled with Docs / Workspace",
+        "pick": "Google Drive"
       },
       {
-        "pick": "OneDrive",
-        "useCase": "Bundled with Microsoft 365"
+        "useCase": "Bundled with Microsoft 365",
+        "pick": "OneDrive"
       },
       {
-        "pick": "pCloud",
-        "useCase": "Lifetime / consumer cloud"
+        "useCase": "Lifetime / consumer cloud",
+        "pick": "pCloud"
       }
     ],
     "ossSection": {
       "heading": "Open-source Dropbox alternatives",
-      "intro": "Want file sync you control? Nextcloud is a full self-hosted collab suite; Seafile focuses on fast reliable sync. Both need you to run (or pay someone to run) the server.",
+      "intro": "Nextcloud and Seafile are the open-source Dropbox alternatives on this page. Nextcloud is a full self-hosted collab suite: files plus apps. Seafile focuses on fast, reliable sync, with a Community edition and a licensed Professional edition. The software can be free. The server is not \u2014 you run it, or you pay someone to run it. Neither card quotes a hosting price.",
       "slugs": [
         "nextcloud",
         "seafile"
       ]
-    }
+    },
+    "compareGuide": {
+      "heading": "Which Dropbox alternative fits",
+      "intro": "Same shortlist, different jobs. Prices here are the notes already on each card, not a live quote \u2014 confirm them on the vendor\u2019s site before you switch.",
+      "rows": [
+        {
+          "title": "Nextcloud",
+          "slugs": ["nextcloud"],
+          "when": "You want files, sync, and a wider collab suite on hardware you control. Nextcloud is open source and free. Nextcloud Enterprise and support are paid. Hosting is yours. The card also lists apps beyond files and an active ecosystem.",
+          "skip": "You want Dropbox\u2019s polish and you will not operate a server. Setup is real work, and performance depends on the hardware. A team with nobody assigned to backups and upgrades will feel that on the first disk failure."
+        },
+        {
+          "title": "Proton Drive",
+          "slugs": ["proton-drive"],
+          "when": "You want encrypted personal cloud storage, and the Proton suite is part of the appeal. The card lists free limited storage, with paid storage through Proton plans. It does not list those plan prices. End-to-end encryption is the reason to pick it.",
+          "skip": "You need Dropbox-style team collaboration, a large app ecosystem, or many third-party integrations. This card says Proton Drive is thinner on all three. It is also the hosted privacy option, while Nextcloud and Seafile are the servers you run."
+        },
+        {
+          "title": "Google Drive",
+          "slugs": ["google-drive-db"],
+          "when": "The team is already on Google Workspace, and Docs and Sheets are the files people edit. A personal account includes 15GB free. Workspace is billed per seat with storage pools. This card does not list Workspace seat prices.",
+          "skip": "Privacy, sharing sprawl, or Workspace admin is the reason you are looking at alternatives. Those are the tradeoffs on this listing. End-to-end encryption is Proton Drive\u2019s job on this page."
+        },
+        {
+          "title": "OneDrive",
+          "slugs": ["onedrive"],
+          "when": "The organization is standardized on Microsoft 365, and Office files should sync inside that bundle. OneDrive is included with many Microsoft 365 plans. Standalone options exist. This card does not list those prices. Windows familiarity and Office integration are the reasons it wins.",
+          "skip": "You only need storage and you do not live in Office. This card says the best value is inside Microsoft 365, personal and work accounts can confuse people, and non-Microsoft integrations are thinner. It is not an open-source host."
+        },
+        {
+          "title": "pCloud",
+          "slugs": ["pcloud"],
+          "when": "You are comparing long-term personal storage cost with Dropbox, including a lifetime license as well as a subscription. Client apps are part of the pitch. Encryption (pCloud Encryption) is a paid add-on. This card does not list a dollar price.",
+          "skip": "You need Dropbox Business team collaboration, or encryption included without an add-on. Team features are lighter, the crypto folder costs extra, and third-party integrations are fewer. pCloud is a paid product, not a free or open-source swap."
+        },
+        {
+          "title": "Seafile",
+          "slugs": ["seafile"],
+          "when": "You want Dropbox-like sync on your own servers, and speed is the point. Community edition is open source. Professional is licensed. Hosting is separate. The card calls out efficient sync and a self-host path.",
+          "skip": "You wanted Nextcloud\u2019s broader app suite, or a hosted product with a trendier UI. Seafile\u2019s interface is plainer, the community is smaller, and you manage backups. With nobody to run the server, it is the wrong exit from Dropbox."
+        }
+      ]
+    },
+    "switchGuide": {
+      "heading": "Switching off Dropbox",
+      "intro": "These notes do not list a Dropbox exit fee. The cost is the next storage plan, or the server you run, plus the time to download real files rather than placeholders, rebuild sharing, and keep Dropbox in place until the new copy matches.",
+      "steps": [
+        {
+          "title": "Map the bill before you download",
+          "body": "Write down what you pay Dropbox for today: storage and seats. This page does not quote Dropbox\u2019s prices. Then map the replacement from the cards. Nextcloud is free open source; Enterprise and support are paid, and hosting is yours. Seafile Community is open source; Professional is licensed; hosting is separate. Proton Drive is free limited storage, then Proton plans. Google Drive is 15GB free on a personal account, or a Workspace pool billed per seat. OneDrive is included with many Microsoft 365 plans, and standalone options exist. pCloud is a subscription or a lifetime license, and encryption is often an add-on."
+        },
+        {
+          "title": "Download real files and list what will not transfer",
+          "body": "Shared Dropbox links stop working once the file is no longer there. Permissions, file requests, and transfer links do not become the new product\u2019s sharing settings \u2014 you recreate the ones people still use. Dropbox Paper needs its own export when those docs still matter. Version history beyond the copy you download stays behind. Online-only files in the desktop client are placeholders until they download. Compare the folder size on disk with what Dropbox says the account holds before you call the copy done."
+        },
+        {
+          "title": "Run Dropbox and the new store together",
+          "body": "Copy into the new store while Dropbox still has the canonical files. Keep the two sync clients off the same folder so they cannot rewrite each other. Check a sample of large files and the newest folders, not only the file count. A few days of overlap is normal for a team drive. That overlap is most of the migration cost in staff time."
+        },
+        {
+          "title": "Match the job before you pick the logo",
+          "body": "Google Drive or OneDrive is the short move when you already pay for Workspace or Microsoft 365 and the files are office documents. Proton Drive is the move when encryption matters more than Dropbox-style team collaboration, with a smaller integration list as the tradeoff. Nextcloud or Seafile is the move when you will run the server: the software can be free, and the machine is a separate cost. pCloud fits an individual comparing a subscription or a lifetime license, with encryption as an add-on."
+        },
+        {
+          "title": "Cut over links, then keep Dropbox readable",
+          "body": "Create the new share links and tell people the Dropbox URLs will stop. Keep Dropbox readable until someone who was not on the migration can open the files they need. Then sign the desktop client out so it cannot re-upload or conflict. Cancel after a normal day of work has landed in the new store."
+        }
+      ]
+    },
+    "faqs": [
+      {
+        "question": "What is a good Dropbox alternative?",
+        "answer": "Nextcloud, when you want to leave hosted sync for a server you control: open-source software, hosting is yours, and Enterprise support is paid. It is a poor fit when nobody will operate it. Proton Drive is the encrypted-cloud pick: free limited storage, then Proton plans, with less team collaboration than Dropbox. Google Drive or OneDrive is the shorter move when you already pay for Workspace or Microsoft 365."
+      },
+      {
+        "question": "What are the best Dropbox alternatives?",
+        "answer": "It depends on the job. Nextcloud for a self-hosted collab suite, Seafile for fast open-source sync, Proton Drive for end-to-end encrypted cloud, Google Drive when you live in Docs and Workspace, OneDrive when you live in Microsoft 365, and pCloud for consumer storage with a subscription or a lifetime license."
+      },
+      {
+        "question": "Is there a free Dropbox alternative?",
+        "answer": "Yes, with limits that are easy to skip past. Nextcloud is free open source, and you pay for the server; Enterprise support is paid. Seafile Community is free open source; Professional is a paid license; hosting is separate. Proton Drive includes free limited storage, then paid Proton plans. Google Drive includes 15GB free on a personal account; Workspace storage is a paid pool. OneDrive is included with many Microsoft 365 plans. This card does not list a standalone free OneDrive tier. pCloud is paid (subscription or lifetime). Free software is a different bill from free hosting."
+      },
+      {
+        "question": "What is an open-source Dropbox alternative?",
+        "answer": "Nextcloud and Seafile. Nextcloud is the open-source Dropbox alternative that also covers a wider collab suite: files, sync, and apps, on a server you run. Seafile is open source too, and it is a narrower product \u2014 efficient file sync \u2014 with a licensed Professional edition when you need it. Self-hosting means you run backups, upgrades, and the disk. Hosted Dropbox can still be the better choice when you want that done for you."
+      },
+      {
+        "question": "How much does it cost to leave Dropbox?",
+        "answer": "These notes do not list a Dropbox cancellation fee. You stop the Dropbox plan and start the next one: a server for Nextcloud or Seafile (Nextcloud software free, with paid Enterprise support; Seafile Community free and Professional licensed), a Proton plan after the free storage, Workspace or Microsoft 365 when Drive or OneDrive is where the files will live, or a pCloud subscription or lifetime license with encryption often extra. On top of that, plan time to download online-only files, recreate share links, and keep Dropbox until the new copy is the one people can open. This page does not quote Dropbox\u2019s own prices."
+      },
+      {
+        "question": "How do I switch from Dropbox?",
+        "answer": "Download the real files, including anything the desktop client was keeping online-only. Copy them into Nextcloud, Seafile, Proton Drive, Google Drive, OneDrive, or pCloud. Recreate the shares that matter. Old Dropbox links do not follow the files. Export Dropbox Paper on its own when you still use those docs. Keep Dropbox available until a normal workday succeeds on the new store, then sign out of the Dropbox client and cancel."
+      },
+      {
+        "question": "When should I stay on Dropbox?",
+        "answer": "Stay when sync already works, clients already have the sharing links, and you do not want to run a server or accept a thinner collab suite. Move when Workspace or Microsoft 365 already covers the storage, when encryption is the requirement (Proton Drive), or when the files should live on hardware you control (Nextcloud or Seafile)."
+      }
+    ]
   },
   {
     "slug": "zoom",
@@ -4996,7 +5193,7 @@
     "name": "Pipedrive",
     "category": "CRM",
     "tagline": "Sales CRM built around visual pipelines",
-    "description": "Pipedrive is the pipeline-first CRM for SMBs. Teams compare free CRMs, affordable full suites, modern flexible databases, or open-source options when seat prices climb.",
+    "description": "Pipedrive is the pipeline-first CRM, priced per seat. People look up a Pipedrive alternative when those seats climb, or when they want calling built in, a free edition for a tiny team, or an open-source CRM they can host.",
     "website": "https://www.pipedrive.com",
     "featured": true,
     "alternatives": [
@@ -5117,13 +5314,13 @@
         "pricingNotes": "Free CRM; paid Hubs for automation/sequences at scale."
       }
     ],
-    "seoTitle": "Pipedrive Alternatives (2026): Close, Zoho & Twenty",
-    "seoDescription": "Looking for Pipedrive alternatives? Compare Close, Zoho CRM, Attio, Twenty & EspoCRM \u2014 outbound calling, affordable suites, flexible models, open-source self-host. Fair notes.",
-    "h1": "Pipedrive alternatives (2026)",
-    "intro": "Looking for Pipedrive alternatives? Close for outbound calling and SMS, Zoho CRM for affordable full CRM depth, Attio for a flexible modern model, or Twenty / EspoCRM to self-host open source. Pick by job below, then use the comparison table for pricing and tradeoffs.",
+    "seoTitle": "Best Pipedrive Alternatives (2026): Close, Zoho & Twenty",
+    "seoDescription": "Looking for the best Pipedrive alternatives \u2014 or an open-source Pipedrive alternative? Compare Close, Zoho CRM, Attio, Twenty, and EspoCRM. Outbound calling, a free edition for 3 users, and self-host CRMs, with fair tradeoffs.",
+    "h1": "Best Pipedrive alternatives (2026)",
+    "intro": "The best Pipedrive alternatives split by job. Close is the outbound CRM: calling, SMS, and email on every plan, and no free tier. Zoho CRM is the full suite with a free edition for up to 3 users. Attio is the flexible modern data model. Twenty and EspoCRM are the open-source CRMs you can self-host. The notes under \u201cWhich Pipedrive alternative fits\u201d say when each one is a poor fit, not only when it works.",
     "ossSection": {
       "heading": "Open-source Pipedrive alternatives",
-      "intro": "Want a pipeline CRM you can self-host? Twenty aims at a modern CRM experience; EspoCRM is a mature open-source CRM with extensible entities. Neither is a Pipedrive clone \u2014 match your sales motion before migrating deals.",
+      "intro": "Twenty and EspoCRM are the open-source Pipedrive alternatives on this page. Twenty aims at a modern CRM you can self-host, with paid Twenty Cloud when you do not want the server. EspoCRM is the more mature open-source CRM, with extensible entities and paid official hosting. Neither is a Pipedrive clone. Match the sales motion before you move deals.",
       "slugs": [
         "twenty-crm",
         "espocrm"
@@ -5145,6 +5342,98 @@
       {
         "useCase": "Open source / self-host",
         "pick": "Twenty or EspoCRM"
+      }
+    ],
+    "compareGuide": {
+      "heading": "Which Pipedrive alternative fits",
+      "intro": "Same shortlist, different jobs. Prices here are the notes already on each card, not a live quote \u2014 confirm them on the vendor\u2019s site before you switch.",
+      "rows": [
+        {
+          "title": "Close",
+          "slugs": ["close"],
+          "when": "The team sells by phone, SMS, and email, and those should live in the CRM rather than beside a pipeline board. Close is paid: from $9 per user per month (Solo, annual) to $139 (Scale). There is no free plan. Workflows and the power dialer start on Growth at $99 per user per month, billed annually. Calls and SMS are billed at cost, about $0.02 per minute. The card lists a 14-day trial with no card, and a 30-day money-back. Confirm on Close\u2019s pricing page.",
+          "skip": "You only need a visual pipeline and you will not use calling. Close is overkill for that job. The native integration list is about 100, and every seat is paid. The open-source options on this page are Twenty and EspoCRM."
+        },
+        {
+          "title": "Zoho CRM",
+          "slugs": ["zoho-crm-pd"],
+          "when": "You want a full CRM without stacking Pipedrive seats, especially when you already use other Zoho apps. Zoho CRM is free forever for up to 3 users, with limits. Paid Standard, Professional, and Enterprise editions are billed per user per month. The card says to verify current prices on Zoho.",
+          "skip": "You want Pipedrive\u2019s lighter pipeline UI. Zoho is denser for some teams, and the suite discount matters when you use more than the CRM. Calling-first outbound is Close\u2019s job. Zoho is hosted. Twenty and EspoCRM are the self-host path. Paid support tiers exist beyond classic support."
+        },
+        {
+          "title": "Attio",
+          "slugs": ["attio"],
+          "when": "You outgrew a spreadsheet, you want a modern layout, and the data model has to flex: objects and relations, not a fixed pipeline. Attio is freemium. Paid plans cover advanced features and seats. This card does not list Attio\u2019s prices. The card aims it at startups.",
+          "skip": "You need a long list of legacy integrations, or a CRM you can self-host. Attio is younger than Pipedrive, and the bill changes as you scale. A team whose whole motion is power-dialing is closer to Close."
+        },
+        {
+          "title": "Twenty",
+          "slugs": ["twenty-crm"],
+          "when": "You want an open-source CRM with a modern, Notion-like feel. The software is free to self-host. Twenty Cloud is the paid option when you do not want to run it. This card does not list Cloud prices.",
+          "skip": "You need Pipedrive\u2019s mature integrations and a finished sales-engagement suite. Twenty is still maturing, and battle-tested integrations are fewer. Self-hosting means you run it. A calling-first desk is Close."
+        },
+        {
+          "title": "EspoCRM",
+          "slugs": ["espocrm"],
+          "when": "You want a mature open-source CRM you can self-host, with extensible entities for sales and support. The software is free. Official cloud hosting is paid. This card does not list that hosting price.",
+          "skip": "You want a startup-trendy interface or a large catalog of SaaS integrations on day one. EspoCRM\u2019s admin surface is a learning curve, and the UI is less trendy. With nobody to run a server, and with the visual pipeline as the only requirement, Pipedrive still fits."
+        }
+      ]
+    },
+    "switchGuide": {
+      "heading": "Switching off Pipedrive",
+      "intro": "These notes do not list a Pipedrive exit fee. The cost is the next CRM\u2019s seats, calling minutes, or the server you run, plus the time to export deals and rebuild the automations and history a spreadsheet will not carry. Keep Pipedrive as the source for open deals until the new pipeline matches.",
+      "steps": [
+        {
+          "title": "Map the bill before you export",
+          "body": "Write down the Pipedrive seats and add-ons you actually use. This page does not quote Pipedrive\u2019s prices. Then map the replacement from the cards. Close runs from $9 to $139 per user per month on annual billing, with no free plan. Workflows and the power dialer start on Growth at $99 per user per month, billed annually. Calls and SMS are about $0.02 per minute. Zoho CRM is free for up to 3 users, then Standard, Professional, or Enterprise per user \u2014 verify the numbers on Zoho. Attio is freemium, with no dollar figure on this page. Twenty and EspoCRM are free software when you self-host; their clouds are paid. A calling-heavy month on Close can cost more than the seat."
+        },
+        {
+          "title": "Export the pipeline and list what will not transfer",
+          "body": "Export deals, people, and organizations. Plan to rebuild automations, pipeline rules, and products. Treat activity timelines, email threads, and call recordings as staying in Pipedrive unless the destination\u2019s current import docs say they come across as working records. Write the custom-field map before the import, including which columns you will drop."
+        },
+        {
+          "title": "Run Pipedrive and the new CRM together",
+          "body": "Create the pipelines and required fields first, then import a slice of open deals rather than the whole archive. Leave Pipedrive as the place reps update those deals until the new board matches a real week. New leads can start in the new CRM while older deals finish where they are. That overlap is most of the migration cost in staff time."
+        },
+        {
+          "title": "Turn calling on only after you know the meter",
+          "body": "Moving to Close for the phone means budgeting minutes. Calls and SMS are billed at cost, about $0.02 per minute, on top of the seat. The power dialer and workflows start on Growth at $99 per user per month, billed annually, not on Solo at $9. Zoho CRM, Attio, Twenty, and EspoCRM do not replace that dialer by importing deals. Start with the pipeline. Enable calling once a week of volume tells you the minute cost."
+        },
+        {
+          "title": "Cut over new leads, then keep Pipedrive readable",
+          "body": "Point forms and the sales inbox at the new CRM. Watch the first full day of new leads. Keep Pipedrive available until open deals you still care about are in the new pipeline or closed. Then remove edit access so reps are not updating two boards."
+        }
+      ]
+    },
+    "faqs": [
+      {
+        "question": "What is a good Pipedrive alternative?",
+        "answer": "Close, when the team sells by phone and email. It is a paid CRM from $9 per user per month (Solo, annual) to $139 (Scale), with calling, SMS, and email on every plan, and no free tier. Workflows and the power dialer start on Growth at $99 per user per month, billed annually. Calls and SMS are about $0.02 per minute. It is a poor fit when you only need a pipeline board. For a free edition up to 3 users, look at Zoho CRM. For open source, look at Twenty or EspoCRM."
+      },
+      {
+        "question": "What are the best Pipedrive alternatives?",
+        "answer": "It depends on the job. Close for outbound calling and SMS, Zoho CRM for a full suite with a free plan for 3 users, Attio for a flexible modern data model, Twenty for a modern open-source CRM, and EspoCRM for a mature self-hosted CRM."
+      },
+      {
+        "question": "Is there a free Pipedrive alternative?",
+        "answer": "Close is not free. Zoho CRM is free forever for up to 3 users, with limits, then paid editions \u2014 verify prices on Zoho. Attio is freemium; this card does not say how far the free plan goes. Twenty and EspoCRM are free open-source software when you self-host, and you pay for the server. Their hosted clouds are paid. A free CRM still needs someone to rebuild pipelines and automations."
+      },
+      {
+        "question": "What is an open-source Pipedrive alternative?",
+        "answer": "Twenty and EspoCRM. Twenty is the modern open-source CRM on this page: free to self-host, with paid Twenty Cloud when you want it hosted, and still maturing. EspoCRM is the more established open-source CRM, also free to self-host, with paid official hosting and a less trendy UI. Neither copies Pipedrive\u2019s pipeline product. Self-hosting means you run backups and upgrades. Hosted Pipedrive can still be the better choice when you want that done for you."
+      },
+      {
+        "question": "How much does it cost to leave Pipedrive?",
+        "answer": "These notes do not list a Pipedrive cancellation fee. You swap seat math. Close is $9 to $139 per user per month on annual billing, with no free plan, plus about $0.02 per minute for calls and SMS, and Growth at $99 per user per month billed annually when you need workflows and the power dialer. Zoho CRM is free for up to 3 users, then per-user editions you should verify on Zoho. Attio is freemium. Twenty and EspoCRM can be free software when you self-host, plus the server, or a paid cloud. On top of the subscription, plan staff time to export deals, rebuild automations, and run both CRMs until open deals live in one place."
+      },
+      {
+        "question": "How do I switch from Pipedrive?",
+        "answer": "Export deals, people, and organizations. Recreate pipelines, custom fields, and the automations you still use. Do not expect email history or call recordings to arrive as working records unless the new CRM\u2019s import docs say they do. Import a slice of open deals first and keep Pipedrive editable until reps can work a week in the new CRM. On Close, check Solo at $9 against Growth at $99 for the dialer, and the per-minute calling rate, before you turn the phone on. Point new leads at the new CRM after that week, and leave Pipedrive readable until the open pipeline has moved."
+      },
+      {
+        "question": "When should I stay on Pipedrive?",
+        "answer": "Stay when the visual pipeline is what reps actually use, the integrations already match how you sell, and the per-seat bill is cheaper than a dialer you will not use. Move when the work is calls and email (Close), when a team of three needs a free full CRM (Zoho CRM), or when the database should live on hardware you control (Twenty or EspoCRM)."
       }
     ]
   },
