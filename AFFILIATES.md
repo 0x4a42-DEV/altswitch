@@ -3,7 +3,7 @@
 Living log of affiliate / referral programs for [altswitch.xyz](https://altswitch.xyz).  
 Update this file when a program moves between sections. Do not invent approvals.
 
-**Last updated:** 2026-10-31 (Asia/Hong_Kong)
+**Last updated:** 2026-11-03 (Asia/Hong_Kong)
 
 Wiring lives in:
 - `src/lib/affiliates.ts` — referral URL constants
@@ -47,7 +47,6 @@ Partner applied these; waiting for approval emails or dashboard links. Do **not*
 | **Hostinger** | ~2026-10-19 | affiliates.hostinger.com; pending review | Hosting / WP-adjacent |
 | **Crisp** | ~2026-10-21 | Applied via Hugo chatbot (Content Writer); awaiting feedback email (~5 days) then partnership call | **intercom** |
 | **Zoho CRM** | 2026-10-27 | Partner submitted via https://www.zoho.com/affiliate/signup.html (hello@altswitch.xyz / Jon Berry / AltSwitch / Software Review Site / USA DC / HK). Captcha blocked on bot computer; Partner completed on their side. ~5 business days. Covers Pipedrive depth. Do not chase; paste referral URL when approved then wire affiliates.ts. **On decline: scrub Partner PII from Zoho.** | **pipedrive** |
-| **HubSpot Affiliates** | 2026-10-31 | Impact signup under review. Site verified via meta `impact-site-verification` (commit e1bb930). Publisher / company; LinkedIn company page; profile copy kept. Do not chase; paste referral URL when approved then wire. **On decline: scrub Partner PII from Impact/HubSpot.** | **pipedrive**, **intercom**, HubSpot page |
 | **Help Scout** | 2026-10-31 | PartnerStack; Partner applied. Do not chase; paste referral URL when approved then wire. | **intercom**, **zendesk** |
 
 ---
@@ -57,7 +56,7 @@ Partner applied these; waiting for approval emails or dashboard links. Do **not*
 | Program | Status | Notes |
 |--------|--------|-------|
 | **ClickUp** | Blocked | Partners URL redirects to customer dashboard — no usable apply path yet. Revisit PartnerStack / official partners page later. |
-| **Pipedrive** | No apply link | Apply page 404 / no working link. Do not invent a URL. Retry when PartnerStack or Pipedrive Partners publishes a live apply page. Pipedrive itself cannot monetize the Pipedrive GSC page — cover via **alts** (Close, Zoho, HubSpot). |
+| **Pipedrive** | No apply link | Apply page 404 / no working link. Do not invent a URL. Retry when PartnerStack or Pipedrive Partners publishes a live apply page. Pipedrive itself cannot monetize the Pipedrive GSC page — cover via **alts** (Close, Zoho). HubSpot is a plain listing only (Affiliates declined 2026-11-03). |
 
 ---
 
@@ -67,8 +66,9 @@ Partner applied these; waiting for approval emails or dashboard links. Do **not*
 |--------|--------|-------|
 | **n8n** | Declined 2026-10-21 (via PartnerStack) | Demoted to a plain listing: still on `/alternatives/zapier` with factual description/pros/cons, but moved to the **last** position, no `ref=` param or `rel="sponsored"` (plain `https://n8n.io` link), and not used as a FAQ "best free/OSS" or "lower-cost" pick (Activepieces is). Re-apply in **1–2 months** (~Dec 2026). **If they decline again, remove n8n from the site completely.** Original apply path: https://n8n.io/affiliates/ → PartnerStack. |
 | **Brevo** | Declined 2026-10-28 (via PartnerStack) | PartnerStack showed Active but Messages said not approved / no referral link. **Left Brevo PartnerStack program 2026-10-28**; PII scrub email sent to partners@brevo.com. Do **not** invent a referral URL. Plain official listings only (no `ref=` / no `rel="sponsored"`); demoted on HubSpot page (last card, not in quickPicks). Revisit only if Partner wants a later re-apply. |
+| **HubSpot Affiliates** | Declined 2026-11-03 (via Impact, notifications@app.impact.com) | Cold reject (same spirit as TinyLaunch / n8n demotion): “not the best match at this time.” Reasons cited include program fit, website inactivity, audience, promo strategy, branding, and Acceptable Use Policy. **Zero recommendations. Do not send traffic their way.** No quickPicks, no featured/intro CTA, no sponsored link, no invented referral URL. Plain official listing only, last on Pipedrive, Salesforce, Intercom, and ActiveCampaign; spotlight goes to wired alts (**Close** on CRM, **Gorgias** on Intercom). `/alternatives/hubspot` stays (people search HubSpot alternatives) and features **Close** first; no header “Official site” CTA to HubSpot. Impact-review softening is **reverted** — honest cons are back on HubSpot cards and the HubSpot page. **Re-apply gate (do not re-apply now):** later, when GSC shows meaningful clicks/traffic, Partner may return with traffic proof. No Solutions Partner Program chase. **Scrub Partner PII from Impact/HubSpot** is still Partner’s follow-up (not this change). Impact `impact-site-verification` meta left in `layout.tsx` (verification tag only, not a referral link). |
 
-Policy: programs that decline stay listed (factual, unchanged copy) but get no favourable placement — last in list, plain official link, not featured in FAQ picks. **Also scrub Partner PII** (name, phone, email, address) from that vendor’s affiliate account/support — do not leave personal details on declined programs.
+Policy: programs that decline stay listed (factual, unchanged copy) but get no favourable placement — last in list, plain official link, not featured in FAQ picks. **Also scrub Partner PII** (name, phone, email, address) from that vendor’s affiliate account/support — do not leave personal details on declined programs. HubSpot Affiliates is colder than that default (zero recommendations; honest cons restored). The re-apply gate for HubSpot is only in its Declined row.
 
 ---
 
@@ -76,21 +76,21 @@ Policy: programs that decline stay listed (factual, unchanged copy) but get no f
 
 **Rule:** For every top GSC query/page, we must either (a) have a real affiliate/referral wired for at least one strong alt on that page, OR (b) have already applied and be pending. If neither, apply (or document blocked / no program).
 
-**Dual-maximize:** Traffic without payouts is worthless. Rank and fill gaps by **impressions × likelihood of affiliate $** (commission quality × conversion fit × apply feasibility). **Airtable** is **wired** via Teable; **Pipedrive** is **wired** via Close (2026-10-28); **Intercom/Zendesk** are **wired** via Gorgias (2026-10-31). Next $ depth: Zoho CRM / HubSpot Affiliates (Priority B applied-pending); Help Scout (Priority C applied-pending 2026-10-31).
+**Dual-maximize:** Traffic without payouts is worthless. Rank and fill gaps by **impressions × likelihood of affiliate $** (commission quality × conversion fit × apply feasibility). **Airtable** is **wired** via Teable; **Pipedrive** is **wired** via Close (2026-10-28); **Intercom/Zendesk** are **wired** via Gorgias (2026-10-31). Next $ depth: Zoho CRM (Priority B applied-pending); Help Scout (Priority C applied-pending 2026-10-31); Crisp remains Applied-pending. **HubSpot Affiliates declined 2026-11-03** — not an unlock for new pages and not a paste-URL queue.
 
 GSC families from Partner 7-day snapshot (2026-10-25): intercom alternative(s), airtable alternatives, pipedrive alternatives, best intercom alternatives, open source zendesk alternative, zendesk alternative.
 
 | Query family | Page | Coverage status | Best monetizable alt | Notes |
 |-------------|------|-----------------|----------------------|-------|
-| **pipedrive alternatives** | `/alternatives/pipedrive` | **wired** via Close (+ Zoho applied-pending) | **Close** (then Zoho CRM, HubSpot) | Close live `https://refer.close.com/9q4xm4f96mmh` wired 2026-10-28 (PartnerStack approved; skip Calendly). Zoho Affiliate still applied-pending (2026-10-27). Satisfies rule (a). Pipedrive itself still blocked. Optional depth: HubSpot Affiliates. |
+| **pipedrive alternatives** | `/alternatives/pipedrive` | **wired** via Close (+ Zoho applied-pending) | **Close** (then Zoho CRM) | Close live `https://refer.close.com/9q4xm4f96mmh` wired 2026-10-28 (PartnerStack approved; skip Calendly). Zoho Affiliate still applied-pending (2026-10-27). Satisfies rule (a). Pipedrive itself still blocked. HubSpot Affiliates **declined 2026-11-03** — plain listing only, not optional depth. |
 | **airtable alternatives** | `/alternatives/airtable` | **wired** via Teable | **Teable** (then Baserow inquiry) | Live `https://teable.ai/?via=Altswitch` wired 2026-10-25. NocoDB/Rows/Grist/Notion: no usable cash affiliate. Optional depth: Baserow inquiry (Partner-needed). |
-| **intercom alternative(s)** | `/alternatives/intercom` | **wired** via Gorgias (+ Crisp/Freshworks/HubSpot applied-pending) | **Gorgias** (then Crisp, Freshdesk, HubSpot) | Gorgias live `https://partner.gorgias.com/r5r04o8apzx1` wired 2026-10-31 (PartnerStack; skip onboarding calls). Satisfies rule (a). Crisp + Freshworks + HubSpot + Help Scout still applied-pending. |
+| **intercom alternative(s)** | `/alternatives/intercom` | **wired** via Gorgias (+ Crisp/Freshworks applied-pending) | **Gorgias** (then Crisp, Freshdesk) | Gorgias live `https://partner.gorgias.com/r5r04o8apzx1` wired 2026-10-31 (PartnerStack; skip onboarding calls). Satisfies rule (a). Crisp + Freshworks + Help Scout still applied-pending. HubSpot Affiliates **declined 2026-11-03** — plain listing only, not applied-pending. |
 | **zendesk alternative** (+ OSS zendesk) | `/alternatives/zendesk` | **wired** via Gorgias (+ Freshworks applied-pending) | **Gorgias** (then Freshdesk) | Gorgias live `https://partner.gorgias.com/r5r04o8apzx1` wired 2026-10-31. Satisfies rule (a). OSS alts (Chatwoot, FreeScout) have no cash affiliate. Freshworks + Help Scout still applied-pending. |
 
 ### True gaps ranked (impressions × $ likelihood)
 
 1. **Zoho CRM** — Pipedrive depth. **Applied-pending** 2026-10-27 (Partner submitted signup). Do not chase; paste referral URL when approved then wire. On decline: scrub PII.
-2. **HubSpot Affiliates (Impact)** — Pipedrive + Intercom cards × 30% up to 1 year × explicitly welcomes SaaS reviewers / B2B marketplaces. Heavier review; still high $.
+2. ~~**HubSpot Affiliates (Impact)**~~ — **Declined 2026-11-03.** Not an open gap. See **Declined** (zero recommendations; re-apply only later with GSC traffic proof; no Solutions Partner chase).
 3. **Gorgias** — Intercom/Zendesk depth. **Done / wired** 2026-10-31 (`https://partner.gorgias.com/r5r04o8apzx1`). PartnerStack; skip onboarding calls.
 4. **Help Scout** — Intercom/Zendesk depth × 15–20% × PartnerStack. **Applied-pending** 2026-10-31. Do not chase; paste referral URL when approved then wire.
 5. **Close** — Pipedrive family. **Done / wired** 2026-10-28 (`https://refer.close.com/9q4xm4f96mmh`). PartnerStack approved; skip Calendly onboarding.
@@ -128,7 +128,7 @@ Research verified 2026-10-25 (Close wired 2026-10-28; Gorgias wired 2026-10-31; 
 | Program | Apply URL | Commission (public) | Difficulty | Fairness check | Form fields / notes |
 |--------|-----------|---------------------|------------|----------------|---------------------|
 | **Zoho Affiliate** | https://www.zoho.com/affiliate/ · Signup: https://www.zoho.com/affiliate/signup.html | **15%** (tier 1) → **18%** / **20%** by volume; **12 months**; 90-day cookie; $100 wallet credit for referrals | **Medium** (in-house; ~5 business days; SMS verify) | **OK** — cons softened 2026-10-27 (dense UI / suite value / paid support tiers). Pricing notes match free-for-3 + paid editions. | Org type, name, industry, follower counts (YouTube etc.), Zoho product experience, marketing capabilities, mobile SMS verification. Covers Zoho CRM on Pipedrive page (and suite). |
-| ~~**HubSpot Affiliates**~~ | https://www.hubspot.com/partners/affiliates → Impact signup | **30%** recurring up to **1 year** | Applied 2026-10-31 — see **Applied** | **OK** | Moved to Applied — pending Impact review. |
+| ~~**HubSpot Affiliates**~~ | https://www.hubspot.com/partners/affiliates → Impact signup | **30%** recurring up to **1 year** | **Declined 2026-11-03** — see **Declined** | **OK** | Not an unlock for new pages. Do not re-apply now. Do not invent a referral URL. |
 
 ### Priority C — Intercom/Zendesk depth (pages already wired via Gorgias)
 
@@ -188,7 +188,7 @@ When a program is approved: move it to **Done**, add the real URL to `affiliates
 3. Never mark a program **Done** without a live URL in code.
 4. Prefer programs with public apply pages or in-product self-serve dashboards; treat enterprise PartnerStack sales tracks as P3+.
 5. **GSC coverage rule:** for every top GSC query/page, have (a) a real affiliate wired for at least one strong alt, OR (b) an application already pending. If neither → apply, or document blocked / no-program. Do not chase apps Partner marked on hold.
-6. **Dual-maximize (traffic × profits):** impressions alone are worthless without payouts. When choosing what to apply or wire next, rank by **impressions × likelihood of affiliate $** (rate × fit × feasibility). Top GSC: Airtable wired (Teable); Pipedrive wired (Close); Intercom/Zendesk wired (Gorgias). Next: wait on applied-pending (Zoho CRM / HubSpot / Help Scout); then backlog.
+6. **Dual-maximize (traffic × profits):** impressions alone are worthless without payouts. When choosing what to apply or wire next, rank by **impressions × likelihood of affiliate $** (rate × fit × feasibility). Top GSC: Airtable wired (Teable); Pipedrive wired (Close); Intercom/Zendesk wired (Gorgias). Next: wait on applied-pending (Zoho CRM / Help Scout / Crisp); then backlog. HubSpot Affiliates declined 2026-11-03 — do not treat it as Priority-B ready.
 7. **Brand fairness before apply:** audit how the site portrays that brand (fair, accurate, current pricing, no harsh cons) — partner managers check. Soften copy first if needed.
 8. Do not invent approvals or referral URLs. Partner pastes links; then wire.
 

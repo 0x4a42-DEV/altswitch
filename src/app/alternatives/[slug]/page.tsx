@@ -120,14 +120,16 @@ export default async function ToolAlternativesPage({ params }: Props) {
             <span className="rounded-full bg-zinc-100 px-3 py-1 text-zinc-700">
               {tool.category}
             </span>
-            <a
-              href={tool.website}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="rounded-full bg-indigo-50 px-3 py-1 text-indigo-700 hover:bg-indigo-100"
-            >
-              Official site →
-            </a>
+            {tool.slug !== "hubspot" && (
+              <a
+                href={tool.website}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="rounded-full bg-indigo-50 px-3 py-1 text-indigo-700 hover:bg-indigo-100"
+              >
+                Official site →
+              </a>
+            )}
             <a
               href="#compare"
               className="rounded-full bg-zinc-50 px-3 py-1 text-zinc-700 hover:bg-zinc-100"
