@@ -363,18 +363,14 @@
     "description": "Salesforce is powerful but expensive and complex. SMBs often migrate to simpler CRMs or open-source options.",
     "website": "https://www.salesforce.com",
     "featured": true,
-    "seoTitle": "Salesforce Alternatives (2026): Close, Zoho & Pipedrive",
-    "seoDescription": "Looking for Salesforce alternatives? Compare Close, Zoho CRM, Pipedrive, Attio, Twenty & EspoCRM \u2014 outbound calling, affordable suites, pipelines, open-source self-host. Fair notes.",
+    "seoTitle": "Salesforce Alternatives (2026): Close, Pipedrive & Twenty",
+    "seoDescription": "Looking for Salesforce alternatives? Compare Close, Pipedrive, Attio, Twenty & EspoCRM \u2014 outbound calling, pipelines, open-source self-host. Fair notes.",
     "h1": "Salesforce alternatives (2026)",
-    "intro": "Looking for Salesforce alternatives? Close for outbound calling and SMS, Zoho CRM for affordable full CRM depth, Pipedrive for pipeline-first sales, Attio for a flexible modern model, or Twenty / EspoCRM to self-host open source. Pick by job below, then use the comparison table for pricing and tradeoffs.",
+    "intro": "Looking for Salesforce alternatives? Close for outbound calling and SMS, Pipedrive for pipeline-first sales, Attio for a flexible modern model, or Twenty / EspoCRM to self-host open source. Pick by job below, then use the comparison table for pricing and tradeoffs.",
     "quickPicks": [
       {
         "useCase": "Outbound calling / SMS",
         "pick": "Close"
-      },
-      {
-        "useCase": "Affordable full CRM suite",
-        "pick": "Zoho CRM"
       },
       {
         "useCase": "Pipeline-first sales CRM",
@@ -491,25 +487,6 @@
         "pricingNotes": "Freemium/paid \u2014 verify seat and enrichment pricing."
       },
       {
-        "slug": "zoho-crm",
-        "name": "Zoho CRM",
-        "oneLiner": "Affordable full-featured CRM in the Zoho suite.",
-        "pricing": "freemium",
-        "website": "https://www.zoho.com/crm/",
-        "pros": [
-          "Affordable full CRM",
-          "Zoho suite bundling",
-          "Lots of automation"
-        ],
-        "cons": [
-          "Interface can feel denser than newer CRMs",
-          "Best value when you also use other Zoho apps",
-          "Paid support tiers available beyond classic support"
-        ],
-        "bestFor": "Cost-sensitive SMBs needing CRM + adjacent Zoho apps.",
-        "pricingNotes": "Free forever (limited) + cheap paid editions vs Salesforce."
-      },
-      {
         "slug": "hubspot-crm",
         "name": "HubSpot CRM",
         "oneLiner": "Free-tier CRM; Marketing, Sales, and Service Hubs are paid.",
@@ -527,6 +504,25 @@
         ],
         "bestFor": "Comparison listing only \u2014 not a recommended switch. Outbound on this page points to Close.",
         "pricingNotes": "Free CRM forever; Marketing/Sales hubs are paid seats."
+      },
+      {
+        "slug": "zoho-crm",
+        "name": "Zoho CRM",
+        "oneLiner": "CRM in the Zoho suite. UI can feel dated; support reviews are mixed.",
+        "pricing": "freemium",
+        "website": "https://www.zoho.com/crm/",
+        "pros": [
+          "Free edition for up to 3 users (limits apply)",
+          "Part of the Zoho app suite",
+          "CRM automation is included"
+        ],
+        "cons": [
+          "UI can feel dated",
+          "Ecosystem locked to Zoho",
+          "Support mixed reviews"
+        ],
+        "bestFor": "Comparison listing only \u2014 not a recommended switch. Outbound on this page points to Close.",
+        "pricingNotes": "Free forever for up to 3 users (limits apply). Paid Standard/Professional/Enterprise billed per user/month \u2014 verify current prices on Zoho."
       }
     ]
   },
@@ -5193,7 +5189,7 @@
     "name": "Pipedrive",
     "category": "CRM",
     "tagline": "Sales CRM built around visual pipelines",
-    "description": "Pipedrive is the pipeline-first CRM, priced per seat. People look up a Pipedrive alternative when those seats climb, or when they want calling built in, a free edition for a tiny team, or an open-source CRM they can host.",
+    "description": "Pipedrive is the pipeline-first CRM, priced per seat. People look up a Pipedrive alternative when those seats climb, or when they want calling built in, or an open-source CRM they can host.",
     "website": "https://www.pipedrive.com",
     "featured": true,
     "alternatives": [
@@ -5216,26 +5212,6 @@
         ],
         "bestFor": "Outbound sales teams living on calls and sequences.",
         "pricingNotes": "From $9/user/mo (Solo, annual) to $139 (Scale). 14-day trial, no card needed; 30-day money-back. Calls and SMS billed at cost (about $0.02/min). Verify on close.com/pricing."
-      },
-      {
-        "slug": "zoho-crm-pd",
-        "name": "Zoho CRM",
-        "oneLiner": "Affordable full-featured CRM in the Zoho suite.",
-        "pricing": "freemium",
-        "website": "https://www.zoho.com/crm/",
-        "pros": [
-          "Affordable full CRM",
-          "Zoho suite bundling",
-          "Lots of automation",
-          "Free edition for up to 3 users"
-        ],
-        "cons": [
-          "Pipeline UI is denser than Pipedrive for some teams",
-          "Best value when you also use other Zoho apps",
-          "Paid support tiers available beyond classic support"
-        ],
-        "bestFor": "Cost-sensitive SMBs needing CRM depth without Pipedrive seat stacking.",
-        "pricingNotes": "Free forever for up to 3 users (limits apply). Paid Standard/Professional/Enterprise billed per user/month \u2014 verify current prices on Zoho."
       },
       {
         "slug": "attio",
@@ -5312,12 +5288,31 @@
         ],
         "bestFor": "Comparison listing only \u2014 not a recommended switch. Outbound on this page points to Close.",
         "pricingNotes": "Free CRM; paid Hubs for automation/sequences at scale."
+      },
+      {
+        "slug": "zoho-crm-pd",
+        "name": "Zoho CRM",
+        "oneLiner": "CRM in the Zoho suite. UI can feel dated versus Pipedrive; support reviews are mixed.",
+        "pricing": "freemium",
+        "website": "https://www.zoho.com/crm/",
+        "pros": [
+          "Free edition for up to 3 users (limits apply)",
+          "Part of the Zoho app suite",
+          "CRM automation is included"
+        ],
+        "cons": [
+          "UI can feel dated vs Pipedrive",
+          "Ecosystem locked to Zoho",
+          "Support reviews are mixed"
+        ],
+        "bestFor": "Comparison listing only \u2014 not a recommended switch. Outbound on this page points to Close.",
+        "pricingNotes": "Free forever for up to 3 users (limits apply). Paid Standard/Professional/Enterprise billed per user/month \u2014 verify current prices on Zoho."
       }
     ],
-    "seoTitle": "Best Pipedrive Alternatives (2026): Close, Zoho & Twenty",
-    "seoDescription": "Looking for the best Pipedrive alternatives \u2014 or an open-source Pipedrive alternative? Compare Close, Zoho CRM, Attio, Twenty, and EspoCRM. Outbound calling, a free edition for 3 users, and self-host CRMs, with fair tradeoffs.",
+    "seoTitle": "Best Pipedrive Alternatives (2026): Close, Attio & Twenty",
+    "seoDescription": "Looking for the best Pipedrive alternatives \u2014 or an open-source Pipedrive alternative? Compare Close, Attio, Twenty, and EspoCRM. Outbound calling and self-host CRMs, with fair tradeoffs.",
     "h1": "Best Pipedrive alternatives (2026)",
-    "intro": "The best Pipedrive alternatives split by job. Close is the outbound CRM: calling, SMS, and email on every plan, and no free tier. Zoho CRM is the full suite with a free edition for up to 3 users. Attio is the flexible modern data model. Twenty and EspoCRM are the open-source CRMs you can self-host. The notes under \u201cWhich Pipedrive alternative fits\u201d say when each one is a poor fit, not only when it works.",
+    "intro": "The best Pipedrive alternatives split by job. Close is the outbound CRM: calling, SMS, and email on every plan, and no free tier. Attio is the flexible modern data model. Twenty and EspoCRM are the open-source CRMs you can self-host. The notes under \u201cWhich Pipedrive alternative fits\u201d say when each one is a poor fit, not only when it works.",
     "ossSection": {
       "heading": "Open-source Pipedrive alternatives",
       "intro": "Twenty and EspoCRM are the open-source Pipedrive alternatives on this page. Twenty aims at a modern CRM you can self-host, with paid Twenty Cloud when you do not want the server. EspoCRM is the more mature open-source CRM, with extensible entities and paid official hosting. Neither is a Pipedrive clone. Match the sales motion before you move deals.",
@@ -5330,10 +5325,6 @@
       {
         "useCase": "Outbound calling / SMS",
         "pick": "Close"
-      },
-      {
-        "useCase": "Affordable full CRM suite",
-        "pick": "Zoho CRM"
       },
       {
         "useCase": "Flexible modern data model",
@@ -5353,12 +5344,6 @@
           "slugs": ["close"],
           "when": "The team sells by phone, SMS, and email, and those should live in the CRM rather than beside a pipeline board. Close is paid: from $9 per user per month (Solo, annual) to $139 (Scale). There is no free plan. Workflows and the power dialer start on Growth at $99 per user per month, billed annually. Calls and SMS are billed at cost, about $0.02 per minute. The card lists a 14-day trial with no card, and a 30-day money-back. Confirm on Close\u2019s pricing page.",
           "skip": "You only need a visual pipeline and you will not use calling. Close is overkill for that job. The native integration list is about 100, and every seat is paid. The open-source options on this page are Twenty and EspoCRM."
-        },
-        {
-          "title": "Zoho CRM",
-          "slugs": ["zoho-crm-pd"],
-          "when": "You want a full CRM without stacking Pipedrive seats, especially when you already use other Zoho apps. Zoho CRM is free forever for up to 3 users, with limits. Paid Standard, Professional, and Enterprise editions are billed per user per month. The card says to verify current prices on Zoho.",
-          "skip": "You want Pipedrive\u2019s lighter pipeline UI. Zoho is denser for some teams, and the suite discount matters when you use more than the CRM. Calling-first outbound is Close\u2019s job. Zoho is hosted. Twenty and EspoCRM are the self-host path. Paid support tiers exist beyond classic support."
         },
         {
           "title": "Attio",
@@ -5386,7 +5371,7 @@
       "steps": [
         {
           "title": "Map the bill before you export",
-          "body": "Write down the Pipedrive seats and add-ons you actually use. This page does not quote Pipedrive\u2019s prices. Then map the replacement from the cards. Close runs from $9 to $139 per user per month on annual billing, with no free plan. Workflows and the power dialer start on Growth at $99 per user per month, billed annually. Calls and SMS are about $0.02 per minute. Zoho CRM is free for up to 3 users, then Standard, Professional, or Enterprise per user \u2014 verify the numbers on Zoho. Attio is freemium, with no dollar figure on this page. Twenty and EspoCRM are free software when you self-host; their clouds are paid. A calling-heavy month on Close can cost more than the seat."
+          "body": "Write down the Pipedrive seats and add-ons you actually use. This page does not quote Pipedrive\u2019s prices. Then map the replacement from the cards. Close runs from $9 to $139 per user per month on annual billing, with no free plan. Workflows and the power dialer start on Growth at $99 per user per month, billed annually. Calls and SMS are about $0.02 per minute. Attio is freemium, with no dollar figure on this page. Twenty and EspoCRM are free software when you self-host; their clouds are paid. A calling-heavy month on Close can cost more than the seat."
         },
         {
           "title": "Export the pipeline and list what will not transfer",
@@ -5398,7 +5383,7 @@
         },
         {
           "title": "Turn calling on only after you know the meter",
-          "body": "Moving to Close for the phone means budgeting minutes. Calls and SMS are billed at cost, about $0.02 per minute, on top of the seat. The power dialer and workflows start on Growth at $99 per user per month, billed annually, not on Solo at $9. Zoho CRM, Attio, Twenty, and EspoCRM do not replace that dialer by importing deals. Start with the pipeline. Enable calling once a week of volume tells you the minute cost."
+          "body": "Moving to Close for the phone means budgeting minutes. Calls and SMS are billed at cost, about $0.02 per minute, on top of the seat. The power dialer and workflows start on Growth at $99 per user per month, billed annually, not on Solo at $9. Attio, Twenty, and EspoCRM do not replace that dialer by importing deals. Start with the pipeline. Enable calling once a week of volume tells you the minute cost."
         },
         {
           "title": "Cut over new leads, then keep Pipedrive readable",
@@ -5409,15 +5394,15 @@
     "faqs": [
       {
         "question": "What is a good Pipedrive alternative?",
-        "answer": "Close, when the team sells by phone and email. It is a paid CRM from $9 per user per month (Solo, annual) to $139 (Scale), with calling, SMS, and email on every plan, and no free tier. Workflows and the power dialer start on Growth at $99 per user per month, billed annually. Calls and SMS are about $0.02 per minute. It is a poor fit when you only need a pipeline board. For a free edition up to 3 users, look at Zoho CRM. For open source, look at Twenty or EspoCRM."
+        "answer": "Close, when the team sells by phone and email. It is a paid CRM from $9 per user per month (Solo, annual) to $139 (Scale), with calling, SMS, and email on every plan, and no free tier. Workflows and the power dialer start on Growth at $99 per user per month, billed annually. Calls and SMS are about $0.02 per minute. It is a poor fit when you only need a pipeline board. For open source, look at Twenty or EspoCRM."
       },
       {
         "question": "What are the best Pipedrive alternatives?",
-        "answer": "It depends on the job. Close for outbound calling and SMS, Zoho CRM for a full suite with a free plan for 3 users, Attio for a flexible modern data model, Twenty for a modern open-source CRM, and EspoCRM for a mature self-hosted CRM."
+        "answer": "It depends on the job. Close for outbound calling and SMS, Attio for a flexible modern data model, Twenty for a modern open-source CRM, and EspoCRM for a mature self-hosted CRM."
       },
       {
         "question": "Is there a free Pipedrive alternative?",
-        "answer": "Close is not free. Zoho CRM is free forever for up to 3 users, with limits, then paid editions \u2014 verify prices on Zoho. Attio is freemium; this card does not say how far the free plan goes. Twenty and EspoCRM are free open-source software when you self-host, and you pay for the server. Their hosted clouds are paid. A free CRM still needs someone to rebuild pipelines and automations."
+        "answer": "Close is not free. Attio is freemium; this card does not say how far the free plan goes. Twenty and EspoCRM are free open-source software when you self-host, and you pay for the server. Their hosted clouds are paid. A free CRM still needs someone to rebuild pipelines and automations."
       },
       {
         "question": "What is an open-source Pipedrive alternative?",
@@ -5425,7 +5410,7 @@
       },
       {
         "question": "How much does it cost to leave Pipedrive?",
-        "answer": "These notes do not list a Pipedrive cancellation fee. You swap seat math. Close is $9 to $139 per user per month on annual billing, with no free plan, plus about $0.02 per minute for calls and SMS, and Growth at $99 per user per month billed annually when you need workflows and the power dialer. Zoho CRM is free for up to 3 users, then per-user editions you should verify on Zoho. Attio is freemium. Twenty and EspoCRM can be free software when you self-host, plus the server, or a paid cloud. On top of the subscription, plan staff time to export deals, rebuild automations, and run both CRMs until open deals live in one place."
+        "answer": "These notes do not list a Pipedrive cancellation fee. You swap seat math. Close is $9 to $139 per user per month on annual billing, with no free plan, plus about $0.02 per minute for calls and SMS, and Growth at $99 per user per month billed annually when you need workflows and the power dialer. Attio is freemium. Twenty and EspoCRM can be free software when you self-host, plus the server, or a paid cloud. On top of the subscription, plan staff time to export deals, rebuild automations, and run both CRMs until open deals live in one place."
       },
       {
         "question": "How do I switch from Pipedrive?",
@@ -5433,7 +5418,7 @@
       },
       {
         "question": "When should I stay on Pipedrive?",
-        "answer": "Stay when the visual pipeline is what reps actually use, the integrations already match how you sell, and the per-seat bill is cheaper than a dialer you will not use. Move when the work is calls and email (Close), when a team of three needs a free full CRM (Zoho CRM), or when the database should live on hardware you control (Twenty or EspoCRM)."
+        "answer": "Stay when the visual pipeline is what reps actually use, the integrations already match how you sell, and the per-seat bill is cheaper than a dialer you will not use. Move when the work is calls and email (Close), or when the database should live on hardware you control (Twenty or EspoCRM)."
       }
     ]
   },
