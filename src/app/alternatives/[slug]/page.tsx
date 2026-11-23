@@ -140,7 +140,7 @@ export default async function ToolAlternativesPage({ params }: Props) {
             <span className="rounded-full bg-zinc-100 px-3 py-1 text-zinc-700">
               {tool.category}
             </span>
-            {tool.slug !== "hubspot" && (
+            {tool.slug !== "hubspot" && tool.slug !== "help-scout" && (
               <a
                 href={tool.website}
                 target="_blank"

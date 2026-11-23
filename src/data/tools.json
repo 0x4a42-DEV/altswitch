@@ -898,25 +898,6 @@
         "pricingNotes": "Free OSS; optional paid modules from FreeScout."
       },
       {
-        "slug": "helpscout",
-        "name": "Help Scout",
-        "oneLiner": "Human-friendly shared inbox for customer support.",
-        "pricing": "paid",
-        "website": "https://www.helpscout.com",
-        "pros": [
-          "Human, calm shared inbox",
-          "Docs (Docs) + beacon",
-          "Good for friendly brands"
-        ],
-        "cons": [
-          "Lighter feature set than enterprise ticket suites",
-          "Paid per user beyond the free tier",
-          "AI Answers is a metered add-on"
-        ],
-        "bestFor": "Customer-centric SMBs that prefer a calm shared inbox.",
-        "pricingNotes": "Free up to 5 users. Annual: Standard $25, Plus $45, Pro $75 per user/mo. AI Answers ~$0.75 per resolution."
-      },
-      {
         "slug": "intercom",
         "name": "Intercom",
         "oneLiner": "Conversational support and customer messaging platform.",
@@ -934,12 +915,31 @@
         ],
         "bestFor": "SaaS products mixing support chat with lifecycle messaging.",
         "pricingNotes": "Paid platforms \u2014 expect significant monthly spend vs Zendesk SMB."
+      },
+      {
+        "slug": "helpscout",
+        "name": "Help Scout",
+        "oneLiner": "Shared inbox for support. Not the deepest enterprise suite.",
+        "pricing": "paid",
+        "website": "https://www.helpscout.com",
+        "pros": [
+          "Human, calm shared inbox",
+          "Docs (Docs) + beacon",
+          "Good for friendly brands"
+        ],
+        "cons": [
+          "Not the deepest enterprise suite",
+          "Paid per user beyond the free tier",
+          "AI Answers is a metered add-on"
+        ],
+        "bestFor": "Comparison listing only \u2014 not a recommended switch. Ecommerce desks on this page point to Gorgias.",
+        "pricingNotes": "Free up to 5 users. Annual: Standard $25, Plus $45, Pro $75 per user/mo. AI Answers ~$0.75 per resolution."
       }
     ],
     "seoTitle": "Zendesk Alternative Open Source (2026): Chatwoot, FreeScout & Gorgias",
-    "seoDescription": "Need a Zendesk alternative open source \u2014 or an open source Zendesk alternative? Compare Chatwoot & FreeScout (self-host free), plus Freshdesk, Gorgias, Help Scout & Intercom \u2014 fair pricing notes.",
+    "seoDescription": "Need a Zendesk alternative open source \u2014 or an open source Zendesk alternative? Compare Chatwoot & FreeScout (self-host free), plus Freshdesk, Gorgias & Intercom \u2014 fair pricing notes.",
     "h1": "Open source Zendesk alternatives (2026)",
-    "intro": "Looking for an open source Zendesk alternative? Chatwoot and FreeScout are free to self-host; Freshdesk covers SMB SaaS desks; Gorgias fits ecommerce / Shopify; Help Scout is the calm shared inbox. Pick by job below, then use the comparison table for pricing and tradeoffs.",
+    "intro": "Looking for an open source Zendesk alternative? Chatwoot and FreeScout are free to self-host; Freshdesk covers SMB SaaS desks; Gorgias fits ecommerce / Shopify. Pick by job below, then use the comparison table for pricing and tradeoffs.",
     "ossSection": {
       "heading": "Open source Zendesk alternatives",
       "intro": "For an open source Zendesk alternative, start with Chatwoot (omnichannel engagement, MIT Community Edition) or FreeScout (lightweight shared inbox). Self-hosting means you own uptime and data; both also offer paid modules or managed cloud if you prefer not to run infra.",
@@ -962,10 +962,6 @@
         "pick": "Gorgias"
       },
       {
-        "useCase": "Calm shared inbox",
-        "pick": "Help Scout"
-      },
-      {
         "useCase": "Chat + product messaging",
         "pick": "Intercom"
       }
@@ -980,12 +976,12 @@
     "website": "https://www.freshworks.com/freshdesk/",
     "featured": false,
     "seoTitle": "Best Freshdesk Alternatives 2026 \u2014 Tickets & OSS",
-    "seoDescription": "Looking for a Freshdesk alternative? Compare Zendesk, Help Scout, Chatwoot, FreeScout, Intercom & Gorgias \u2014 enterprise tickets, calm inboxes, open source.",
+    "seoDescription": "Looking for a Freshdesk alternative? Compare Zendesk, Chatwoot, FreeScout, Intercom & Gorgias \u2014 enterprise tickets, ecommerce, open source.",
     "h1": "Best Freshdesk alternatives (2026)",
-    "intro": "Freshdesk sits in the mid-market ticket lane. Closest enterprise upgrade is Zendesk; Help Scout is calmer for email; Chatwoot and FreeScout cover open-source; Gorgias fits ecommerce. Pick by job below, then use the comparison table for pricing and tradeoffs.",
+    "intro": "Freshdesk sits in the mid-market ticket lane. Closest enterprise upgrade is Zendesk; Chatwoot and FreeScout cover open-source; Gorgias fits ecommerce. Pick by job below, then use the comparison table for pricing and tradeoffs.",
     "ossSection": {
       "heading": "Open-source Freshdesk alternatives",
-      "intro": "Chatwoot covers omnichannel engagement; FreeScout is a lighter Help Scout-style desk you can self-host.",
+      "intro": "Chatwoot covers omnichannel engagement; FreeScout is a lighter shared-inbox desk you can self-host.",
       "slugs": [
         "chatwoot-fd",
         "freescout-fd"
@@ -1010,25 +1006,6 @@
         ],
         "bestFor": "Support orgs that outgrew Freshdesk\u2019s mid-market ceiling.",
         "pricingNotes": "Paid suites \u2014 compare agent + add-on totals on Zendesk\u2019s pricing page."
-      },
-      {
-        "slug": "helpscout-fd",
-        "name": "Help Scout",
-        "oneLiner": "Human-friendly shared inbox with Docs.",
-        "pricing": "freemium",
-        "website": "https://www.helpscout.com",
-        "pros": [
-          "Calm UX",
-          "Free tier for tiny teams",
-          "Docs + Beacon"
-        ],
-        "cons": [
-          "Fewer enterprise routing options than full ticket suites",
-          "AI Answers metered",
-          "Less high-volume ticket-queue focus than classic helpdesks"
-        ],
-        "bestFor": "Brands that want a friendlier inbox than classic ticket UIs.",
-        "pricingNotes": "Free up to 5 users. Annual Standard $25 / Plus $45 / Pro $75 per user/mo."
       },
       {
         "slug": "chatwoot-fd",
@@ -1105,16 +1082,31 @@
         ],
         "bestFor": "DTC brands on Shopify-like stacks.",
         "pricingNotes": "Paid by ticket volume tiers \u2014 model cost on peak season."
+      },
+      {
+        "slug": "helpscout-fd",
+        "name": "Help Scout",
+        "oneLiner": "Shared inbox with Docs. Shallower enterprise routing than a full ticket suite.",
+        "pricing": "freemium",
+        "website": "https://www.helpscout.com",
+        "pros": [
+          "Calm UX",
+          "Free tier for tiny teams",
+          "Docs + Beacon"
+        ],
+        "cons": [
+          "Shallower enterprise routing",
+          "AI Answers metered",
+          "Less ticket-factory feel"
+        ],
+        "bestFor": "Comparison listing only \u2014 not a recommended switch. Ecommerce desks on this page point to Gorgias.",
+        "pricingNotes": "Free up to 5 users. Annual Standard $25 / Plus $45 / Pro $75 per user/mo."
       }
     ],
     "quickPicks": [
       {
         "useCase": "Enterprise ticket upgrade",
         "pick": "Zendesk"
-      },
-      {
-        "useCase": "Calm shared inbox",
-        "pick": "Help Scout"
       },
       {
         "useCase": "Open source / self-host",
@@ -3165,25 +3157,6 @@
         "pricingNotes": "MIT Community Edition free to self-host (infra only). Chatwoot Cloud: Hacker $0 (2 agents, 500 convos/mo); Startups $19, Business $39, Enterprise $99 per agent/mo (annual)."
       },
       {
-        "slug": "helpscout-ic",
-        "name": "Help Scout",
-        "oneLiner": "Human shared inbox with docs \u2014 calmer than chat-first Intercom.",
-        "pricing": "freemium",
-        "website": "https://www.helpscout.com",
-        "pros": [
-          "Friendly agent UX",
-          "Docs + beacon",
-          "Email-first strength"
-        ],
-        "cons": [
-          "Less product-messaging / outbound suite than Intercom",
-          "Paid per user on Standard and above",
-          "Customer-facing AI Answers billed per resolution"
-        ],
-        "bestFor": "Support teams that live in email more than live chat.",
-        "pricingNotes": "Free up to 5 users. Paid annual: Standard $25, Plus $45, Pro $75 per user/mo. 15-day trial on Standard/Plus. AI Answers add-on ~$0.75/resolution."
-      },
-      {
         "slug": "zendesk-ic",
         "name": "Zendesk",
         "oneLiner": "Enterprise ticketing suite when you outgrow chat widgets.",
@@ -3336,15 +3309,34 @@
         ],
         "bestFor": "Comparison listing only \u2014 not a recommended switch. Ecommerce desks on this page point to Gorgias.",
         "pricingNotes": "Free CRM forever; Service Hub is paid (seat + HubSpot Credits for AI agents). Verify current Service Hub plans on HubSpot\u2019s pricing page."
+      },
+      {
+        "slug": "helpscout-ic",
+        "name": "Help Scout",
+        "oneLiner": "Shared inbox with docs. Less product-messaging than Intercom.",
+        "pricing": "freemium",
+        "website": "https://www.helpscout.com",
+        "pros": [
+          "Friendly agent UX",
+          "Docs + beacon",
+          "Email-first strength"
+        ],
+        "cons": [
+          "Less product-messaging / outbound suite than Intercom",
+          "Paid per user on Standard and above",
+          "Customer-facing AI Answers billed per resolution"
+        ],
+        "bestFor": "Comparison listing only \u2014 not a recommended switch. Ecommerce desks on this page point to Gorgias.",
+        "pricingNotes": "Free up to 5 users. Paid annual: Standard $25, Plus $45, Pro $75 per user/mo. 15-day trial on Standard/Plus. AI Answers add-on ~$0.75/resolution."
       }
     ],
     "seoTitle": "Best Intercom Alternatives (2026): Gorgias, Crisp & Free",
     "seoDescription": "Looking for the best Intercom alternatives \u2014 or an Intercom alternative? Compare Gorgias, Crisp, Chatwoot, FreeScout, Freshdesk, Tidio & tawk.to \u2014 ecommerce helpdesk, flat chat pricing, free widgets, open-source self-hosting, fair tradeoffs.",
     "h1": "Best Intercom alternatives (2026)",
-    "intro": "The best Intercom alternatives split by job. Gorgias is the ecommerce and Shopify helpdesk. Crisp is flat-priced chat for smaller teams. Chatwoot is the open-source customer engagement suite you can self-host or run in the cloud; FreeScout is the lighter open-source shared inbox, closer to Help Scout than to Intercom\u2019s messenger. tawk.to is the free chat widget. Freshdesk and Help Scout cover tickets and email. The notes under \u201cWhich Intercom alternative fits\u201d say when each one is a poor fit, not only when it works.",
+    "intro": "The best Intercom alternatives split by job. Gorgias is the ecommerce and Shopify helpdesk. Crisp is flat-priced chat for smaller teams. Chatwoot is the open-source customer engagement suite you can self-host or run in the cloud; FreeScout is the lighter open-source shared inbox, closer to a shared-inbox layout than to Intercom\u2019s messenger. tawk.to is the free chat widget. Freshdesk covers tickets and SLAs. The notes under \u201cWhich Intercom alternative fits\u201d say when each one is a poor fit, not only when it works.",
     "ossSection": {
       "heading": "Open-source Intercom alternatives",
-      "intro": "Chatwoot is the open-source Intercom alternative that still covers multi-channel engagement. FreeScout is open source too, and it is a lighter shared inbox \u2014 closer to Help Scout than to Intercom\u2019s messenger. Self-host either, or use Chatwoot Cloud if you want the hosting done for you.",
+      "intro": "Chatwoot is the open-source Intercom alternative that still covers multi-channel engagement. FreeScout is open source too, and it is a lighter shared inbox \u2014 closer to a shared-inbox layout than to Intercom\u2019s messenger. Self-host either, or use Chatwoot Cloud if you want the hosting done for you.",
       "slugs": [
         "chatwoot-ic",
         "freescout-ic"
@@ -3366,10 +3358,6 @@
       {
         "useCase": "Free live chat widget",
         "pick": "tawk.to"
-      },
-      {
-        "useCase": "Email-first support",
-        "pick": "Help Scout"
       },
       {
         "useCase": "Ticket helpdesk",
@@ -3405,14 +3393,8 @@
         {
           "title": "FreeScout",
           "slugs": ["freescout-ic"],
-          "when": "You want a lightweight open-source shared inbox with a Help Scout\u2013like layout. The software is free. Optional modules cost extra. You host it.",
+          "when": "You want a lightweight open-source shared inbox. The software is free. Optional modules cost extra. You host it.",
           "skip": "You need live chat, campaigns, or product messaging. FreeScout replaces the inbox. For an open-source messenger, use Chatwoot. For a hosted free widget, use tawk.to."
-        },
-        {
-          "title": "Help Scout",
-          "slugs": ["helpscout-ic"],
-          "when": "Support lives in email and docs more than in a chat widget. Free for up to 5 users. Paid annual plans are Standard $25, Plus $45, and Pro $75 per user/mo. AI Answers is about $0.75 per resolution.",
-          "skip": "You rely on Intercom\u2019s outbound product messaging. Help Scout is the calmer inbox, and customer-facing AI is a metered add-on."
         },
         {
           "title": "Freshdesk",
@@ -3440,7 +3422,7 @@
       "steps": [
         {
           "title": "Map the bill before you export",
-          "body": "Write down what you pay Intercom for today: seats, and Fin outcomes if you use them. Then map the replacement. Gorgias moves you to ticket volume plus AI resolutions. Crisp is a flat workspace. Freshdesk and Help Scout are per user, and Help Scout is free for up to 5 users. Chatwoot and FreeScout are free software plus hosting, unless you take Chatwoot Cloud\u2019s per-agent plans. A ticket-priced desk can cost more in peak season than a quiet month suggests. Confirm every number on the vendor\u2019s pricing page."
+          "body": "Write down what you pay Intercom for today: seats, and Fin outcomes if you use them. Then map the replacement. Gorgias moves you to ticket volume plus AI resolutions. Crisp is a flat workspace. Freshdesk is per user. Chatwoot and FreeScout are free software plus hosting, unless you take Chatwoot Cloud\u2019s per-agent plans. A ticket-priced desk can cost more in peak season than a quiet month suggests. Confirm every number on the vendor\u2019s pricing page."
         },
         {
           "title": "Export history and list what will not transfer",
@@ -3452,7 +3434,7 @@
         },
         {
           "title": "Turn on AI only after you know the meter",
-          "body": "If Fin is why the Intercom bill grew, the replacement may meter AI too: Gorgias per automated interaction, Help Scout AI Answers per resolution, and Tidio Lyro or tawk.to AI Assist as paid add-ons. Start with human replies, then enable AI on a subset once you have a week of volume to estimate. Open-source Chatwoot or FreeScout does not skip this choice \u2014 you still decide whether to add a paid AI layer."
+          "body": "If Fin is why the Intercom bill grew, the replacement may meter AI too: Gorgias per automated interaction, and Tidio Lyro or tawk.to AI Assist as paid add-ons. Start with human replies, then enable AI on a subset once you have a week of volume to estimate. Open-source Chatwoot or FreeScout does not skip this choice \u2014 you still decide whether to add a paid AI layer."
         },
         {
           "title": "Cut over the widget, then keep Intercom readable",
@@ -3463,23 +3445,23 @@
     "faqs": [
       {
         "question": "What is a good Intercom alternative?",
-        "answer": "Gorgias is the ecommerce default on this page: a Shopify-deep helpdesk priced by tickets (Starter from $10/mo for 50 tickets) rather than Intercom seats plus Fin outcomes. It is a poor fit for B2B product messaging. If that is the job, look next at Crisp for flat-priced chat, Chatwoot for an open-source suite, or Help Scout for email."
+        "answer": "Gorgias is the ecommerce default on this page: a Shopify-deep helpdesk priced by tickets (Starter from $10/mo for 50 tickets) rather than Intercom seats plus Fin outcomes. It is a poor fit for B2B product messaging. If that is the job, look next at Crisp for flat-priced chat or Chatwoot for an open-source suite."
       },
       {
         "question": "What are the best Intercom alternatives?",
-        "answer": "It depends on the job. Gorgias for an ecommerce helpdesk, Crisp for flat-priced SMB chat, Chatwoot for an open-source engagement suite, FreeScout for a lightweight open-source inbox, Help Scout for email, Freshdesk for tickets and SLAs, and tawk.to when you only need a free chat widget. Tidio sits with the widget tools if you also want marketing chat flows."
+        "answer": "It depends on the job. Gorgias for an ecommerce helpdesk, Crisp for flat-priced SMB chat, Chatwoot for an open-source engagement suite, FreeScout for a lightweight open-source inbox, Freshdesk for tickets and SLAs, and tawk.to when you only need a free chat widget. Tidio sits with the widget tools if you also want marketing chat flows."
       },
       {
         "question": "Is there a free Intercom alternative?",
-        "answer": "Yes, if you are precise about free. tawk.to\u2019s core live chat, ticketing, and knowledge base are free, with unlimited agents; removing branding or adding AI Assist is paid. Crisp is free for 2 seats and 100 contact profiles. Help Scout is free for up to 5 users. Chatwoot\u2019s Community Edition is free to self-host (you pay for the server), and Chatwoot Cloud\u2019s Hacker plan is $0 for 2 agents and 500 conversations a month. FreeScout is free open-source software plus optional paid modules. None of these include Intercom\u2019s product tours and outbound messaging."
+        "answer": "Yes, if you are precise about free. tawk.to\u2019s core live chat, ticketing, and knowledge base are free, with unlimited agents; removing branding or adding AI Assist is paid. Crisp is free for 2 seats and 100 contact profiles. Chatwoot\u2019s Community Edition is free to self-host (you pay for the server), and Chatwoot Cloud\u2019s Hacker plan is $0 for 2 agents and 500 conversations a month. FreeScout is free open-source software plus optional paid modules. None of these include Intercom\u2019s product tours and outbound messaging."
       },
       {
         "question": "What is an open-source Intercom alternative?",
-        "answer": "Chatwoot. It is the open-source customer engagement suite on this page: a multi-channel inbox, an MIT Community Edition you can self-host, or Chatwoot Cloud if you want it hosted. FreeScout is also open source, and it is a different product \u2014 a lightweight shared inbox, closer to Help Scout than to Intercom\u2019s messenger. Self-hosting means you run backups and upgrades. Hosted Intercom can still be the better choice if you want that done for you and you use the product-messaging features."
+        "answer": "Chatwoot. It is the open-source customer engagement suite on this page: a multi-channel inbox, an MIT Community Edition you can self-host, or Chatwoot Cloud if you want it hosted. FreeScout is also open source, and it is a different product \u2014 a lightweight shared inbox, closer to a shared-inbox layout than to Intercom\u2019s messenger. Self-hosting means you run backups and upgrades. Hosted Intercom can still be the better choice if you want that done for you and you use the product-messaging features."
       },
       {
         "question": "How much does it cost to leave Intercom?",
-        "answer": "Two costs, not one fee. Intercom charges per seat, and Fin AI per outcome. The replacement has its own model: Gorgias by ticket volume and AI resolutions, Crisp as a flat workspace from a free 2-seat plan through Plus at $295/mo, Freshdesk from $19/agent/mo billed annually, and Help Scout free for 5 users then Standard $25, Plus $45, or Pro $75 per user/mo annual. Chatwoot and FreeScout can be $0 in software if you self-host, plus server cost, or Chatwoot Cloud per agent. On top of the subscription, plan staff time to export history, rebuild macros and the help center, and run both tools in parallel. These notes do not list a separate Intercom cancellation fee."
+        "answer": "Two costs, not one fee. Intercom charges per seat, and Fin AI per outcome. The replacement has its own model: Gorgias by ticket volume and AI resolutions, Crisp as a flat workspace from a free 2-seat plan through Plus at $295/mo, and Freshdesk from $19/agent/mo billed annually. Chatwoot and FreeScout can be $0 in software if you self-host, plus server cost, or Chatwoot Cloud per agent. On top of the subscription, plan staff time to export history, rebuild macros and the help center, and run both tools in parallel. These notes do not list a separate Intercom cancellation fee."
       },
       {
         "question": "How do I switch from Intercom?",
@@ -3500,9 +3482,9 @@
     "website": "https://crisp.chat",
     "featured": false,
     "seoTitle": "Best Crisp Alternatives 2026 \u2014 Chat & Help Desk",
-    "seoDescription": "Looking for a Crisp alternative? Compare Chatwoot, Help Scout, Freshdesk, Intercom, Front & FreeScout \u2014 open-source chat, email-first, and ticket options.",
+    "seoDescription": "Looking for a Crisp alternative? Compare Chatwoot, Freshdesk, Intercom, Front & FreeScout \u2014 open-source chat, email-first, and ticket options.",
     "h1": "Best Crisp alternatives (2026)",
-    "intro": "Crisp wins on flat workspace pricing and unlimited conversations. Switch when you need true open-source (Chatwoot, FreeScout), calmer email-first support (Help Scout, Front), or classic tickets (Freshdesk). Pick by job below, then use the comparison table for pricing and tradeoffs.",
+    "intro": "Crisp wins on flat workspace pricing and unlimited conversations. Switch when you need true open-source (Chatwoot, FreeScout), collaborative email (Front), or classic tickets (Freshdesk). Pick by job below, then use the comparison table for pricing and tradeoffs.",
     "ossSection": {
       "heading": "Open-source Crisp alternatives",
       "intro": "Chatwoot is the closest open omnichannel inbox; FreeScout is a lighter shared-inbox help desk you can self-host.",
@@ -3530,25 +3512,6 @@
         ],
         "bestFor": "Teams that liked Crisp\u2019s chat model but want open source.",
         "pricingNotes": "MIT CE free to self-host. Cloud: Hacker $0 (2 agents); Startups $19, Business $39, Enterprise $99/agent/mo annual."
-      },
-      {
-        "slug": "helpscout-crisp",
-        "name": "Help Scout",
-        "oneLiner": "Human shared inbox and Docs \u2014 stronger on email than live-chat widgets.",
-        "pricing": "freemium",
-        "website": "https://www.helpscout.com",
-        "pros": [
-          "Calm agent UX",
-          "Docs + Beacon",
-          "Free plan for tiny teams"
-        ],
-        "cons": [
-          "Less chat-widget marketing focus",
-          "Paid per user above Free",
-          "AI Answers metered"
-        ],
-        "bestFor": "Support teams centered on email and knowledge base.",
-        "pricingNotes": "Free up to 5 users. Annual Standard $25 / Plus $45 / Pro $75 per user/mo."
       },
       {
         "slug": "freshdesk-crisp",
@@ -3625,16 +3588,31 @@
         ],
         "bestFor": "Small teams wanting a free self-hosted inbox.",
         "pricingNotes": "Free OSS; optional paid modules from FreeScout."
+      },
+      {
+        "slug": "helpscout-crisp",
+        "name": "Help Scout",
+        "oneLiner": "Shared inbox and Docs. Less chat-widget focus than Crisp.",
+        "pricing": "freemium",
+        "website": "https://www.helpscout.com",
+        "pros": [
+          "Calm agent UX",
+          "Docs + Beacon",
+          "Free plan for tiny teams"
+        ],
+        "cons": [
+          "Less chat-widget marketing focus",
+          "Paid per user above Free",
+          "AI Answers metered"
+        ],
+        "bestFor": "Comparison listing only \u2014 not a recommended switch.",
+        "pricingNotes": "Free up to 5 users. Annual Standard $25 / Plus $45 / Pro $75 per user/mo."
       }
     ],
     "quickPicks": [
       {
         "useCase": "Open source / self-host",
         "pick": "Chatwoot or FreeScout"
-      },
-      {
-        "useCase": "Email-first support",
-        "pick": "Help Scout"
       },
       {
         "useCase": "Ticket helpdesk",
@@ -3659,9 +3637,9 @@
     "website": "https://www.chatwoot.com",
     "featured": false,
     "seoTitle": "Best Chatwoot Alternatives 2026 \u2014 Hosted & OSS",
-    "seoDescription": "Looking for a Chatwoot alternative? Compare Crisp, FreeScout, Help Scout, Freshdesk, Intercom & Zendesk \u2014 flat-priced chat, lighter OSS, enterprise tickets.",
+    "seoDescription": "Looking for a Chatwoot alternative? Compare Crisp, FreeScout, Freshdesk, Intercom & Zendesk \u2014 flat-priced chat, lighter OSS, enterprise tickets.",
     "h1": "Best Chatwoot alternatives (2026)",
-    "intro": "Chatwoot is the open engagement default. Closest hosted chat swap is Crisp; FreeScout is a lighter OSS inbox; Help Scout and Freshdesk fit paid help desks; Intercom/Zendesk when you need a full suite. Pick by job below, then use the comparison table for pricing and tradeoffs.",
+    "intro": "Chatwoot is the open engagement default. Closest hosted chat swap is Crisp; FreeScout is a lighter OSS inbox; Freshdesk fits a paid ticket desk; Intercom/Zendesk when you need a full suite. Pick by job below, then use the comparison table for pricing and tradeoffs.",
     "ossSection": {
       "heading": "Other open-source Chatwoot alternatives",
       "intro": "FreeScout is the main lighter open-source shared inbox if Chatwoot feels heavy to operate.",
@@ -3707,25 +3685,6 @@
         ],
         "bestFor": "Small teams wanting OSS email/inbox without Chatwoot\u2019s full stack.",
         "pricingNotes": "Free OSS; optional paid modules from FreeScout."
-      },
-      {
-        "slug": "helpscout-cw",
-        "name": "Help Scout",
-        "oneLiner": "Hosted human shared inbox with Docs.",
-        "pricing": "freemium",
-        "website": "https://www.helpscout.com",
-        "pros": [
-          "Calm UX",
-          "Docs + Beacon",
-          "Free tier"
-        ],
-        "cons": [
-          "Hosted SaaS only (no self-host option)",
-          "Paid per user above Free",
-          "AI Answers metered"
-        ],
-        "bestFor": "Teams that want polished hosted email support, not ops.",
-        "pricingNotes": "Free up to 5 users. Annual Standard $25 / Plus $45 / Pro $75 per user/mo."
       },
       {
         "slug": "freshdesk-cw",
@@ -3783,6 +3742,25 @@
         ],
         "bestFor": "Enterprises standardizing on classic helpdesk processes.",
         "pricingNotes": "Paid suites \u2014 compare total agent cost carefully."
+      },
+      {
+        "slug": "helpscout-cw",
+        "name": "Help Scout",
+        "oneLiner": "Hosted shared inbox with Docs. Not self-hostable.",
+        "pricing": "freemium",
+        "website": "https://www.helpscout.com",
+        "pros": [
+          "Calm UX",
+          "Docs + Beacon",
+          "Free tier"
+        ],
+        "cons": [
+          "Not self-hostable",
+          "Paid per user above Free",
+          "AI Answers metered"
+        ],
+        "bestFor": "Comparison listing only \u2014 not a recommended switch.",
+        "pricingNotes": "Free up to 5 users. Annual Standard $25 / Plus $45 / Pro $75 per user/mo."
       }
     ],
     "quickPicks": [
@@ -3793,10 +3771,6 @@
       {
         "useCase": "Lighter OSS shared inbox",
         "pick": "FreeScout"
-      },
-      {
-        "useCase": "Polished email support",
-        "pick": "Help Scout"
       },
       {
         "useCase": "Ticket queues / SLAs",

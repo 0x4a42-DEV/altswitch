@@ -1,6 +1,6 @@
 # AltSwitch — owner checklist (pending pastes / applies)
 
-**Updated:** 2026-11-12 Asia/Hong_Kong  
+**Updated:** 2026-11-18 Asia/Hong_Kong  
 **Rule:** Partner pastes when ready. Bot does **not** chase, re-apply, or nudge PartnerStack calls.
 
 ## Paste when approved (wire same day)
@@ -11,7 +11,6 @@
 | Freshworks (Freshdesk) | ~2026-10-21 PartnerStack | Paste URL → wire Zendesk/Intercom |
 | Hostinger | ~2026-10-19 | Paste URL → wire hosting/WP-adjacent |
 | Crisp | ~2026-10-21 | Paste URL after their process → wire Intercom |
-| Help Scout | 2026-10-31 PartnerStack | Paste referral URL → wire Intercom/Zendesk depth |
 
 ## Declined — scrub PII (do not paste a URL)
 
@@ -19,10 +18,11 @@
 |--------|----------|--------|
 | HubSpot Affiliates (Impact) | Declined 2026-11-03 | Scrub Partner PII from Impact/HubSpot (separate email step). Do not paste a referral URL. Re-apply rules: see AFFILIATES.md Declined. |
 | Zoho Affiliate | Declined 2026-11-12 | Scrub Partner PII from the Zoho affiliate account (separate step; no support address is on file, so do not invent one and do not reply to the decline email). Do not paste a referral URL. Do not appeal or re-apply until GSC clicks convert. See AFFILIATES.md Declined. |
+| Help Scout | Declined 2026-11-18 | Scrub Partner PII from the Help Scout PartnerStack application (separate step; no support address is on file, so do not invent one and do not reply). Do not paste a referral URL. Do not appeal or re-apply until GSC clicks convert. See AFFILIATES.md Declined. |
 
 ## Optional Priority applies (when you want depth — not chased)
 
-*(empty — Help Scout moved to Applied / paste-when-approved)*
+*(empty — Help Scout declined 2026-11-18; see Declined)*
 
 ## Already wired — no action
 
