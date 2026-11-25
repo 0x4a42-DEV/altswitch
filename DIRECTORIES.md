@@ -2,7 +2,7 @@
 
 Log of where we submitted AltSwitch. Update when status changes. Do not invent approvals.
 
-**Last updated:** 2026-10-26 (Asia/Hong_Kong)
+**Last updated:** 2026-11-25 (Asia/Hong_Kong)
 
 ## Policy — rude / rejectors
 
@@ -16,7 +16,7 @@ If a directory rejects us with a cold “doesn’t align” and offers zero help
 | Directory | Submitted | Status | Notes |
 |-----------|-----------|--------|-------|
 | Bing Webmaster | 2026-10-25 | Done | Sitemap live |
-| SaaSHub | 2026-10-25 | Submitted | Watch hello@altswitch.xyz |
+| SaaSHub | 2026-10-25 | Approved 2026-11-25. Live at https://www.saashub.com/altswitch-xyz (old /altswitch is 404). Verified via hello@altswitch.xyz. No paid featured listing. No on-site badge. | Official pricing still points at https://altswitch.xyz/alternatives/crisp (bad scrape). |
 | Indie Hackers | 2026-10-25 | Submitted | Product page + indigo-A logo |
 | Launching Next | 2026-10-25 | Submitted | Free queue |
 | Uneed | 2026-10-25 | Submitted | Free Join the line |
